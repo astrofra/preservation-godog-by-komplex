@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "production": "Godog by Komplex",
+  "catalog_url": "https://www.pouet.net/prod.php?which=888",
+  "recovery_date": "2026-10-08",
+  "tools": {
+    "yt-dlp": "2026.08.19",
+    "ffmpeg": "7.1.1",
+    "ffprobe": "7.1.1",
+    "curl": "8.1.2",
+    "python": "3.14.7"
+  },
+  "scope": "Acquisition and integrity checks only; no demo execution, decompilation or reconstruction.",
+  "artifacts": [
+    {
+      "local_path": "original/godog_by.headers.txt",
+      "role": "curl-generated HTTP acquisition evidence",
+      "source_url": "https://files.scene.org/get/parties/1998/assembly98/javademo/godog_by.zip",
+      "retrieved_on": "2026-10-08",
+      "bytes": 772,
+      "sha256": "02adddd17f31051df3433a56c7914e5e302bfa31baa76c97bc294e1152bd2524"
+    },
+    {
+      "local_path": "original/godog_by.transfer.json",
+      "role": "curl-generated HTTP acquisition evidence",
+      "source_url": "https://files.scene.org/get/parties/1998/assembly98/javademo/godog_by.zip",
+      "retrieved_on": "2026-10-08",
+      "bytes": 12969,
+      "sha256": "c580cbedc980e3ad9a5fd7ae3394c101be40c1e5af5aa6d0290fddf58c094ad7"
+    },
+    {
+      "local_path": "original/godog_by.zip",
+      "role": "distribution archive",
+      "requested_url": "https://files.scene.org/get/parties/1998/assembly98/javademo/godog_by.zip",
+      "effective_url": "https://mirror.netcologne.de/scene.org/parties/1998/assembly98/javademo/godog_by.zip",
+      "http_status": 200,
+      "http_content_type": "application/zip",
+      "retrieved_at_utc": "2026-10-08T13:27:11+00:00",
+      "retrieval_time_basis": "completion of curl transfer metadata write",
+      "discovered_from": "original/pages/scene-org-godog.html",
+      "headers_path": "original/godog_by.headers.txt",
+      "transfer_metadata_path": "original/godog_by.transfer.json",
+      "validation": "ZIP CRC check including nested GODOG.ZIP passed",
+      "bytes": 1732444,
+      "sha256": "4c6af571d5d9aeed5eefb9423c7f4eb3d15691ab130225eddbbb6cc0a1eab82e"
+    },
+    {
+      "local_path": "original/pages/pouet-888.headers.txt",
+      "role": "curl-generated HTTP acquisition evidence",
+      "source_url": "https://www.pouet.net/prod.php?which=888",
+      "retrieved_on": "2026-10-08",
+      "bytes": 690,
+      "sha256": "77a0e66d78f11adee6ce66b661b584322e90b95b3fdaef8c2994f7ba361a7447"
+    },
+    {
+      "local_path": "original/pages/pouet-888.html",
+      "role": "catalog page snapshot",
+      "requested_url": "https://www.pouet.net/prod.php?which=888",
+      "effective_url": "https://www.pouet.net/prod.php?which=888",
+      "http_status": 200,
+      "http_content_type": "text/html; charset=utf-8",
+      "retrieved_at_utc": "2026-10-08T13:25:52+00:00",
+      "retrieval_time_basis": "completion of curl transfer metadata write",
+      "discovered_from": "User request",
+      "headers_path": "original/pages/pouet-888.headers.txt",
+      "transfer_metadata_path": "original/pages/pouet-888.transfer.json",
+      "validation": "HTML read and expected production/download links confirmed",
+      "bytes": 45933,
+      "sha256": "bc56d4ab8b2000974a99e391628d47e07289e25cf8a94f36aa64b9dc6aa79c2f"
+    },
+    {
+      "local_path": "original/pages/pouet-888.transfer.json",
+      "role": "curl-generated HTTP acquisition evidence",
+      "source_url": "https://www.pouet.net/prod.php?which=888",
+      "retrieved_on": "2026-10-08",
+      "bytes": 16264,
+      "sha256": "22435dbb9794ad53b2d91fc57fcd11ab3b3b4461c66fd2e39b6e4750c331a94a"
+    },
+    {
+      "local_path": "original/pages/scene-org-godog.headers.txt",
+      "role": "curl-generated HTTP acquisition evidence",
+      "source_url": "https://files.scene.org/view/parties/1998/assembly98/javademo/godog_by.zip",
+      "retrieved_on": "2026-10-08",
+      "bytes": 457,
+      "sha256": "b4bbd15a54649bebdfa2ac63d956d863d89a9868f3189798ead05c7bc9e574c1"
+    },
+    {
+      "local_path": "original/pages/scene-org-godog.html",
+      "role": "catalog page snapshot",
+      "requested_url": "https://files.scene.org/view/parties/1998/assembly98/javademo/godog_by.zip",
+      "effective_url": "https://files.scene.org/view/parties/1998/assembly98/javademo/godog_by.zip",
+      "http_status": 200,
+      "http_content_type": "text/html; charset=UTF-8",
+      "retrieved_at_utc": "2026-10-08T13:26:19+00:00",
+      "retrieval_time_basis": "completion of curl transfer metadata write",
+      "discovered_from": "original/pages/pouet-888.html",
+      "headers_path": "original/pages/scene-org-godog.headers.txt",
+      "transfer_metadata_path": "original/pages/scene-org-godog.transfer.json",
+      "validation": "HTML read and expected production/download links confirmed",
+      "bytes": 9320,
+      "sha256": "1cd6177336931a9cc31c6ba4cea3f4935794979ca0e8a090e0878c01bbce7392"
+    },
+    {
+      "local_path": "original/pages/scene-org-godog.transfer.json",
+      "role": "curl-generated HTTP acquisition evidence",
+      "source_url": "https://files.scene.org/view/parties/1998/assembly98/javademo/godog_by.zip",
+      "retrieved_on": "2026-10-08",
+      "bytes": 17118,
+      "sha256": "acfc679cf256755edd95ac2b12aa4166bbdebfe4983e0d74beac3b60ed77e190"
+    },
+    {
+      "local_path": "original/video/godog-komplex-VbOJRJEa5N8.description",
+      "role": "YouTube reference sidecar",
+      "source_url": "https://www.youtube.com/watch?v=VbOJRJEa5N8",
+      "retrieved_on": "2026-10-08",
+      "bytes": 61,
+      "sha256": "36e5be5280e0f1a2837a82ba997e383215a8f169baf8f8547fe8e0722c9951c4"
+    },
+    {
+      "local_path": "original/video/godog-komplex-VbOJRJEa5N8.info.json",
+      "role": "YouTube reference sidecar",
+      "source_url": "https://www.youtube.com/watch?v=VbOJRJEa5N8",
+      "retrieved_on": "2026-10-08",
+      "bytes": 506279,
+      "sha256": "abeb780494c459c2cf19b6c031fca8816c9aaa726f9d65b46ba9ebae389f7124"
+    },
+    {
+      "local_path": "original/video/godog-komplex-VbOJRJEa5N8.mkv",
+      "role": "later video reference downloaded from YouTube, merged without re-encoding",
+      "requested_url": "https://youtu.be/VbOJRJEa5N8",
+      "effective_url": "https://www.youtube.com/watch?v=VbOJRJEa5N8",
+      "discovered_from": "original/pages/pouet-888.html",
+      "retrieved_on": "2026-10-08",
+      "yt_dlp_metadata_extracted_at_utc": "2026-10-08T13:26:21+00:00",
+      "video_id": "VbOJRJEa5N8",
+      "title": "godog - Complex (1998)",
+      "uploader": "Gabriele D'Antona",
+      "upload_date": "2018-07-28",
+      "format_id": "298+251",
+      "duration_seconds": 188.928,
+      "width": 1280,
+      "height": 640,
+      "nominal_fps_from_youtube": 60,
+      "capture_conditions": "Original JVM, hardware, timing and recording conditions unknown; historical fidelity not assessed.",
+      "validation": "ffprobe confirms video and stereo audio; full ffmpeg decode with -xerror completed with exit code 0 and empty error log",
+      "metadata_path": "original/video/godog-komplex-VbOJRJEa5N8.info.json",
+      "bytes": 71007435,
+      "sha256": "696ab1714c2f75e25a2ca25a26452402d7314b508c7d3383b04f9bcb77f35e2b"
+    },
+    {
+      "local_path": "original/video/godog-komplex-VbOJRJEa5N8.webp",
+      "role": "YouTube reference sidecar",
+      "source_url": "https://www.youtube.com/watch?v=VbOJRJEa5N8",
+      "retrieved_on": "2026-10-08",
+      "bytes": 26108,
+      "sha256": "0d16281bd66c69889dff28e9c2c16b13982f6f54a7930f764b98ebbe4af09723"
+    }
+  ]
+}

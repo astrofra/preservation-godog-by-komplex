@@ -1,0 +1,85 @@
+# Production log
+
+## 2026-10-08 — Initial recovery
+
+### User request
+
+Begin preserving Godog by Komplex from
+<https://www.pouet.net/prod.php?which=888>. Use `documentation/` for English
+production notes and decisions, `img/` for communication images,
+`java-desktop/` for the future Java reconstruction, `original/` for original
+artifacts and the YouTube download, and `reverse/` for CFR and Procyon output.
+Recover the demo files and the linked YouTube video with yt-dlp, then stop.
+The user also authorized supplementing the relevant preservation skill if these
+recovery steps were missing.
+
+### Findings and decisions
+
+- The repository initially contained only an English README and had a clean
+  working tree and index. Its initial commit was `6a12dda`.
+- Pouët identifies the production as Godog by Komplex, released in August 1998,
+  ranked first in the Assembly 1998 Java demo competition. This is catalog
+  metadata, not a claim established by running the recovered program.
+- The download link leads to the Scene.org landing page for `godog_by.zip`.
+  That page advertises 1,732,444 bytes and a file date of
+  `2014-09-12 06:59:46`; this hosting date is distinct from the demo's release.
+- The YouTube link is <https://youtu.be/VbOJRJEa5N8>.
+- Implementation decision: preserve both landing pages and HTTP response
+  evidence, keep the distribution ZIP intact, and place the video and its
+  metadata under `original/video/`. Verify archive integrity without running
+  any recovered Java code. Use the best video/audio streams yt-dlp offers and
+  merge them without re-encoding.
+- `img/`, `java-desktop/`, `reverse/cfr/` and `reverse/procyon/` are reserved with
+  `.gitkeep` files. No decompilation or reconstruction is part of this milestone.
+- The local `reactivate-maeda-java` skill already covers original-file retention,
+  hashes, English notes and local milestone commits, but lacks recovery from a
+  Pouët catalog page and acquisition of linked video references with yt-dlp.
+  The skill and its recovery guide were updated to add this workflow, including
+  nested ZIP validation, video metadata and integrity checks, and to recognize
+  Java demoscene artifacts. Its UI metadata was updated consistently. The
+  `skill-creator` validator passed. These local skill files live outside this
+  repository at `~/.codex/skills/reactivate-maeda-java/`.
+
+### Completed recovery and checks
+
+- [`godog_by.zip`](../original/godog_by.zip): 1,732,444 bytes, matching the
+  Scene.org listing. The automatic download redirected to the NetCologne
+  Scene.org mirror and returned HTTP 200 with `application/zip`.
+- The outer ZIP contains `GODOG.ZIP`, `ZEPOINFO.TXT` and `scene.org.txt`.
+  The nested ZIP is 1,739,555 bytes and contains 166 entries: 161 files and
+  five directories. Files include 112 Java classes, 32 JPEGs, seven GIFs,
+  seven custom data files, `data/rocket.xm`, `godog.html` and `readme.txt`.
+  CRC checks passed for every entry in both ZIPs. Neither archive was modified
+  or unpacked into the reconstruction directories.
+- The nested `readme.txt` dates this build to August 7, 1998, around 17:00,
+  describes it as a rushed version, and mentions expected later versions.
+  We recovered the distribution linked by Pouët; whether a later build exists
+  remains uninvestigated. The embedded applet declaration names `godog` and
+  specifies 512 × 256 pixels. `ZEPOINFO.TXT` reports first place and 3,494 points,
+  spelling the group name “Complex”; that spelling is preserved in the archive.
+- [`godog-komplex-VbOJRJEa5N8.mkv`](../original/video/godog-komplex-VbOJRJEa5N8.mkv):
+  71,007,435 bytes, 188.928 seconds (about 3:09), 1280 × 640, H.264 video and
+  stereo Opus audio at 48 kHz. yt-dlp selected formats `298+251` and merged
+  them into Matroska without re-encoding. YouTube advertises 60 fps; ffprobe's
+  reported rates are retained in the [probe report](video-ffprobe.json).
+- Video metadata credits uploader **Gabriele D'Antona**, upload date
+  **2018-07-28**, title **godog - Complex (1998)**. The JSON metadata,
+  description and available WebP thumbnail are retained. This is a later
+  capture; its recording hardware, JVM, synchronization and historical
+  playback fidelity remain unknown.
+- ffprobe confirmed both streams. A full FFmpeg decode of video and audio
+  completed with exit code 0; [`video-decode.log`](video-decode.log) is empty
+  because no errors were reported. The [download log](video-download.log)
+  records successful acquisition and merging; unavailable higher-resolution
+  thumbnail variants were skipped automatically before a thumbnail succeeded.
+- The [archive inventory](archive-inventory.json) records both archive layers.
+  The [manifest](../original/manifest.json) records provenance, sizes,
+  SHA-256 hashes and validation status. [SHA256SUMS](../original/SHA256SUMS)
+  covers all preserved artifacts, acquisition sidecars and the manifest.
+- The requested directory structure is in place. No Java code was executed,
+  no decompiler was run, and reconstruction has not begun. This completes the
+  requested first stage.
+
+See [recovery commands](recovery-commands.md) for tool versions and reproducible
+download and verification commands. The recovery milestone is committed locally
+using the existing Git identity; no push is part of this task.

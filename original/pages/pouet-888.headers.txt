@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Thu, 08 Oct 2026 13:25:52 GMT
+Server: Apache/2.4.68 (Debian)
+Strict-Transport-Security: max-age=2592000; includeSubDomains
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: POUETSESS4=8vhckq1jiet1tcb71b661qrghe; expires=Fri, 08 Oct 2027 13:25:52 GMT; Max-Age=31536000; path=/; domain=.pouet.net
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: upgrade-insecure-requests
+Strict-Transport-Security: max-age=15768000
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+

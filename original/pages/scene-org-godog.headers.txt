@@ -1,0 +1,13 @@
+HTTP/2 200 
+cache-control: no-store, no-cache, must-revalidate
+content-type: text/html; charset=UTF-8
+date: Thu, 08 Oct 2026 13:26:19 GMT
+expires: Thu, 19 Nov 1981 08:52:00 GMT
+pragma: no-cache
+set-cookie: PHPSESSID=9f0217e3f43723c487036b6dabd81ce1; path=/
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+vary: Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+

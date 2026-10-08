@@ -1,0 +1,2553 @@
+{
+  "archive": "original/godog_by.zip",
+  "bytes": 1732444,
+  "sha256": "4c6af571d5d9aeed5eefb9423c7f4eb3d15691ab130225eddbbb6cc0a1eab82e",
+  "crc_check": "all entries passed",
+  "entries": [
+    {
+      "path": "GODOG.ZIP",
+      "bytes": 1739555,
+      "compressed_bytes": 1729912,
+      "crc32": "24cab55c",
+      "zip_timestamp_without_timezone": [
+        1998,
+        8,
+        7,
+        20,
+        57,
+        54
+      ],
+      "is_directory": false
+    },
+    {
+      "path": "ZEPOINFO.TXT",
+      "bytes": 148,
+      "compressed_bytes": 135,
+      "crc32": "e54c8652",
+      "zip_timestamp_without_timezone": [
+        1998,
+        8,
+        9,
+        14,
+        15,
+        36
+      ],
+      "is_directory": false
+    },
+    {
+      "path": "scene.org.txt",
+      "bytes": 3190,
+      "compressed_bytes": 1359,
+      "crc32": "df3cbd70",
+      "zip_timestamp_without_timezone": [
+        2014,
+        9,
+        12,
+        6,
+        59,
+        46
+      ],
+      "is_directory": false
+    }
+  ],
+  "nested_archives": [
+    {
+      "entry": "GODOG.ZIP",
+      "bytes": 1739555,
+      "sha256": "637761c27a6a7419206f90e04904f34d7bcef6a5230e0e009de8e32ac66dcf48",
+      "crc_check": "all entries passed",
+      "entries": [
+        {
+          "path": "data/",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "crc32": "00000000",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            36
+          ],
+          "is_directory": true
+        },
+        {
+          "path": "data/hakkyra4.asz",
+          "bytes": 136365,
+          "compressed_bytes": 135500,
+          "crc32": "48244775",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            4,
+            21,
+            28,
+            44
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "data/half8.igu",
+          "bytes": 43503,
+          "compressed_bytes": 3960,
+          "crc32": "cb239707",
+          "zip_timestamp_without_timezone": [
+            1998,
+            4,
+            6,
+            16,
+            23,
+            2
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "data/intro4.swz",
+          "bytes": 40035,
+          "compressed_bytes": 39613,
+          "crc32": "51e8d5b0",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            5,
+            22,
+            52,
+            46
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "data/knowledge.asz",
+          "bytes": 47614,
+          "compressed_bytes": 47256,
+          "crc32": "8a12e381",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            4,
+            21,
+            50,
+            14
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "data/meri2.asz",
+          "bytes": 37982,
+          "compressed_bytes": 37784,
+          "crc32": "be50c287",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            2,
+            24,
+            50
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "data/octa8.igu",
+          "bytes": 69128,
+          "compressed_bytes": 5126,
+          "crc32": "b252de9f",
+          "zip_timestamp_without_timezone": [
+            1998,
+            4,
+            3,
+            5,
+            14,
+            54
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "data/rocket.xm",
+          "bytes": 1057185,
+          "compressed_bytes": 610859,
+          "crc32": "5ca5c973",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            10,
+            26
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "data/sur3.asz",
+          "bytes": 35376,
+          "compressed_bytes": 33142,
+          "crc32": "755948a7",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            4,
+            22,
+            0
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "godog.class",
+          "bytes": 18196,
+          "compressed_bytes": 8716,
+          "crc32": "097a362f",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "godog.html",
+          "bytes": 372,
+          "compressed_bytes": 227,
+          "crc32": "721ea0f3",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            51,
+            16
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "crc32": "00000000",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            28
+          ],
+          "is_directory": true
+        },
+        {
+          "path": "images/blobenv.jpg",
+          "bytes": 20442,
+          "compressed_bytes": 19801,
+          "crc32": "b63091a2",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            10,
+            6,
+            48
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/blobkaktus.jpg",
+          "bytes": 18447,
+          "compressed_bytes": 17666,
+          "crc32": "827e4f8b",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            10,
+            12,
+            50
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/endscreen.gif",
+          "bytes": 8338,
+          "compressed_bytes": 8281,
+          "crc32": "7b6b551f",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            5,
+            32
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/envmeri.gif",
+          "bytes": 35727,
+          "compressed_bytes": 35511,
+          "crc32": "f1438ddd",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            3,
+            40,
+            48
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/envplane.gif",
+          "bytes": 32180,
+          "compressed_bytes": 32129,
+          "crc32": "382e9081",
+          "zip_timestamp_without_timezone": [
+            1998,
+            4,
+            6,
+            19,
+            7,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/filmdamage.jpg",
+          "bytes": 48041,
+          "compressed_bytes": 44321,
+          "crc32": "2d43959f",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            5,
+            0,
+            14,
+            58
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/flare.jpg",
+          "bytes": 5683,
+          "compressed_bytes": 5033,
+          "crc32": "e241afe7",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            9,
+            5,
+            48
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/godog1.jpg",
+          "bytes": 9752,
+          "compressed_bytes": 8901,
+          "crc32": "84015e1e",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            5,
+            23,
+            36,
+            36
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/godog2.jpg",
+          "bytes": 12282,
+          "compressed_bytes": 11398,
+          "crc32": "501c76b2",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            5,
+            23,
+            36,
+            58
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/godog3.jpg",
+          "bytes": 10228,
+          "compressed_bytes": 9359,
+          "crc32": "f2d01f3c",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            5,
+            23,
+            37,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/godog4.jpg",
+          "bytes": 22496,
+          "compressed_bytes": 21166,
+          "crc32": "63be73ab",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            5,
+            23,
+            37,
+            38
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/godog5.jpg",
+          "bytes": 16490,
+          "compressed_bytes": 15342,
+          "crc32": "897988ed",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            5,
+            23,
+            37,
+            56
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/godog6.jpg",
+          "bytes": 19102,
+          "compressed_bytes": 17601,
+          "crc32": "c6b1c35d",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            5,
+            23,
+            38,
+            18
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/headsea.jpg",
+          "bytes": 31957,
+          "compressed_bytes": 29998,
+          "crc32": "e8155120",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            4,
+            23,
+            21,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/introtausta3.jpg",
+          "bytes": 10690,
+          "compressed_bytes": 8315,
+          "crc32": "43ae6ca6",
+          "zip_timestamp_without_timezone": [
+            1996,
+            8,
+            1,
+            21,
+            3,
+            14
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/kasvu.gif",
+          "bytes": 4612,
+          "compressed_bytes": 4612,
+          "crc32": "ff26263a",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            4,
+            23,
+            53,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/koira04.jpg",
+          "bytes": 13160,
+          "compressed_bytes": 13004,
+          "crc32": "48b5f221",
+          "zip_timestamp_without_timezone": [
+            1998,
+            7,
+            31,
+            18,
+            35,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/lasitausta.jpg",
+          "bytes": 13021,
+          "compressed_bytes": 12851,
+          "crc32": "3fcd9794",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            5,
+            0,
+            2
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/lc.jpg",
+          "bytes": 780,
+          "compressed_bytes": 603,
+          "crc32": "194fd689",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            3,
+            20,
+            56,
+            54
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/lc2.jpg",
+          "bytes": 786,
+          "compressed_bytes": 609,
+          "crc32": "5689d665",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            3,
+            20,
+            56,
+            52
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/loading.gif",
+          "bytes": 335,
+          "compressed_bytes": 303,
+          "crc32": "2b6de7b0",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            48,
+            42
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/maska10.jpg",
+          "bytes": 14157,
+          "compressed_bytes": 13509,
+          "crc32": "6ff62d23",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            11,
+            14,
+            32
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/maska11.jpg",
+          "bytes": 6495,
+          "compressed_bytes": 5082,
+          "crc32": "67b6fbd4",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            11,
+            14,
+            34
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/maska12.jpg",
+          "bytes": 8071,
+          "compressed_bytes": 6936,
+          "crc32": "e9ac5436",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            11,
+            14,
+            38
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/maska13.jpg",
+          "bytes": 11234,
+          "compressed_bytes": 10660,
+          "crc32": "59bb4866",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            11,
+            14,
+            42
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/maska15.jpg",
+          "bytes": 9808,
+          "compressed_bytes": 8775,
+          "crc32": "48399f58",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            11,
+            14,
+            48
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/maska16.jpg",
+          "bytes": 15080,
+          "compressed_bytes": 14631,
+          "crc32": "6fa11107",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            11,
+            14,
+            52
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/maska2.jpg",
+          "bytes": 13884,
+          "compressed_bytes": 13211,
+          "crc32": "ceeeeedf",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            11,
+            14,
+            54
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/maska7.jpg",
+          "bytes": 13249,
+          "compressed_bytes": 12675,
+          "crc32": "edc7d83c",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            11,
+            15,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/maska8.jpg",
+          "bytes": 9462,
+          "compressed_bytes": 8364,
+          "crc32": "51af529d",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            11,
+            15,
+            14
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/maska9.jpg",
+          "bytes": 10225,
+          "compressed_bytes": 9411,
+          "crc32": "786c1675",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            11,
+            15,
+            18
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/megaruno.jpg",
+          "bytes": 26293,
+          "compressed_bytes": 23278,
+          "crc32": "93df59ef",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            5,
+            21,
+            25,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/myrkky.jpg",
+          "bytes": 50843,
+          "compressed_bytes": 47735,
+          "crc32": "9b566499",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            5,
+            23,
+            11,
+            56
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/paameri.gif",
+          "bytes": 31344,
+          "compressed_bytes": 31141,
+          "crc32": "22155d84",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            6,
+            25,
+            42
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/paa_left.jpg",
+          "bytes": 28276,
+          "compressed_bytes": 27287,
+          "crc32": "abc43671",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            4,
+            23,
+            51,
+            28
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/paa_right.jpg",
+          "bytes": 12219,
+          "compressed_bytes": 11232,
+          "crc32": "2af8a173",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            4,
+            23,
+            51,
+            44
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/surtausta.jpg",
+          "bytes": 13593,
+          "compressed_bytes": 10923,
+          "crc32": "60182ff9",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            5,
+            56,
+            44
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/taivmeri.jpg",
+          "bytes": 11323,
+          "compressed_bytes": 10007,
+          "crc32": "02fe5107",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            1,
+            33,
+            14
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "images/vesi_meri.gif",
+          "bytes": 52126,
+          "compressed_bytes": 51227,
+          "crc32": "73c1874d",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            1,
+            50,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kaaakka.class",
+          "bytes": 5425,
+          "compressed_bytes": 2202,
+          "crc32": "ab7a9091",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kaaakkk.class",
+          "bytes": 522,
+          "compressed_bytes": 343,
+          "crc32": "33f1bf30",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kaaakma.class",
+          "bytes": 1725,
+          "compressed_bytes": 1017,
+          "crc32": "c8a82335",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kaaakmk.class",
+          "bytes": 577,
+          "compressed_bytes": 392,
+          "crc32": "59d8ba02",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kaaamka.class",
+          "bytes": 2319,
+          "compressed_bytes": 1177,
+          "crc32": "8543526d",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kaaamma.class",
+          "bytes": 568,
+          "compressed_bytes": 351,
+          "crc32": "ab66989d",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kaaammk.class",
+          "bytes": 1826,
+          "compressed_bytes": 991,
+          "crc32": "29b0fd49",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kaajkka.class",
+          "bytes": 451,
+          "compressed_bytes": 298,
+          "crc32": "ed8dc5f2",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kaajkkk.class",
+          "bytes": 14029,
+          "compressed_bytes": 7288,
+          "crc32": "e2c012f4",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kaajkmk.class",
+          "bytes": 2909,
+          "compressed_bytes": 1708,
+          "crc32": "9381a873",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kaajmka.class",
+          "bytes": 512,
+          "compressed_bytes": 346,
+          "crc32": "7c0a48bf",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kaajmma.class",
+          "bytes": 4126,
+          "compressed_bytes": 1585,
+          "crc32": "826403aa",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kaajmmk.class",
+          "bytes": 1270,
+          "compressed_bytes": 697,
+          "crc32": "626bcf64",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kajakka.class",
+          "bytes": 606,
+          "compressed_bytes": 355,
+          "crc32": "034974a9",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kajakkk.class",
+          "bytes": 2760,
+          "compressed_bytes": 1550,
+          "crc32": "3447567f",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kajakma.class",
+          "bytes": 488,
+          "compressed_bytes": 324,
+          "crc32": "dc972d6e",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kajakmk.class",
+          "bytes": 6595,
+          "compressed_bytes": 3707,
+          "crc32": "ba837c76",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kajamka.class",
+          "bytes": 7328,
+          "compressed_bytes": 4171,
+          "crc32": "641cb56a",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kajamma.class",
+          "bytes": 8800,
+          "compressed_bytes": 4558,
+          "crc32": "eb51084b",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kajammk.class",
+          "bytes": 4716,
+          "compressed_bytes": 2482,
+          "crc32": "0bb2491e",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kajjkka.class",
+          "bytes": 2198,
+          "compressed_bytes": 972,
+          "crc32": "16443783",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kajjkkk.class",
+          "bytes": 5143,
+          "compressed_bytes": 2151,
+          "crc32": "f3467c0e",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kajjkmk.class",
+          "bytes": 1634,
+          "compressed_bytes": 890,
+          "crc32": "67108536",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kajjmka.class",
+          "bytes": 1690,
+          "compressed_bytes": 880,
+          "crc32": "802766ca",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kajjmma.class",
+          "bytes": 2184,
+          "compressed_bytes": 1216,
+          "crc32": "570ac2cb",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kajjmmk.class",
+          "bytes": 687,
+          "compressed_bytes": 409,
+          "crc32": "0a0efdf7",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmaakka.class",
+          "bytes": 1903,
+          "compressed_bytes": 942,
+          "crc32": "557db856",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmaakkk.class",
+          "bytes": 1288,
+          "compressed_bytes": 730,
+          "crc32": "dae29379",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmaakma.class",
+          "bytes": 3290,
+          "compressed_bytes": 1866,
+          "crc32": "5831df72",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmaakmk.class",
+          "bytes": 1149,
+          "compressed_bytes": 692,
+          "crc32": "b31ee9bd",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmaamka.class",
+          "bytes": 2990,
+          "compressed_bytes": 1208,
+          "crc32": "18e2e6f2",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmaamma.class",
+          "bytes": 5116,
+          "compressed_bytes": 2577,
+          "crc32": "785d9fec",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmaammk.class",
+          "bytes": 3834,
+          "compressed_bytes": 2126,
+          "crc32": "ee2f5605",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmajkka.class",
+          "bytes": 335,
+          "compressed_bytes": 254,
+          "crc32": "b27b6200",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmajkkk.class",
+          "bytes": 963,
+          "compressed_bytes": 592,
+          "crc32": "5529cfd6",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmajkmk.class",
+          "bytes": 3814,
+          "compressed_bytes": 2124,
+          "crc32": "d78e9b2f",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmajmka.class",
+          "bytes": 987,
+          "compressed_bytes": 538,
+          "crc32": "a0c4379d",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmajmma.class",
+          "bytes": 2456,
+          "compressed_bytes": 1500,
+          "crc32": "9845d5d8",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmajmmk.class",
+          "bytes": 1176,
+          "compressed_bytes": 638,
+          "crc32": "d4b275ed",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmjakka.class",
+          "bytes": 1755,
+          "compressed_bytes": 1101,
+          "crc32": "2900eb92",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmjakkk.class",
+          "bytes": 1721,
+          "compressed_bytes": 1034,
+          "crc32": "f1467ddf",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmjakmk.class",
+          "bytes": 488,
+          "compressed_bytes": 323,
+          "crc32": "624a8e50",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmjamka.class",
+          "bytes": 2206,
+          "compressed_bytes": 1203,
+          "crc32": "c05b4b05",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmjamma.class",
+          "bytes": 2712,
+          "compressed_bytes": 1352,
+          "crc32": "e09fe7d5",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmjammk.class",
+          "bytes": 6585,
+          "compressed_bytes": 3446,
+          "crc32": "e0444c59",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmjjkka.class",
+          "bytes": 5992,
+          "compressed_bytes": 2908,
+          "crc32": "7855593e",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmjjkkk.class",
+          "bytes": 9899,
+          "compressed_bytes": 4895,
+          "crc32": "890dc7ca",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmjjkmk.class",
+          "bytes": 1872,
+          "compressed_bytes": 1020,
+          "crc32": "3615c78b",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmjjmka.class",
+          "bytes": 2461,
+          "compressed_bytes": 1243,
+          "crc32": "c11d3b5d",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmjjmma.class",
+          "bytes": 596,
+          "compressed_bytes": 354,
+          "crc32": "0b9df48e",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "kmjjmmk.class",
+          "bytes": 1605,
+          "compressed_bytes": 838,
+          "crc32": "d82366b0",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "maaakka.class",
+          "bytes": 5823,
+          "compressed_bytes": 2727,
+          "crc32": "c5002083",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "maaakkk.class",
+          "bytes": 5236,
+          "compressed_bytes": 2704,
+          "crc32": "5e808ebd",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "maaakma.class",
+          "bytes": 2444,
+          "compressed_bytes": 1374,
+          "crc32": "8420df88",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "maaakmk.class",
+          "bytes": 380,
+          "compressed_bytes": 275,
+          "crc32": "0b7c16f2",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "maaamka.class",
+          "bytes": 2558,
+          "compressed_bytes": 1420,
+          "crc32": "f3a7b978",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "maaamma.class",
+          "bytes": 2134,
+          "compressed_bytes": 1197,
+          "crc32": "16aa4907",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "maaammk.class",
+          "bytes": 2172,
+          "compressed_bytes": 1193,
+          "crc32": "ec35e97d",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "maajkka.class",
+          "bytes": 3471,
+          "compressed_bytes": 1991,
+          "crc32": "294d5723",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "maajkkk.class",
+          "bytes": 1333,
+          "compressed_bytes": 744,
+          "crc32": "acd7af64",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "maajkmk.class",
+          "bytes": 2407,
+          "compressed_bytes": 1328,
+          "crc32": "6752c6b9",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "maajmka.class",
+          "bytes": 1029,
+          "compressed_bytes": 650,
+          "crc32": "871fd5d0",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "maajmma.class",
+          "bytes": 674,
+          "compressed_bytes": 375,
+          "crc32": "a178ea9e",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "maajmmk.class",
+          "bytes": 11155,
+          "compressed_bytes": 5132,
+          "crc32": "adc78d4a",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "majakka.class",
+          "bytes": 1863,
+          "compressed_bytes": 1047,
+          "crc32": "1452170d",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "majakkk.class",
+          "bytes": 3678,
+          "compressed_bytes": 2119,
+          "crc32": "6a809676",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "majakma.class",
+          "bytes": 3300,
+          "compressed_bytes": 1900,
+          "crc32": "db31e48a",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "majakmk.class",
+          "bytes": 766,
+          "compressed_bytes": 474,
+          "crc32": "2b776799",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "majamka.class",
+          "bytes": 1800,
+          "compressed_bytes": 975,
+          "crc32": "28a996cb",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "majamma.class",
+          "bytes": 244,
+          "compressed_bytes": 200,
+          "crc32": "23cd1f84",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "majammk.class",
+          "bytes": 5386,
+          "compressed_bytes": 2782,
+          "crc32": "050e598d",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "majjkka.class",
+          "bytes": 1607,
+          "compressed_bytes": 945,
+          "crc32": "aa8d4dcf",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "majjkkk.class",
+          "bytes": 1918,
+          "compressed_bytes": 1019,
+          "crc32": "55947d3f",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "majjkmk.class",
+          "bytes": 1891,
+          "compressed_bytes": 1013,
+          "crc32": "0795e044",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "majjmka.class",
+          "bytes": 1558,
+          "compressed_bytes": 736,
+          "crc32": "7f612fc3",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "majjmma.class",
+          "bytes": 1383,
+          "compressed_bytes": 654,
+          "crc32": "8217d01a",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "majjmmk.class",
+          "bytes": 550,
+          "compressed_bytes": 346,
+          "crc32": "be2c82aa",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmaakka.class",
+          "bytes": 9655,
+          "compressed_bytes": 5118,
+          "crc32": "8cacd9b9",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmaakkk.class",
+          "bytes": 11765,
+          "compressed_bytes": 5736,
+          "crc32": "cf05d545",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmaakma.class",
+          "bytes": 254,
+          "compressed_bytes": 205,
+          "crc32": "77ff4b93",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmaakmk.class",
+          "bytes": 4443,
+          "compressed_bytes": 2135,
+          "crc32": "d6f1feb4",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmaamka.class",
+          "bytes": 15576,
+          "compressed_bytes": 5033,
+          "crc32": "4bd6a169",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmaamma.class",
+          "bytes": 8135,
+          "compressed_bytes": 2868,
+          "crc32": "7e2d921e",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmaammk.class",
+          "bytes": 2381,
+          "compressed_bytes": 1260,
+          "crc32": "07d86c6c",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmajkka.class",
+          "bytes": 6947,
+          "compressed_bytes": 3117,
+          "crc32": "c6a83ffd",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmajkkk.class",
+          "bytes": 2773,
+          "compressed_bytes": 1534,
+          "crc32": "e14e1172",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmajkmk.class",
+          "bytes": 775,
+          "compressed_bytes": 495,
+          "crc32": "45df0f79",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmajmka.class",
+          "bytes": 1072,
+          "compressed_bytes": 510,
+          "crc32": "38cd55f4",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmajmma.class",
+          "bytes": 1930,
+          "compressed_bytes": 1077,
+          "crc32": "bac51e4c",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmajmmk.class",
+          "bytes": 654,
+          "compressed_bytes": 424,
+          "crc32": "1e9a90a1",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmjakka.class",
+          "bytes": 536,
+          "compressed_bytes": 336,
+          "crc32": "23aba9e8",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmjakkk.class",
+          "bytes": 550,
+          "compressed_bytes": 339,
+          "crc32": "04e1d24d",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmjakmk.class",
+          "bytes": 4163,
+          "compressed_bytes": 1941,
+          "crc32": "a3074cd3",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmjamka.class",
+          "bytes": 5489,
+          "compressed_bytes": 2254,
+          "crc32": "6810c755",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmjamma.class",
+          "bytes": 3960,
+          "compressed_bytes": 1534,
+          "crc32": "8065840f",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmjammk.class",
+          "bytes": 636,
+          "compressed_bytes": 419,
+          "crc32": "e078a771",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmjjkka.class",
+          "bytes": 715,
+          "compressed_bytes": 430,
+          "crc32": "1f6f3f50",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmjjkkk.class",
+          "bytes": 440,
+          "compressed_bytes": 313,
+          "crc32": "8513e7fa",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmjjkmk.class",
+          "bytes": 1005,
+          "compressed_bytes": 601,
+          "crc32": "b6451cd0",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmjjmka.class",
+          "bytes": 627,
+          "compressed_bytes": 428,
+          "crc32": "162fd2cf",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            8
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmjjmkk.class",
+          "bytes": 1326,
+          "compressed_bytes": 786,
+          "crc32": "8ccb95e0",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            12
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmjjmma.class",
+          "bytes": 1127,
+          "compressed_bytes": 718,
+          "crc32": "0de4d4f3",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            6
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "mmjjmmk.class",
+          "bytes": 6149,
+          "compressed_bytes": 3449,
+          "crc32": "8014718b",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "muhmu/",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "crc32": "00000000",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": true
+        },
+        {
+          "path": "muhmu/hifi/",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "crc32": "00000000",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            52,
+            10
+          ],
+          "is_directory": true
+        },
+        {
+          "path": "muhmu/hifi/device/",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "crc32": "00000000",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            55,
+            14
+          ],
+          "is_directory": true
+        },
+        {
+          "path": "muhmu/hifi/device/DeviceMSbase.class",
+          "bytes": 3060,
+          "compressed_bytes": 1786,
+          "crc32": "bb8bf600",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            54,
+            54
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "muhmu/hifi/device/DeviceMS_IE3.class",
+          "bytes": 2692,
+          "compressed_bytes": 1465,
+          "crc32": "b1290e90",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            54,
+            56
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "muhmu/hifi/device/DeviceMS_IE4.class",
+          "bytes": 2700,
+          "compressed_bytes": 1475,
+          "crc32": "70e86443",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            54,
+            56
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "muhmu/hifi/device/DeviceNoSound.class",
+          "bytes": 1406,
+          "compressed_bytes": 856,
+          "crc32": "3857436e",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            54,
+            54
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "muhmu/hifi/device/DeviceSun.class",
+          "bytes": 3738,
+          "compressed_bytes": 2088,
+          "crc32": "addd51ba",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            54,
+            54
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "muhmu/hifi/device/MAD.class",
+          "bytes": 2668,
+          "compressed_bytes": 1353,
+          "crc32": "7fb846aa",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            54,
+            54
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "muhmu/hifi/device/Mixable.class",
+          "bytes": 231,
+          "compressed_bytes": 189,
+          "crc32": "ec2c4b3f",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            54,
+            54
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "muhmu/hifi/device/ULaw.class",
+          "bytes": 1958,
+          "compressed_bytes": 1251,
+          "crc32": "e5e7dd98",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            54,
+            56
+          ],
+          "is_directory": false
+        },
+        {
+          "path": "readme.txt",
+          "bytes": 684,
+          "compressed_bytes": 431,
+          "crc32": "615ee4fb",
+          "zip_timestamp_without_timezone": [
+            1998,
+            8,
+            7,
+            16,
+            54,
+            8
+          ],
+          "is_directory": false
+        }
+      ]
+    }
+  ]
+}
