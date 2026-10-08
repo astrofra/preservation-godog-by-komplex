@@ -12,6 +12,8 @@ reconstruction are future work.
   including the nested `GODOG.ZIP` (112 Java classes and original assets).
 - [Reference video](original/video/godog-komplex-VbOJRJEa5N8.mkv) — about 3:09,
   1280 × 640, with audio, downloaded using yt-dlp.
+- [Demozoo screenshot reference](documentation/screenshot-references.md) — one
+  original-size PNG recovered; the full gallery remains blocked by Cloudflare.
 - [Provenance manifest](original/manifest.json) and [SHA-256 checksums](original/SHA256SUMS).
 
 ## Repository layout

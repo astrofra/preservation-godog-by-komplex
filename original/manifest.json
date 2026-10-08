@@ -109,6 +109,48 @@
       "sha256": "acfc679cf256755edd95ac2b12aa4166bbdebfe4983e0d74beac3b60ed77e190"
     },
     {
+      "local_path": "original/screenshots/demozoo/936a.82379.headers.txt",
+      "role": "curl-generated HTTP acquisition evidence",
+      "source_url": "https://media.demozoo.org/screens/o/e2/b4/936a.82379.png",
+      "retrieved_at_utc": "2026-10-08T13:43:01+00:00",
+      "retrieval_time_basis": "completion of curl transfer metadata write",
+      "bytes": 404,
+      "sha256": "865f3eae2d1c52117a07e1afd201a1aacd976747d575b33a1dba108f84450c10"
+    },
+    {
+      "local_path": "original/screenshots/demozoo/936a.82379.png",
+      "role": "third-party screenshot reference",
+      "source_url": "https://media.demozoo.org/screens/o/e2/b4/936a.82379.png",
+      "retrieved_at_utc": "2026-10-08T13:43:01+00:00",
+      "retrieval_time_basis": "completion of curl transfer metadata write",
+      "bytes": 242976,
+      "sha256": "827e9fea02bce2c6945b1471a22719cc765c37c19938c60ed30021227cdeb48b",
+      "requested_url": "https://media.demozoo.org/screens/o/e2/b4/936a.82379.png",
+      "effective_url": "https://media.demozoo.org/screens/o/e2/b4/936a.82379.png",
+      "http_status": 200,
+      "http_content_type": "image/png",
+      "discovered_from": "https://demozoo.org/productions/21114/",
+      "discovery_method": "Original-size image hyperlink exposed by the web reader on the Demozoo production page; production ID followed from archived Pouet HTML.",
+      "image_format": "PNG",
+      "width": 512,
+      "height": 256,
+      "capture_date": null,
+      "uploader": null,
+      "capture_conditions": "Unknown; third-party Demozoo screenshot, not a restoration capture.",
+      "validation": "Pillow 12.1.0 format/integrity verification and full decode passed; visually inspected.",
+      "headers_path": "original/screenshots/demozoo/936a.82379.headers.txt",
+      "transfer_metadata_path": "original/screenshots/demozoo/936a.82379.transfer.json"
+    },
+    {
+      "local_path": "original/screenshots/demozoo/936a.82379.transfer.json",
+      "role": "curl-generated HTTP acquisition evidence",
+      "source_url": "https://media.demozoo.org/screens/o/e2/b4/936a.82379.png",
+      "retrieved_at_utc": "2026-10-08T13:43:01+00:00",
+      "retrieval_time_basis": "completion of curl transfer metadata write",
+      "bytes": 14298,
+      "sha256": "b16bfe1217a253fcad0f57fd906fdd581f7466ee49e4939029145ac2c6adca67"
+    },
+    {
       "local_path": "original/video/godog-komplex-VbOJRJEa5N8.description",
       "role": "YouTube reference sidecar",
       "source_url": "https://www.youtube.com/watch?v=VbOJRJEa5N8",
@@ -155,5 +197,23 @@
       "bytes": 26108,
       "sha256": "0d16281bd66c69889dff28e9c2c16b13982f6f54a7930f764b98ebbe4af09723"
     }
-  ]
+  ],
+  "catalog_ids": {
+    "pouet": 888,
+    "demozoo": 21114
+  },
+  "catalog_links": {
+    "demozoo_as_linked_from_pouet": "http://demozoo.org/productions/21114/",
+    "demozoo": "https://demozoo.org/productions/21114/",
+    "demozoo_screenshots": "https://demozoo.org/productions/21114/screenshots/"
+  },
+  "reference_recovery": {
+    "demozoo_screenshots": {
+      "recovered_count": 1,
+      "gallery_complete": false,
+      "status": "partial",
+      "limitation": "The web reader exposed one full-size image from the production page. Direct production/gallery/API requests returned HTTP 403. An external reader and an isolated headless browser reached a Cloudflare security challenge instead of the gallery. Remaining gallery image URLs could not be recovered.",
+      "evidence_directory": "documentation/demozoo-recovery-attempts"
+    }
+  }
 }

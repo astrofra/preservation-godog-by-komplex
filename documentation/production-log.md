@@ -83,3 +83,29 @@ recovery steps were missing.
 See [recovery commands](recovery-commands.md) for tool versions and reproducible
 download and verification commands. The recovery milestone is committed locally
 using the existing Git identity; no push is part of this task.
+
+## 2026-10-08 — Demozoo screenshot references
+
+The user extended recovery to the Demozoo record linked from Pouët and requested
+that this discovery path be added to the preservation skill.
+
+- The already archived Pouët page contains Demozoo ID **21114**, including a
+  link to the screenshot gallery in a comment. The matching Demozoo production
+  record is **GODOG by Komplex**.
+- One full-size PNG was downloaded from the image link on the Demozoo production
+  page, obtained through the web reader. The file is retained unchanged under
+  `original/screenshots/demozoo/`; both Pillow verification and full decoding
+  passed, and visual inspection confirmed a Komplex title image at 512 × 256.
+- The complete gallery could not be enumerated: direct HTTP requests returned
+  403, while a reader service and an isolated headless Chrome attempt reached
+  Cloudflare's security challenge. The automated browser was stopped. Failure
+  evidence is retained separately from successfully recovered original artifacts.
+  This reference recovery is explicitly partial.
+- The [reference index](screenshot-references.md) records the image's source,
+  visual content, unknown capture conditions and the gallery access limitation.
+  The preservation manifest and SHA-256 inventory were extended without changing
+  previously downloaded artifacts.
+- The local `reactivate-maeda-java` skill now directs agents to follow Pouët's
+  Demozoo ID, check the full gallery, recover original-size images, verify them,
+  and preserve provenance while reporting incomplete recovery. The update is in
+  `SKILL.md` and `references/recovery.md`, outside this repository.
