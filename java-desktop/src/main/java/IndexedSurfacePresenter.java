@@ -42,7 +42,7 @@ public class IndexedSurfacePresenter extends SurfacePresenter
         ++this.AkKaMaJ;
     }
     
-    public void AkKaMaJ(final kmaamma kmaamma) {
+    public void AkKaMaJ(final DesktopDemoBase kmaamma) {
         this.KkaMaJa = new IndexedSurface(super.jAkkamA, super.JaKKamA, 2, true);
         this.kkaMaJa = new IndexedTriangleSink(this.KkaMaJa);
         if (super.jakKamA && SurfacePresenter.JAkKamA) {

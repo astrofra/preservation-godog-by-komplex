@@ -3,10 +3,11 @@
 The [review CSV](symbol-renaming-review.csv) proposes names inferred from usage
 in the restored Java sources. These are descriptive reconstruction names, not
 recovered author names. The initial review required explicit user approval before
-application. The user subsequently authorized the 3D-engine portion directly:
-**49 classes, 54 method declarations and 32 fields are now renamed**, as recorded
-in [the applied mapping](3d-symbol-map.json) and [validation notes](3d-engine-renaming.md).
-The CSV remains the original review snapshot; other proposals remain pending.
+application. The user subsequently authorized the 3D-engine portion and then
+all remaining proposals directly: **104 classes, 112 method declarations and 79
+fields are now renamed**, as recorded in [the complete mapping](symbol-map.json)
+and [validation notes](symbol-renaming-applied.md). The eight `keep` proposals
+retain existing names. The CSV remains the original review snapshot.
 
 ## Scope
 
@@ -24,8 +25,8 @@ New desktop infrastructure, local variables and parameters are outside this
 batch. The three retired audio backend classes are included as `keep` rows.
 
 The baseline is commit `2d74d31`. Source references point into that version.
-All 303 decisions initially read `pending`. The later direct authorization for
-the 3D-engine subset is recorded separately rather than rewriting this snapshot.
+All 303 decisions initially read `pending`. The later direct authorizations for
+both stages are recorded separately rather than rewriting this snapshot.
 
 ## Editing the CSV
 
@@ -93,4 +94,4 @@ contracts, compile, run the existing numeric/audio/rendering comparisons against
 the original classes, and verify the desktop launcher. The fixed-point UV casts
 and other bytecode-verified repairs must remain unchanged. None of these code
 changes or post-refactor checks had been performed at the initial review stage.
-The subsequent 3D-engine application and completed checks are documented above.
+Both subsequent applications and completed checks are documented above.

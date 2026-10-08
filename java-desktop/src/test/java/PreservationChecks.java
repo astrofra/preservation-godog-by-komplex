@@ -79,8 +79,8 @@ public final class PreservationChecks {
         oldSong.getClass().getMethod("JakkAMa", oldMixerType).invoke(oldSong, oldMixer);
         oldDeviceType.getField("frequency").setInt(oldDevice, 22050);
         oldDeviceType.getField("stereo").setBoolean(oldDevice, true);
-        mmajmma mixer = new mmajmma();
-        kajamka.kKAmAjA(xm.clone()).JakkAMa(mixer);
+        MixerBus mixer = new MixerBus();
+        ModuleLoader.kKAmAjA(xm.clone()).JakkAMa(mixer);
         var device = new muhmu.hifi.device.JavaSoundDevice(true);
         device.init(mixer, 22050, 4, 22050, null);
         Method mix = oldMixerType.getMethod("mix", oldDeviceType, int[].class, int.class, int.class);

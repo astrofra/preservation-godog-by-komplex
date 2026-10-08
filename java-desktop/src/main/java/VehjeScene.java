@@ -8,7 +8,7 @@ public class VehjeScene extends Scene
     SceneRenderer MajaKKA;
     RgbSurface majaKKA;
     MetaballMesh MAjaKKA;
-    kmaamma mAjaKKA;
+    DesktopDemoBase mAjaKKA;
     
     public String getSceneId() {
         return "vehje";
@@ -18,7 +18,7 @@ public class VehjeScene extends Scene
         this.MajaKKA = null;
     }
     
-    public void load(final kmaamma mAjaKKA) {
+    public void load(final DesktopDemoBase mAjaKKA) {
         this.mAjaKKA = mAjaKKA;
         this.mAJaKKA = new Camera();
         this.mAJaKKA.amaJAkK = 1.8f;
@@ -47,8 +47,8 @@ public class VehjeScene extends Scene
         this.mAJaKKA.rollRadians = 2.0f;
         this.mAJaKKA.position.mAJaKka(300.0f, n * 10.0f, 700.0f);
         this.mAJaKKA.lookAt(new Vec3f(0.01f, 300.01f, 0.01f));
-        this.MajaKKA.mAjAKkA(this.mAJaKKA, godog.KKAMAjA);
-        this.MajaKKA.MajAKkA(godog.KKAMAjA);
+        this.MajaKKA.mAjAKkA(this.mAJaKKA, GodogDemo.KKAMAjA);
+        this.MajaKKA.MajAKkA(GodogDemo.KKAMAjA);
     }
     
     public void handleMessage(final String s, final float n) {

@@ -28,15 +28,15 @@ public abstract class SurfacePresenter
     public static final int JAKKAMA = 33;
     public static final int jAKKAMA = 49;
     
-    public final void akkaMaJ(final kmaamma kmaamma, final int n, final int n2) {
+    public final void akkaMaJ(final DesktopDemoBase kmaamma, final int n, final int n2) {
         this.kKaMaJa(kmaamma, n, n2, 1);
     }
     
-    public final void kKaMaJa(final kmaamma kmaamma, final int n, final int n2, final int n3) {
+    public final void kKaMaJa(final DesktopDemoBase kmaamma, final int n, final int n2, final int n3) {
         this.KKaMaJa(kmaamma, n, n2, n3, n3);
     }
     
-    public final void KKaMaJa(final kmaamma kmaamma, final int jaKKamA, final int jakKamA, final int jakKamA2, final int jakKamA3) {
+    public final void KKaMaJa(final DesktopDemoBase kmaamma, final int jaKKamA, final int jakKamA, final int jakKamA2, final int jakKamA3) {
         this.jAKKamA = jakKamA2;
         this.JakKamA = jakKamA3;
         this.jaKKamA = jaKKamA;
@@ -62,7 +62,7 @@ public abstract class SurfacePresenter
         }
     }
     
-    public abstract void AkKaMaJ(final kmaamma p0);
+    public abstract void AkKaMaJ(final DesktopDemoBase p0);
     
     public abstract void AKKaMaJ(final Graphics p0, final int p1, final int p2);
     

@@ -1,10 +1,10 @@
 {
-  "note": "Signature correspondence is not a proof of behavioral equivalence. See java-desktop-restoration.md for edits and differential validation; 3d-symbol-map.json records applied names.",
+  "note": "Signature correspondence is not a proof of behavioral equivalence. See java-desktop-restoration.md for edits and differential validation; symbol-map.json records applied names.",
   "classes": [
     {
       "class": "godog",
-      "desktop_class": "godog",
-      "source": "java-desktop/src/main/java/godog.java",
+      "desktop_class": "GodogDemo",
+      "source": "java-desktop/src/main/java/GodogDemo.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [
@@ -95,16 +95,16 @@
         {
           "name": "kamAJAk",
           "descriptor": "(Lmaaakkk;I)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "kamAJAk",
-          "desktop_descriptor": "(Lmaaakkk;I)V"
+          "desktop_descriptor": "(LModuleSong;I)V"
         },
         {
           "name": "kamAjAk",
           "descriptor": "(Ljava/lang/String;)Lmaaakkk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "kamAjAk",
-          "desktop_descriptor": "(Ljava/lang/String;)Lmaaakkk;"
+          "desktop_descriptor": "(Ljava/lang/String;)LModuleSong;"
         },
         {
           "name": "kAmajAk",
@@ -179,9 +179,9 @@
         {
           "name": "KamajAk",
           "descriptor": "(Lkajakka;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "KamajAk",
-          "desktop_descriptor": "(Lkajakka;)V"
+          "desktop_descriptor": "(LGraphicsRoutine;)V"
         },
         {
           "name": "kAMAJAk",
@@ -591,9 +591,9 @@
         {
           "name": "<init>",
           "descriptor": "(Lkmaamma;Ljava/net/URL;Z)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Lkmaamma;Ljava/net/URL;Z)V"
+          "desktop_descriptor": "(LDesktopDemoBase;Ljava/net/URL;Z)V"
         },
         {
           "name": "JaKkama",
@@ -606,10 +606,10 @@
     },
     {
       "class": "kaaakmk",
-      "desktop_class": "kaaakmk",
-      "source": "java-desktop/src/main/java/kaaakmk.java",
+      "desktop_class": "ExitOnCloseFrame",
+      "source": "java-desktop/src/main/java/ExitOnCloseFrame.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -703,40 +703,40 @@
     },
     {
       "class": "kaaammk",
-      "desktop_class": "kaaammk",
-      "source": "java-desktop/src/main/java/kaaammk.java",
+      "desktop_class": "MovieFillStyle",
+      "source": "java-desktop/src/main/java/MovieFillStyle.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
           "descriptor": "(Lkaajkkk;I)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Lkaajkkk;I)V"
+          "desktop_descriptor": "(LMovieRasterizer;I)V"
         },
         {
           "name": "<init>",
           "descriptor": "(Lkaajkkk;II[I[ILkmaammk;Lkmaammk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Lkaajkkk;II[I[ILkmaammk;Lkmaammk;)V"
+          "desktop_descriptor": "(LMovieRasterizer;II[I[ILMovieTransform;LMovieTransform;)V"
         },
         {
           "name": "AkKAMaj",
           "descriptor": "(Lkaajkkk;I)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AkKAMaj",
-          "desktop_descriptor": "(Lkaajkkk;I)V"
+          "desktop_descriptor": "(LMovieRasterizer;I)V"
         }
       ]
     },
     {
       "class": "kaajkka",
-      "desktop_class": "kaajkka",
-      "source": "java-desktop/src/main/java/kaajkka.java",
+      "desktop_class": "ArchiveDecoder",
+      "source": "java-desktop/src/main/java/ArchiveDecoder.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "aMajAKk",
@@ -791,17 +791,17 @@
     },
     {
       "class": "kaajkkk",
-      "desktop_class": "kaajkkk",
-      "source": "java-desktop/src/main/java/kaajkkk.java",
+      "desktop_class": "MovieRasterizer",
+      "source": "java-desktop/src/main/java/MovieRasterizer.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
           "descriptor": "(Lmmaakka;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Lmmaakka;)V"
+          "desktop_descriptor": "(LMoviePlayer;)V"
         },
         {
           "name": "JAKKamA",
@@ -813,9 +813,9 @@
         {
           "name": "JAkkAMA",
           "descriptor": "(Lkaajmmk;ZIZ)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "JAkkAMA",
-          "desktop_descriptor": "(Lkaajmmk;ZIZ)V"
+          "desktop_descriptor": "(LMovieBounds;ZIZ)V"
         },
         {
           "name": "JAkkamA",
@@ -841,9 +841,9 @@
         {
           "name": "jAkkAMA",
           "descriptor": "(Lmmjakka;ILkmaammk;Lmajjkmk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "jAkkAMA",
-          "desktop_descriptor": "(Lmmjakka;ILkmaammk;Lmajjkmk;)V"
+          "desktop_descriptor": "(LMovieCharacter;ILMovieTransform;LMovieColorTransform;)V"
         },
         {
           "name": "jAKkAMA",
@@ -855,30 +855,30 @@
         {
           "name": "JaKkAMA",
           "descriptor": "(Lkajakkk;I)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "JaKkAMA",
-          "desktop_descriptor": "(Lkajakkk;I)V"
+          "desktop_descriptor": "(LMovieDisplayObject;I)V"
         },
         {
           "name": "jAkKamA",
           "descriptor": "(Lkajakkk;I)Z",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "jAkKamA",
-          "desktop_descriptor": "(Lkajakkk;I)Z"
+          "desktop_descriptor": "(LMovieDisplayObject;I)Z"
         },
         {
           "name": "JakkAMA",
           "descriptor": "(II)Lkajakkk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "JakkAMA",
-          "desktop_descriptor": "(II)Lkajakkk;"
+          "desktop_descriptor": "(II)LMovieDisplayObject;"
         },
         {
           "name": "jAKKamA",
           "descriptor": "(Lkajakkk;II)Z",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "jAKKamA",
-          "desktop_descriptor": "(Lkajakkk;II)Z"
+          "desktop_descriptor": "(LMovieDisplayObject;II)Z"
         },
         {
           "name": "jakKamA",
@@ -897,9 +897,9 @@
         {
           "name": "jAKKAmA",
           "descriptor": "(IILkaaammk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "jAKKAmA",
-          "desktop_descriptor": "(IILkaaammk;)V"
+          "desktop_descriptor": "(IILMovieFillStyle;)V"
         },
         {
           "name": "jaKkAMA",
@@ -911,9 +911,9 @@
         {
           "name": "jAKkamA",
           "descriptor": "(Lkaaammk;I)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "jAKkamA",
-          "desktop_descriptor": "(Lkaaammk;I)V"
+          "desktop_descriptor": "(LMovieFillStyle;I)V"
         },
         {
           "name": "jAkKAmA",
@@ -932,9 +932,9 @@
         {
           "name": "JakKamA",
           "descriptor": "(Lmaajkkk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "JakKamA",
-          "desktop_descriptor": "(Lmaajkkk;)V"
+          "desktop_descriptor": "(LMovieScanlineEdge;)V"
         },
         {
           "name": "JaKkamA",
@@ -1023,16 +1023,16 @@
         {
           "name": "jaKKAMA",
           "descriptor": "(Lkajamma;I)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "jaKKAMA",
-          "desktop_descriptor": "(Lkajamma;I)V"
+          "desktop_descriptor": "(LMovieTimeline;I)V"
         },
         {
           "name": "JaKKAMA",
           "descriptor": "(Lkajamma;I)I",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "JaKKAMA",
-          "desktop_descriptor": "(Lkajamma;I)I"
+          "desktop_descriptor": "(LMovieTimeline;I)I"
         },
         {
           "name": "addConsumer",
@@ -1513,10 +1513,10 @@
     },
     {
       "class": "kaajmmk",
-      "desktop_class": "kaajmmk",
-      "source": "java-desktop/src/main/java/kaajmmk.java",
+      "desktop_class": "MovieBounds",
+      "source": "java-desktop/src/main/java/MovieBounds.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -1528,9 +1528,9 @@
         {
           "name": "<init>",
           "descriptor": "(Lkaajmmk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Lkaajmmk;)V"
+          "desktop_descriptor": "(LMovieBounds;)V"
         },
         {
           "name": "<init>",
@@ -1542,80 +1542,80 @@
         {
           "name": "akKaMAJ",
           "descriptor": "(Lkaajmmk;)V",
-          "status": "same-signature",
-          "desktop_name": "akKaMAJ",
-          "desktop_descriptor": "(Lkaajmmk;)V"
+          "status": "symbol-renamed",
+          "desktop_name": "includeBounds",
+          "desktop_descriptor": "(LMovieBounds;)V"
         },
         {
           "name": "AKKaMAJ",
           "descriptor": "(Ljava/awt/Point;)V",
-          "status": "same-signature",
-          "desktop_name": "AKKaMAJ",
+          "status": "symbol-renamed",
+          "desktop_name": "includePoint",
           "desktop_descriptor": "(Ljava/awt/Point;)V"
         },
         {
           "name": "aKKaMAJ",
           "descriptor": "(Lkaajmmk;)Z",
-          "status": "same-signature",
-          "desktop_name": "aKKaMAJ",
-          "desktop_descriptor": "(Lkaajmmk;)Z"
+          "status": "symbol-renamed",
+          "desktop_name": "intersects",
+          "desktop_descriptor": "(LMovieBounds;)Z"
         },
         {
           "name": "AkKaMAJ",
           "descriptor": "(Ljava/awt/Point;)Z",
-          "status": "same-signature",
-          "desktop_name": "AkKaMAJ",
+          "status": "symbol-renamed",
+          "desktop_name": "contains",
           "desktop_descriptor": "(Ljava/awt/Point;)Z"
         }
       ]
     },
     {
       "class": "kajakka",
-      "desktop_class": "kajakka",
-      "source": "java-desktop/src/main/java/kajakka.java",
+      "desktop_class": "GraphicsRoutine",
+      "source": "java-desktop/src/main/java/GraphicsRoutine.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "amajaKk",
           "descriptor": "()Ljava/lang/String;",
-          "status": "same-signature",
-          "desktop_name": "amajaKk",
+          "status": "symbol-renamed",
+          "desktop_name": "getRoutineId",
           "desktop_descriptor": "()Ljava/lang/String;"
         },
         {
           "name": "AmajaKk",
           "descriptor": "(Lkmaamma;)V",
-          "status": "same-signature",
-          "desktop_name": "AmajaKk",
-          "desktop_descriptor": "(Lkmaamma;)V"
+          "status": "symbol-renamed",
+          "desktop_name": "load",
+          "desktop_descriptor": "(LDesktopDemoBase;)V"
         },
         {
           "name": "AMajaKk",
           "descriptor": "()V",
-          "status": "same-signature",
-          "desktop_name": "AMajaKk",
+          "status": "symbol-renamed",
+          "desktop_name": "enter",
           "desktop_descriptor": "()V"
         },
         {
           "name": "aMAjaKk",
           "descriptor": "()V",
-          "status": "same-signature",
-          "desktop_name": "aMAjaKk",
+          "status": "symbol-renamed",
+          "desktop_name": "dispose",
           "desktop_descriptor": "()V"
         },
         {
           "name": "amAjaKk",
           "descriptor": "(Ljava/awt/Graphics;FF)V",
-          "status": "same-signature",
-          "desktop_name": "amAjaKk",
+          "status": "symbol-renamed",
+          "desktop_name": "render",
           "desktop_descriptor": "(Ljava/awt/Graphics;FF)V"
         },
         {
           "name": "AMAjaKk",
           "descriptor": "(Ljava/lang/String;F)V",
-          "status": "same-signature",
-          "desktop_name": "AMAjaKk",
+          "status": "symbol-renamed",
+          "desktop_name": "handleMessage",
           "desktop_descriptor": "(Ljava/lang/String;F)V"
         },
         {
@@ -1629,10 +1629,10 @@
     },
     {
       "class": "kajakkk",
-      "desktop_class": "kajakkk",
-      "source": "java-desktop/src/main/java/kajakkk.java",
+      "desktop_class": "MovieDisplayObject",
+      "source": "java-desktop/src/main/java/MovieDisplayObject.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "jaKkaMA",
@@ -1659,10 +1659,10 @@
     },
     {
       "class": "kajakma",
-      "desktop_class": "kajakma",
-      "source": "java-desktop/src/main/java/kajakma.java",
+      "desktop_class": "XmInstrumentHeaderOffsets",
+      "source": "java-desktop/src/main/java/XmInstrumentHeaderOffsets.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -1675,8 +1675,8 @@
     },
     {
       "class": "kajakmk",
-      "desktop_class": "kajakmk",
-      "source": "java-desktop/src/main/java/kajakmk.java",
+      "desktop_class": "MovieAudioClip",
+      "source": "java-desktop/src/main/java/MovieAudioClip.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [
@@ -1690,9 +1690,9 @@
         {
           "name": "<init>",
           "descriptor": "(II[BILmmaakka;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(II[BILmmaakka;)V"
+          "desktop_descriptor": "(II[BILMoviePlayer;)V"
         },
         {
           "name": "kKAmaja",
@@ -1739,16 +1739,16 @@
         {
           "name": "kkamaja",
           "descriptor": "(Lkajakmk;Lkajamma;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "kkamaja",
-          "desktop_descriptor": "(Lkajakmk;Lkajamma;)V"
+          "desktop_descriptor": "(LMovieAudioClip;LMovieTimeline;)V"
         },
         {
           "name": "kKAMaja",
           "descriptor": "(Lkajamma;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "kKAMaja",
-          "desktop_descriptor": "(Lkajamma;)V"
+          "desktop_descriptor": "(LMovieTimeline;)V"
         },
         {
           "name": "run",
@@ -1838,17 +1838,17 @@
     },
     {
       "class": "kajamka",
-      "desktop_class": "kajamka",
-      "source": "java-desktop/src/main/java/kajamka.java",
+      "desktop_class": "ModuleLoader",
+      "source": "java-desktop/src/main/java/ModuleLoader.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "kKAmAjA",
           "descriptor": "([B)Lmaaakkk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "kKAmAjA",
-          "desktop_descriptor": "([B)Lmaaakkk;"
+          "desktop_descriptor": "([B)LModuleSong;"
         },
         {
           "name": "kkAmAjA",
@@ -1867,16 +1867,16 @@
         {
           "name": "KKAmAjA",
           "descriptor": "([B)Lmaaakkk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "KKAmAjA",
-          "desktop_descriptor": "([B)Lmaaakkk;"
+          "desktop_descriptor": "([B)LModuleSong;"
         },
         {
           "name": "kkamAjA",
           "descriptor": "([B)Lmaaakkk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "kkamAjA",
-          "desktop_descriptor": "([B)Lmaaakkk;"
+          "desktop_descriptor": "([B)LModuleSong;"
         },
         {
           "name": "<init>",
@@ -1896,17 +1896,17 @@
     },
     {
       "class": "kajamma",
-      "desktop_class": "kajamma",
-      "source": "java-desktop/src/main/java/kajamma.java",
+      "desktop_class": "MovieTimeline",
+      "source": "java-desktop/src/main/java/MovieTimeline.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
           "descriptor": "(Lmmaakka;Lkaajkkk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Lmmaakka;Lkaajkkk;)V"
+          "desktop_descriptor": "(LMoviePlayer;LMovieRasterizer;)V"
         },
         {
           "name": "AmAjakK",
@@ -1925,9 +1925,9 @@
         {
           "name": "amAjAkK",
           "descriptor": "(Lkajakkk;I)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "amAjAkK",
-          "desktop_descriptor": "(Lkajakkk;I)V"
+          "desktop_descriptor": "(LMovieDisplayObject;I)V"
         },
         {
           "name": "majAkKa",
@@ -1981,16 +1981,16 @@
         {
           "name": "amaJAkK",
           "descriptor": "(I)Lmmjakka;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "amaJAkK",
-          "desktop_descriptor": "(I)Lmmjakka;"
+          "desktop_descriptor": "(I)LMovieCharacter;"
         },
         {
           "name": "AmaJAkK",
           "descriptor": "(I)Lmmjakka;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AmaJAkK",
-          "desktop_descriptor": "(I)Lmmjakka;"
+          "desktop_descriptor": "(I)LMovieCharacter;"
         },
         {
           "name": "AMAjakK",
@@ -2521,9 +2521,9 @@
         {
           "name": "AkKaMaJ",
           "descriptor": "(Lkmaamma;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AkKaMaJ",
-          "desktop_descriptor": "(Lkmaamma;)V"
+          "desktop_descriptor": "(LDesktopDemoBase;)V"
         },
         {
           "name": "AKkaMaJ",
@@ -2536,8 +2536,8 @@
     },
     {
       "class": "kajjmka",
-      "desktop_class": "kajjmka",
-      "source": "java-desktop/src/main/java/kajjmka.java",
+      "desktop_class": "DesktopResourceContext",
+      "source": "java-desktop/src/main/java/DesktopResourceContext.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [
@@ -2639,7 +2639,7 @@
           "descriptor": "(Lkmaamma;)V",
           "status": "symbol-renamed",
           "desktop_name": "load",
-          "desktop_descriptor": "(Lkmaamma;)V"
+          "desktop_descriptor": "(LDesktopDemoBase;)V"
         },
         {
           "name": "MajakkA",
@@ -2810,72 +2810,72 @@
     },
     {
       "class": "kmaakkk",
-      "desktop_class": "kmaakkk",
-      "source": "java-desktop/src/main/java/kmaakkk.java",
+      "desktop_class": "ModuleSequencer",
+      "source": "java-desktop/src/main/java/ModuleSequencer.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "jAKKama",
           "descriptor": "(I)V",
-          "status": "same-signature",
-          "desktop_name": "jAKKama",
+          "status": "symbol-renamed",
+          "desktop_name": "setRestartOrder",
           "desktop_descriptor": "(I)V"
         },
         {
           "name": "JAKKama",
           "descriptor": "(Lmaaakkk;)V",
-          "status": "same-signature",
-          "desktop_name": "JAKKama",
-          "desktop_descriptor": "(Lmaaakkk;)V"
+          "status": "symbol-renamed",
+          "desktop_name": "setSong",
+          "desktop_descriptor": "(LModuleSong;)V"
         },
         {
           "name": "jAkKama",
           "descriptor": "([BII)V",
-          "status": "same-signature",
-          "desktop_name": "jAkKama",
+          "status": "symbol-renamed",
+          "desktop_name": "loadOrderTable",
           "desktop_descriptor": "([BII)V"
         },
         {
           "name": "jaKKama",
           "descriptor": "(Z)V",
-          "status": "same-signature",
-          "desktop_name": "jaKKama",
+          "status": "symbol-renamed",
+          "desktop_name": "setRepeatCurrentOrder",
           "desktop_descriptor": "(Z)V"
         },
         {
           "name": "jakKama",
           "descriptor": "()V",
-          "status": "same-signature",
-          "desktop_name": "jakKama",
+          "status": "symbol-renamed",
+          "desktop_name": "rewind",
           "desktop_descriptor": "()V"
         },
         {
           "name": "JaKKama",
           "descriptor": "(I)V",
-          "status": "same-signature",
-          "desktop_name": "JaKKama",
+          "status": "symbol-renamed",
+          "desktop_name": "seekOrder",
           "desktop_descriptor": "(I)V"
         },
         {
           "name": "JAkKama",
           "descriptor": "(I)V",
-          "status": "same-signature",
-          "desktop_name": "JAkKama",
+          "status": "symbol-renamed",
+          "desktop_name": "seekRow",
           "desktop_descriptor": "(I)V"
         },
         {
           "name": "JaKkAMa",
           "descriptor": "()V",
-          "status": "same-signature",
-          "desktop_name": "JaKkAMa",
+          "status": "symbol-renamed",
+          "desktop_name": "advanceOrder",
           "desktop_descriptor": "()V"
         },
         {
           "name": "JakKama",
           "descriptor": "()[B",
-          "status": "same-signature",
-          "desktop_name": "JakKama",
+          "status": "symbol-renamed",
+          "desktop_name": "nextRow",
           "desktop_descriptor": "()[B"
         },
         {
@@ -2968,30 +2968,30 @@
     },
     {
       "class": "kmaakmk",
-      "desktop_class": "kmaakmk",
-      "source": "java-desktop/src/main/java/kmaakmk.java",
+      "desktop_class": "EndscreenRoutine",
+      "source": "java-desktop/src/main/java/EndscreenRoutine.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "amajaKk",
           "descriptor": "()Ljava/lang/String;",
-          "status": "same-signature",
-          "desktop_name": "amajaKk",
+          "status": "symbol-renamed",
+          "desktop_name": "getRoutineId",
           "desktop_descriptor": "()Ljava/lang/String;"
         },
         {
           "name": "AmajaKk",
           "descriptor": "(Lkmaamma;)V",
-          "status": "same-signature",
-          "desktop_name": "AmajaKk",
-          "desktop_descriptor": "(Lkmaamma;)V"
+          "status": "symbol-renamed",
+          "desktop_name": "load",
+          "desktop_descriptor": "(LDesktopDemoBase;)V"
         },
         {
           "name": "amAjaKk",
           "descriptor": "(Ljava/awt/Graphics;FF)V",
-          "status": "same-signature",
-          "desktop_name": "amAjaKk",
+          "status": "symbol-renamed",
+          "desktop_name": "render",
           "desktop_descriptor": "(Ljava/awt/Graphics;FF)V"
         },
         {
@@ -3005,10 +3005,10 @@
     },
     {
       "class": "kmaamka",
-      "desktop_class": "kmaamka",
-      "source": "java-desktop/src/main/java/kmaamka.java",
+      "desktop_class": "ModuleSample",
+      "source": "java-desktop/src/main/java/ModuleSample.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "KkaMAjA",
@@ -3091,8 +3091,8 @@
     },
     {
       "class": "kmaamma",
-      "desktop_class": "kmaamma",
-      "source": "java-desktop/src/main/java/kmaamma.java",
+      "desktop_class": "DesktopDemoBase",
+      "source": "java-desktop/src/main/java/DesktopDemoBase.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [
@@ -3233,10 +3233,10 @@
     },
     {
       "class": "kmaammk",
-      "desktop_class": "kmaammk",
-      "source": "java-desktop/src/main/java/kmaammk.java",
+      "desktop_class": "MovieTransform",
+      "source": "java-desktop/src/main/java/MovieTransform.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -3248,9 +3248,9 @@
         {
           "name": "<init>",
           "descriptor": "(Lkmaammk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Lkmaammk;)V"
+          "desktop_descriptor": "(LMovieTransform;)V"
         },
         {
           "name": "akKaMaj",
@@ -3283,9 +3283,9 @@
         {
           "name": "AKKaMaj",
           "descriptor": "(Lkaajmmk;)Lkaajmmk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AKKaMaj",
-          "desktop_descriptor": "(Lkaajmmk;)Lkaajmmk;"
+          "desktop_descriptor": "(LMovieBounds;)LMovieBounds;"
         },
         {
           "name": "AKKAmAJ",
@@ -3297,16 +3297,16 @@
         {
           "name": "AkkaMaj",
           "descriptor": "()Lkmaammk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AkkaMaj",
-          "desktop_descriptor": "()Lkmaammk;"
+          "desktop_descriptor": "()LMovieTransform;"
         },
         {
           "name": "aKKaMaj",
           "descriptor": "(Lkmaammk;Lkmaammk;)Lkmaammk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "aKKaMaj",
-          "desktop_descriptor": "(Lkmaammk;Lkmaammk;)Lkmaammk;"
+          "desktop_descriptor": "(LMovieTransform;LMovieTransform;)LMovieTransform;"
         },
         {
           "name": "AkKaMaj",
@@ -3356,10 +3356,10 @@
     },
     {
       "class": "kmajkkk",
-      "desktop_class": "kmajkkk",
-      "source": "java-desktop/src/main/java/kmajkkk.java",
+      "desktop_class": "EnvelopeCursor",
+      "source": "java-desktop/src/main/java/EnvelopeCursor.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -3371,36 +3371,36 @@
         {
           "name": "<init>",
           "descriptor": "(Lmajjkka;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Lmajjkka;)V"
+          "desktop_descriptor": "(LEnvelope;)V"
         },
         {
           "name": "JAkkAmA",
           "descriptor": "(Lmajjkka;)V",
-          "status": "same-signature",
-          "desktop_name": "JAkkAmA",
-          "desktop_descriptor": "(Lmajjkka;)V"
+          "status": "symbol-renamed",
+          "desktop_name": "setEnvelope",
+          "desktop_descriptor": "(LEnvelope;)V"
         },
         {
           "name": "jakkAmA",
           "descriptor": "()V",
-          "status": "same-signature",
-          "desktop_name": "jakkAmA",
+          "status": "symbol-renamed",
+          "desktop_name": "reset",
           "desktop_descriptor": "()V"
         },
         {
           "name": "JakkAmA",
           "descriptor": "()V",
-          "status": "same-signature",
-          "desktop_name": "JakkAmA",
+          "status": "symbol-renamed",
+          "desktop_name": "release",
           "desktop_descriptor": "()V"
         },
         {
           "name": "jAkkAmA",
           "descriptor": "()B",
-          "status": "same-signature",
-          "desktop_name": "jAkkAmA",
+          "status": "symbol-renamed",
+          "desktop_name": "nextValue",
           "desktop_descriptor": "()B"
         }
       ]
@@ -3431,7 +3431,7 @@
           "descriptor": "(Lkmaamma;)V",
           "status": "symbol-renamed",
           "desktop_name": "load",
-          "desktop_descriptor": "(Lkmaamma;)V"
+          "desktop_descriptor": "(LDesktopDemoBase;)V"
         },
         {
           "name": "MajakkA",
@@ -3458,10 +3458,10 @@
     },
     {
       "class": "kmajmka",
-      "desktop_class": "kmajmka",
-      "source": "java-desktop/src/main/java/kmajmka.java",
+      "desktop_class": "TunerLine",
+      "source": "java-desktop/src/main/java/TunerLine.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -3532,8 +3532,8 @@
     },
     {
       "class": "kmajmmk",
-      "desktop_class": "kmajmmk",
-      "source": "java-desktop/src/main/java/kmajmmk.java",
+      "desktop_class": "DesktopParameterStub",
+      "source": "java-desktop/src/main/java/DesktopParameterStub.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [
@@ -3556,7 +3556,7 @@
           "descriptor": "()Ljava/applet/AppletContext;",
           "status": "platform-signature-adapted",
           "desktop_name": "getAppletContext",
-          "desktop_descriptor": "()Lkajjmka;"
+          "desktop_descriptor": "()LDesktopResourceContext;"
         },
         {
           "name": "getCodeBase",
@@ -3597,44 +3597,44 @@
     },
     {
       "class": "kmjakka",
-      "desktop_class": "kmjakka",
-      "source": "java-desktop/src/main/java/kmjakka.java",
+      "desktop_class": "SongPositionQueue",
+      "source": "java-desktop/src/main/java/SongPositionQueue.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [
         {
           "name": "AmAJAKk",
           "descriptor": "(IJ)V",
-          "status": "same-signature",
-          "desktop_name": "AmAJAKk",
+          "status": "symbol-renamed",
+          "desktop_name": "publish",
           "desktop_descriptor": "(IJ)V"
         },
         {
           "name": "aMAJAKk",
           "descriptor": "(I)I",
-          "status": "same-signature",
-          "desktop_name": "aMAJAKk",
+          "status": "symbol-renamed",
+          "desktop_name": "awaitAndSleepUntil",
           "desktop_descriptor": "(I)I"
         },
         {
           "name": "AmaJAKk",
           "descriptor": "(II)Z",
-          "status": "same-signature",
-          "desktop_name": "AmaJAKk",
+          "status": "symbol-renamed",
+          "desktop_name": "hasReached",
           "desktop_descriptor": "(II)Z"
         },
         {
           "name": "AMAJAKk",
           "descriptor": "(I)Lmajakmk;",
-          "status": "same-signature",
-          "desktop_name": "AMAJAKk",
-          "desktop_descriptor": "(I)Lmajakmk;"
+          "status": "symbol-renamed",
+          "desktop_name": "awaitPosition",
+          "desktop_descriptor": "(I)LScheduledSongPosition;"
         },
         {
           "name": "amAJAKk",
           "descriptor": "()V",
-          "status": "same-signature",
-          "desktop_name": "amAJAKk",
+          "status": "symbol-renamed",
+          "desktop_name": "dump",
           "desktop_descriptor": "()V"
         },
         {
@@ -3648,37 +3648,37 @@
     },
     {
       "class": "kmjakkk",
-      "desktop_class": "kmjakkk",
-      "source": "java-desktop/src/main/java/kmjakkk.java",
+      "desktop_class": "ScriptEventScheduler",
+      "source": "java-desktop/src/main/java/ScriptEventScheduler.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
           "descriptor": "(ILmmaakma;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(ILmmaakma;)V"
+          "desktop_descriptor": "(ILScriptEventListener;)V"
         },
         {
           "name": "jakKAMA",
           "descriptor": "(ILjava/lang/String;)V",
-          "status": "same-signature",
-          "desktop_name": "jakKAMA",
+          "status": "symbol-renamed",
+          "desktop_name": "addEvent",
           "desktop_descriptor": "(ILjava/lang/String;)V"
         },
         {
           "name": "JakKAMA",
           "descriptor": "(IJ)V",
-          "status": "same-signature",
-          "desktop_name": "JakKAMA",
+          "status": "symbol-renamed",
+          "desktop_name": "schedulePosition",
           "desktop_descriptor": "(IJ)V"
         },
         {
           "name": "JAkKAMA",
           "descriptor": "()V",
-          "status": "same-signature",
-          "desktop_name": "JAkKAMA",
+          "status": "symbol-renamed",
+          "desktop_name": "wakeDispatcher",
           "desktop_descriptor": "()V"
         },
         {
@@ -3699,10 +3699,10 @@
     },
     {
       "class": "kmjakmk",
-      "desktop_class": "kmjakmk",
-      "source": "java-desktop/src/main/java/kmjakmk.java",
+      "desktop_class": "XmPatternHeaderOffsets",
+      "source": "java-desktop/src/main/java/XmPatternHeaderOffsets.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -3723,9 +3723,9 @@
         {
           "name": "AkKaMaJ",
           "descriptor": "(Lkmaamma;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AkKaMaJ",
-          "desktop_descriptor": "(Lkmaamma;)V"
+          "desktop_descriptor": "(LDesktopDemoBase;)V"
         },
         {
           "name": "AKkaMaJ",
@@ -3987,38 +3987,38 @@
     },
     {
       "class": "kmjjkka",
-      "desktop_class": "kmjjkka",
-      "source": "java-desktop/src/main/java/kmjjkka.java",
+      "desktop_class": "MovieBitmap",
+      "source": "java-desktop/src/main/java/MovieBitmap.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
           "descriptor": "(Ljava/awt/image/ImageProducer;Lkaajkkk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Ljava/awt/image/ImageProducer;Lkaajkkk;)V"
+          "desktop_descriptor": "(Ljava/awt/image/ImageProducer;LMovieRasterizer;)V"
         },
         {
           "name": "<init>",
           "descriptor": "(Ljava/awt/Image;Lkaajkkk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Ljava/awt/Image;Lkaajkkk;)V"
+          "desktop_descriptor": "(Ljava/awt/Image;LMovieRasterizer;)V"
         },
         {
           "name": "<init>",
           "descriptor": "([IIILkaajkkk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "([IIILkaajkkk;)V"
+          "desktop_descriptor": "([IIILMovieRasterizer;)V"
         },
         {
           "name": "<init>",
           "descriptor": "([BIILkaajkkk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "([BIILkaajkkk;)V"
+          "desktop_descriptor": "([BIILMovieRasterizer;)V"
         },
         {
           "name": "AMaJaKK",
@@ -4121,30 +4121,30 @@
         {
           "name": "aMajaKK",
           "descriptor": "(Lkaaammk;Ljava/awt/Point;I[BI)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "aMajaKK",
-          "desktop_descriptor": "(Lkaaammk;Ljava/awt/Point;I[BI)V"
+          "desktop_descriptor": "(LMovieFillStyle;Ljava/awt/Point;I[BI)V"
         },
         {
           "name": "amAJaKK",
           "descriptor": "(Lkaaammk;Ljava/awt/Point;I[II)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "amAJaKK",
-          "desktop_descriptor": "(Lkaaammk;Ljava/awt/Point;I[II)V"
+          "desktop_descriptor": "(LMovieFillStyle;Ljava/awt/Point;I[II)V"
         },
         {
           "name": "AmAJaKK",
           "descriptor": "(Lkaaammk;Ljava/awt/Point;I[I)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AmAJaKK",
-          "desktop_descriptor": "(Lkaaammk;Ljava/awt/Point;I[I)V"
+          "desktop_descriptor": "(LMovieFillStyle;Ljava/awt/Point;I[I)V"
         },
         {
           "name": "AMajaKK",
           "descriptor": "(IIILkaaammk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AMajaKK",
-          "desktop_descriptor": "(IIILkaaammk;)V"
+          "desktop_descriptor": "(IIILMovieFillStyle;)V"
         },
         {
           "name": "<clinit>",
@@ -4420,10 +4420,10 @@
     },
     {
       "class": "kmjjmka",
-      "desktop_class": "kmjjmka",
-      "source": "java-desktop/src/main/java/kmjjmka.java",
+      "desktop_class": "MovieBitReader",
+      "source": "java-desktop/src/main/java/MovieBitReader.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "KAmAJak",
@@ -4449,9 +4449,9 @@
         {
           "name": "kaMAJak",
           "descriptor": "(Lmajjkmk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "kaMAJak",
-          "desktop_descriptor": "(Lmajjkmk;)V"
+          "desktop_descriptor": "(LMovieColorTransform;)V"
         },
         {
           "name": "KAMAJak",
@@ -4463,16 +4463,16 @@
         {
           "name": "KaMajak",
           "descriptor": "()Lkaajmmk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "KaMajak",
-          "desktop_descriptor": "()Lkaajmmk;"
+          "desktop_descriptor": "()LMovieBounds;"
         },
         {
           "name": "KaMAJak",
           "descriptor": "()Lkmaammk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "KaMAJak",
-          "desktop_descriptor": "()Lkmaammk;"
+          "desktop_descriptor": "()LMovieTransform;"
         },
         {
           "name": "KamAJak",
@@ -4530,7 +4530,7 @@
           "descriptor": "(Lkmaamma;)V",
           "status": "symbol-renamed",
           "desktop_name": "load",
-          "desktop_descriptor": "(Lkmaamma;)V"
+          "desktop_descriptor": "(LDesktopDemoBase;)V"
         },
         {
           "name": "maJAkkA",
@@ -4579,23 +4579,23 @@
         {
           "name": "akkaMaJ",
           "descriptor": "(Lkmaamma;II)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "akkaMaJ",
-          "desktop_descriptor": "(Lkmaamma;II)V"
+          "desktop_descriptor": "(LDesktopDemoBase;II)V"
         },
         {
           "name": "kKaMaJa",
           "descriptor": "(Lkmaamma;III)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "kKaMaJa",
-          "desktop_descriptor": "(Lkmaamma;III)V"
+          "desktop_descriptor": "(LDesktopDemoBase;III)V"
         },
         {
           "name": "KKaMaJa",
           "descriptor": "(Lkmaamma;IIII)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "KKaMaJa",
-          "desktop_descriptor": "(Lkmaamma;IIII)V"
+          "desktop_descriptor": "(LDesktopDemoBase;IIII)V"
         },
         {
           "name": "aKKaMaJ",
@@ -4614,9 +4614,9 @@
         {
           "name": "AkKaMaJ",
           "descriptor": "(Lkmaamma;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AkKaMaJ",
-          "desktop_descriptor": "(Lkmaamma;)V"
+          "desktop_descriptor": "(LDesktopDemoBase;)V"
         },
         {
           "name": "AKKaMaJ",
@@ -4855,24 +4855,24 @@
     },
     {
       "class": "maaakkk",
-      "desktop_class": "maaakkk",
-      "source": "java-desktop/src/main/java/maaakkk.java",
+      "desktop_class": "ModuleSong",
+      "source": "java-desktop/src/main/java/ModuleSong.java",
       "baseline": "cfr",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "JakkAMa",
           "descriptor": "(Lmmajmma;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "JakkAMa",
-          "desktop_descriptor": "(Lmmajmma;)V"
+          "desktop_descriptor": "(LMixerBus;)V"
         },
         {
           "name": "JAKkAMa",
           "descriptor": "(Lkmjakkk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "JAKkAMa",
-          "desktop_descriptor": "(Lkmjakkk;)V"
+          "desktop_descriptor": "(LScriptEventScheduler;)V"
         },
         {
           "name": "JAkkAMa",
@@ -4884,16 +4884,16 @@
         {
           "name": "MAjakKa",
           "descriptor": "(Lmmajmma;)V",
-          "status": "same-signature",
-          "desktop_name": "MAjakKa",
-          "desktop_descriptor": "(Lmmajmma;)V"
+          "status": "symbol-renamed",
+          "desktop_name": "onMixerTick",
+          "desktop_descriptor": "(LMixerBus;)V"
         },
         {
           "name": "JaKKAMa",
           "descriptor": "(I)Lmmjammk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "JaKKAMa",
-          "desktop_descriptor": "(I)Lmmjammk;"
+          "desktop_descriptor": "(I)LModuleInstrument;"
         },
         {
           "name": "jAkkAMa",
@@ -5036,24 +5036,24 @@
     },
     {
       "class": "maaamka",
-      "desktop_class": "maaamka",
-      "source": "java-desktop/src/main/java/maaamka.java",
+      "desktop_class": "MovieAudioStream",
+      "source": "java-desktop/src/main/java/MovieAudioStream.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
           "descriptor": "([BIILmmaakka;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "([BIILmmaakka;)V"
+          "desktop_descriptor": "([BIILMoviePlayer;)V"
         },
         {
           "name": "kKAmajA",
           "descriptor": "(Lmaaamka;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "kKAmajA",
-          "desktop_descriptor": "(Lmaaamka;)V"
+          "desktop_descriptor": "(LMovieAudioStream;)V"
         },
         {
           "name": "KkAMajA",
@@ -5072,9 +5072,9 @@
         {
           "name": "KkamajA",
           "descriptor": "(Lmaaamka;ILkajamma;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "KkamajA",
-          "desktop_descriptor": "(Lmaaamka;ILkajamma;)V"
+          "desktop_descriptor": "(LMovieAudioStream;ILMovieTimeline;)V"
         },
         {
           "name": "read",
@@ -5181,7 +5181,7 @@
           "descriptor": "(Lkmaamma;)V",
           "status": "symbol-renamed",
           "desktop_name": "load",
-          "desktop_descriptor": "(Lkmaamma;)V"
+          "desktop_descriptor": "(LDesktopDemoBase;)V"
         },
         {
           "name": "MajakkA",
@@ -5208,17 +5208,17 @@
     },
     {
       "class": "maaammk",
-      "desktop_class": "maaammk",
-      "source": "java-desktop/src/main/java/maaammk.java",
+      "desktop_class": "MovieFillSpan",
+      "source": "java-desktop/src/main/java/MovieFillSpan.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "aKkaMaj",
           "descriptor": "(Lkaaammk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "aKkaMaj",
-          "desktop_descriptor": "(Lkaaammk;)V"
+          "desktop_descriptor": "(LMovieFillStyle;)V"
         },
         {
           "name": "akkaMaj",
@@ -5230,9 +5230,9 @@
         {
           "name": "AKkaMaj",
           "descriptor": "(Lkaajkkk;I)Lmaaammk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AKkaMaj",
-          "desktop_descriptor": "(Lkaajkkk;I)Lmaaammk;"
+          "desktop_descriptor": "(LMovieRasterizer;I)LMovieFillSpan;"
         },
         {
           "name": "<init>",
@@ -5269,7 +5269,7 @@
           "descriptor": "(Lkmaamma;)V",
           "status": "symbol-renamed",
           "desktop_name": "load",
-          "desktop_descriptor": "(Lkmaamma;)V"
+          "desktop_descriptor": "(LDesktopDemoBase;)V"
         },
         {
           "name": "MajakkA",
@@ -5297,7 +5297,7 @@
           "descriptor": "(Lmmjjmkk;Lkmaamma;)Lkmjammk;",
           "status": "symbol-renamed",
           "desktop_name": "aMaJakk",
-          "desktop_descriptor": "(LCamera;Lkmaamma;)LHeightFieldMesh;"
+          "desktop_descriptor": "(LCamera;LDesktopDemoBase;)LHeightFieldMesh;"
         },
         {
           "name": "<init>",
@@ -5310,10 +5310,10 @@
     },
     {
       "class": "maajkkk",
-      "desktop_class": "maajkkk",
-      "source": "java-desktop/src/main/java/maajkkk.java",
+      "desktop_class": "MovieScanlineEdge",
+      "source": "java-desktop/src/main/java/MovieScanlineEdge.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "jaKKAmA",
@@ -5435,10 +5435,10 @@
     },
     {
       "class": "maajmma",
-      "desktop_class": "maajmma",
-      "source": "java-desktop/src/main/java/maajmma.java",
+      "desktop_class": "XmSampleHeaderOffsets",
+      "source": "java-desktop/src/main/java/XmSampleHeaderOffsets.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -5451,24 +5451,24 @@
     },
     {
       "class": "maajmmk",
-      "desktop_class": "maajmmk",
-      "source": "java-desktop/src/main/java/maajmmk.java",
+      "desktop_class": "MovieShapeDecoder",
+      "source": "java-desktop/src/main/java/MovieShapeDecoder.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
           "descriptor": "(Lkajamma;ILkmaammk;Lmajjkmk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Lkajamma;ILkmaammk;Lmajjkmk;)V"
+          "desktop_descriptor": "(LMovieTimeline;ILMovieTransform;LMovieColorTransform;)V"
         },
         {
           "name": "akKamaJ",
           "descriptor": "(Lkaaammk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "akKamaJ",
-          "desktop_descriptor": "(Lkaaammk;)V"
+          "desktop_descriptor": "(LMovieFillStyle;)V"
         },
         {
           "name": "akKAmaJ",
@@ -5480,16 +5480,16 @@
         {
           "name": "akkamaJ",
           "descriptor": "(Lmajjkkk;)I",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "akkamaJ",
-          "desktop_descriptor": "(Lmajjkkk;)I"
+          "desktop_descriptor": "(LQuadraticEdge;)I"
         },
         {
           "name": "AkKAmaJ",
           "descriptor": "(Lmajjkkk;Z)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AkKAmaJ",
-          "desktop_descriptor": "(Lmajjkkk;Z)V"
+          "desktop_descriptor": "(LQuadraticEdge;Z)V"
         },
         {
           "name": "AKkamaJ",
@@ -5515,51 +5515,51 @@
         {
           "name": "AkkAmaJ",
           "descriptor": "(Lmajjkkk;Ljava/awt/Point;Ljava/awt/Point;)Lmajjkkk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AkkAmaJ",
-          "desktop_descriptor": "(Lmajjkkk;Ljava/awt/Point;Ljava/awt/Point;)Lmajjkkk;"
+          "desktop_descriptor": "(LQuadraticEdge;Ljava/awt/Point;Ljava/awt/Point;)LQuadraticEdge;"
         },
         {
           "name": "AKKamaJ",
           "descriptor": "(Lmajjkkk;)Lmajjkkk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AKKamaJ",
-          "desktop_descriptor": "(Lmajjkkk;)Lmajjkkk;"
+          "desktop_descriptor": "(LQuadraticEdge;)LQuadraticEdge;"
         },
         {
           "name": "aKkAmaJ",
           "descriptor": "(Lmajjkkk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "aKkAmaJ",
-          "desktop_descriptor": "(Lmajjkkk;)V"
+          "desktop_descriptor": "(LQuadraticEdge;)V"
         },
         {
           "name": "AKkAmaJ",
           "descriptor": "(Lmajjkkk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AKkAmaJ",
-          "desktop_descriptor": "(Lmajjkkk;)V"
+          "desktop_descriptor": "(LQuadraticEdge;)V"
         },
         {
           "name": "akkAmaJ",
           "descriptor": "(Lmajjkkk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "akkAmaJ",
-          "desktop_descriptor": "(Lmajjkkk;)V"
+          "desktop_descriptor": "(LQuadraticEdge;)V"
         },
         {
           "name": "aKKamaJ",
           "descriptor": "(ILkaaammk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "aKKamaJ",
-          "desktop_descriptor": "(ILkaaammk;)V"
+          "desktop_descriptor": "(ILMovieFillStyle;)V"
         },
         {
           "name": "aKKAmaJ",
           "descriptor": "(Lmajjkkk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "aKKAmaJ",
-          "desktop_descriptor": "(Lmajjkkk;)V"
+          "desktop_descriptor": "(LQuadraticEdge;)V"
         },
         {
           "name": "AKKAmaJ",
@@ -5572,10 +5572,10 @@
     },
     {
       "class": "majakka",
-      "desktop_class": "majakka",
-      "source": "java-desktop/src/main/java/majakka.java",
+      "desktop_class": "ModuleChannel",
+      "source": "java-desktop/src/main/java/ModuleChannel.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -5587,9 +5587,9 @@
         {
           "name": "AMaJAKk",
           "descriptor": "(Lmmjammk;I)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AMaJAKk",
-          "desktop_descriptor": "(Lmmjammk;I)V"
+          "desktop_descriptor": "(LModuleInstrument;I)V"
         },
         {
           "name": "kkAMAJa",
@@ -5647,7 +5647,7 @@
           "descriptor": "(Lkmaamma;)V",
           "status": "symbol-renamed",
           "desktop_name": "load",
-          "desktop_descriptor": "(Lkmaamma;)V"
+          "desktop_descriptor": "(LDesktopDemoBase;)V"
         },
         {
           "name": "maJAkkA",
@@ -5719,7 +5719,7 @@
           "descriptor": "(Lkmaamma;)V",
           "status": "symbol-renamed",
           "desktop_name": "load",
-          "desktop_descriptor": "(Lkmaamma;)V"
+          "desktop_descriptor": "(LDesktopDemoBase;)V"
         },
         {
           "name": "MajakkA",
@@ -5753,10 +5753,10 @@
     },
     {
       "class": "majakmk",
-      "desktop_class": "majakmk",
-      "source": "java-desktop/src/main/java/majakmk.java",
+      "desktop_class": "ScheduledSongPosition",
+      "source": "java-desktop/src/main/java/ScheduledSongPosition.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -5776,10 +5776,10 @@
     },
     {
       "class": "majamka",
-      "desktop_class": "majamka",
-      "source": "java-desktop/src/main/java/majamka.java",
+      "desktop_class": "LegacyFullscreenWindow",
+      "source": "java-desktop/src/main/java/LegacyFullscreenWindow.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -5820,24 +5820,24 @@
     },
     {
       "class": "majamma",
-      "desktop_class": "majamma",
-      "source": "java-desktop/src/main/java/majamma.java",
+      "desktop_class": "MixerBusListener",
+      "source": "java-desktop/src/main/java/MixerBusListener.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "MAjakKa",
           "descriptor": "(Lmmajmma;)V",
-          "status": "same-signature",
-          "desktop_name": "MAjakKa",
-          "desktop_descriptor": "(Lmmajmma;)V"
+          "status": "symbol-renamed",
+          "desktop_name": "onMixerTick",
+          "desktop_descriptor": "(LMixerBus;)V"
         }
       ]
     },
     {
       "class": "majammk",
-      "desktop_class": "majammk",
-      "source": "java-desktop/src/main/java/majammk.java",
+      "desktop_class": "StartupTunerCanvas",
+      "source": "java-desktop/src/main/java/StartupTunerCanvas.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [
@@ -5908,10 +5908,10 @@
     },
     {
       "class": "majjkka",
-      "desktop_class": "majjkka",
-      "source": "java-desktop/src/main/java/majjkka.java",
+      "desktop_class": "Envelope",
+      "source": "java-desktop/src/main/java/Envelope.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -5930,22 +5930,22 @@
         {
           "name": "AMAjAkk",
           "descriptor": "(I)V",
-          "status": "same-signature",
-          "desktop_name": "AMAjAkk",
+          "status": "symbol-renamed",
+          "desktop_name": "setFadeoutStep",
           "desktop_descriptor": "(I)V"
         },
         {
           "name": "amAjAkk",
           "descriptor": "(I)B",
-          "status": "same-signature",
-          "desktop_name": "amAjAkk",
+          "status": "symbol-renamed",
+          "desktop_name": "valueAt",
           "desktop_descriptor": "(I)B"
         },
         {
           "name": "aMAjAkk",
           "descriptor": "(IZ)I",
-          "status": "same-signature",
-          "desktop_name": "aMAjAkk",
+          "status": "symbol-renamed",
+          "desktop_name": "advancePosition",
           "desktop_descriptor": "(IZ)I"
         },
         {
@@ -5959,10 +5959,10 @@
     },
     {
       "class": "majjkkk",
-      "desktop_class": "majjkkk",
-      "source": "java-desktop/src/main/java/majjkkk.java",
+      "desktop_class": "QuadraticEdge",
+      "source": "java-desktop/src/main/java/QuadraticEdge.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -5974,9 +5974,9 @@
         {
           "name": "<init>",
           "descriptor": "(Lmajjkkk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Lmajjkkk;)V"
+          "desktop_descriptor": "(LQuadraticEdge;)V"
         },
         {
           "name": "aKkAmaj",
@@ -5995,9 +5995,9 @@
         {
           "name": "AKKaMAj",
           "descriptor": "(I)Lmajjkkk;",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "AKKaMAj",
-          "desktop_descriptor": "(I)Lmajjkkk;"
+          "desktop_descriptor": "(I)LQuadraticEdge;"
         },
         {
           "name": "AkKaMAj",
@@ -6017,17 +6017,17 @@
     },
     {
       "class": "majjkmk",
-      "desktop_class": "majjkmk",
-      "source": "java-desktop/src/main/java/majjkmk.java",
+      "desktop_class": "MovieColorTransform",
+      "source": "java-desktop/src/main/java/MovieColorTransform.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
           "descriptor": "(Lkaajkkk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Lkaajkkk;)V"
+          "desktop_descriptor": "(LMovieRasterizer;)V"
         },
         {
           "name": "KKAmAJA",
@@ -6060,16 +6060,16 @@
         {
           "name": "kKAmAJA",
           "descriptor": "(Lkaaammk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "kKAmAJA",
-          "desktop_descriptor": "(Lkaaammk;)V"
+          "desktop_descriptor": "(LMovieFillStyle;)V"
         },
         {
           "name": "kkAmAJA",
           "descriptor": "(Lkaaammk;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "kkAmAJA",
-          "desktop_descriptor": "(Lkaaammk;)V"
+          "desktop_descriptor": "(LMovieFillStyle;)V"
         }
       ]
     },
@@ -6205,10 +6205,10 @@
     },
     {
       "class": "majjmmk",
-      "desktop_class": "majjmmk",
-      "source": "java-desktop/src/main/java/majjmmk.java",
+      "desktop_class": "ModHeaderOffsets",
+      "source": "java-desktop/src/main/java/ModHeaderOffsets.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -6221,8 +6221,8 @@
     },
     {
       "class": "mmaakka",
-      "desktop_class": "mmaakka",
-      "source": "java-desktop/src/main/java/mmaakka.java",
+      "desktop_class": "MoviePlayer",
+      "source": "java-desktop/src/main/java/MoviePlayer.java",
       "baseline": "cfr",
       "source_unchanged": false,
       "methods": [
@@ -6348,16 +6348,16 @@
         {
           "name": "KaMaJaK",
           "descriptor": "(IILkajakkk;)Z",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "KaMaJaK",
-          "desktop_descriptor": "(IILkajakkk;)Z"
+          "desktop_descriptor": "(IILMovieDisplayObject;)Z"
         },
         {
           "name": "aMaJaKk",
           "descriptor": "(IILkajakkk;)Z",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "aMaJaKk",
-          "desktop_descriptor": "(IILkajakkk;)Z"
+          "desktop_descriptor": "(IILMovieDisplayObject;)Z"
         },
         {
           "name": "kAMaJaK",
@@ -6694,26 +6694,26 @@
     },
     {
       "class": "mmaakma",
-      "desktop_class": "mmaakma",
-      "source": "java-desktop/src/main/java/mmaakma.java",
+      "desktop_class": "ScriptEventListener",
+      "source": "java-desktop/src/main/java/ScriptEventListener.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "maJaKkA",
           "descriptor": "(ILjava/lang/String;)V",
-          "status": "same-signature",
-          "desktop_name": "maJaKkA",
+          "status": "symbol-renamed",
+          "desktop_name": "onScriptEvent",
           "desktop_descriptor": "(ILjava/lang/String;)V"
         }
       ]
     },
     {
       "class": "mmaakmk",
-      "desktop_class": "mmaakmk",
-      "source": "java-desktop/src/main/java/mmaakmk.java",
+      "desktop_class": "ModuleVoice",
+      "source": "java-desktop/src/main/java/ModuleVoice.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "kKaMAJa",
@@ -6795,16 +6795,16 @@
         {
           "name": "KKaMAJa",
           "descriptor": "(Lkmaamka;I)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "KKaMAJa",
-          "desktop_descriptor": "(Lkmaamka;I)V"
+          "desktop_descriptor": "(LModuleSample;I)V"
         },
         {
           "name": "KkamaJa",
           "descriptor": "(Lkmaamka;IZ)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "KkamaJa",
-          "desktop_descriptor": "(Lkmaamka;IZ)V"
+          "desktop_descriptor": "(LModuleSample;IZ)V"
         },
         {
           "name": "KkamAJa",
@@ -7294,72 +7294,72 @@
     },
     {
       "class": "mmajkkk",
-      "desktop_class": "mmajkkk",
-      "source": "java-desktop/src/main/java/mmajkkk.java",
+      "desktop_class": "ByteReaders",
+      "source": "java-desktop/src/main/java/ByteReaders.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "aKKAmAj",
           "descriptor": "([BI)I",
-          "status": "same-signature",
-          "desktop_name": "aKKAmAj",
+          "status": "symbol-renamed",
+          "desktop_name": "readUnsignedByte",
           "desktop_descriptor": "([BI)I"
         },
         {
           "name": "AkkAmAj",
           "descriptor": "([BI)I",
-          "status": "same-signature",
-          "desktop_name": "AkkAmAj",
+          "status": "symbol-renamed",
+          "desktop_name": "readUnsignedShortLE",
           "desktop_descriptor": "([BI)I"
         },
         {
           "name": "JaKkAmA",
           "descriptor": "([BI)I",
-          "status": "same-signature",
-          "desktop_name": "JaKkAmA",
+          "status": "symbol-renamed",
+          "desktop_name": "readUnsignedShortBE",
           "desktop_descriptor": "([BI)I"
         },
         {
           "name": "jAKkAmA",
           "descriptor": "([BI)I",
-          "status": "same-signature",
-          "desktop_name": "jAKkAmA",
+          "status": "symbol-renamed",
+          "desktop_name": "readIntLE",
           "desktop_descriptor": "([BI)I"
         },
         {
           "name": "aKkAmAj",
           "descriptor": "([BI)I",
-          "status": "same-signature",
-          "desktop_name": "aKkAmAj",
+          "status": "symbol-renamed",
+          "desktop_name": "readSignedByte",
           "desktop_descriptor": "([BI)I"
         },
         {
           "name": "AKkAmAj",
           "descriptor": "([BI)I",
-          "status": "same-signature",
-          "desktop_name": "AKkAmAj",
+          "status": "symbol-renamed",
+          "desktop_name": "readSignedShortLE",
           "desktop_descriptor": "([BI)I"
         },
         {
           "name": "JAKkAmA",
           "descriptor": "([BI)I",
-          "status": "same-signature",
-          "desktop_name": "JAKkAmA",
+          "status": "symbol-renamed",
+          "desktop_name": "readSignedShortBE",
           "desktop_descriptor": "([BI)I"
         },
         {
           "name": "akkAmAj",
           "descriptor": "(B)I",
-          "status": "same-signature",
-          "desktop_name": "akkAmAj",
+          "status": "symbol-renamed",
+          "desktop_name": "toUnsignedByte",
           "desktop_descriptor": "(B)I"
         },
         {
           "name": "jaKkAmA",
           "descriptor": "(I)I",
-          "status": "same-signature",
-          "desktop_name": "jaKkAmA",
+          "status": "symbol-renamed",
+          "desktop_name": "lowUnsignedByte",
           "desktop_descriptor": "(I)I"
         },
         {
@@ -7380,10 +7380,10 @@
     },
     {
       "class": "mmajkmk",
-      "desktop_class": "mmajkmk",
-      "source": "java-desktop/src/main/java/mmajkmk.java",
+      "desktop_class": "ModulePattern",
+      "source": "java-desktop/src/main/java/ModulePattern.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -7395,25 +7395,25 @@
         {
           "name": "KkAMAJA",
           "descriptor": "(IIIIIII)V",
-          "status": "same-signature",
-          "desktop_name": "KkAMAJA",
+          "status": "symbol-renamed",
+          "desktop_name": "setCell",
           "desktop_descriptor": "(IIIIIII)V"
         },
         {
           "name": "kKamAJA",
           "descriptor": "(I)[B",
-          "status": "same-signature",
-          "desktop_name": "kKamAJA",
+          "status": "symbol-renamed",
+          "desktop_name": "getRow",
           "desktop_descriptor": "(I)[B"
         }
       ]
     },
     {
       "class": "mmajmka",
-      "desktop_class": "mmajmka",
-      "source": "java-desktop/src/main/java/mmajmka.java",
+      "desktop_class": "XmInstrumentEnvelopeOffsets",
+      "source": "java-desktop/src/main/java/XmInstrumentEnvelopeOffsets.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -7426,10 +7426,10 @@
     },
     {
       "class": "mmajmma",
-      "desktop_class": "mmajmma",
-      "source": "java-desktop/src/main/java/mmajmma.java",
+      "desktop_class": "MixerBus",
+      "source": "java-desktop/src/main/java/MixerBus.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -7448,9 +7448,9 @@
         {
           "name": "mAjAkkA",
           "descriptor": "(Lmajamma;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "mAjAkkA",
-          "desktop_descriptor": "(Lmajamma;)V"
+          "desktop_descriptor": "(LMixerBusListener;)V"
         },
         {
           "name": "MAJAkkA",
@@ -7498,8 +7498,8 @@
     },
     {
       "class": "mmajmmk",
-      "desktop_class": "mmajmmk",
-      "source": "java-desktop/src/main/java/mmajmmk.java",
+      "desktop_class": "MovieSignal",
+      "source": "java-desktop/src/main/java/MovieSignal.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [
@@ -7513,46 +7513,46 @@
         {
           "name": "aKkAMaJ",
           "descriptor": "()Z",
-          "status": "same-signature",
-          "desktop_name": "aKkAMaJ",
+          "status": "symbol-renamed",
+          "desktop_name": "isSignalled",
           "desktop_descriptor": "()Z"
         },
         {
           "name": "akkAMaJ",
           "descriptor": "()V",
-          "status": "same-signature",
-          "desktop_name": "akkAMaJ",
+          "status": "symbol-renamed",
+          "desktop_name": "awaitSignal",
           "desktop_descriptor": "()V"
         },
         {
           "name": "AkkAMaJ",
           "descriptor": "()V",
-          "status": "same-signature",
-          "desktop_name": "AkkAMaJ",
+          "status": "symbol-renamed",
+          "desktop_name": "awaitAndConsumeSignal",
           "desktop_descriptor": "()V"
         },
         {
           "name": "aKKAMaJ",
           "descriptor": "()V",
-          "status": "same-signature",
-          "desktop_name": "aKKAMaJ",
+          "status": "symbol-renamed",
+          "desktop_name": "signal",
           "desktop_descriptor": "()V"
         },
         {
           "name": "AKkAMaJ",
           "descriptor": "()Z",
-          "status": "same-signature",
-          "desktop_name": "AKkAMaJ",
+          "status": "symbol-renamed",
+          "desktop_name": "clearAndGetPreviousSignal",
           "desktop_descriptor": "()Z"
         }
       ]
     },
     {
       "class": "mmjakka",
-      "desktop_class": "mmjakka",
-      "source": "java-desktop/src/main/java/mmjakka.java",
+      "desktop_class": "MovieCharacter",
+      "source": "java-desktop/src/main/java/MovieCharacter.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -7565,10 +7565,10 @@
     },
     {
       "class": "mmjakkk",
-      "desktop_class": "mmjakkk",
-      "source": "java-desktop/src/main/java/mmjakkk.java",
+      "desktop_class": "ModSampleHeaderOffsets",
+      "source": "java-desktop/src/main/java/ModSampleHeaderOffsets.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
@@ -7581,17 +7581,17 @@
     },
     {
       "class": "mmjakmk",
-      "desktop_class": "mmjakmk",
-      "source": "java-desktop/src/main/java/mmjakmk.java",
+      "desktop_class": "MovieController",
+      "source": "java-desktop/src/main/java/MovieController.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [
         {
           "name": "<init>",
           "descriptor": "(Lmmaakka;)V",
-          "status": "same-signature",
+          "status": "symbol-renamed",
           "desktop_name": "<init>",
-          "desktop_descriptor": "(Lmmaakka;)V"
+          "desktop_descriptor": "(LMoviePlayer;)V"
         },
         {
           "name": "KkamAja",
@@ -8245,24 +8245,24 @@
     },
     {
       "class": "mmjammk",
-      "desktop_class": "mmjammk",
-      "source": "java-desktop/src/main/java/mmjammk.java",
+      "desktop_class": "ModuleInstrument",
+      "source": "java-desktop/src/main/java/ModuleInstrument.java",
       "baseline": "procyon",
-      "source_unchanged": true,
+      "source_unchanged": false,
       "methods": [
         {
           "name": "akkaMAJ",
           "descriptor": "(Lkmaamka;)V",
-          "status": "same-signature",
-          "desktop_name": "akkaMAJ",
-          "desktop_descriptor": "(Lkmaamka;)V"
+          "status": "symbol-renamed",
+          "desktop_name": "setSampleForAllNotes",
+          "desktop_descriptor": "(LModuleSample;)V"
         },
         {
           "name": "AkkaMAJ",
           "descriptor": "(ILkmaamka;)V",
-          "status": "same-signature",
-          "desktop_name": "AkkaMAJ",
-          "desktop_descriptor": "(ILkmaamka;)V"
+          "status": "symbol-renamed",
+          "desktop_name": "setSampleForNote",
+          "desktop_descriptor": "(ILModuleSample;)V"
         },
         {
           "name": "<init>",
@@ -8298,8 +8298,8 @@
     },
     {
       "class": "mmjjkkk",
-      "desktop_class": "mmjjkkk",
-      "source": "java-desktop/src/main/java/mmjjkkk.java",
+      "desktop_class": "ScheduledScriptEvent",
+      "source": "java-desktop/src/main/java/ScheduledScriptEvent.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [
@@ -8314,8 +8314,8 @@
     },
     {
       "class": "mmjjkmk",
-      "desktop_class": "mmjjkmk",
-      "source": "java-desktop/src/main/java/mmjjkmk.java",
+      "desktop_class": "EmbeddedJpegProducer",
+      "source": "java-desktop/src/main/java/EmbeddedJpegProducer.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [

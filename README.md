@@ -26,7 +26,7 @@ See [desktop usage](java-desktop/README.md) and the
   original-size PNG recovered; the full gallery remains blocked by Cloudflare.
 - [Provenance manifest](original/manifest.json) and [SHA-256 checksums](original/SHA256SUMS).
 - [Decompilation references and reproduction commands](reverse/README.md).
-- [3D-engine names and regression checks](documentation/3d-engine-renaming.md).
+- [Descriptive symbol names and regression checks](documentation/symbol-renaming-applied.md).
 - [Separate French note on obfuscation](documentation/obfuscation-notes-fr.md).
 
 ## Repository layout

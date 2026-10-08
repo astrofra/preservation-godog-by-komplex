@@ -6,7 +6,7 @@ public abstract class Scene
 {
     public abstract String getSceneId();
     
-    public void load(final kmaamma kmaamma) {
+    public void load(final DesktopDemoBase kmaamma) {
     }
     
     public void enter() {

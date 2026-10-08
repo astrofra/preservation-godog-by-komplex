@@ -18,7 +18,7 @@ public final class GodogDesktop {
     private static final AtomicBoolean closing = new AtomicBoolean();
     private static final double[] captureTimes = {0, 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 188};
     private static int nextCapture;
-    private static kmaamma demo;
+    private static DesktopDemoBase demo;
     private static Frame window;
 
     public static void main(String[] args) {
@@ -42,7 +42,7 @@ public final class GodogDesktop {
             if (captureDirectory != null) Files.createDirectories(captureDirectory);
             assetBase();
             EventQueue.invokeLater(() -> {
-                try { launch(new godog(), null, 512, 256); }
+                try { launch(new GodogDemo(), null, 512, 256); }
                 catch (Throwable failure) { failed(failure); }
             });
         } catch (Exception failure) { failed(failure); }
@@ -66,12 +66,12 @@ public final class GodogDesktop {
         } catch (Exception failure) { throw new IllegalStateException("Cannot resolve Godog assets", failure); }
     }
 
-    public static void launch(kmaamma surface, String[] parameters, int width, int height) {
+    public static void launch(DesktopDemoBase surface, String[] parameters, int width, int height) {
         if (!EventQueue.isDispatchThread()) {
             EventQueue.invokeLater(() -> launch(surface, parameters, width, height)); return;
         }
         demo = surface;
-        kmajmmk stub = new kmajmmk();
+        DesktopParameterStub stub = new DesktopParameterStub();
         if (parameters != null) for (int i = 0; i + 1 < parameters.length; i += 2) stub.AkKamaJ(parameters[i], parameters[i + 1]);
         surface.setStub(stub);
         surface.amaJakK = true;
@@ -117,7 +117,7 @@ public final class GodogDesktop {
             canvas.addMouseListener(mouse);
             canvas.addMouseMotionListener(mouse);
             canvas.addFocusListener(new FocusAdapter() {
-                @Override public void focusLost(FocusEvent event) { godog.kamAjAk = false; }
+                @Override public void focusLost(FocusEvent event) { GodogDemo.kamAjAk = false; }
             });
             window.setVisible(true);
             canvas.requestFocusInWindow();

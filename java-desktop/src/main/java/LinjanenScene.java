@@ -9,7 +9,7 @@ public class LinjanenScene extends Scene
     RadialFlareMesh aKKAMaJ;
     WireframeMesh AkkAMaJ;
     RgbSurface akkAMaJ;
-    kmaamma AKkAMaJ;
+    DesktopDemoBase AKkAMaJ;
     ParticleCloudMesh aKkAMaJ;
     boolean AkKamaJ;
     float akKamaJ;
@@ -22,7 +22,7 @@ public class LinjanenScene extends Scene
         this.AKKAMaJ = null;
     }
     
-    public void load(final kmaamma aKkAMaJ) {
+    public void load(final DesktopDemoBase aKkAMaJ) {
         this.AKkAMaJ = aKkAMaJ;
         this.akKAMaJ = new Camera();
         this.akKAMaJ.amaJAkK = 1.2f;
@@ -44,8 +44,8 @@ public class LinjanenScene extends Scene
         this.AkkAMaJ.aJAkkAM = true;
         this.AkkAMaJ.majakka.mAJAKKA(0.07f);
         this.akkAMaJ = (RgbSurface)ImageMathSupport.MAjaKkA(this.AKkAMaJ.aMajAKK("images/surtausta.jpg"));
-        godog.KKAMAjA.kAmAJAk.kamaJAk(true);
-        godog.KKAMAjA.kAmAJAk.KAmAjak(-0.23f);
+        GodogDemo.KKAMAjA.kAmAJAk.kamaJAk(true);
+        GodogDemo.KKAMAjA.kAmAJAk.KAmAjak(-0.23f);
         (this.AKKAMaJ = new SceneRenderer()).mAJAKkA(this.AkkAMaJ);
         final RgbSurface mmajkka = (RgbSurface)ImageMathSupport.MAjaKkA(this.AKkAMaJ.aMajAKK("images/flare.jpg"));
         this.aKkAMaJ = new ParticleCloudMesh(230, 500.0f);
@@ -76,7 +76,7 @@ public class LinjanenScene extends Scene
         mmajkka.amaJAkk(this.akkAMaJ, 0, n2);
         final float n3 = majakKa - this.akKamaJ;
         final int n4 = (int)Math.max(30.0f, 1.0f / (1.0f + n3 * n3 * 4.0f) * 80.0f);
-        godog.KKAMAjA.kAmAJAk.KAmaJAk(n4 << 20 | n4 << 10 | n4);
+        GodogDemo.KKAMAjA.kAmAJAk.KAmaJAk(n4 << 20 | n4 << 10 | n4);
         this.AkkAMaJ.mAJAKKa = majakKa;
         this.AkkAMaJ.mAjakka.KamajAK();
         this.AkkAMaJ.mAjakka.kAmAJAK(majakKa * 0.2f);
@@ -88,8 +88,8 @@ public class LinjanenScene extends Scene
         this.aKKAMaJ.mAJAKKa = majakKa;
         this.akKAMaJ.position.mAJaKka(0.0f, 32.0f, 0.0f);
         this.akKAMaJ.lookAt(new Vec3f(0.0f, 0.001f, 0.0f));
-        this.AKKAMaJ.mAjAKkA(this.akKAMaJ, godog.KKAMAjA);
-        this.AKKAMaJ.MajAKkA(godog.KKAMAjA);
+        this.AKKAMaJ.mAjAKkA(this.akKAMaJ, GodogDemo.KKAMAjA);
+        this.AKKAMaJ.MajAKkA(GodogDemo.KKAMAjA);
         mmajkka.aMajAkk();
     }
     

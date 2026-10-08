@@ -1,0 +1,30 @@
+2026-10-08: installed distribution, OpenJDK 25.0.2 / macOS arm64
+Working directory: /tmp
+Command: /Users/fra/dev/preservation-godog-by-komplex/java-desktop/build/install/godog-desktop/bin/godog-desktop --headless --mute --duration 192
+Exit status: 0
+
+loading XM "Rocketspeed Risin'  "
+01mesh:"paa1"  verts:324  faces:629
+mesh:"paa2"  verts:324  faces:629
+mesh:"flare01"  verts:6  faces:8
+2mesh:"01"  verts:264  faces:432
+mesh:"02"  verts:264  faces:432
+mesh:"03"  verts:264  faces:432
+mesh:"04"  verts:264  faces:432
+mesh:"05"  verts:264  faces:432
+mesh:"06"  verts:264  faces:432
+3mesh:"01"  verts:731  faces:1462
+4mesh:"paa2"  verts:324  faces:629
+mesh:"Hedra01"  verts:12  faces:36
+mesh:"Hedra02"  verts:12  faces:36
+mesh:"Hedra03"  verts:30  faces:56
+56MUSIC 0.000
+SCENE 0.146 movieintro
+SCENE 59.992 paa
+know start
+SCENE 94.281 trav
+SCENE 119.998 vehje
+SCENE 128.568 evil
+SCENE 162.855 linjanen
+SCENE 188.566 endscreen
+Godog desktop stopped.

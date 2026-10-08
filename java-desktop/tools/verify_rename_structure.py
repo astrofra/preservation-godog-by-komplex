@@ -21,7 +21,7 @@ def git(*args):
 
 
 def main():
-    mapping = json.loads((ROOT/'documentation/3d-symbol-map.json').read_text())
+    mapping = json.loads((ROOT/'documentation/symbol-map.json').read_text())
     revision = mapping['baseline_commit']
     classes = mapping['classes']
     allowed = set(classes.items()) | {(m['original_name'], m['proposed_name']) for m in mapping['members']}

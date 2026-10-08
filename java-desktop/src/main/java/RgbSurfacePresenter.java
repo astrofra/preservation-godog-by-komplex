@@ -16,7 +16,7 @@ public final class RgbSurfacePresenter extends SurfacePresenter
     Graphics kaMajAk;
     int KAMajAk;
     
-    public void AkKaMaJ(final kmaamma kmaamma) {
+    public void AkKaMaJ(final DesktopDemoBase kmaamma) {
         this.kamAJAk = new RgbSurface(super.jAkkamA, super.JaKKamA, 2, true);
         this.KAmAJAk = new TexturedTriangleRasterizer(this.kamAJAk);
         this.kAmAJAk = new LineRasterizer(this.kamAJAk, super.jAkkamA, super.JaKKamA);

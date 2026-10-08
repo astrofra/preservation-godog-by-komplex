@@ -6,7 +6,7 @@ import struct
 import re
 
 ROOT = Path(__file__).resolve().parents[2]
-RENAMES = json.loads((ROOT/'documentation/3d-symbol-map.json').read_text())
+RENAMES = json.loads((ROOT/'documentation/symbol-map.json').read_text())
 CLASS_NAMES = RENAMES['classes']
 MEMBER_NAMES = {(m['owner'], m['kind'], m['original_name'], m['original_descriptor']):
                 m['proposed_name'] for m in RENAMES['members']}
@@ -83,7 +83,7 @@ def main():
         report.append({'class':owner, 'desktop_class':desktop_class, 'source':str(source.relative_to(ROOT)),
                        'baseline':baseline, 'source_unchanged':same_source, 'methods':entries})
     target = ROOT/'documentation/java-desktop-correspondence.json'
-    target.write_text(json.dumps({'note':'Signature correspondence is not a proof of behavioral equivalence. See java-desktop-restoration.md for edits and differential validation; 3d-symbol-map.json records applied names.', 'classes':report},indent=2)+'\n')
+    target.write_text(json.dumps({'note':'Signature correspondence is not a proof of behavioral equivalence. See java-desktop-restoration.md for edits and differential validation; symbol-map.json records applied names.', 'classes':report},indent=2)+'\n')
     print(f'Accounted for {len(report)} classes, {sum(len(c["methods"]) for c in report)} methods; {sum(c["source_unchanged"] for c in report)} source files unchanged from selected decompiler.')
     for c in report:
         for m in c['methods']:

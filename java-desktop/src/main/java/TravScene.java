@@ -10,7 +10,7 @@ public class TravScene extends Scene
     RgbSurface mAJaKkA;
     RgbSurface MajaKkA;
     RgbSurface majaKkA;
-    kmaamma MAjaKkA;
+    DesktopDemoBase MAjaKkA;
     
     public String getSceneId() {
         return "trav";
@@ -25,7 +25,7 @@ public class TravScene extends Scene
         this.mAJaKkA = null;
     }
     
-    public void load(final kmaamma mAjaKkA) {
+    public void load(final DesktopDemoBase mAjaKkA) {
         this.MAjaKkA = mAjaKkA;
         this.MaJaKkA = new Camera();
         this.MaJaKkA.amaJAkK = 1.4f;
@@ -70,8 +70,8 @@ public class TravScene extends Scene
         this.MAJaKkA.MaJakKA = 30.0f;
         final float n3 = (float)Math.max(0.0, Math.sin((double)majakKa * 0.3));
         this.MAJaKkA.MAJakKA = (float)(0.8100000023841858 - 0.8 * n3 * n3);
-        this.maJaKkA.mAjAKkA(this.MaJaKkA, godog.KKAMAjA);
-        this.maJaKkA.MajAKkA(godog.KKAMAjA);
+        this.maJaKkA.mAjAKkA(this.MaJaKkA, GodogDemo.KKAMAjA);
+        this.maJaKkA.MajAKkA(GodogDemo.KKAMAjA);
         mmajkka.aMajAkk();
     }
     

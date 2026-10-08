@@ -34,7 +34,7 @@ public class CompareOriginal {
                 default -> null;
             });
             applet.getMethod("setStub",stub).invoke(oldDemo,adapter);
-            godog restored=new godog();
+            GodogDemo restored=new GodogDemo();
             call(oldDemo,"kAmajAk",new Class[]{}); restored.kAmajAk();
             Object oldRenderer=field(oldDemo.getClass(),null,"KKAMAjA");
             Object oldPixels=field(oldRenderer.getClass(),oldRenderer,"kamAJAk");
@@ -59,12 +59,12 @@ public class CompareOriginal {
                 for(float t:times) {
                     seed(888+(int)t);
                     scene.getClass().getMethod("MajakkA",old.loadClass("mmajkka"),float.class,float.class).invoke(scene,oldPixels,t,.02f);
-                    seed(888+(int)t); current.render(godog.kKAMAjA,t,.02f);
+                    seed(888+(int)t); current.render(GodogDemo.kKAMAjA,t,.02f);
                     BufferedImage referenceImage = null;
                     for(int variant=0;variant<2;variant++) {
                         BufferedImage image=new BufferedImage(512,256,BufferedImage.TYPE_INT_RGB);Graphics g=image.getGraphics();
                         if(variant==0) oldRenderer.getClass().getMethod("AKKaMaJ",Graphics.class,int.class,int.class).invoke(oldRenderer,g,0,0);
-                        else godog.KKAMAjA.AKKaMaJ(g,0,0);
+                        else GodogDemo.KKAMAjA.AKKaMaJ(g,0,0);
                         g.dispose();
                         if (variant == 0) referenceImage = image;
                         else if (!java.util.Arrays.equals(referenceImage.getRGB(0,0,512,256,null,0,512),image.getRGB(0,0,512,256,null,0,512))) {

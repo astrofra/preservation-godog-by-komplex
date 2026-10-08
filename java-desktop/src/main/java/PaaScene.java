@@ -10,13 +10,13 @@ public class PaaScene extends Scene
     RgbSurface MaJaKka;
     RgbSurface maJaKka;
     MetaballMesh MAJaKka;
-    kmaamma mAJaKka;
+    DesktopDemoBase mAJaKka;
     
     public String getSceneId() {
         return "paa";
     }
     
-    public void load(final kmaamma maJaKka) {
+    public void load(final DesktopDemoBase maJaKka) {
         this.mAJaKka = maJaKka;
         this.majAkKA = new Camera();
         this.majAkKA.amaJAkK = 1.1f;
@@ -82,8 +82,8 @@ public class PaaScene extends Scene
         this.mAjAkKA.MAJakKA = 0.11f;
         this.MAJaKka.MaJakka = (n > 9.5f);
         this.MAJaKka.mAJAKKa = n;
-        this.MAjAkKA.mAjAKkA(this.majAkKA, godog.KKAMAjA);
-        this.MAjAkKA.MajAKkA(godog.KKAMAjA);
+        this.MAjAkKA.mAjAKkA(this.majAkKA, GodogDemo.KKAMAjA);
+        this.MAjAkKA.MajAKkA(GodogDemo.KKAMAjA);
     }
     
     public void handleMessage(final String s, final float n) {

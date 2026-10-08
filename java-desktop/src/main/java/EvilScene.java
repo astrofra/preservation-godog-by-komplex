@@ -6,7 +6,7 @@ public class EvilScene extends Scene
 {
     Camera AmAJakk;
     AseSceneLoader amAJakk;
-    kmaamma AMAJakk;
+    DesktopDemoBase AMAJakk;
     
     public String getSceneId() {
         return "evil";
@@ -16,7 +16,7 @@ public class EvilScene extends Scene
         this.amAJakk = null;
     }
     
-    public void load(final kmaamma amaJakk) {
+    public void load(final DesktopDemoBase amaJakk) {
         this.AMAJakk = amaJakk;
         this.AmAJakk = new Camera();
         this.AmAJakk.amaJAkK = 1.4f;
@@ -65,8 +65,8 @@ public class EvilScene extends Scene
         mmajkka.aMaJAkk();
         this.AmAJakk.rollRadians = (float)(-0.4 - Math.sin(-0.006 * (double)Math.max(n - 0.0f, 0.0f)));
         this.amAJakk.MAJAKkA(n, this.AmAJakk);
-        this.amAJakk.mAjAKkA(this.AmAJakk, godog.KKAMAjA);
-        this.amAJakk.MajAKkA(godog.KKAMAjA);
+        this.amAJakk.mAjAKkA(this.AmAJakk, GodogDemo.KKAMAjA);
+        this.amAJakk.MajAKkA(GodogDemo.KKAMAjA);
         mmajkka.aMajAkk();
     }
     
@@ -84,7 +84,7 @@ public class EvilScene extends Scene
         return mmajkka;
     }
     
-    public static HeightFieldMesh aMaJakk(final Camera mmjjmkk, final kmaamma kmaamma) {
+    public static HeightFieldMesh aMaJakk(final Camera mmjjmkk, final DesktopDemoBase kmaamma) {
         mmjjmkk.position.mAJaKka(0.0f, -14.0f, 0.0f);
         final HeightFieldMesh kmjammk = new HeightFieldMesh(null, 500.0f, 0.0f, mmjjmkk, true);
         final IndexedSurface maaakka = (IndexedSurface)ImageMathSupport.MAjaKkA(kmaamma.aMajAKK("images/vesi_meri.gif"));

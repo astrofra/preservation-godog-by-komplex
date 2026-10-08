@@ -14,7 +14,7 @@ public class MovieIntroScene extends Scene
     RgbSurface aMAjAKK;
     RgbSurface AmajAKK;
     RgbSurface amajAKK;
-    kmaamma AMajAKK;
+    DesktopDemoBase AMajAKK;
     int aMajAKK;
     int AmAJAKK;
     
@@ -29,7 +29,7 @@ public class MovieIntroScene extends Scene
         this.AMAjAKK = null;
     }
     
-    public void load(final kmaamma aMajAKK) {
+    public void load(final DesktopDemoBase aMajAKK) {
         this.AMajAKK = aMajAKK;
         this.aMAjAKK = new RgbSurface(512, 256, 1, false);
         try {

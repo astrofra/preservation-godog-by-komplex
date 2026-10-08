@@ -1,0 +1,1640 @@
+{
+  "baseline_commit": "30051123eda08f34252363854c275734fe3b426c",
+  "authorization": "User authorized the 3D-engine subset and subsequently all remaining CSV proposals on 2026-10-08.",
+  "classes": {
+    "godog": "GodogDemo",
+    "kaaakka": "Mat3f",
+    "kaaakkk": "ScalarFieldVertex",
+    "kaaakma": "BackdropMesh",
+    "kaaakmk": "ExitOnCloseFrame",
+    "kaaamka": "ViewFrustum",
+    "kaaamma": "RenderPrimitive",
+    "kaaammk": "MovieFillStyle",
+    "kaajkka": "ArchiveDecoder",
+    "kaajkkk": "MovieRasterizer",
+    "kaajkmk": "ParticleCloudMesh",
+    "kaajmka": "ParticleVertex",
+    "kaajmma": "Vec3f",
+    "kaajmmk": "MovieBounds",
+    "kajakka": "GraphicsRoutine",
+    "kajakkk": "MovieDisplayObject",
+    "kajakma": "XmInstrumentHeaderOffsets",
+    "kajakmk": "MovieAudioClip",
+    "kajamka": "ModuleLoader",
+    "kajamma": "MovieTimeline",
+    "kajammk": "SplineTrack",
+    "kajjkka": "Triangle",
+    "kajjkkk": "Quaternionf",
+    "kajjkmk": "IndexedSurfacePresenter",
+    "kajjmka": "DesktopResourceContext",
+    "kajjmma": "VehjeScene",
+    "kajjmmk": "UvCoord",
+    "kmaakka": "SoftwareImageSurface",
+    "kmaakkk": "ModuleSequencer",
+    "kmaakma": "ImageMathSupport",
+    "kmaakmk": "EndscreenRoutine",
+    "kmaamka": "ModuleSample",
+    "kmaamma": "DesktopDemoBase",
+    "kmaammk": "MovieTransform",
+    "kmajkka": "SortableItem",
+    "kmajkkk": "EnvelopeCursor",
+    "kmajkmk": "LinjanenScene",
+    "kmajmka": "TunerLine",
+    "kmajmma": "RadialFlareMesh",
+    "kmajmmk": "DesktopParameterStub",
+    "kmjakka": "SongPositionQueue",
+    "kmjakkk": "ScriptEventScheduler",
+    "kmjakmk": "XmPatternHeaderOffsets",
+    "kmjamka": "RgbSurfacePresenter",
+    "kmjamma": "MovieSurfaceBridge",
+    "kmjammk": "HeightFieldMesh",
+    "kmjjkka": "MovieBitmap",
+    "kmjjkkk": "AseSceneLoader",
+    "kmjjkmk": "ImageDecodeConsumer",
+    "kmjjmka": "MovieBitReader",
+    "kmjjmma": "Scene",
+    "kmjjmmk": "SurfacePresenter",
+    "maaakka": "IndexedSurface",
+    "maaakkk": "ModuleSong",
+    "maaakma": "SceneRenderer",
+    "maaakmk": "IndexedTriangleSink",
+    "maaamka": "MovieAudioStream",
+    "maaamma": "MovieIntroScene",
+    "maaammk": "MovieFillSpan",
+    "maajkka": "EvilScene",
+    "maajkkk": "MovieScanlineEdge",
+    "maajkmk": "IguMeshLoader",
+    "maajmka": "SmoothedFrameTimer",
+    "maajmma": "XmSampleHeaderOffsets",
+    "maajmmk": "MovieShapeDecoder",
+    "majakka": "ModuleChannel",
+    "majakkk": "PaaScene",
+    "majakma": "TravScene",
+    "majakmk": "ScheduledSongPosition",
+    "majamka": "LegacyFullscreenWindow",
+    "majamma": "MixerBusListener",
+    "majammk": "StartupTunerCanvas",
+    "majjkka": "Envelope",
+    "majjkkk": "QuadraticEdge",
+    "majjkmk": "MovieColorTransform",
+    "majjmka": "Vertex",
+    "majjmma": "TrackKeyframe",
+    "majjmmk": "ModHeaderOffsets",
+    "mmaakka": "MoviePlayer",
+    "mmaakkk": "MeshObject",
+    "mmaakma": "ScriptEventListener",
+    "mmaakmk": "ModuleVoice",
+    "mmaamka": "MarchingCubesTables",
+    "mmaamma": "TexturedTriangleRasterizer",
+    "mmaammk": "WireframeMesh",
+    "mmajkka": "RgbSurface",
+    "mmajkkk": "ByteReaders",
+    "mmajkmk": "ModulePattern",
+    "mmajmka": "XmInstrumentEnvelopeOffsets",
+    "mmajmma": "MixerBus",
+    "mmajmmk": "MovieSignal",
+    "mmjakka": "MovieCharacter",
+    "mmjakkk": "ModSampleHeaderOffsets",
+    "mmjakmk": "MovieController",
+    "mmjamka": "LineRasterizer",
+    "mmjamma": "Vec3d",
+    "mmjammk": "ModuleInstrument",
+    "mmjjkka": "ObjectSortEntry",
+    "mmjjkkk": "ScheduledScriptEvent",
+    "mmjjkmk": "EmbeddedJpegProducer",
+    "mmjjmka": "IsoSurfaceIntersection",
+    "mmjjmkk": "Camera",
+    "mmjjmma": "DepthSorter",
+    "mmjjmmk": "MetaballMesh"
+  },
+  "members": [
+    {
+      "kind": "method",
+      "owner": "kaajmmk",
+      "original_name": "AkKaMAJ",
+      "original_descriptor": "(Ljava/awt/Point;)Z",
+      "desktop_descriptor": "(Ljava/awt/Point;)Z",
+      "proposed_name": "contains"
+    },
+    {
+      "kind": "method",
+      "owner": "kaajmmk",
+      "original_name": "akKaMAJ",
+      "original_descriptor": "(Lkaajmmk;)V",
+      "desktop_descriptor": "(Lkaajmmk;)V",
+      "proposed_name": "includeBounds"
+    },
+    {
+      "kind": "method",
+      "owner": "kaajmmk",
+      "original_name": "AKKaMAJ",
+      "original_descriptor": "(Ljava/awt/Point;)V",
+      "desktop_descriptor": "(Ljava/awt/Point;)V",
+      "proposed_name": "includePoint"
+    },
+    {
+      "kind": "method",
+      "owner": "kaajmmk",
+      "original_name": "aKKaMAJ",
+      "original_descriptor": "(Lkaajmmk;)Z",
+      "desktop_descriptor": "(Lkaajmmk;)Z",
+      "proposed_name": "intersects"
+    },
+    {
+      "kind": "method",
+      "owner": "kajakka",
+      "original_name": "aMAjaKk",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "dispose"
+    },
+    {
+      "kind": "method",
+      "owner": "kajakka",
+      "original_name": "AMajaKk",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "enter"
+    },
+    {
+      "kind": "method",
+      "owner": "kajakka",
+      "original_name": "amajaKk",
+      "original_descriptor": "()Ljava/lang/String;",
+      "desktop_descriptor": "()Ljava/lang/String;",
+      "proposed_name": "getRoutineId"
+    },
+    {
+      "kind": "method",
+      "owner": "kajakka",
+      "original_name": "AMAjaKk",
+      "original_descriptor": "(Ljava/lang/String;F)V",
+      "desktop_descriptor": "(Ljava/lang/String;F)V",
+      "proposed_name": "handleMessage"
+    },
+    {
+      "kind": "method",
+      "owner": "kajakka",
+      "original_name": "AmajaKk",
+      "original_descriptor": "(Lkmaamma;)V",
+      "desktop_descriptor": "(Lkmaamma;)V",
+      "proposed_name": "load"
+    },
+    {
+      "kind": "method",
+      "owner": "kajakka",
+      "original_name": "amAjaKk",
+      "original_descriptor": "(Ljava/awt/Graphics;FF)V",
+      "desktop_descriptor": "(Ljava/awt/Graphics;FF)V",
+      "proposed_name": "render"
+    },
+    {
+      "kind": "method",
+      "owner": "kajjmma",
+      "original_name": "MAjakkA",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "dispose"
+    },
+    {
+      "kind": "method",
+      "owner": "kajjmma",
+      "original_name": "MaJAkkA",
+      "original_descriptor": "()Ljava/lang/String;",
+      "desktop_descriptor": "()Ljava/lang/String;",
+      "proposed_name": "getSceneId"
+    },
+    {
+      "kind": "method",
+      "owner": "kajjmma",
+      "original_name": "majakkA",
+      "original_descriptor": "(Ljava/lang/String;F)V",
+      "desktop_descriptor": "(Ljava/lang/String;F)V",
+      "proposed_name": "handleMessage"
+    },
+    {
+      "kind": "method",
+      "owner": "kajjmma",
+      "original_name": "mAjakkA",
+      "original_descriptor": "(Lkmaamma;)V",
+      "desktop_descriptor": "(Lkmaamma;)V",
+      "proposed_name": "load"
+    },
+    {
+      "kind": "method",
+      "owner": "kajjmma",
+      "original_name": "MajakkA",
+      "original_descriptor": "(Lmmajkka;FF)V",
+      "desktop_descriptor": "(Lmmajkka;FF)V",
+      "proposed_name": "render"
+    },
+    {
+      "kind": "method",
+      "owner": "kajjmmk",
+      "original_name": "akKAMaJ",
+      "original_descriptor": "(DD)V",
+      "desktop_descriptor": "(DD)V",
+      "proposed_name": "set"
+    },
+    {
+      "kind": "method",
+      "owner": "kajjmmk",
+      "original_name": "AKKAMaJ",
+      "original_descriptor": "(FF)V",
+      "desktop_descriptor": "(FF)V",
+      "proposed_name": "set"
+    },
+    {
+      "kind": "method",
+      "owner": "kajjmmk",
+      "original_name": "AkKAMaJ",
+      "original_descriptor": "(Lkajjmmk;)V",
+      "desktop_descriptor": "(Lkajjmmk;)V",
+      "proposed_name": "set"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakka",
+      "original_name": "kaMAJaK",
+      "original_descriptor": "(Ljava/awt/Graphics;II)V",
+      "desktop_descriptor": "(Ljava/awt/Graphics;II)V",
+      "proposed_name": "drawImage"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakka",
+      "original_name": "KaMAJaK",
+      "original_descriptor": "(Ljava/awt/Graphics;IIII)V",
+      "desktop_descriptor": "(Ljava/awt/Graphics;IIII)V",
+      "proposed_name": "drawScaledImage"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakka",
+      "original_name": "KAmaJaK",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "publishFrame"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakka",
+      "original_name": "kamaJaK",
+      "original_descriptor": "(IIII)V",
+      "desktop_descriptor": "(IIII)V",
+      "proposed_name": "publishRegion"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakka",
+      "original_name": "kAmaJaK",
+      "original_descriptor": "(Z)V",
+      "desktop_descriptor": "(Z)V",
+      "proposed_name": "setImageEnabled"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakkk",
+      "original_name": "JaKkAMa",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "advanceOrder"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakkk",
+      "original_name": "jAkKama",
+      "original_descriptor": "([BII)V",
+      "desktop_descriptor": "([BII)V",
+      "proposed_name": "loadOrderTable"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakkk",
+      "original_name": "JakKama",
+      "original_descriptor": "()[B",
+      "desktop_descriptor": "()[B",
+      "proposed_name": "nextRow"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakkk",
+      "original_name": "jakKama",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "rewind"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakkk",
+      "original_name": "JaKKama",
+      "original_descriptor": "(I)V",
+      "desktop_descriptor": "(I)V",
+      "proposed_name": "seekOrder"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakkk",
+      "original_name": "JAkKama",
+      "original_descriptor": "(I)V",
+      "desktop_descriptor": "(I)V",
+      "proposed_name": "seekRow"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakkk",
+      "original_name": "jaKKama",
+      "original_descriptor": "(Z)V",
+      "desktop_descriptor": "(Z)V",
+      "proposed_name": "setRepeatCurrentOrder"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakkk",
+      "original_name": "jAKKama",
+      "original_descriptor": "(I)V",
+      "desktop_descriptor": "(I)V",
+      "proposed_name": "setRestartOrder"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakkk",
+      "original_name": "JAKKama",
+      "original_descriptor": "(Lmaaakkk;)V",
+      "desktop_descriptor": "(Lmaaakkk;)V",
+      "proposed_name": "setSong"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakmk",
+      "original_name": "amajaKk",
+      "original_descriptor": "()Ljava/lang/String;",
+      "desktop_descriptor": "()Ljava/lang/String;",
+      "proposed_name": "getRoutineId"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakmk",
+      "original_name": "AmajaKk",
+      "original_descriptor": "(Lkmaamma;)V",
+      "desktop_descriptor": "(Lkmaamma;)V",
+      "proposed_name": "load"
+    },
+    {
+      "kind": "method",
+      "owner": "kmaakmk",
+      "original_name": "amAjaKk",
+      "original_descriptor": "(Ljava/awt/Graphics;FF)V",
+      "desktop_descriptor": "(Ljava/awt/Graphics;FF)V",
+      "proposed_name": "render"
+    },
+    {
+      "kind": "method",
+      "owner": "kmajkkk",
+      "original_name": "jAkkAmA",
+      "original_descriptor": "()B",
+      "desktop_descriptor": "()B",
+      "proposed_name": "nextValue"
+    },
+    {
+      "kind": "method",
+      "owner": "kmajkkk",
+      "original_name": "JakkAmA",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "release"
+    },
+    {
+      "kind": "method",
+      "owner": "kmajkkk",
+      "original_name": "jakkAmA",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "reset"
+    },
+    {
+      "kind": "method",
+      "owner": "kmajkkk",
+      "original_name": "JAkkAmA",
+      "original_descriptor": "(Lmajjkka;)V",
+      "desktop_descriptor": "(Lmajjkka;)V",
+      "proposed_name": "setEnvelope"
+    },
+    {
+      "kind": "method",
+      "owner": "kmajkmk",
+      "original_name": "MAjakkA",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "dispose"
+    },
+    {
+      "kind": "method",
+      "owner": "kmajkmk",
+      "original_name": "MaJAkkA",
+      "original_descriptor": "()Ljava/lang/String;",
+      "desktop_descriptor": "()Ljava/lang/String;",
+      "proposed_name": "getSceneId"
+    },
+    {
+      "kind": "method",
+      "owner": "kmajkmk",
+      "original_name": "majakkA",
+      "original_descriptor": "(Ljava/lang/String;F)V",
+      "desktop_descriptor": "(Ljava/lang/String;F)V",
+      "proposed_name": "handleMessage"
+    },
+    {
+      "kind": "method",
+      "owner": "kmajkmk",
+      "original_name": "mAjakkA",
+      "original_descriptor": "(Lkmaamma;)V",
+      "desktop_descriptor": "(Lkmaamma;)V",
+      "proposed_name": "load"
+    },
+    {
+      "kind": "method",
+      "owner": "kmajkmk",
+      "original_name": "MajakkA",
+      "original_descriptor": "(Lmmajkka;FF)V",
+      "desktop_descriptor": "(Lmmajkka;FF)V",
+      "proposed_name": "render"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjakka",
+      "original_name": "aMAJAKk",
+      "original_descriptor": "(I)I",
+      "desktop_descriptor": "(I)I",
+      "proposed_name": "awaitAndSleepUntil"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjakka",
+      "original_name": "AMAJAKk",
+      "original_descriptor": "(I)Lmajakmk;",
+      "desktop_descriptor": "(I)Lmajakmk;",
+      "proposed_name": "awaitPosition"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjakka",
+      "original_name": "amAJAKk",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "dump"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjakka",
+      "original_name": "AmaJAKk",
+      "original_descriptor": "(II)Z",
+      "desktop_descriptor": "(II)Z",
+      "proposed_name": "hasReached"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjakka",
+      "original_name": "AmAJAKk",
+      "original_descriptor": "(IJ)V",
+      "desktop_descriptor": "(IJ)V",
+      "proposed_name": "publish"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjakkk",
+      "original_name": "jakKAMA",
+      "original_descriptor": "(ILjava/lang/String;)V",
+      "desktop_descriptor": "(ILjava/lang/String;)V",
+      "proposed_name": "addEvent"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjakkk",
+      "original_name": "JakKAMA",
+      "original_descriptor": "(IJ)V",
+      "desktop_descriptor": "(IJ)V",
+      "proposed_name": "schedulePosition"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjakkk",
+      "original_name": "JAkKAMA",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "wakeDispatcher"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjjmma",
+      "original_name": "MAjakkA",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "dispose"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjjmma",
+      "original_name": "maJAkkA",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "enter"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjjmma",
+      "original_name": "MaJAkkA",
+      "original_descriptor": "()Ljava/lang/String;",
+      "desktop_descriptor": "()Ljava/lang/String;",
+      "proposed_name": "getSceneId"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjjmma",
+      "original_name": "majakkA",
+      "original_descriptor": "(Ljava/lang/String;F)V",
+      "desktop_descriptor": "(Ljava/lang/String;F)V",
+      "proposed_name": "handleMessage"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjjmma",
+      "original_name": "mAjakkA",
+      "original_descriptor": "(Lkmaamma;)V",
+      "desktop_descriptor": "(Lkmaamma;)V",
+      "proposed_name": "load"
+    },
+    {
+      "kind": "method",
+      "owner": "kmjjmma",
+      "original_name": "MajakkA",
+      "original_descriptor": "(Lmmajkka;FF)V",
+      "desktop_descriptor": "(Lmmajkka;FF)V",
+      "proposed_name": "render"
+    },
+    {
+      "kind": "method",
+      "owner": "maaakka",
+      "original_name": "kamaJaK",
+      "original_descriptor": "(IIII)V",
+      "desktop_descriptor": "(IIII)V",
+      "proposed_name": "publishRegion"
+    },
+    {
+      "kind": "method",
+      "owner": "maaakkk",
+      "original_name": "MAjakKa",
+      "original_descriptor": "(Lmmajmma;)V",
+      "desktop_descriptor": "(Lmmajmma;)V",
+      "proposed_name": "onMixerTick"
+    },
+    {
+      "kind": "method",
+      "owner": "maaamma",
+      "original_name": "MAjakkA",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "dispose"
+    },
+    {
+      "kind": "method",
+      "owner": "maaamma",
+      "original_name": "MaJAkkA",
+      "original_descriptor": "()Ljava/lang/String;",
+      "desktop_descriptor": "()Ljava/lang/String;",
+      "proposed_name": "getSceneId"
+    },
+    {
+      "kind": "method",
+      "owner": "maaamma",
+      "original_name": "majakkA",
+      "original_descriptor": "(Ljava/lang/String;F)V",
+      "desktop_descriptor": "(Ljava/lang/String;F)V",
+      "proposed_name": "handleMessage"
+    },
+    {
+      "kind": "method",
+      "owner": "maaamma",
+      "original_name": "mAjakkA",
+      "original_descriptor": "(Lkmaamma;)V",
+      "desktop_descriptor": "(Lkmaamma;)V",
+      "proposed_name": "load"
+    },
+    {
+      "kind": "method",
+      "owner": "maaamma",
+      "original_name": "MajakkA",
+      "original_descriptor": "(Lmmajkka;FF)V",
+      "desktop_descriptor": "(Lmmajkka;FF)V",
+      "proposed_name": "render"
+    },
+    {
+      "kind": "method",
+      "owner": "maajkka",
+      "original_name": "MAjakkA",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "dispose"
+    },
+    {
+      "kind": "method",
+      "owner": "maajkka",
+      "original_name": "MaJAkkA",
+      "original_descriptor": "()Ljava/lang/String;",
+      "desktop_descriptor": "()Ljava/lang/String;",
+      "proposed_name": "getSceneId"
+    },
+    {
+      "kind": "method",
+      "owner": "maajkka",
+      "original_name": "majakkA",
+      "original_descriptor": "(Ljava/lang/String;F)V",
+      "desktop_descriptor": "(Ljava/lang/String;F)V",
+      "proposed_name": "handleMessage"
+    },
+    {
+      "kind": "method",
+      "owner": "maajkka",
+      "original_name": "mAjakkA",
+      "original_descriptor": "(Lkmaamma;)V",
+      "desktop_descriptor": "(Lkmaamma;)V",
+      "proposed_name": "load"
+    },
+    {
+      "kind": "method",
+      "owner": "maajkka",
+      "original_name": "MajakkA",
+      "original_descriptor": "(Lmmajkka;FF)V",
+      "desktop_descriptor": "(Lmmajkka;FF)V",
+      "proposed_name": "render"
+    },
+    {
+      "kind": "method",
+      "owner": "maajmka",
+      "original_name": "kAMAjak",
+      "original_descriptor": "()F",
+      "desktop_descriptor": "()F",
+      "proposed_name": "getAverageFrameMillis"
+    },
+    {
+      "kind": "method",
+      "owner": "maajmka",
+      "original_name": "kAmajak",
+      "original_descriptor": "()J",
+      "desktop_descriptor": "()J",
+      "proposed_name": "getElapsedMillis"
+    },
+    {
+      "kind": "method",
+      "owner": "maajmka",
+      "original_name": "KaMAjak",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "recordFrame"
+    },
+    {
+      "kind": "method",
+      "owner": "maajmka",
+      "original_name": "KAMAjak",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "reset"
+    },
+    {
+      "kind": "method",
+      "owner": "maajmka",
+      "original_name": "kaMAjak",
+      "original_descriptor": "(J)V",
+      "desktop_descriptor": "(J)V",
+      "proposed_name": "resetWithFrameDuration"
+    },
+    {
+      "kind": "method",
+      "owner": "majakkk",
+      "original_name": "MAjakkA",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "dispose"
+    },
+    {
+      "kind": "method",
+      "owner": "majakkk",
+      "original_name": "maJAkkA",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "enter"
+    },
+    {
+      "kind": "method",
+      "owner": "majakkk",
+      "original_name": "MaJAkkA",
+      "original_descriptor": "()Ljava/lang/String;",
+      "desktop_descriptor": "()Ljava/lang/String;",
+      "proposed_name": "getSceneId"
+    },
+    {
+      "kind": "method",
+      "owner": "majakkk",
+      "original_name": "majakkA",
+      "original_descriptor": "(Ljava/lang/String;F)V",
+      "desktop_descriptor": "(Ljava/lang/String;F)V",
+      "proposed_name": "handleMessage"
+    },
+    {
+      "kind": "method",
+      "owner": "majakkk",
+      "original_name": "mAjakkA",
+      "original_descriptor": "(Lkmaamma;)V",
+      "desktop_descriptor": "(Lkmaamma;)V",
+      "proposed_name": "load"
+    },
+    {
+      "kind": "method",
+      "owner": "majakkk",
+      "original_name": "MajakkA",
+      "original_descriptor": "(Lmmajkka;FF)V",
+      "desktop_descriptor": "(Lmmajkka;FF)V",
+      "proposed_name": "render"
+    },
+    {
+      "kind": "method",
+      "owner": "majakma",
+      "original_name": "MAjakkA",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "dispose"
+    },
+    {
+      "kind": "method",
+      "owner": "majakma",
+      "original_name": "MaJAkkA",
+      "original_descriptor": "()Ljava/lang/String;",
+      "desktop_descriptor": "()Ljava/lang/String;",
+      "proposed_name": "getSceneId"
+    },
+    {
+      "kind": "method",
+      "owner": "majakma",
+      "original_name": "majakkA",
+      "original_descriptor": "(Ljava/lang/String;F)V",
+      "desktop_descriptor": "(Ljava/lang/String;F)V",
+      "proposed_name": "handleMessage"
+    },
+    {
+      "kind": "method",
+      "owner": "majakma",
+      "original_name": "mAjakkA",
+      "original_descriptor": "(Lkmaamma;)V",
+      "desktop_descriptor": "(Lkmaamma;)V",
+      "proposed_name": "load"
+    },
+    {
+      "kind": "method",
+      "owner": "majakma",
+      "original_name": "MajakkA",
+      "original_descriptor": "(Lmmajkka;FF)V",
+      "desktop_descriptor": "(Lmmajkka;FF)V",
+      "proposed_name": "render"
+    },
+    {
+      "kind": "method",
+      "owner": "majamma",
+      "original_name": "MAjakKa",
+      "original_descriptor": "(Lmmajmma;)V",
+      "desktop_descriptor": "(Lmmajmma;)V",
+      "proposed_name": "onMixerTick"
+    },
+    {
+      "kind": "method",
+      "owner": "majjkka",
+      "original_name": "aMAjAkk",
+      "original_descriptor": "(IZ)I",
+      "desktop_descriptor": "(IZ)I",
+      "proposed_name": "advancePosition"
+    },
+    {
+      "kind": "method",
+      "owner": "majjkka",
+      "original_name": "AMAjAkk",
+      "original_descriptor": "(I)V",
+      "desktop_descriptor": "(I)V",
+      "proposed_name": "setFadeoutStep"
+    },
+    {
+      "kind": "method",
+      "owner": "majjkka",
+      "original_name": "amAjAkk",
+      "original_descriptor": "(I)B",
+      "desktop_descriptor": "(I)B",
+      "proposed_name": "valueAt"
+    },
+    {
+      "kind": "method",
+      "owner": "mmaakma",
+      "original_name": "maJaKkA",
+      "original_descriptor": "(ILjava/lang/String;)V",
+      "desktop_descriptor": "(ILjava/lang/String;)V",
+      "proposed_name": "onScriptEvent"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajkka",
+      "original_name": "kamaJaK",
+      "original_descriptor": "(IIII)V",
+      "desktop_descriptor": "(IIII)V",
+      "proposed_name": "publishRegion"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajkkk",
+      "original_name": "jaKkAmA",
+      "original_descriptor": "(I)I",
+      "desktop_descriptor": "(I)I",
+      "proposed_name": "lowUnsignedByte"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajkkk",
+      "original_name": "jAKkAmA",
+      "original_descriptor": "([BI)I",
+      "desktop_descriptor": "([BI)I",
+      "proposed_name": "readIntLE"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajkkk",
+      "original_name": "aKkAmAj",
+      "original_descriptor": "([BI)I",
+      "desktop_descriptor": "([BI)I",
+      "proposed_name": "readSignedByte"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajkkk",
+      "original_name": "JAKkAmA",
+      "original_descriptor": "([BI)I",
+      "desktop_descriptor": "([BI)I",
+      "proposed_name": "readSignedShortBE"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajkkk",
+      "original_name": "AKkAmAj",
+      "original_descriptor": "([BI)I",
+      "desktop_descriptor": "([BI)I",
+      "proposed_name": "readSignedShortLE"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajkkk",
+      "original_name": "aKKAmAj",
+      "original_descriptor": "([BI)I",
+      "desktop_descriptor": "([BI)I",
+      "proposed_name": "readUnsignedByte"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajkkk",
+      "original_name": "JaKkAmA",
+      "original_descriptor": "([BI)I",
+      "desktop_descriptor": "([BI)I",
+      "proposed_name": "readUnsignedShortBE"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajkkk",
+      "original_name": "AkkAmAj",
+      "original_descriptor": "([BI)I",
+      "desktop_descriptor": "([BI)I",
+      "proposed_name": "readUnsignedShortLE"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajkkk",
+      "original_name": "akkAmAj",
+      "original_descriptor": "(B)I",
+      "desktop_descriptor": "(B)I",
+      "proposed_name": "toUnsignedByte"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajkmk",
+      "original_name": "kKamAJA",
+      "original_descriptor": "(I)[B",
+      "desktop_descriptor": "(I)[B",
+      "proposed_name": "getRow"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajkmk",
+      "original_name": "KkAMAJA",
+      "original_descriptor": "(IIIIIII)V",
+      "desktop_descriptor": "(IIIIIII)V",
+      "proposed_name": "setCell"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajmmk",
+      "original_name": "AkkAMaJ",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "awaitAndConsumeSignal"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajmmk",
+      "original_name": "akkAMaJ",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "awaitSignal"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajmmk",
+      "original_name": "AKkAMaJ",
+      "original_descriptor": "()Z",
+      "desktop_descriptor": "()Z",
+      "proposed_name": "clearAndGetPreviousSignal"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajmmk",
+      "original_name": "aKkAMaJ",
+      "original_descriptor": "()Z",
+      "desktop_descriptor": "()Z",
+      "proposed_name": "isSignalled"
+    },
+    {
+      "kind": "method",
+      "owner": "mmajmmk",
+      "original_name": "aKKAMaJ",
+      "original_descriptor": "()V",
+      "desktop_descriptor": "()V",
+      "proposed_name": "signal"
+    },
+    {
+      "kind": "method",
+      "owner": "mmjammk",
+      "original_name": "akkaMAJ",
+      "original_descriptor": "(Lkmaamka;)V",
+      "desktop_descriptor": "(Lkmaamka;)V",
+      "proposed_name": "setSampleForAllNotes"
+    },
+    {
+      "kind": "method",
+      "owner": "mmjammk",
+      "original_name": "AkkaMAJ",
+      "original_descriptor": "(ILkmaamka;)V",
+      "desktop_descriptor": "(ILkmaamka;)V",
+      "proposed_name": "setSampleForNote"
+    },
+    {
+      "kind": "method",
+      "owner": "mmjjmkk",
+      "original_name": "jakKAMa",
+      "original_descriptor": "(Lkaajmma;)V",
+      "desktop_descriptor": "(Lkaajmma;)V",
+      "proposed_name": "lookAlong"
+    },
+    {
+      "kind": "method",
+      "owner": "mmjjmkk",
+      "original_name": "JakKAMa",
+      "original_descriptor": "(Lkaajmma;)V",
+      "desktop_descriptor": "(Lkaajmma;)V",
+      "proposed_name": "lookAt"
+    },
+    {
+      "kind": "field",
+      "owner": "kaajmma",
+      "original_name": "MajaKka",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "x"
+    },
+    {
+      "kind": "field",
+      "owner": "kaajmma",
+      "original_name": "majaKka",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "y"
+    },
+    {
+      "kind": "field",
+      "owner": "kaajmma",
+      "original_name": "MAjaKka",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "z"
+    },
+    {
+      "kind": "field",
+      "owner": "kaajmmk",
+      "original_name": "jakkAMa",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "maxX"
+    },
+    {
+      "kind": "field",
+      "owner": "kaajmmk",
+      "original_name": "JAkkAMa",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "maxY"
+    },
+    {
+      "kind": "field",
+      "owner": "kaajmmk",
+      "original_name": "jAKkAMa",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "minX"
+    },
+    {
+      "kind": "field",
+      "owner": "kaajmmk",
+      "original_name": "JakkAMa",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "minY"
+    },
+    {
+      "kind": "field",
+      "owner": "kajjkkk",
+      "original_name": "ajAKKAm",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "w"
+    },
+    {
+      "kind": "field",
+      "owner": "kajjkkk",
+      "original_name": "AJakKAm",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "x"
+    },
+    {
+      "kind": "field",
+      "owner": "kajjkkk",
+      "original_name": "aJakKAm",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "y"
+    },
+    {
+      "kind": "field",
+      "owner": "kajjkkk",
+      "original_name": "AjAKKAm",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "z"
+    },
+    {
+      "kind": "field",
+      "owner": "kajjmmk",
+      "original_name": "jAKkaMA",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "u"
+    },
+    {
+      "kind": "field",
+      "owner": "kajjmmk",
+      "original_name": "JakkaMA",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "v"
+    },
+    {
+      "kind": "field",
+      "owner": "kmaakka",
+      "original_name": "KAMAJaK",
+      "original_descriptor": "Ljava/awt/image/ColorModel;",
+      "desktop_descriptor": "Ljava/awt/image/ColorModel;",
+      "proposed_name": "colorModel"
+    },
+    {
+      "kind": "field",
+      "owner": "kmaakka",
+      "original_name": "KaMAJaK",
+      "original_descriptor": "Ljava/awt/image/ImageConsumer;",
+      "desktop_descriptor": "Ljava/awt/image/ImageConsumer;",
+      "proposed_name": "consumer"
+    },
+    {
+      "kind": "field",
+      "owner": "kmaakka",
+      "original_name": "KamAJaK",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "height"
+    },
+    {
+      "kind": "field",
+      "owner": "kmaakka",
+      "original_name": "kaMAJaK",
+      "original_descriptor": "Ljava/awt/Image;",
+      "desktop_descriptor": "Ljava/awt/Image;",
+      "proposed_name": "image"
+    },
+    {
+      "kind": "field",
+      "owner": "kmaakka",
+      "original_name": "kAMAJaK",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "width"
+    },
+    {
+      "kind": "field",
+      "owner": "kmaakkk",
+      "original_name": "MAjakKa",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "orderIndex"
+    },
+    {
+      "kind": "field",
+      "owner": "kmaakkk",
+      "original_name": "MAJakKa",
+      "original_descriptor": "[I",
+      "desktop_descriptor": "[I",
+      "proposed_name": "orderTable"
+    },
+    {
+      "kind": "field",
+      "owner": "kmaakkk",
+      "original_name": "majakKa",
+      "original_descriptor": "Z",
+      "desktop_descriptor": "Z",
+      "proposed_name": "repeatCurrentOrder"
+    },
+    {
+      "kind": "field",
+      "owner": "kmaakkk",
+      "original_name": "mAJakKa",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "restartOrder"
+    },
+    {
+      "kind": "field",
+      "owner": "kmaakkk",
+      "original_name": "mAjakKa",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "rowIndex"
+    },
+    {
+      "kind": "field",
+      "owner": "kmaakkk",
+      "original_name": "MajakKa",
+      "original_descriptor": "Lmaaakkk;",
+      "desktop_descriptor": "Lmaaakkk;",
+      "proposed_name": "song"
+    },
+    {
+      "kind": "field",
+      "owner": "kmajkka",
+      "original_name": "aMajakk",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "sortKey"
+    },
+    {
+      "kind": "field",
+      "owner": "kmajkkk",
+      "original_name": "AjAkkAm",
+      "original_descriptor": "Z",
+      "desktop_descriptor": "Z",
+      "proposed_name": "enabled"
+    },
+    {
+      "kind": "field",
+      "owner": "kmajkkk",
+      "original_name": "ajaKKAm",
+      "original_descriptor": "Lmajjkka;",
+      "desktop_descriptor": "Lmajjkka;",
+      "proposed_name": "envelope"
+    },
+    {
+      "kind": "field",
+      "owner": "kmajkkk",
+      "original_name": "ajAkkAm",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "fadeoutLevel"
+    },
+    {
+      "kind": "field",
+      "owner": "kmajkkk",
+      "original_name": "AJaKKAm",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "position"
+    },
+    {
+      "kind": "field",
+      "owner": "kmajkkk",
+      "original_name": "aJaKKAm",
+      "original_descriptor": "Z",
+      "desktop_descriptor": "Z",
+      "proposed_name": "released"
+    },
+    {
+      "kind": "field",
+      "owner": "kmjakka",
+      "original_name": "AmajAKk",
+      "original_descriptor": "Ljava/util/Vector;",
+      "desktop_descriptor": "Ljava/util/Vector;",
+      "proposed_name": "events"
+    },
+    {
+      "kind": "field",
+      "owner": "kmjakkk",
+      "original_name": "mAjakKA",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "eventCount"
+    },
+    {
+      "kind": "field",
+      "owner": "kmjakkk",
+      "original_name": "MaJAkKA",
+      "original_descriptor": "[Lmmjjkkk;",
+      "desktop_descriptor": "[Lmmjjkkk;",
+      "proposed_name": "events"
+    },
+    {
+      "kind": "field",
+      "owner": "kmjakkk",
+      "original_name": "maJAkKA",
+      "original_descriptor": "Lmmaakma;",
+      "desktop_descriptor": "Lmmaakma;",
+      "proposed_name": "listener"
+    },
+    {
+      "kind": "field",
+      "owner": "kmjakkk",
+      "original_name": "mAJAkKA",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "nextDispatchIndex"
+    },
+    {
+      "kind": "field",
+      "owner": "kmjakkk",
+      "original_name": "MAJAkKA",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "nextScheduleIndex"
+    },
+    {
+      "kind": "field",
+      "owner": "maajmka",
+      "original_name": "KamAjak",
+      "original_descriptor": "J",
+      "desktop_descriptor": "J",
+      "proposed_name": "elapsedMillis"
+    },
+    {
+      "kind": "field",
+      "owner": "maajmka",
+      "original_name": "KAmAjak",
+      "original_descriptor": "J",
+      "desktop_descriptor": "J",
+      "proposed_name": "initialFrameMillis"
+    },
+    {
+      "kind": "field",
+      "owner": "maajmka",
+      "original_name": "kamAjak",
+      "original_descriptor": "J",
+      "desktop_descriptor": "J",
+      "proposed_name": "originMillis"
+    },
+    {
+      "kind": "field",
+      "owner": "maajmka",
+      "original_name": "KAMAjak",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "sampleCount"
+    },
+    {
+      "kind": "field",
+      "owner": "maajmka",
+      "original_name": "kAMAjak",
+      "original_descriptor": "[J",
+      "desktop_descriptor": "[J",
+      "proposed_name": "timestamps"
+    },
+    {
+      "kind": "field",
+      "owner": "majakmk",
+      "original_name": "AkKAMAJ",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "position"
+    },
+    {
+      "kind": "field",
+      "owner": "majakmk",
+      "original_name": "akKAMAJ",
+      "original_descriptor": "J",
+      "desktop_descriptor": "J",
+      "proposed_name": "timestampMillis"
+    },
+    {
+      "kind": "field",
+      "owner": "majjkka",
+      "original_name": "AMajAkk",
+      "original_descriptor": "Z",
+      "desktop_descriptor": "Z",
+      "proposed_name": "enabled"
+    },
+    {
+      "kind": "field",
+      "owner": "majjkka",
+      "original_name": "amajAkk",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "fadeoutStep"
+    },
+    {
+      "kind": "field",
+      "owner": "majjkka",
+      "original_name": "aMajAkk",
+      "original_descriptor": "Z",
+      "desktop_descriptor": "Z",
+      "proposed_name": "loopEnabled"
+    },
+    {
+      "kind": "field",
+      "owner": "majjkka",
+      "original_name": "AmajAkk",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "loopEnd"
+    },
+    {
+      "kind": "field",
+      "owner": "majjkka",
+      "original_name": "aMAjAkk",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "loopStart"
+    },
+    {
+      "kind": "field",
+      "owner": "majjkka",
+      "original_name": "AmAJAkk",
+      "original_descriptor": "Z",
+      "desktop_descriptor": "Z",
+      "proposed_name": "sustainEnabled"
+    },
+    {
+      "kind": "field",
+      "owner": "majjkka",
+      "original_name": "AMAjAkk",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "sustainPosition"
+    },
+    {
+      "kind": "field",
+      "owner": "majjkka",
+      "original_name": "amAjAkk",
+      "original_descriptor": "[B",
+      "desktop_descriptor": "[B",
+      "proposed_name": "values"
+    },
+    {
+      "kind": "field",
+      "owner": "mmajkkk",
+      "original_name": "aJAKKAm",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "SIGNED_BYTE_BIAS"
+    },
+    {
+      "kind": "field",
+      "owner": "mmajkkk",
+      "original_name": "AjaKKAm",
+      "original_descriptor": "[I",
+      "desktop_descriptor": "[I",
+      "proposed_name": "UNSIGNED_BYTE_TABLE"
+    },
+    {
+      "kind": "field",
+      "owner": "mmajkmk",
+      "original_name": "aKkaMaJ",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "EFFECT_OFFSET"
+    },
+    {
+      "kind": "field",
+      "owner": "mmajkmk",
+      "original_name": "AkKAMaJ",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "EFFECT_PARAMETER_OFFSET"
+    },
+    {
+      "kind": "field",
+      "owner": "mmajkmk",
+      "original_name": "akkaMaJ",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "INSTRUMENT_OFFSET"
+    },
+    {
+      "kind": "field",
+      "owner": "mmajkmk",
+      "original_name": "AkkaMaJ",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "NOTE_OFFSET"
+    },
+    {
+      "kind": "field",
+      "owner": "mmajkmk",
+      "original_name": "AKkaMaJ",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "VOLUME_OFFSET"
+    },
+    {
+      "kind": "field",
+      "owner": "mmajkmk",
+      "original_name": "AKKaMaJ",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "channelCount"
+    },
+    {
+      "kind": "field",
+      "owner": "mmajkmk",
+      "original_name": "akKaMaJ",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "rowCount"
+    },
+    {
+      "kind": "field",
+      "owner": "mmajkmk",
+      "original_name": "aKKaMaJ",
+      "original_descriptor": "[[B",
+      "desktop_descriptor": "[[B",
+      "proposed_name": "rows"
+    },
+    {
+      "kind": "field",
+      "owner": "mmajmmk",
+      "original_name": "jakkaMA",
+      "original_descriptor": "Z",
+      "desktop_descriptor": "Z",
+      "proposed_name": "signalled"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjamma",
+      "original_name": "mAJAKka",
+      "original_descriptor": "D",
+      "desktop_descriptor": "D",
+      "proposed_name": "x"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjamma",
+      "original_name": "MajAKka",
+      "original_descriptor": "D",
+      "desktop_descriptor": "D",
+      "proposed_name": "y"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjamma",
+      "original_name": "majAKka",
+      "original_descriptor": "D",
+      "desktop_descriptor": "D",
+      "proposed_name": "z"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjammk",
+      "original_name": "jaKKAMa",
+      "original_descriptor": "Lmajjkka;",
+      "desktop_descriptor": "Lmajjkka;",
+      "proposed_name": "panningEnvelope"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjammk",
+      "original_name": "jAkkAMa",
+      "original_descriptor": "[Lkmaamka;",
+      "desktop_descriptor": "[Lkmaamka;",
+      "proposed_name": "sampleByNote"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjammk",
+      "original_name": "JaKKAMa",
+      "original_descriptor": "Lmajjkka;",
+      "desktop_descriptor": "Lmajjkka;",
+      "proposed_name": "volumeEnvelope"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjjkkk",
+      "original_name": "AJakkam",
+      "original_descriptor": "Ljava/lang/String;",
+      "desktop_descriptor": "Ljava/lang/String;",
+      "proposed_name": "command"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjjkkk",
+      "original_name": "ajakkam",
+      "original_descriptor": "J",
+      "desktop_descriptor": "J",
+      "proposed_name": "scheduledTimeMillis"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjjmkk",
+      "original_name": "aMAjakK",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "farClip"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjjmkk",
+      "original_name": "AmajakK",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "fogStart"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjjmkk",
+      "original_name": "AMAjakK",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "nearClip"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjjmkk",
+      "original_name": "aMaJAkK",
+      "original_descriptor": "Lkaaakka;",
+      "desktop_descriptor": "Lkaaakka;",
+      "proposed_name": "orientation"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjjmkk",
+      "original_name": "AMaJAkK",
+      "original_descriptor": "Lkaajmma;",
+      "desktop_descriptor": "Lkaajmma;",
+      "proposed_name": "position"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjjmkk",
+      "original_name": "amAjakK",
+      "original_descriptor": "F",
+      "desktop_descriptor": "F",
+      "proposed_name": "rollRadians"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjjmkk",
+      "original_name": "AmAjakK",
+      "original_descriptor": "Lkaajmma;",
+      "desktop_descriptor": "Lkaajmma;",
+      "proposed_name": "upVector"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjjmkk",
+      "original_name": "aMAJAkK",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "viewportHeight"
+    },
+    {
+      "kind": "field",
+      "owner": "mmjjmkk",
+      "original_name": "AMAJAkK",
+      "original_descriptor": "I",
+      "desktop_descriptor": "I",
+      "proposed_name": "viewportWidth"
+    }
+  ]
+}

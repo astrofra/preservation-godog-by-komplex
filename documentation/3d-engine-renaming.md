@@ -2,6 +2,10 @@
 
 Date: 2026-10-08. Baseline: `30051123eda08f34252363854c275734fe3b426c`.
 
+This document records the first naming stage. The user subsequently authorized
+all remaining CSV proposals; see [the complete naming record](symbol-renaming-applied.md)
+and [current mapping](symbol-map.json). The tools below now use that complete map.
+
 The user explicitly authorized direct renaming of the 3D-engine portion of the
 review CSV, with regression tests, after creating the `fixed` tag. This overrides
 the previous requirement to wait for CSV decisions for this portion only.

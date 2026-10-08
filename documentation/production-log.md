@@ -257,3 +257,34 @@ correspondence also verify renamed field and method descriptors.
 
 [Naming and regression notes](3d-engine-renaming.md) record scope, commands,
 results and limitations. No remote publication was performed.
+
+## 2026-10-08 — Apply all remaining naming proposals
+
+The user authorized all remaining names after the 3D-engine stage. Applied the
+remaining 55 classes, 58 method declarations and 47 fields directly in desktop
+sources and updated their consumers, including launcher and validation code.
+The cumulative [symbol map](symbol-map.json) now accounts for all 295 rename
+proposals: 104 classes, 112 method declarations and 79 fields. Eight existing
+audio class names retain their `keep` recommendation. The original CSV and the
+3D-only map remain historical review/stage records. Members outside the CSV
+remain obfuscated; this milestone completes the proposed table.
+
+As before, edits used javac-resolved symbol identities. The structural check
+confirms all 114 runtime sources differ from the pre-renaming baseline only at
+4,506 mapped identifier tokens. Runtime strings, arithmetic and decompiler
+formatting remain exact. Both analysis scripts now use the cumulative map.
+Declaration correspondence still covers all 112 archived classes and 1,143
+methods, with six source files byte-identical to the decompiler baseline.
+
+A clean build and distribution installation pass. Regression checks pass for
+all assets, UV narrowing, vector/UV/camera behavior, 480 rasterizer cases, 72
+scene frames and 4,092 XM blocks. Native-window and input checks also pass.
+[The complete naming record](symbol-renaming-applied.md) describes scope and
+reproduction commands. Original artifacts and decompiler trees remain unchanged;
+no remote publication was performed.
+
+The final installed-distribution run from `/tmp` completed 192 seconds of muted
+playback, traversed all seven scene IDs through `endscreen`, and exited with
+status zero. The [playback transcript](symbol-renaming-playback.txt) records
+the command and timestamps. This also exercises the newly named orchestration,
+music-position scheduling and end-screen lifecycle over the complete sequence.

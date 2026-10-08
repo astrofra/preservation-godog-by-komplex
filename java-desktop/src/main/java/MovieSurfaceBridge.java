@@ -14,8 +14,8 @@ import java.awt.Component;
 
 public class MovieSurfaceBridge extends Component implements ImageConsumer
 {
-    mmaakka MAjAKka;
-    mmjakmk mAjAKka;
+    MoviePlayer MAjAKka;
+    MovieController mAjAKka;
     RgbSurface MaJakka;
     private ImageProducer maJakka;
     public int[] MAJakka;
@@ -32,8 +32,8 @@ public class MovieSurfaceBridge extends Component implements ImageConsumer
     public MovieSurfaceBridge(final RgbSurface maJakka, final InputStream inputStream) {
         this.MaJakka = maJakka;
         try {
-            this.MAjAKka = new mmaakka();
-            (this.mAjAKka = new mmjakmk(this.MAjAKka)).KKAmaJA(true);
+            this.MAjAKka = new MoviePlayer();
+            (this.mAjAKka = new MovieController(this.MAjAKka)).KKAmaJA(true);
             this.mAjAKka.kKamaJA(this);
             this.mAjAKka.kKamAja(true);
             this.mAjAKka.kkAMaJA(inputStream);

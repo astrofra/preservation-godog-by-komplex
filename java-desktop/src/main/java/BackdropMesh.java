@@ -8,7 +8,7 @@ public class BackdropMesh extends MeshObject
 {
     float MAjakkA;
     
-    public BackdropMesh(final kmaamma kmaamma, final URL url, final boolean b) {
+    public BackdropMesh(final DesktopDemoBase kmaamma, final URL url, final boolean b) {
         this.MAjakkA = 10000.0f;
         final boolean b2 = true;
         MeshObject mmaakkk;

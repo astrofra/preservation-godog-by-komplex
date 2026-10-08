@@ -4,7 +4,7 @@ import java.net.URL;
 
 /** Desktop platform boundary for the two recovered Applet subclasses. */
 public class DesktopSurface extends Panel {
-    private kmajmmk desktopStub = new kmajmmk();
+    private DesktopParameterStub desktopStub = new DesktopParameterStub();
     private BufferedImage working = new BufferedImage(512, 256, BufferedImage.TYPE_INT_RGB);
     private volatile BufferedImage presented;
     private final Canvas presentation = new Canvas() {
@@ -14,11 +14,11 @@ public class DesktopSurface extends Panel {
 
     public Canvas presentationComponent() { return presentation; }
 
-    public void setStub(kmajmmk stub) { desktopStub = stub; }
+    public void setStub(DesktopParameterStub stub) { desktopStub = stub; }
     public URL getCodeBase() { return GodogDesktop.assetBase(); }
     public URL getDocumentBase() { return getCodeBase(); }
     public String getParameter(String name) { return desktopStub.getParameter(name); }
-    public kajjmka getAppletContext() { return desktopStub.getAppletContext(); }
+    public DesktopResourceContext getAppletContext() { return desktopStub.getAppletContext(); }
     public Image getImage(URL url) { return Toolkit.getDefaultToolkit().getImage(url); }
     public void init() { }
     public void start() { }
