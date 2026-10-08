@@ -24,6 +24,7 @@ public final class PreservationChecks {
         System.out.println("PASS: " + assets + " assets match the archive; every external image decodes.");
         try (URLClassLoader original = new URLClassLoader(new URL[]{project.resolve("../reverse/inputs/godog-decompiler-input.jar").toUri().toURL()}, ClassLoader.getPlatformClassLoader())) {
             checkNarrowing(original);
+            GeometryChecks.run(original);
             checkLines(original);
             checkMusic(original, project);
         }
@@ -34,9 +35,9 @@ public final class PreservationChecks {
         uv.setAccessible(true);
         for (float value : new float[]{0, -1, Float.NaN, Float.POSITIVE_INFINITY, Float.NEGATIVE_INFINITY,
                 2147483648f, -2147483904f, 3221225472f, 4294967296f, -4294967296f}) {
-            if ((int)uv.invoke(null, value) != mmaamma.AMaJakK(value)) throw new AssertionError("UV narrowing: " + value);
-            if ((int)original.loadClass("kmaakma").getMethod("MaJAKkA", float.class).invoke(null, value) != kmaakma.MaJAKkA(value)) throw new AssertionError("Float helper");
-            if ((int)original.loadClass("kmaakma").getMethod("MajaKkA", double.class).invoke(null, (double)value) != kmaakma.MajaKkA(value)) throw new AssertionError("Double helper");
+            if ((int)uv.invoke(null, value) != TexturedTriangleRasterizer.AMaJakK(value)) throw new AssertionError("UV narrowing: " + value);
+            if ((int)original.loadClass("kmaakma").getMethod("MaJAKkA", float.class).invoke(null, value) != ImageMathSupport.MaJAKkA(value)) throw new AssertionError("Float helper");
+            if ((int)original.loadClass("kmaakma").getMethod("MajaKkA", double.class).invoke(null, (double)value) != ImageMathSupport.MajaKkA(value)) throw new AssertionError("Double helper");
         }
         System.out.println("PASS: narrowing conversions retain original overflow, NaN and infinity semantics.");
     }
@@ -45,15 +46,15 @@ public final class PreservationChecks {
         Class<?> pixels = original.loadClass("mmajkka");
         Object image = pixels.getConstructor(int.class, int.class, int.class, boolean.class).newInstance(512, 256, 1, false);
         Object raster = original.loadClass("mmjamka").getConstructor(pixels, int.class, int.class).newInstance(image, 512, 256);
-        mmajkka restoredImage = new mmajkka(512, 256, 1, false);
-        mmjamka restored = new mmjamka(restoredImage, 512, 256);
+        RgbSurface restoredImage = new RgbSurface(512, 256, 1, false);
+        LineRasterizer restored = new LineRasterizer(restoredImage, 512, 256);
         int[] reference = (int[])pixels.getField("AMAjakk").get(image);
         Random random = new Random(888);
         int cases = 0;
         for (String name : new String[]{"KamAjak", "kamAjak", "KamaJAk"}) {
             Class<?>[] types = {float.class, float.class, float.class, float.class, int.class, int.class, int.class};
             Method oldMethod = raster.getClass().getDeclaredMethod(name, types);
-            Method newMethod = mmjamka.class.getDeclaredMethod(name, types);
+            Method newMethod = LineRasterizer.class.getDeclaredMethod(name, types);
             oldMethod.setAccessible(true); newMethod.setAccessible(true);
             for (int i = 0; i < 160; i++) {
                 float x = 20 + random.nextFloat() * 400, y = 20 + random.nextFloat() * 180;

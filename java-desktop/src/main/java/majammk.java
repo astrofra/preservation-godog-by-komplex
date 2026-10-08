@@ -127,11 +127,11 @@ public class majammk extends Canvas implements Runnable
                 String str;
                 if (this.ajakkaM < this.AJakkaM) {
                     str = "kunigas";
-                    kmjjmmk.JAkKamA = true;
+                    SurfacePresenter.JAkKamA = true;
                 }
                 else {
                     str = "normal";
-                    kmjjmmk.JAkKamA = false;
+                    SurfacePresenter.JAkKamA = false;
                 }
                 final Vector ajakKaM5 = this.aJAKKaM;
                 final String string3 = "choosing " + str + " mode";
@@ -140,7 +140,7 @@ public class majammk extends Canvas implements Runnable
                 this.aJAkkaM = ajAkkaM5;
                 ajakKaM5.addElement(new kmajmka(string3, n5, ajAkkaM5));
                 this.paint(this.getGraphics());
-                System.out.println("kunigas=" + kmjjmmk.JAkKamA);
+                System.out.println("kunigas=" + SurfacePresenter.JAkKamA);
             }
             this.AKkAMAJ(1000L);
             String str2;

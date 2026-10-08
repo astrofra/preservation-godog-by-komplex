@@ -2,8 +2,11 @@
 
 The [review CSV](symbol-renaming-review.csv) proposes names inferred from usage
 in the restored Java sources. These are descriptive reconstruction names, not
-recovered author names. **No source symbols have been renamed.** Application of
-the mapping requires the user's explicit approval.
+recovered author names. The initial review required explicit user approval before
+application. The user subsequently authorized the 3D-engine portion directly:
+**49 classes, 54 method declarations and 32 fields are now renamed**, as recorded
+in [the applied mapping](3d-symbol-map.json) and [validation notes](3d-engine-renaming.md).
+The CSV remains the original review snapshot; other proposals remain pending.
 
 ## Scope
 
@@ -21,7 +24,8 @@ New desktop infrastructure, local variables and parameters are outside this
 batch. The three retired audio backend classes are included as `keep` rows.
 
 The baseline is commit `2d74d31`. Source references point into that version.
-All 303 decisions initially read `pending`; nothing is implicitly approved.
+All 303 decisions initially read `pending`. The later direct authorization for
+the 3D-engine subset is recorded separately rather than rewriting this snapshot.
 
 ## Editing the CSV
 
@@ -88,4 +92,5 @@ Before accepting the resulting code, check inherited-name collisions and API
 contracts, compile, run the existing numeric/audio/rendering comparisons against
 the original classes, and verify the desktop launcher. The fixed-point UV casts
 and other bytecode-verified repairs must remain unchanged. None of these code
-changes or post-refactor checks has been performed at this review stage.
+changes or post-refactor checks had been performed at the initial review stage.
+The subsequent 3D-engine application and completed checks are documented above.

@@ -10,9 +10,13 @@ All 112 recovered classes have a counterpart: 109 are compiled, and three
 obsolete audio backends are retained under `java-desktop/legacy-platform/`.
 Procyon is the default source. CFR supplies `maaakkk` (XM processing), `kmjjkkk`
 (mesh loading) and `mmaakka` (movie player), where Procyon could not express valid
-Java. Original names, fields, scene boundaries, script strings and assets remain.
-90 files are byte-identical to their selected decompiler baseline, including the
-three retired platform references. The added desktop infrastructure is separate.
+Java. Fields, scene boundaries, script strings and assets remain. After the
+user-authorized [3D-engine naming pass](3d-engine-renaming.md), 49 class names,
+54 method declarations and 32 fields use descriptive names; 46 files remain
+byte-identical to their selected decompiler baseline, including the three retired
+platform references (90 files before renaming). The added desktop infrastructure
+is separate. Original names in the historical correction tables below refer to
+the archive; [the applied map](3d-symbol-map.json) resolves their desktop names.
 
 The [machine-readable correspondence](java-desktop-correspondence.json) accounts
 for all 1,143 original methods by class, name, descriptor and destination. Four
@@ -98,9 +102,10 @@ supports this build JVM. The application has no third-party runtime libraries.
 - 480 line-rasterizer cases match original bytecode pixel for pixel.
 - 4,092 XM blocks (slightly over 190 seconds at 22,050 Hz) match the original
   bytecode sample for sample. The user also confirmed audible playback.
-- Six software scenes (`movieintro`, `paa`, `trav`, `vehje`, `evil`, `linjanen`),
-  each tested at local times 0, 10 and 20 seconds with matched random state,
-  produce **18 pixel-identical frames** against the archived classes on JDK 25.
+- Six software scenes (`movieintro`, `paa`, `trav`, `vehje`, `evil`, `linjanen`)
+  originally produced 18 pixel-identical frames at local times 0, 10 and 20
+  seconds. The naming regression suite now covers **72 pixel-identical frames**
+  at 12 times, including adjacent frames, against the archived classes on JDK 25.
 - Native AWT validation exercises window creation, scaled mouse press/release,
   focus loss, the F callback, minimize/restore and closing via `WINDOW_CLOSING`.
 - Complete real-time playback with Java Sound reached `endscreen` around

@@ -232,3 +232,28 @@ desktop signatures, identifier syntax, proposed-name collisions and consistency
 of the listed override groups. No Java source, executable, archived artifact or
 decompiler output changed. Runtime tests were not repeated for this
 documentation-only milestone. The mapping awaits user review.
+
+## 2026-10-08 — Apply the 3D-engine naming subset
+
+The user authorized direct desktop-source renaming of the 3D-engine portion,
+with regression tests, noting the `fixed` tag. Applied 49 class names, 54 method
+declarations and 32 fields from the reviewed proposals. The
+[applied mapping](3d-symbol-map.json) records authorization and exact identities;
+the original CSV stays unchanged, including its remaining pending proposals.
+Unlisted engine members retain their names; this is a scoped naming pass rather
+than complete deobfuscation. References from the demo and shared consumers were
+updated using javac-resolved symbols. No algorithms, locals, parameters, literals,
+assets or archived/decompiled artifacts changed.
+
+Baseline checks passed before editing. The renamed version passed a clean build,
+asset/numeric/audio comparisons, new vector/UV/camera differential checks, an
+expanded 72-frame exact scene comparison, native AWT interaction and a short
+installed-launcher run from `/tmp`. Original lookup strings in the comparison
+harness remain unchanged and are now explicitly paired with desktop factories.
+The correspondence report still covers all 112 archived classes and 1,143
+methods. A new structural check verifies all 114 runtime sources against the
+baseline: only 2,857 mapped identifier tokens changed. The mapping and
+correspondence also verify renamed field and method descriptors.
+
+[Naming and regression notes](3d-engine-renaming.md) record scope, commands,
+results and limitations. No remote publication was performed.

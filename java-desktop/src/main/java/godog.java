@@ -42,10 +42,10 @@ public class godog extends kmaamma implements Runnable
     maaakkk kKamAjA;
     maaakkk KkAMAjA;
     boolean kkAMAjA;
-    public static kmjamka KKAMAjA;
-    public static mmajkka kKAMAjA;
-    public static kajjkmk KkaMAjA;
-    public static maaakka kkaMAjA;
+    public static RgbSurfacePresenter KKAMAjA;
+    public static RgbSurface kKAMAjA;
+    public static IndexedSurfacePresenter KkaMAjA;
+    public static IndexedSurface kkaMAjA;
     boolean KKaMAjA;
     int kKaMAjA;
     int KkAmajA;
@@ -58,9 +58,9 @@ public class godog extends kmaamma implements Runnable
     float kKamajA;
     int KkAMajA;
     Hashtable kkAMajA;
-    mmajkka KKAMajA;
-    mmajkka kKAMajA;
-    mmajkka KkaMajA;
+    RgbSurface KKAMajA;
+    RgbSurface kKAMajA;
+    RgbSurface KkaMajA;
     int[] kkaMajA;
     int[] KKaMajA;
     int[] kKaMajA;
@@ -77,10 +77,10 @@ public class godog extends kmaamma implements Runnable
     Font KKAMAJA;
     boolean kKAMAJA;
     public static godog KkaMAJA;
-    kmjjmma kkaMAJA;
+    Scene kkaMAJA;
     kajakka KKaMAJA;
     int kKaMAJA;
-    maajmka KkAmaJA;
+    SmoothedFrameTimer KkAmaJA;
     float kkAmaJA;
     float KKAmaJA;
     float kKAmaJA;
@@ -122,7 +122,7 @@ public class godog extends kmaamma implements Runnable
         super.stop();
         if (this.kKAmAjA != null) this.kKAmAjA.dispose();
         if (this.KkamAjA != null) this.KkamAjA.stop();
-        if (this.kkaMAJA != null) this.kkaMAJA.MAjakkA();
+        if (this.kkaMAJA != null) this.kkaMAJA.dispose();
         if (this.KKaMAJA != null) this.KKaMAJA.aMAjaKk();
     }
     
@@ -216,12 +216,12 @@ public class godog extends kmaamma implements Runnable
         }
         final int n3 = 512;
         final int n4 = 256;
-        (godog.KKAMAjA = new kmjamka()).KKaMaJa(this, n3, n4, n, n2);
+        (godog.KKAMAjA = new RgbSurfacePresenter()).KKaMaJa(this, n3, n4, n, n2);
         godog.kKAMAjA = godog.KKAMAjA.kamAJAk;
-        (godog.KkaMAjA = new kajjkmk()).KKaMaJa(this, n3, n4, n, n2);
+        (godog.KkaMAjA = new IndexedSurfacePresenter()).KKaMaJa(this, n3, n4, n, n2);
         godog.kkaMAjA = godog.KkaMAjA.KkaMaJa;
-        godog.KAmajAk = godog.kKAMAjA.kAMAJaK;
-        godog.kAmajAk = godog.kKAMAjA.KamAJaK;
+        godog.KAmajAk = godog.kKAMAjA.width;
+        godog.kAmajAk = godog.kKAMAjA.height;
     }
     
     void kamajAk() {
@@ -243,7 +243,7 @@ public class godog extends kmaamma implements Runnable
             if (this.KkAMAjA == null) {
                 return;
             }
-            if (!this.KkAMAjA.jaKKAMa(this.kKaMAjA, (int)this.KkAmaJA.kAMAjak())) {
+            if (!this.KkAMAjA.jaKKAMa(this.kKaMAjA, (int)this.KkAmaJA.getAverageFrameMillis())) {
                 return;
             }
         }
@@ -310,9 +310,9 @@ public class godog extends kmaamma implements Runnable
                 return;
             }
             if (nextToken.startsWith("layer")) {
-                mmajkka kkaMajA;
+                RgbSurface kkaMajA;
                 if (stringTokenizer.hasMoreTokens()) {
-                    kkaMajA = (mmajkka)this.kkAMajA.get(stringTokenizer.nextToken());
+                    kkaMajA = (RgbSurface)this.kkAMajA.get(stringTokenizer.nextToken());
                 }
                 else {
                     kkaMajA = null;
@@ -396,9 +396,9 @@ public class godog extends kmaamma implements Runnable
     
     void kAMAjAk(final String str) {
         System.out.print(String.valueOf(this.kkamajA++));
-        final kmjjmma kmjjmma = (kmjjmma)this.kKAmajA.get(str);
+        final Scene kmjjmma = (Scene)this.kKAmajA.get(str);
         if (kmjjmma != null) {
-            kmjjmma.mAjakkA(this);
+            kmjjmma.load(this);
             System.runFinalization();
             System.gc();
             return;
@@ -414,9 +414,9 @@ public class godog extends kmaamma implements Runnable
     }
     
     void KAMajAk(final String str, final String s) {
-        final kmjjmma kmjjmma = (kmjjmma)this.kKAmajA.get(str);
+        final Scene kmjjmma = (Scene)this.kKAmajA.get(str);
         if (kmjjmma != null) {
-            kmjjmma.majakkA(s, this.KKAmaJA - this.KkamaJA);
+            kmjjmma.handleMessage(s, this.KKAmaJA - this.KkamaJA);
             return;
         }
         final kajakka kajakka = (kajakka)this.KkamajA.get(str);
@@ -429,13 +429,13 @@ public class godog extends kmaamma implements Runnable
     
     void kaMAJAk(final String str) {
         GodogDesktop.sceneStarted(str);
-        this.KkAmaJA.kaMAjak(80L);
-        this.KKAmaJA = this.KkAmaJA.kAmajak() / 1000.0f;
+        this.KkAmaJA.resetWithFrameDuration(80L);
+        this.KKAmaJA = this.KkAmaJA.getElapsedMillis() / 1000.0f;
         this.kKAmaJA = this.KKAmaJA - 0.08f;
         this.KkamaJA = this.KKAmaJA;
-        final kmjjmma kkaMAJA = (kmjjmma)this.kKAmajA.get(str);
+        final Scene kkaMAJA = (Scene)this.kKAmajA.get(str);
         if (kkaMAJA != null) {
-            kkaMAJA.maJAkkA();
+            kkaMAJA.enter();
             this.kkaMAJA = kkaMAJA;
             this.KKaMAJA = null;
             return;
@@ -451,9 +451,9 @@ public class godog extends kmaamma implements Runnable
     }
     
     void KaMajAk(final String str) {
-        final kmjjmma kmjjmma = (kmjjmma)this.kKAmajA.get(str);
+        final Scene kmjjmma = (Scene)this.kKAmajA.get(str);
         if (kmjjmma != null) {
-            kmjjmma.MAjakkA();
+            kmjjmma.dispose();
             this.kKAmajA.remove(str);
             System.runFinalization();
             System.gc();
@@ -476,8 +476,8 @@ public class godog extends kmaamma implements Runnable
         this.KKamajA = this.KKAmaJA;
     }
     
-    void kaMAjAk(final kmjjmma value) {
-        this.kKAmajA.put(value.MaJAkkA(), value);
+    void kaMAjAk(final Scene value) {
+        this.kKAmajA.put(value.getSceneId(), value);
     }
     
     void KamajAk(final kajakka value) {
@@ -486,15 +486,15 @@ public class godog extends kmaamma implements Runnable
     
     public void kAMAJAk() {
         this.KamajAk(new kmaakmk());
-        this.kaMAjAk(new kajjmma());
-        this.kaMAjAk(new kmajkmk());
-        this.kaMAjAk(new maajkka());
-        this.kaMAjAk(new maaamma());
-        this.kaMAjAk(new majakma());
-        this.kaMAjAk(new majakkk());
+        this.kaMAjAk(new VehjeScene());
+        this.kaMAjAk(new LinjanenScene());
+        this.kaMAjAk(new EvilScene());
+        this.kaMAjAk(new MovieIntroScene());
+        this.kaMAjAk(new TravScene());
+        this.kaMAjAk(new PaaScene());
         this.kkAMajA = new Hashtable();
         for (int i = 0; i < godog.kAMajAk.length; ++i) {
-            this.kkAMajA.put(godog.kAMajAk[i].substring(7, godog.kAMajAk[i].indexOf(46)), kmaakma.MAjaKkA(this.aMajAKK(godog.kAMajAk[i])));
+            this.kkAMajA.put(godog.kAMajAk[i].substring(7, godog.kAMajAk[i].indexOf(46)), ImageMathSupport.MAjaKkA(this.aMajAKK(godog.kAMajAk[i])));
         }
     }
     
@@ -509,7 +509,7 @@ public class godog extends kmaamma implements Runnable
         this.KKamAjA = this.kamAjAk("data/rocket.xm");
         this.kaMajAk();
         this.kaMajAk();
-        this.KkAmaJA = new maajmka(10, 60);
+        this.KkAmaJA = new SmoothedFrameTimer(10, 60);
         this.KAMAJAk(this, 0, 0, 512, 256);
         try {
             while (super.aMaJakK == Thread.currentThread()) {
@@ -524,10 +524,10 @@ public class godog extends kmaamma implements Runnable
                 if (this.kkamaJA) {
                     this.KAmAjAk(kkAmAJA);
                 }
-                this.KKAmaJA = this.KkAmaJA.kAmajak() / 1000.0f;
+                this.KKAmaJA = this.KkAmaJA.getElapsedMillis() / 1000.0f;
                 this.kkAmaJA = this.KKAmaJA - this.kKAmaJA;
                 if (this.kkaMAJA != null) {
-                    this.kkaMAJA.MajakkA(godog.kKAMAjA, this.KKAmaJA - this.KkamaJA, this.kkAmaJA);
+                    this.kkaMAJA.render(godog.kKAMAjA, this.KKAmaJA - this.KkamaJA, this.kkAmaJA);
                     if (this.KKAMajA != null) {
                         int i = -(int)(this.kkaMajA[0] * Math.random() + this.kkaMajA[2]);
                         int j = -(int)(this.kkaMajA[1] * Math.random() + this.kkaMajA[3]);
@@ -535,9 +535,9 @@ public class godog extends kmaamma implements Runnable
                             while (j < 256) {
                                 while (i < 512) {
                                     godog.kKAMAjA.AMAJakk(this.KKAMajA, i, j);
-                                    i += this.KKAMajA.kAMAJaK;
+                                    i += this.KKAMajA.width;
                                 }
-                                j += this.KKAMajA.KamAJaK;
+                                j += this.KKAMajA.height;
                             }
                         }
                         else {
@@ -551,9 +551,9 @@ public class godog extends kmaamma implements Runnable
                             while (l < 256) {
                                 while (k < 512) {
                                     godog.kKAMAjA.amAJAkk(this.kKAMajA, k, l);
-                                    k += this.kKAMajA.kAMAJaK;
+                                    k += this.kKAMajA.width;
                                 }
-                                l += this.kKAMajA.KamAJaK;
+                                l += this.kKAMajA.height;
                             }
                         }
                         else {
@@ -567,9 +567,9 @@ public class godog extends kmaamma implements Runnable
                             while (n2 < 256) {
                                 while (n < 512) {
                                     godog.kKAMAjA.AMAJakk(this.KkaMajA, n, n2);
-                                    n += this.KkaMajA.kAMAJaK;
+                                    n += this.KkaMajA.width;
                                 }
-                                n2 += this.KkaMajA.KamAJaK;
+                                n2 += this.KkaMajA.height;
                             }
                         }
                         else {
@@ -578,7 +578,7 @@ public class godog extends kmaamma implements Runnable
                     }
                     switch (this.KkAMajA) {
                         case 1: {
-                            godog.kKAMAjA.AmAjakk(mmajkka.AMaJakk(255, 255, 255));
+                            godog.kKAMAjA.AmAjakk(RgbSurface.AMaJakk(255, 255, 255));
                             break;
                         }
                         case 2: {
@@ -592,7 +592,7 @@ public class godog extends kmaamma implements Runnable
                     this.KKaMAJA.amAjaKk(kkAmAJA, this.KKAmaJA - this.KkamaJA, this.kkAmaJA);
                 }
                 this.kKAmaJA = this.KKAmaJA;
-                this.KkAmaJA.KaMAjak();
+                this.KkAmaJA.recordFrame();
                 ++this.kKaMAJA;
                 this.publishFrame();
                 Thread.sleep(5L);
@@ -606,7 +606,7 @@ public class godog extends kmaamma implements Runnable
     void KAmAjAk(final Graphics graphics) {
         final int n = 2;
         final int n2 = 12;
-        final String value = String.valueOf((int)this.KkAmaJA.kAMAjak());
+        final String value = String.valueOf((int)this.KkAmaJA.getAverageFrameMillis());
         graphics.setColor(Color.black);
         graphics.drawString(value, n + 1, n2);
         graphics.drawString(value, n - 1, n2);

@@ -26,14 +26,14 @@ public class kmjakkk extends Thread
         while (this.MAJAkKA < this.mAjakKA) {
             final float n2 = (float)n;
             final mmjjkkk mmjjkkk = this.MaJAkKA[this.MAJAkKA];
-            if (n2 == mmjjkkk.aMajakk) {
+            if (n2 == mmjjkkk.sortKey) {
                 mmjjkkk.ajakkam = ajakkam;
                 if (this.MAJAkKA == this.mAJAkKA) {
                     this.JAkKAMA();
                 }
                 ++this.MAJAkKA;
             }
-            else if (n2 > mmjjkkk.aMajakk) {
+            else if (n2 > mmjjkkk.sortKey) {
                 return;
             }
         }
@@ -44,7 +44,7 @@ public class kmjakkk extends Thread
     }
     
     public void start() {
-        new mmjjmma(this.MaJAkKA).mAJakkA(this.mAjakKA);
+        new DepthSorter(this.MaJAkKA).mAJakkA(this.mAjakKA);
         this.mAJAkKA = 0;
         super.start();
     }
@@ -62,7 +62,7 @@ public class kmjakkk extends Thread
                     Thread.sleep(millis);
                 }
                 if (this.maJAkKA != null) {
-                    this.maJAkKA.maJaKkA((int)mmjjkkk.aMajakk, mmjjkkk.AJakkam);
+                    this.maJAkKA.maJaKkA((int)mmjjkkk.sortKey, mmjjkkk.AJakkam);
                 }
                 else {
                     System.out.println(mmjjkkk.AJakkam);

@@ -18,7 +18,7 @@ public abstract class kmaamma extends DesktopSurface
     
     public kmaamma() {
         this.amaJakK = false;
-        kmaakma.majAKkA = this;
+        ImageMathSupport.majAKkA = this;
     }
     
     public boolean amajAKK() {
