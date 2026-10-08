@@ -208,3 +208,27 @@ Build/run instructions, platform changes and limits are recorded in
 skill was updated at the user's request with a dedicated Komplex reference for
 the UV and loop-bound failures. Original artifacts and decompiler trees remain
 unchanged. No remote publication or native/browser port was performed.
+
+## 2026-10-08 — Proposed descriptive symbol names
+
+The user requested names inferred from code usage for classes, methods and
+fields, with a CSV review and explicit approval before any replacements.
+The [review table](symbol-renaming-review.csv) contains all 112 archived classes
+and a first set of 112 method declarations and 79 fields. There are 295 rename
+proposals and 8 recommendations to retain existing audio class names. All
+decisions remain pending. Unlisted members are outside this first batch and
+remain unchanged; the table does not claim complete deobfuscation.
+
+Names distinguish the 3D renderer, movie player, module audio engine and scene
+implementations. Descriptors retain overload identity; override groups link
+callback declarations to their implementations. Reasons and source locations
+support each proposal. Six class proposals carry medium confidence rather than
+presenting a naming interpretation as certain. The accompanying
+[review guide](symbol-renaming-review.md) defines approval fields, scope,
+preservation rules and the checks required after any approved application.
+
+Validation checked CSV parsing, unique identities, archived declarations,
+desktop signatures, identifier syntax, proposed-name collisions and consistency
+of the listed override groups. No Java source, executable, archived artifact or
+decompiler output changed. Runtime tests were not repeated for this
+documentation-only milestone. The mapping awaits user review.
