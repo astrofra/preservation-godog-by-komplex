@@ -3,8 +3,8 @@
   "classes": [
     {
       "class": "godog",
-      "desktop_class": "GodogDemo",
-      "source": "java-desktop/src/main/java/GodogDemo.java",
+      "desktop_class": "godog",
+      "source": "java-desktop/src/main/java/godog.java",
       "baseline": "procyon",
       "source_unchanged": false,
       "methods": [

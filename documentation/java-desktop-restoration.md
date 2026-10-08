@@ -11,13 +11,15 @@ obsolete audio backends are retained under `java-desktop/legacy-platform/`.
 Procyon is the default source. CFR supplies `maaakkk` (XM processing), `kmjjkkk`
 (mesh loading) and `mmaakka` (movie player), where Procyon could not express valid
 Java. Fields, scene boundaries, script strings and assets remain. After the
-user-authorized [naming passes](symbol-renaming-applied.md), 104 class names,
+user-authorized [naming passes](symbol-renaming-applied.md), 103 class names,
 112 method declarations and 79 fields use descriptive names; six files remain
 byte-identical to their selected decompiler baseline, including the three retired
 platform references (90 files before renaming; 46 after the 3D-only pass). The
 added desktop infrastructure is separate. Original names in the historical
 correction tables below refer to the archive; [the complete applied map](symbol-map.json)
 resolves their desktop names.
+The original entry class and filename remain `godog` and `godog.java`, as
+explicitly requested by the user; its `main` method delegates to `GodogDesktop`.
 
 The [machine-readable correspondence](java-desktop-correspondence.json) accounts
 for all 1,143 original methods by class, name, descriptor and destination. Four

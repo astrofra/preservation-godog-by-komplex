@@ -47,8 +47,8 @@ public class VehjeScene extends Scene
         this.mAJaKKA.rollRadians = 2.0f;
         this.mAJaKKA.position.mAJaKka(300.0f, n * 10.0f, 700.0f);
         this.mAJaKKA.lookAt(new Vec3f(0.01f, 300.01f, 0.01f));
-        this.MajaKKA.mAjAKkA(this.mAJaKKA, GodogDemo.KKAMAjA);
-        this.MajaKKA.MajAKkA(GodogDemo.KKAMAjA);
+        this.MajaKKA.mAjAKkA(this.mAJaKKA, godog.KKAMAjA);
+        this.MajaKKA.MajAKkA(godog.KKAMAjA);
     }
     
     public void handleMessage(final String s, final float n) {

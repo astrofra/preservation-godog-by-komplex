@@ -42,7 +42,7 @@ public final class GodogDesktop {
             if (captureDirectory != null) Files.createDirectories(captureDirectory);
             assetBase();
             EventQueue.invokeLater(() -> {
-                try { launch(new GodogDemo(), null, 512, 256); }
+                try { launch(new godog(), null, 512, 256); }
                 catch (Throwable failure) { failed(failure); }
             });
         } catch (Exception failure) { failed(failure); }
@@ -117,7 +117,7 @@ public final class GodogDesktop {
             canvas.addMouseListener(mouse);
             canvas.addMouseMotionListener(mouse);
             canvas.addFocusListener(new FocusAdapter() {
-                @Override public void focusLost(FocusEvent event) { GodogDemo.kamAjAk = false; }
+                @Override public void focusLost(FocusEvent event) { godog.kamAjAk = false; }
             });
             window.setVisible(true);
             canvas.requestFocusInWindow();

@@ -4,17 +4,20 @@ Date: 2026-10-08. The user authorized the 3D-engine subset first, then all
 remaining proposals in the review CSV. Both stages modify the desktop sources
 directly. The [complete applied map](symbol-map.json) now supersedes the
 [3D-only map](3d-symbol-map.json), which remains a historical stage record.
+The user subsequently requested keeping the original entry class `godog` in
+`godog.java`; the proposed `GodogDemo` name has been reverted everywhere.
 
 ## Coverage
 
 | Stage | Classes | Method declarations | Fields |
 | --- | ---: | ---: | ---: |
 | 3D engine and direct consumers | 49 | 54 | 32 |
-| Remaining proposals | 55 | 58 | 47 |
-| Total renamed | **104** | **112** | **79** |
+| Remaining proposals, excluding the retained entry class | 54 | 58 | 47 |
+| Total renamed | **103** | **112** | **79** |
 
-All 295 `rename` proposals in the CSV are applied. The eight existing audio
-class names recommended as `keep` remain unchanged. The original CSV is retained
+294 `rename` proposals in the CSV are applied. The entry class `godog` retains
+its original name by explicit user request, superseding the earlier proposal.
+The eight existing audio class names recommended as `keep` remain unchanged. The original CSV is retained
 as a review snapshot, rather than rewriting a spreadsheet open in the user's
 editor; the explicit user authorizations and complete map record application.
 The [correspondence report](java-desktop-correspondence.json) still accounts for
@@ -28,7 +31,7 @@ names. None of the names is presented as recovered author spelling.
 
 ## Remaining subsystem names
 
-The final stage names the orchestration (`GodogDemo`, `GraphicsRoutine`,
+The final stage names the orchestration (`godog`, `GraphicsRoutine`,
 `EndscreenRoutine`), desktop compatibility contracts (`DesktopDemoBase`,
 `DesktopResourceContext`, `DesktopParameterStub`), audio engine (`ModuleLoader`,
 `ModuleSong`, `ModuleSequencer`, `ModuleVoice`, `ModuleChannel`, `MixerBus`,
@@ -39,8 +42,9 @@ The final stage names the orchestration (`GodogDemo`, `GraphicsRoutine`,
 grouped under descriptive class names. Binary-reading helpers use explicit byte
 order and signedness names, such as `ByteReaders.readUnsignedShortLE`.
 
-The standalone launcher remains `GodogDesktop`; Gradle and installed launch
-commands remain the same. All references to renamed declarations, constructors
+The original `godog.main(String[])` entry delegates to the standalone launcher
+`GodogDesktop`; Gradle and installed launch commands remain the same. All
+references to renamed declarations, constructors
 and inherited members were updated with javac-resolved symbol identities.
 Reflection into archived classes retains original lookup strings. Runtime
 strings, scene IDs, properties such as `godog.mute`, media paths, calculations,
@@ -65,7 +69,7 @@ Validation on Homebrew OpenJDK 25.0.2 / macOS arm64 includes:
 - Exact declaration correspondence for all archived methods and all explicitly
   renamed fields.
 - Structural comparison of all 114 runtime Java sources against the pre-renaming
-  baseline: **4,506 mapped identifier substitutions**, with every other token,
+  baseline: **4,443 mapped identifier substitutions**, with every other token,
   including literals, whitespace, comments, operators and numeric constants,
   unchanged. This complements behavioral tests; it does not alone prove Java
   name binding.

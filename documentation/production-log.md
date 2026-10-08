@@ -288,3 +288,17 @@ playback, traversed all seven scene IDs through `endscreen`, and exited with
 status zero. The [playback transcript](symbol-renaming-playback.txt) records
 the command and timestamps. This also exercises the newly named orchestration,
 music-position scheduling and end-screen lifecycle over the complete sequence.
+
+## 2026-10-08 — Retain the original entry class name
+
+The user requested keeping the original `godog.java` entry name. Reverted
+`GodogDemo` to `godog`, including the source filename, constructor and all desktop
+and test references. The applied map now explicitly records this preference and
+excludes the earlier class rename. Other accepted names remain applied.
+
+A clean build, preservation checks and all 72 original-bytecode scene comparisons
+pass. The installed distribution was rebuilt. Direct invocation of
+`java -cp java-desktop/build/classes/java/main godog --headless --mute --duration 2`
+successfully starts and stops the demo. The correspondence report still covers
+112 original classes and 1,143 methods; structural verification confirms that
+only 4,443 approved identifier tokens differ from the pre-renaming baseline.

@@ -65,8 +65,8 @@ public class EvilScene extends Scene
         mmajkka.aMaJAkk();
         this.AmAJakk.rollRadians = (float)(-0.4 - Math.sin(-0.006 * (double)Math.max(n - 0.0f, 0.0f)));
         this.amAJakk.MAJAKkA(n, this.AmAJakk);
-        this.amAJakk.mAjAKkA(this.AmAJakk, GodogDemo.KKAMAjA);
-        this.amAJakk.MajAKkA(GodogDemo.KKAMAjA);
+        this.amAJakk.mAjAKkA(this.AmAJakk, godog.KKAMAjA);
+        this.amAJakk.MajAKkA(godog.KKAMAjA);
         mmajkka.aMajAkk();
     }
     

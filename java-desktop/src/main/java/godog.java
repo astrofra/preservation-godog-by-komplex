@@ -17,7 +17,7 @@ import java.awt.Image;
 // Decompiled by Procyon v0.6.0
 // 
 
-public class GodogDemo extends DesktopDemoBase implements Runnable
+public class godog extends DesktopDemoBase implements Runnable
 {
     static final String[] kAMajAk;
     static final int KamajAk = 512;
@@ -76,7 +76,7 @@ public class GodogDemo extends DesktopDemoBase implements Runnable
     int kkAMAJA;
     Font KKAMAJA;
     boolean kKAMAJA;
-    public static GodogDemo KkaMAJA;
+    public static godog KkaMAJA;
     Scene kkaMAJA;
     GraphicsRoutine KKaMAJA;
     int kKaMAJA;
@@ -93,7 +93,7 @@ public class GodogDemo extends DesktopDemoBase implements Runnable
     }
     
     public void init() {
-        GodogDemo.KkaMAJA = this;
+        godog.KkaMAJA = this;
         this.kaMAjAk = this.getImage(this.aMajAKK("images/loading.gif"));
         final MediaTracker mediaTracker = new MediaTracker(this);
         mediaTracker.addImage(this.kaMAjAk, 1);
@@ -137,26 +137,26 @@ public class GodogDemo extends DesktopDemoBase implements Runnable
     }
     
     public boolean mouseMove(final Event event, final int kamAjAk, final int kamAjAk2) {
-        GodogDemo.kAMAjAk = kamAjAk;
-        GodogDemo.KamAjAk = kamAjAk2;
-        GodogDemo.kamAjAk = false;
+        godog.kAMAjAk = kamAjAk;
+        godog.KamAjAk = kamAjAk2;
+        godog.kamAjAk = false;
         return true;
     }
     
     public boolean mouseUp(final Event event, final int n, final int n2) {
-        GodogDemo.kamAjAk = false;
-        GodogDemo.kAMAjAk = n;
-        GodogDemo.KamAjAk = n2;
-        GodogDemo.KkAmAjA = true;
-        GodogDemo.KAmAjAk = n;
-        GodogDemo.kAmAjAk = n2;
+        godog.kamAjAk = false;
+        godog.kAMAjAk = n;
+        godog.KamAjAk = n2;
+        godog.KkAmAjA = true;
+        godog.KAmAjAk = n;
+        godog.kAmAjAk = n2;
         return true;
     }
     
     public boolean mouseDown(final Event event, final int kamAjAk, final int kamAjAk2) {
-        GodogDemo.kamAjAk = true;
-        GodogDemo.kAMAjAk = kamAjAk;
-        GodogDemo.KamAjAk = kamAjAk2;
+        godog.kamAjAk = true;
+        godog.kAMAjAk = kamAjAk;
+        godog.KamAjAk = kamAjAk2;
         return true;
     }
     
@@ -216,12 +216,12 @@ public class GodogDemo extends DesktopDemoBase implements Runnable
         }
         final int n3 = 512;
         final int n4 = 256;
-        (GodogDemo.KKAMAjA = new RgbSurfacePresenter()).KKaMaJa(this, n3, n4, n, n2);
-        GodogDemo.kKAMAjA = GodogDemo.KKAMAjA.kamAJAk;
-        (GodogDemo.KkaMAjA = new IndexedSurfacePresenter()).KKaMaJa(this, n3, n4, n, n2);
-        GodogDemo.kkaMAjA = GodogDemo.KkaMAjA.KkaMaJa;
-        GodogDemo.KAmajAk = GodogDemo.kKAMAjA.width;
-        GodogDemo.kAmajAk = GodogDemo.kKAMAjA.height;
+        (godog.KKAMAjA = new RgbSurfacePresenter()).KKaMaJa(this, n3, n4, n, n2);
+        godog.kKAMAjA = godog.KKAMAjA.kamAJAk;
+        (godog.KkaMAjA = new IndexedSurfacePresenter()).KKaMaJa(this, n3, n4, n, n2);
+        godog.kkaMAjA = godog.KkaMAjA.KkaMaJa;
+        godog.KAmajAk = godog.kKAMAjA.width;
+        godog.kAmajAk = godog.kKAMAjA.height;
     }
     
     void kamajAk() {
@@ -229,7 +229,7 @@ public class GodogDemo extends DesktopDemoBase implements Runnable
         final int n = 13;
         final long currentTimeMillis = System.currentTimeMillis();
         for (int i = 0; i < n; ++i) {
-            GodogDemo.KKAMAjA.aKKaMaJ(kamAjAk, 0, 0);
+            godog.KKAMAjA.aKKaMaJ(kamAjAk, 0, 0);
         }
         System.out.println("slowness " + (System.currentTimeMillis() - currentTimeMillis) / (long)n);
     }
@@ -362,14 +362,14 @@ public class GodogDemo extends DesktopDemoBase implements Runnable
                 }
                 if (nextToken.equals("clear24")) {
                     final int int1 = Integer.parseInt(stringTokenizer.nextToken(), 16);
-                    GodogDemo.KKAMAjA.kAmaJAk(int1);
-                    GodogDemo.KKAMAjA.kamAJAk.aMaJAkk();
-                    GodogDemo.KKAMAjA.kAmaJAk(int1);
+                    godog.KKAMAjA.kAmaJAk(int1);
+                    godog.KKAMAjA.kamAJAk.aMaJAkk();
+                    godog.KKAMAjA.kAmaJAk(int1);
                     return;
                 }
                 if (nextToken.equals("clear8")) {
                     Integer.parseInt(stringTokenizer.nextToken(), 16);
-                    GodogDemo.KkaMAjA.akKaMaJ();
+                    godog.KkaMAjA.akKaMaJ();
                     return;
                 }
                 if (nextToken.equals("kill")) {
@@ -493,8 +493,8 @@ public class GodogDemo extends DesktopDemoBase implements Runnable
         this.kaMAjAk(new TravScene());
         this.kaMAjAk(new PaaScene());
         this.kkAMajA = new Hashtable();
-        for (int i = 0; i < GodogDemo.kAMajAk.length; ++i) {
-            this.kkAMajA.put(GodogDemo.kAMajAk[i].substring(7, GodogDemo.kAMajAk[i].indexOf(46)), ImageMathSupport.MAjaKkA(this.aMajAKK(GodogDemo.kAMajAk[i])));
+        for (int i = 0; i < godog.kAMajAk.length; ++i) {
+            this.kkAMajA.put(godog.kAMajAk[i].substring(7, godog.kAMajAk[i].indexOf(46)), ImageMathSupport.MAjaKkA(this.aMajAKK(godog.kAMajAk[i])));
         }
     }
     
@@ -514,8 +514,8 @@ public class GodogDemo extends DesktopDemoBase implements Runnable
         try {
             while (super.aMaJakK == Thread.currentThread()) {
                 if (super.AMaJakK) { Thread.sleep(20); continue; }
-                if (!GodogDemo.KkAmAJA) {
-                    GodogDemo.KkAmAJA = true;
+                if (!godog.KkAmAJA) {
+                    godog.KkAmAJA = true;
                     if (this.kkAmAJA != null) this.kkAmAJA.dispose();
                     this.kkAmAJA = this.KamAjAk();
                 }
@@ -527,21 +527,21 @@ public class GodogDemo extends DesktopDemoBase implements Runnable
                 this.KKAmaJA = this.KkAmaJA.getElapsedMillis() / 1000.0f;
                 this.kkAmaJA = this.KKAmaJA - this.kKAmaJA;
                 if (this.kkaMAJA != null) {
-                    this.kkaMAJA.render(GodogDemo.kKAMAjA, this.KKAmaJA - this.KkamaJA, this.kkAmaJA);
+                    this.kkaMAJA.render(godog.kKAMAjA, this.KKAmaJA - this.KkamaJA, this.kkAmaJA);
                     if (this.KKAMajA != null) {
                         int i = -(int)(this.kkaMajA[0] * Math.random() + this.kkaMajA[2]);
                         int j = -(int)(this.kkaMajA[1] * Math.random() + this.kkaMajA[3]);
                         if (this.kkaMajA[4] > 0) {
                             while (j < 256) {
                                 while (i < 512) {
-                                    GodogDemo.kKAMAjA.AMAJakk(this.KKAMajA, i, j);
+                                    godog.kKAMAjA.AMAJakk(this.KKAMajA, i, j);
                                     i += this.KKAMajA.width;
                                 }
                                 j += this.KKAMajA.height;
                             }
                         }
                         else {
-                            GodogDemo.kKAMAjA.AMAJakk(this.KKAMajA, i, j);
+                            godog.kKAMAjA.AMAJakk(this.KKAMajA, i, j);
                         }
                     }
                     if (this.kKAMajA != null) {
@@ -550,14 +550,14 @@ public class GodogDemo extends DesktopDemoBase implements Runnable
                         if (this.KKaMajA[4] > 0) {
                             while (l < 256) {
                                 while (k < 512) {
-                                    GodogDemo.kKAMAjA.amAJAkk(this.kKAMajA, k, l);
+                                    godog.kKAMAjA.amAJAkk(this.kKAMajA, k, l);
                                     k += this.kKAMajA.width;
                                 }
                                 l += this.kKAMajA.height;
                             }
                         }
                         else {
-                            GodogDemo.kKAMAjA.amAJAkk(this.kKAMajA, k, l);
+                            godog.kKAMAjA.amAJAkk(this.kKAMajA, k, l);
                         }
                     }
                     if (this.KkaMajA != null) {
@@ -566,27 +566,27 @@ public class GodogDemo extends DesktopDemoBase implements Runnable
                         if (this.kKaMajA[4] > 0) {
                             while (n2 < 256) {
                                 while (n < 512) {
-                                    GodogDemo.kKAMAjA.AMAJakk(this.KkaMajA, n, n2);
+                                    godog.kKAMAjA.AMAJakk(this.KkaMajA, n, n2);
                                     n += this.KkaMajA.width;
                                 }
                                 n2 += this.KkaMajA.height;
                             }
                         }
                         else {
-                            GodogDemo.kKAMAjA.AMAJakk(this.KkaMajA, n, n2);
+                            godog.kKAMAjA.AMAJakk(this.KkaMajA, n, n2);
                         }
                     }
                     switch (this.KkAMajA) {
                         case 1: {
-                            GodogDemo.kKAMAjA.AmAjakk(RgbSurface.AMaJakk(255, 255, 255));
+                            godog.kKAMAjA.AmAjakk(RgbSurface.AMaJakk(255, 255, 255));
                             break;
                         }
                         case 2: {
-                            GodogDemo.kKAMAjA.amAJakk(Math.max(0.0f, 0.93f - (this.KKAmaJA - this.KKamajA) * 2.0f));
+                            godog.kKAMAjA.amAJakk(Math.max(0.0f, 0.93f - (this.KKAmaJA - this.KKamajA) * 2.0f));
                             break;
                         }
                     }
-                    GodogDemo.KKAMAjA.aKKaMaJ(kkAmAJA, 0, 0);
+                    godog.KKAMAjA.aKKaMaJ(kkAmAJA, 0, 0);
                 }
                 if (this.KKaMAJA != null && kkAmAJA != null) {
                     this.KKaMAJA.render(kkAmAJA, this.KKAmaJA - this.KkamaJA, this.kkAmaJA);
@@ -622,7 +622,7 @@ public class GodogDemo extends DesktopDemoBase implements Runnable
         this.kkamAJA = kkamAJA2;
         this.KKamAJA = kKamAJA;
         this.kKamAJA = kKamAJA2;
-        GodogDemo.KkAmAJA = false;
+        godog.KkAmAJA = false;
     }
     
     Graphics KamAjAk() {
@@ -652,7 +652,7 @@ public class GodogDemo extends DesktopDemoBase implements Runnable
         this.publishFrame();
     }
     
-    public GodogDemo() {
+    public godog() {
         this.kkAMAjA = false;
         this.kKaMAjA = -1;
         this.kKAmajA = new Hashtable();

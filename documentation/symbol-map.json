@@ -2,7 +2,6 @@
   "baseline_commit": "30051123eda08f34252363854c275734fe3b426c",
   "authorization": "User authorized the 3D-engine subset and subsequently all remaining CSV proposals on 2026-10-08.",
   "classes": {
-    "godog": "GodogDemo",
     "kaaakka": "Mat3f",
     "kaaakkk": "ScalarFieldVertex",
     "kaaakma": "BackdropMesh",
@@ -1636,5 +1635,8 @@
       "desktop_descriptor": "I",
       "proposed_name": "viewportWidth"
     }
-  ]
+  ],
+  "retained_names": {
+    "godog": "User requested retaining the original godog.java entry class on 2026-10-08, superseding the proposed GodogDemo rename."
+  }
 }

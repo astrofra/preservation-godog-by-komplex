@@ -4,10 +4,12 @@ The [review CSV](symbol-renaming-review.csv) proposes names inferred from usage
 in the restored Java sources. These are descriptive reconstruction names, not
 recovered author names. The initial review required explicit user approval before
 application. The user subsequently authorized the 3D-engine portion and then
-all remaining proposals directly: **104 classes, 112 method declarations and 79
+all remaining proposals directly: **103 classes, 112 method declarations and 79
 fields are now renamed**, as recorded in [the complete mapping](symbol-map.json)
 and [validation notes](symbol-renaming-applied.md). The eight `keep` proposals
-retain existing names. The CSV remains the original review snapshot.
+retain existing names. The user subsequently requested retaining `godog.java`
+and class `godog`, superseding its `GodogDemo` proposal. The CSV remains the
+original review snapshot.
 
 ## Scope
 

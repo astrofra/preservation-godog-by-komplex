@@ -82,8 +82,8 @@ public class PaaScene extends Scene
         this.mAjAkKA.MAJakKA = 0.11f;
         this.MAJaKka.MaJakka = (n > 9.5f);
         this.MAJaKka.mAJAKKa = n;
-        this.MAjAkKA.mAjAKkA(this.majAkKA, GodogDemo.KKAMAjA);
-        this.MAjAkKA.MajAKkA(GodogDemo.KKAMAjA);
+        this.MAjAkKA.mAjAKkA(this.majAkKA, godog.KKAMAjA);
+        this.MAjAkKA.MajAKkA(godog.KKAMAjA);
     }
     
     public void handleMessage(final String s, final float n) {

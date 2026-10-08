@@ -70,8 +70,8 @@ public class TravScene extends Scene
         this.MAJaKkA.MaJakKA = 30.0f;
         final float n3 = (float)Math.max(0.0, Math.sin((double)majakKa * 0.3));
         this.MAJaKkA.MAJakKA = (float)(0.8100000023841858 - 0.8 * n3 * n3);
-        this.maJaKkA.mAjAKkA(this.MaJaKkA, GodogDemo.KKAMAjA);
-        this.maJaKkA.MajAKkA(GodogDemo.KKAMAjA);
+        this.maJaKkA.mAjAKkA(this.MaJaKkA, godog.KKAMAjA);
+        this.maJaKkA.MajAKkA(godog.KKAMAjA);
         mmajkka.aMajAkk();
     }
     
