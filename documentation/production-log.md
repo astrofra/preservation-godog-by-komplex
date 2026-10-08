@@ -302,3 +302,51 @@ pass. The installed distribution was rebuilt. Direct invocation of
 successfully starts and stops the demo. The correspondence report still covers
 112 original classes and 1,143 methods; structural verification confirms that
 only 4,443 approved identifier tokens differ from the pre-renaming baseline.
+
+## 2026-10-08 — Start the C++11 / SDL2 port
+
+The user authorized the native port for Linux, macOS and Windows, with a future
+WebAssembly target. The working Java port remains the executable reference.
+The sibling Forward offline port was inspected for asset decoding, Java random
+numbers and audio; its condensed scene engine is not substituted for Godog's
+class structure. A restricted javac-based translator keeps resolved symbols,
+class/method boundaries and the corrected UV conversions. Platform adapters
+live separately from the translated artwork. Validation results and remaining
+scope will be recorded before this milestone is committed.
+
+The native translation now covers 75 classes, retaining the six scenes, ASE/IGU
+loaders, SWF shape/timeline rasterizer, XM player and original script. The C++
+compatibility layer explicitly preserves wrapping arithmetic, UV narrowing,
+array aliasing and random sequencing. Controlled comparisons caught an incorrect
+nextDouble bit weight in the initial native random helper; correcting it made
+all 72 scene frames exact with shared decoded images.
+
+The SWF contains only the shape/text-related tags needed for the introduction;
+its 669-frame file has no embedded audio, bitmap or action tags. The native
+adapter loads synchronously and renders requested frames. It does not require
+AWT threads or a general-purpose Flash runtime. All seven original GIFs are
+single-frame and nontransparent. GIF indices/palettes are exact; the 32 JPEGs
+have a measured STB/Java channel error (maximum 9, mean 0.0174927), checked
+separately from the renderer.
+
+The regression suite checks 72 packed scene buffers, 480 line framebuffer
+checksums, numeric edge cases, 39 images, 4,092 XM blocks and the complete script
+through the end screen. Audio is exact against Java at the recorded comparison
+settings; normal playback retains the original script's boost of 96. Full native
+playback reaches the end screen at 188.56 seconds. Address/undefined-behavior
+sanitizers also pass. A final isolated-scene shutdown check exposed the original
+TravScene.dispose()'s dereference of an uninitialized field. Native session
+cleanup now releases the preserved object graph directly, and the lifecycle
+test exercises all six scenes.
+
+The native window and audio device were exercised locally. A relocatable arm64
+macOS application bundles assets, SDL2-compat and its dynamically loaded SDL3.
+It was launched from `/tmp`; dyld confirms both SDL libraries resolve inside the
+bundle, and ad hoc signature verification passes. Linux and Windows build/CI
+configuration is prepared but unexecuted. WebAssembly remains the requested
+future platform stage, with frame/audio-block operations separated from the SDL
+loop. [Native decisions and validation](native-port.md),
+[usage](../native-sdl2/README.md), [provenance](../native-sdl2/PROVENANCE.md),
+[correspondence](../native-sdl2/correspondence.csv) and
+[native captures](../img/native/README.md) record the milestone. Java runtime,
+original artifacts and decompiler references remain unchanged.

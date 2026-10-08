@@ -8,7 +8,10 @@ The original distribution and the YouTube capture linked from Pouët have been
 recovered and checked. Independent CFR and Procyon references now cover all 112
 classes, with remaining decompiler limitations documented. The desktop adaptation
 now runs on JDK 25 with an AWT window and Java Sound, retaining the recovered
-software renderer, scenes and XM mixer.
+software renderer, scenes and XM mixer. A standalone C++11 / SDL2 port now
+plays the complete demo using the same assets, software renderer and XM logic.
+It has been tested on macOS arm64; Linux and Windows build/CI configurations
+are provided. WebAssembly is the next platform stage.
 
 ```sh
 cd java-desktop
@@ -29,6 +32,19 @@ See [desktop usage](java-desktop/README.md) and the
 - [Descriptive symbol names and regression checks](documentation/symbol-renaming-applied.md).
 - [Separate French note on obfuscation](documentation/obfuscation-notes-fr.md).
 
+## Native port
+
+```sh
+cmake -S native-sdl2 -B native-sdl2/build -DCMAKE_BUILD_TYPE=Release
+cmake --build native-sdl2/build --config Release --parallel
+./native-sdl2/build/godog
+```
+
+Requires a C++11 compiler, CMake, SDL2 and zlib. No JVM is needed to build or run
+the checked-in native sources. See [native usage and platform commands](native-sdl2/README.md),
+[port decisions and validation](documentation/native-port.md), and
+[native frame captures](img/native/README.md).
+
 ## Repository layout
 
 | Directory | Purpose |
@@ -36,6 +52,8 @@ See [desktop usage](java-desktop/README.md) and the
 | `documentation/` | English production notes, provenance and decisions; a separate French obfuscation note requested by the user. |
 | `img/` | Images for communicating about the project. |
 | `java-desktop/` | Runnable JDK 25 desktop reconstruction, original external assets and validation tools. |
+| `native-sdl2/` | C++11 / SDL2 port, numeric compatibility helpers, CMake, regression tools and packaging. |
+| `dist/native/` | Generated local application packages (not tracked). |
 | `original/` | Unmodified distribution ZIPs, extracted original classes, video and recovery evidence. |
 | `reverse/cfr/` | CFR decompilation reference. |
 | `reverse/procyon/` | Independent Procyon decompilation reference. |

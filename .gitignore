@@ -3,3 +3,6 @@
 *.ytdl
 java-desktop/build/
 java-desktop/.gradle/
+native-sdl2/build*/
+dist/native/
+native-sdl2/tools/__pycache__/
