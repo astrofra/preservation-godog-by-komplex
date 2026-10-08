@@ -1,0 +1,4780 @@
+{
+  "classes": [
+    {
+      "origin": "original/classes/godog.class",
+      "name": "godog",
+      "superclass": "kmaamma",
+      "interfaces": [
+        "java/lang/Runnable"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 18196,
+      "sha256": "fddaeedd7ba0fdad3203090c52ff04d23d87bc1d8214aafdf546616c02eae2b1",
+      "class_references": [
+        "java/applet/Applet",
+        "java/awt/Color",
+        "java/awt/Component",
+        "java/awt/Container",
+        "java/awt/Event",
+        "java/awt/Font",
+        "java/awt/FontMetrics",
+        "java/awt/Graphics",
+        "java/awt/MediaTracker",
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Integer",
+        "java/lang/Math",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/lang/Throwable",
+        "java/util/Hashtable",
+        "java/util/StringTokenizer",
+        "kajakka",
+        "kajamka",
+        "kajjkmk",
+        "kajjmma",
+        "kmaakka",
+        "kmaakkk",
+        "kmaakma",
+        "kmaakmk",
+        "kmaamma",
+        "kmajkmk",
+        "kmjamka",
+        "kmjjmma",
+        "kmjjmmk",
+        "maaakkk",
+        "maaamma",
+        "maajkka",
+        "maajmka",
+        "majakkk",
+        "majakma",
+        "majamka",
+        "majammk",
+        "mmajkka",
+        "mmajmma",
+        "muhmu/hifi/device/MAD"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Image",
+        "java/awt/LayoutManager",
+        "java/awt/image/ImageObserver",
+        "java/lang/Object",
+        "java/net/URL",
+        "maaakka",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "application_references": [
+        "kajakka",
+        "kajamka",
+        "kajjkmk",
+        "kajjmma",
+        "kmaakka",
+        "kmaakkk",
+        "kmaakma",
+        "kmaakmk",
+        "kmaamma",
+        "kmajkmk",
+        "kmjamka",
+        "kmjjmma",
+        "kmjjmmk",
+        "maaakka",
+        "maaakkk",
+        "maaamma",
+        "maajkka",
+        "maajmka",
+        "majakkk",
+        "majakma",
+        "majamka",
+        "majammk",
+        "mmajkka",
+        "mmajmma",
+        "muhmu/hifi/device/MAD",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "platform_candidates": [
+        "java/applet/Applet",
+        "java/awt/Color",
+        "java/awt/Component",
+        "java/awt/Container",
+        "java/awt/Event",
+        "java/awt/Font",
+        "java/awt/FontMetrics",
+        "java/awt/Graphics",
+        "java/awt/Image",
+        "java/awt/LayoutManager",
+        "java/awt/MediaTracker",
+        "java/awt/image/ImageObserver",
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Integer",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/lang/Throwable",
+        "java/net/URL",
+        "java/util/Hashtable",
+        "java/util/StringTokenizer"
+      ],
+      "strings": [
+        "",
+        " ",
+        "Center",
+        "Courier",
+        "Komplex' Rocket",
+        "_000 clear24 ffffff",
+        "_0b00",
+        "_10 layer0 maska12 0 0 0 0",
+        "_1000 layer1 maska9 32 32 0 0 1",
+        "_1004 layer0 maska12 16 256 0 0 1",
+        "_100c layer0 maska11 32 32 0 0 1",
+        "_1014 layer0 maska8 32 32 0 0 1",
+        "_1017 layer1 maska16 32 32 0 0 1",
+        "_101c layer0 maska15 32 32 0 0 1",
+        "_1020 layer1 maska10 22 56 0 0 1",
+        "_102c layer0 maska11 32 32 0 0 1",
+        "_1030 layer1 megaruno 52 56 0 0 1",
+        "_1100 layer0 maska10 32 8 -0 -120 1",
+        "_1120 layer0 maska13 8 8 -240 -120 1",
+        "_1200 layer0 maska11 8 8 -240 -120 1",
+        "_1220 layer0",
+        "_1220 msg linjanen flash",
+        "_1300",
+        "_1300 msg linjanen flash",
+        "_1320 msg linjanen flash",
+        "_1400",
+        "_1620 layer2",
+        "_22222",
+        "_300 layer0 filmdamage 264 1536 0 0 1",
+        "_420 layer1 megaruno 90 20 40 -43 0",
+        "_500 layer0 filmdamage 64 1536 0 0 1",
+        "_700",
+        "_730",
+        "_800",
+        "_800 layer0 megaruno 512 190 0 0 0",
+        "_80d layer1 maska2 200 200 0 0 1",
+        "_810 layer1 maska7 0 0 0 0 0",
+        "_814 layer0 maska9 0 0 0 0 0",
+        "_817 layer0 megaruno 512 190 0 0 0",
+        "_81d layer1 maska8 200 200 0 0 1",
+        "_820 layer0 maska16 10 10 -10 -5 0",
+        "_820 layer1 maska9 0 0 0 0 0",
+        "_822 layer0 maska2 10 10 -10 -5 0",
+        "_824",
+        "_824 layer0 maska9 10 10 -10 -5 0",
+        "_828 layer0 maska12 10 10 -10 -5 0",
+        "_82d layer1 maska10 200 200 0 0 1",
+        "_830 layer0 maska16 10 10 -10 -5 0",
+        "_830 layer1 maska11 0 0 0 0 0",
+        "_83d layer1 maska13 200 200 0 0 1",
+        "__02 layer0",
+        "__10",
+        "__2 layer0 maska7 4 0 40 0 1",
+        "__2 layer1 maska10 0 0 0 0 0",
+        "__2 layer1 maska7 32 0",
+        "__2 layer1 maska9 16 16",
+        "__4",
+        "__4 layer0",
+        "__4 layer0 filmdamage 0 1280 0 0 1",
+        "__4 layer0 maska11 0 0 0 0",
+        "__4 layer0 maska12 0 0 0 0",
+        "__4 layer0 maska13 0 0 0 0",
+        "__4 layer0 maska13 20 20 0 0 1",
+        "__4 layer0 maska14 0 0 0 0",
+        "__4 layer0 maska15 0 0 0 0",
+        "__4 layer1",
+        "__4 layer1 filmdamage 0 1280 0 0 1",
+        "__4 layer1 maska11 512 256 -256 -128 1",
+        "__4 layer1 maska12 10 70 -70 -75 0",
+        "__4 layer1 maska13 80 10 -100 -15 0",
+        "__4 layer1 maska15 512 256 -256 -128 1",
+        "__4 layer1 maska16 512 256 -256 -128 1",
+        "__4 layer1 maska7 512 256 -256 -128 1",
+        "__4 layer1 maska8 512 256 -256 -128 1",
+        "__4 layer1 megaruno 512 256 -256 -128 1",
+        "__4 layer1 megaruno 8 8 400 200 1",
+        "__4 msg linjanen flash",
+        "_a00",
+        "_a20 layer0 filmdamage 512 10 0 0 1",
+        "_a30 layer2 megaruno 50 10 200 200",
+        "_b00 layer0 maska12 32 8",
+        "_c10",
+        "_d30 layer0",
+        "_e00 show vehje",
+        "_e04 layer0 maska9 0 0 30 30",
+        "_e0c layer0 maska7 4 4 30 30",
+        "_e10 layer1 maska13 64 32 0 0",
+        "_e14 layer0 maska8 4 4 30 30",
+        "_e17 layer0 maska8 4 4 30 30",
+        "_e1c layer0 maska8 4 4 30 30",
+        "_e1d layer1",
+        "_e20 layer1 maska13 64 32 0 0",
+        "_e2d layer1",
+        "_e30 layer1 maska13 64 32 0 0",
+        "_e37 layer0 maska8 4 4 30 30",
+        "_e3c layer0 maska2 104 104 30 30",
+        "_e3d layer1",
+        "_f00",
+        "clear24",
+        "clear24 ffffff",
+        "clear8",
+        "data/rocket.xm",
+        "filmbox",
+        "go",
+        "images/filmdamage.jpg",
+        "images/godog1.jpg",
+        "images/godog2.jpg",
+        "images/godog3.jpg",
+        "images/godog4.jpg",
+        "images/godog5.jpg",
+        "images/godog6.jpg",
+        "images/loading.gif",
+        "images/maska10.jpg",
+        "images/maska11.jpg",
+        "images/maska12.jpg",
+        "images/maska13.jpg",
+        "images/maska15.jpg",
+        "images/maska16.jpg",
+        "images/maska2.jpg",
+        "images/maska7.jpg",
+        "images/maska8.jpg",
+        "images/maska9.jpg",
+        "images/megaruno.jpg",
+        "init",
+        "init endscreen",
+        "init evil",
+        "init linjanen",
+        "init movieintro",
+        "init paa",
+        "init trav",
+        "init vehje",
+        "kill",
+        "killmod",
+        "komplex@jyu.fi",
+        "layer",
+        "layer0",
+        "layer0 filmdamage 0 1280 0 0 1",
+        "layer0 filmdamage 0 1536 0 0 1",
+        "layer0 maska12 0 0",
+        "layer0 maska12 10 10 -10 -55 0",
+        "layer0 maska12 10 10 40 -5 0",
+        "layer0 maska15 10 10 -10 -15 0",
+        "layer0 megaruno 512 190 0 0 1",
+        "layer0 megaruno 8 8 400 200 1",
+        "layer0 megaruno 8 8 407 200 1",
+        "layer1",
+        "layer1 ",
+        "layer1 filmdamage 0 1280 0 0 1",
+        "layer1 maska10 8 8 12 12",
+        "layer1 maska12 10 10 -55 -105 0",
+        "layer1 maska7 10 0 -10 0 0",
+        "layer2",
+        "layer2 ",
+        "layer2 godog1 0 0 -213 -190 ",
+        "layer2 godog2 0 0 -220 -188",
+        "layer2 godog3 0 0 -230 -40",
+        "layer2 godog4 0 0 -18 -18",
+        "layer2 godog5 0 0 -20 -177",
+        "layer2 godog6 0 0 -143 -140",
+        "loaded",
+        "mod",
+        "mod 1",
+        "msg",
+        "msg linjanen spc0",
+        "msg linjanen spc2",
+        "msg linjanen spc3",
+        "muhmuscript error: no such routine ",
+        "nosound",
+        "post",
+        "reality",
+        "show",
+        "show endscreen",
+        "show evil",
+        "show linjanen",
+        "show movieintro",
+        "show paa",
+        "show trav",
+        "shutdown",
+        "slowness ",
+        "tuner finito."
+      ]
+    },
+    {
+      "origin": "original/classes/kaaakka.class",
+      "name": "kaaakka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 5425,
+      "sha256": "d3bd72aff23650ab5afe66e11ce0211a8a4cc657f171aae427300ca1903bd9d6",
+      "class_references": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "kaajmma"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaajmma"
+      ],
+      "platform_candidates": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer"
+      ],
+      "strings": [
+        "",
+        "\t",
+        "\t \\ X\n",
+        "\t \\ Y\n",
+        "\t \\ Z\n"
+      ]
+    },
+    {
+      "origin": "original/classes/kaaakkk.class",
+      "name": "kaaakkk",
+      "superclass": "kaajmma",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 522,
+      "sha256": "eb7874fc067bd706e22ddb0c90958fb4d749f879c094160efa4798faf113e465",
+      "class_references": [
+        "kaajmma"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaajmma"
+      ],
+      "platform_candidates": [],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kaaakma.class",
+      "name": "kaaakma",
+      "superclass": "mmaakkk",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1725,
+      "sha256": "f3626745f8ec2be236c42b6adad5af90f0ad19186206c055ad3979a563b68c9f",
+      "class_references": [
+        "kaajmma",
+        "kajjmmk",
+        "kmaakma",
+        "kmaamma",
+        "maajkmk",
+        "mmaakkk",
+        "mmajkka",
+        "mmjjmkk"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String",
+        "java/net/URL",
+        "kajjkka",
+        "kmaakka",
+        "majjmka"
+      ],
+      "application_references": [
+        "kaajmma",
+        "kajjkka",
+        "kajjmmk",
+        "kmaakka",
+        "kmaakma",
+        "kmaamma",
+        "maajkmk",
+        "majjmka",
+        "mmaakkk",
+        "mmajkka",
+        "mmjjmkk"
+      ],
+      "platform_candidates": [
+        "java/lang/String",
+        "java/net/URL"
+      ],
+      "strings": [
+        "data/half8.igu",
+        "data/octa8.igu",
+        "images/verax/test.jpg"
+      ]
+    },
+    {
+      "origin": "original/classes/kaaakmk.class",
+      "name": "kaaakmk",
+      "superclass": "java/awt/Frame",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 577,
+      "sha256": "d90fe0d34d366549faf225562e54a831e1895e063787f3bf33e297bfc9735072",
+      "class_references": [
+        "java/awt/Component",
+        "java/awt/Event",
+        "java/awt/Frame",
+        "java/lang/System"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String"
+      ],
+      "application_references": [],
+      "platform_candidates": [
+        "java/awt/Component",
+        "java/awt/Event",
+        "java/awt/Frame",
+        "java/lang/String",
+        "java/lang/System"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kaaamka.class",
+      "name": "kaaamka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2319,
+      "sha256": "e513b4863851eb4b07cb6152edd862b33e5f5403aac026b213b723e58ccc3b35",
+      "class_references": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "kaaakka",
+        "kaajmma",
+        "mmaakkk",
+        "mmjjmkk"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaaakka",
+        "kaajmma",
+        "mmaakkk",
+        "mmjjmkk"
+      ],
+      "platform_candidates": [
+        "java/lang/Math",
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kaaamma.class",
+      "name": "kaaamma",
+      "superclass": "kmajkka",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 568,
+      "sha256": "bec5daaddfa54f5cd46786d0991dda2ee3c52825ad0587eb8003619cb9a6ea3a",
+      "class_references": [
+        "kmajkka"
+      ],
+      "descriptor_candidates": [
+        "kajjkka",
+        "maaakka",
+        "mmajkka"
+      ],
+      "application_references": [
+        "kajjkka",
+        "kmajkka",
+        "maaakka",
+        "mmajkka"
+      ],
+      "platform_candidates": [],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kaaammk.class",
+      "name": "kaaammk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1826,
+      "sha256": "b608a5f76fc3cfbbe69c5df173bc76a225da78d9e1d7cfebc440f7797f975cf9",
+      "class_references": [
+        "java/lang/Object",
+        "kaajkkk",
+        "kmaammk"
+      ],
+      "descriptor_candidates": [
+        "majjkmk"
+      ],
+      "application_references": [
+        "kaajkkk",
+        "kmaammk",
+        "majjkmk"
+      ],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kaajkka.class",
+      "name": "kaajkka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 451,
+      "sha256": "53de67f531d9aa891bc69064a239a6264c5f44aabe742ad597e3a7c685257e41",
+      "class_references": [
+        "java/io/IOException",
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String"
+      ],
+      "application_references": [],
+      "platform_candidates": [
+        "java/io/IOException",
+        "java/lang/Object",
+        "java/lang/String"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kaajkkk.class",
+      "name": "kaajkkk",
+      "superclass": "java/lang/Object",
+      "interfaces": [
+        "java/awt/image/ImageProducer"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 14029,
+      "sha256": "ca55e2c3edc458ff73412a155993c7c1171ccb97b495cdb5c5af838198f7a8b2",
+      "class_references": [
+        "java/awt/Component",
+        "java/awt/Point",
+        "java/awt/image/ColorModel",
+        "java/awt/image/ImageConsumer",
+        "java/awt/image/ImageProducer",
+        "java/awt/image/IndexColorModel",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/System",
+        "kaaammk",
+        "kaajmmk",
+        "kajakkk",
+        "kajakmk",
+        "kajamma",
+        "kmaammk",
+        "kmjjkka",
+        "kmjjmka",
+        "maaammk",
+        "maajkkk",
+        "majjkkk",
+        "majjkmk",
+        "mmaakka",
+        "mmjakka"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaaammk",
+        "kaajmmk",
+        "kajakkk",
+        "kajakmk",
+        "kajamma",
+        "kmaammk",
+        "kmjjkka",
+        "kmjjmka",
+        "maaammk",
+        "maajkkk",
+        "majjkkk",
+        "majjkmk",
+        "mmaakka",
+        "mmjakka"
+      ],
+      "platform_candidates": [
+        "java/awt/Component",
+        "java/awt/Point",
+        "java/awt/image/ColorModel",
+        "java/awt/image/ImageConsumer",
+        "java/awt/image/ImageProducer",
+        "java/awt/image/IndexColorModel",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/System"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kaajkmk.class",
+      "name": "kaajkmk",
+      "superclass": "mmaakkk",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2909,
+      "sha256": "340c30083841a6a298b613337dbb0c02a869b70d98b5c4bdef3f0150414ce135",
+      "class_references": [
+        "java/lang/Math",
+        "kaaamma",
+        "kaajmka",
+        "kaajmma",
+        "kajjkka",
+        "kajjmmk",
+        "kmajkka",
+        "majjmka",
+        "mmaakkk",
+        "mmjjmkk"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaaamma",
+        "kaajmka",
+        "kaajmma",
+        "kajjkka",
+        "kajjmmk",
+        "kmajkka",
+        "majjmka",
+        "mmaakkk",
+        "mmjjmkk"
+      ],
+      "platform_candidates": [
+        "java/lang/Math"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kaajmka.class",
+      "name": "kaajmka",
+      "superclass": "majjmka",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 512,
+      "sha256": "59461f8dae589d78472b3c1ef0fe40f61ad07676854e3131b5abfb9dedf14fa9",
+      "class_references": [
+        "kaajmma",
+        "majjmka"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaajmma",
+        "majjmka"
+      ],
+      "platform_candidates": [],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kaajmma.class",
+      "name": "kaajmma",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 4126,
+      "sha256": "4b05922de146af67e335e4ce1e7b48b154ddbdd5c564c009e599c426f1b4e34f",
+      "class_references": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/StringBuffer"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String"
+      ],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer"
+      ],
+      "strings": [
+        "; ",
+        "Vector3f:{",
+        "} "
+      ]
+    },
+    {
+      "origin": "original/classes/kaajmmk.class",
+      "name": "kaajmmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1270,
+      "sha256": "b35c8e120cc94cb92595355ce8bf1691451cfc41163c88c05935f1c6f2a4804d",
+      "class_references": [
+        "java/awt/Point",
+        "java/lang/Math",
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/awt/Point",
+        "java/lang/Math",
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kajakka.class",
+      "name": "kajakka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 606,
+      "sha256": "5edfcc8da70b724ed7fdecf283d154f0bd3e3197842b8dfff9c5cb8565b0a3f6",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Graphics",
+        "java/lang/String",
+        "kmaamma"
+      ],
+      "application_references": [
+        "kmaamma"
+      ],
+      "platform_candidates": [
+        "java/awt/Graphics",
+        "java/lang/Object",
+        "java/lang/String"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kajakkk.class",
+      "name": "kajakkk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2760,
+      "sha256": "e5e0665fbadcb5769fde8ae936ec3b9119853226cd11cd5573b6ad684520388f",
+      "class_references": [
+        "java/awt/Point",
+        "java/lang/Object",
+        "kaaammk",
+        "kaajmmk",
+        "kajamma",
+        "kmaammk",
+        "kmjjmka",
+        "maajkkk",
+        "maajmmk",
+        "majjkkk",
+        "majjkmk",
+        "mmjakka"
+      ],
+      "descriptor_candidates": [
+        "kaajkkk"
+      ],
+      "application_references": [
+        "kaaammk",
+        "kaajkkk",
+        "kaajmmk",
+        "kajamma",
+        "kmaammk",
+        "kmjjmka",
+        "maajkkk",
+        "maajmmk",
+        "majjkkk",
+        "majjkmk",
+        "mmjakka"
+      ],
+      "platform_candidates": [
+        "java/awt/Point",
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kajakma.class",
+      "name": "kajakma",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 488,
+      "sha256": "a533d2166a6c6d14677f6a157cd333d40ebcd41189786119823f0d9728a94d84",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kajakmk.class",
+      "name": "kajakmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [
+        "java/applet/AudioClip",
+        "java/lang/Runnable"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 6595,
+      "sha256": "734d5382d57edc157b1630df63bbb4de0f7af3873e390a5b4f6a6106af6d9946",
+      "class_references": [
+        "java/applet/AudioClip",
+        "java/io/ByteArrayOutputStream",
+        "java/io/DataOutputStream",
+        "java/io/IOException",
+        "java/io/InputStream",
+        "java/lang/InterruptedException",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/Thread",
+        "kajamma",
+        "maaamka",
+        "mmajmmk",
+        "sun/audio/AudioPlayer"
+      ],
+      "descriptor_candidates": [
+        "java/io/OutputStream",
+        "mmaakka"
+      ],
+      "application_references": [
+        "kajamma",
+        "maaamka",
+        "mmaakka",
+        "mmajmmk"
+      ],
+      "platform_candidates": [
+        "java/applet/AudioClip",
+        "java/io/ByteArrayOutputStream",
+        "java/io/DataOutputStream",
+        "java/io/IOException",
+        "java/io/InputStream",
+        "java/io/OutputStream",
+        "java/lang/InterruptedException",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/Thread",
+        "sun/audio/AudioPlayer"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kajamka.class",
+      "name": "kajamka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 7328,
+      "sha256": "602be0fcf7bf65d9ccddf806a5be3723c385d0170db742201ffaa5db2be057c7",
+      "class_references": [
+        "java/awt/Point",
+        "java/io/PrintStream",
+        "java/lang/Class",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Throwable",
+        "kaajkka",
+        "kmaakkk",
+        "kmaamka",
+        "maaakkk",
+        "majjkka",
+        "mmajkkk",
+        "mmajkmk",
+        "mmjammk"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaajkka",
+        "kmaakkk",
+        "kmaamka",
+        "maaakkk",
+        "majjkka",
+        "mmajkkk",
+        "mmajkmk",
+        "mmjammk"
+      ],
+      "platform_candidates": [
+        "java/awt/Point",
+        "java/io/PrintStream",
+        "java/lang/Class",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Throwable"
+      ],
+      "strings": [
+        "\"",
+        "CH",
+        "CHN",
+        "ERROR LOADING XM: Invalid module",
+        "Extended Module: ",
+        "FLT4",
+        "M!K!",
+        "M.K.",
+        "MOD LOADER ERROR: invalid signature",
+        "OCTA",
+        "TDZ",
+        "dep=",
+        "flags=",
+        "headerSize=",
+        "initializing song.",
+        "loading MOD \"",
+        "loading XM \"",
+        "muhmu.gl.ZipHoax",
+        "name=",
+        "numChans=",
+        "numInsts=",
+        "numPatts=",
+        "restart=",
+        "samplename=",
+        "sign=",
+        "signature=",
+        "songlen=",
+        "spe=",
+        "speed=",
+        "swe=",
+        "tempo=",
+        "trackerName=",
+        "typ=",
+        "version="
+      ]
+    },
+    {
+      "origin": "original/classes/kajamma.class",
+      "name": "kajamma",
+      "superclass": "kmjjmka",
+      "interfaces": [
+        "java/lang/Runnable"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 8800,
+      "sha256": "95c237b359ea704911d928da3c005dc10eea8ec66f4b949cb83ef6521f5d78dc",
+      "class_references": [
+        "java/awt/Component",
+        "java/awt/Toolkit",
+        "java/io/ByteArrayInputStream",
+        "java/io/IOException",
+        "java/io/InputStream",
+        "java/lang/Class",
+        "java/lang/ClassNotFoundException",
+        "java/lang/Exception",
+        "java/lang/Math",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Thread",
+        "kaajkkk",
+        "kaajmmk",
+        "kajakkk",
+        "kajakmk",
+        "kmjjkka",
+        "kmjjmka",
+        "majjkmk",
+        "mmaakka",
+        "mmajmmk",
+        "mmjakka",
+        "mmjjkmk"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Image",
+        "java/awt/image/ImageProducer",
+        "java/lang/Object",
+        "kmaammk"
+      ],
+      "application_references": [
+        "kaajkkk",
+        "kaajmmk",
+        "kajakkk",
+        "kajakmk",
+        "kmaammk",
+        "kmjjkka",
+        "kmjjmka",
+        "majjkmk",
+        "mmaakka",
+        "mmajmmk",
+        "mmjakka",
+        "mmjjkmk"
+      ],
+      "platform_candidates": [
+        "java/awt/Component",
+        "java/awt/Image",
+        "java/awt/Toolkit",
+        "java/awt/image/ImageProducer",
+        "java/io/ByteArrayInputStream",
+        "java/io/IOException",
+        "java/io/InputStream",
+        "java/lang/Class",
+        "java/lang/ClassNotFoundException",
+        "java/lang/Exception",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Thread"
+      ],
+      "strings": [
+        "ImageSource",
+        "SLAV",
+        "SLAV1.0",
+        "java.version",
+        "sun.awt.image.ImageDecoder"
+      ]
+    },
+    {
+      "origin": "original/classes/kajammk.class",
+      "name": "kajammk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 4716,
+      "sha256": "ee839fb032c8a48bf1cd3ec6d98fd90b99c66b674f0f317c06da1546dc36d794",
+      "class_references": [
+        "java/io/PrintStream",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/System",
+        "kajjkkk",
+        "majjmma"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String"
+      ],
+      "application_references": [
+        "kajjkkk",
+        "majjmma"
+      ],
+      "platform_candidates": [
+        "java/io/PrintStream",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/System"
+      ],
+      "strings": [
+        "help head! invalid datamode.",
+        "invalid spline mode"
+      ]
+    },
+    {
+      "origin": "original/classes/kajjkka.class",
+      "name": "kajjkka",
+      "superclass": "kaaamma",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2198,
+      "sha256": "dd2d753f3f449d6bab851ed79b23d0908fd59cd2ca134201c40fdc0762d4c248",
+      "class_references": [
+        "kaaamma",
+        "kaajmma",
+        "kajjmmk",
+        "majjmka",
+        "mmaakkk"
+      ],
+      "descriptor_candidates": [
+        "maaakka",
+        "mmajkka"
+      ],
+      "application_references": [
+        "kaaamma",
+        "kaajmma",
+        "kajjmmk",
+        "maaakka",
+        "majjmka",
+        "mmaakkk",
+        "mmajkka"
+      ],
+      "platform_candidates": [],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kajjkkk.class",
+      "name": "kajjkkk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 5143,
+      "sha256": "5557726451911c70eaa2be91af2f517263138e2be660e5a5060fc8e9dda4870d",
+      "class_references": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/StringBuffer",
+        "kaaakka",
+        "kaajmma"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String"
+      ],
+      "application_references": [
+        "kaaakka",
+        "kaajmma"
+      ],
+      "platform_candidates": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer"
+      ],
+      "strings": [
+        " ,",
+        " / ",
+        ")",
+        "quat ("
+      ]
+    },
+    {
+      "origin": "original/classes/kajjkmk.class",
+      "name": "kajjkmk",
+      "superclass": "kmjjmmk",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1634,
+      "sha256": "2c3bf347211323d00908392d908fa463103d107849ccadd19d4830d0b466dc7d",
+      "class_references": [
+        "java/awt/Color",
+        "java/awt/Component",
+        "java/awt/Graphics",
+        "java/awt/Image",
+        "kmaakka",
+        "kmjjmmk",
+        "maaakka",
+        "maaakmk"
+      ],
+      "descriptor_candidates": [
+        "java/awt/image/ImageObserver",
+        "kajjkka",
+        "kmaamma"
+      ],
+      "application_references": [
+        "kajjkka",
+        "kmaakka",
+        "kmaamma",
+        "kmjjmmk",
+        "maaakka",
+        "maaakmk"
+      ],
+      "platform_candidates": [
+        "java/awt/Color",
+        "java/awt/Component",
+        "java/awt/Graphics",
+        "java/awt/Image",
+        "java/awt/image/ImageObserver"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kajjmka.class",
+      "name": "kajjmka",
+      "superclass": "java/lang/Object",
+      "interfaces": [
+        "java/applet/AppletContext"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1690,
+      "sha256": "a8a31d97d346ca42370c0d5e02fd765f7873d3e5fd7142f267be4df48246285b",
+      "class_references": [
+        "java/applet/AppletContext",
+        "java/awt/Toolkit",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Throwable",
+        "java/net/URL"
+      ],
+      "descriptor_candidates": [
+        "java/applet/Applet",
+        "java/applet/AudioClip",
+        "java/awt/Image",
+        "java/util/Enumeration"
+      ],
+      "application_references": [],
+      "platform_candidates": [
+        "java/applet/Applet",
+        "java/applet/AppletContext",
+        "java/applet/AudioClip",
+        "java/awt/Image",
+        "java/awt/Toolkit",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Throwable",
+        "java/net/URL",
+        "java/util/Enumeration"
+      ],
+      "strings": [
+        "/",
+        "file:///",
+        "user.dir"
+      ]
+    },
+    {
+      "origin": "original/classes/kajjmma.class",
+      "name": "kajjmma",
+      "superclass": "kmjjmma",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2184,
+      "sha256": "a90f1c864bcdc7b11e210538ee1da6cc9964d1ae6e9af4634d502969847a06bd",
+      "class_references": [
+        "godog",
+        "kaaakka",
+        "kaajmma",
+        "kmaakma",
+        "kmaamma",
+        "kmjjmma",
+        "maaakma",
+        "mmaakkk",
+        "mmajkka",
+        "mmjjmkk",
+        "mmjjmmk"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String",
+        "java/net/URL",
+        "kmaakka",
+        "kmjamka",
+        "kmjjmmk"
+      ],
+      "application_references": [
+        "godog",
+        "kaaakka",
+        "kaajmma",
+        "kmaakka",
+        "kmaakma",
+        "kmaamma",
+        "kmjamka",
+        "kmjjmma",
+        "kmjjmmk",
+        "maaakma",
+        "mmaakkk",
+        "mmajkka",
+        "mmjjmkk",
+        "mmjjmmk"
+      ],
+      "platform_candidates": [
+        "java/lang/String",
+        "java/net/URL"
+      ],
+      "strings": [
+        "images/blobenv.jpg",
+        "images/blobkaktus.jpg",
+        "vehje"
+      ]
+    },
+    {
+      "origin": "original/classes/kajjmmk.class",
+      "name": "kajjmmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 687,
+      "sha256": "6cfd8da4d35b93eb8897127a5086f32e070f9c014ace24f3d9eb23fd188ae19b",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmaakka.class",
+      "name": "kmaakka",
+      "superclass": "java/lang/Object",
+      "interfaces": [
+        "java/awt/image/ImageProducer"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1903,
+      "sha256": "864bcda814c31726f0930a78adfa9b9e891e573877f4bb8e9053790c7e01fafb",
+      "class_references": [
+        "java/awt/Color",
+        "java/awt/Graphics",
+        "java/awt/Toolkit",
+        "java/awt/image/ImageConsumer",
+        "java/awt/image/ImageProducer",
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Image",
+        "java/awt/image/ColorModel",
+        "java/awt/image/ImageObserver",
+        "java/util/Hashtable"
+      ],
+      "application_references": [],
+      "platform_candidates": [
+        "java/awt/Color",
+        "java/awt/Graphics",
+        "java/awt/Image",
+        "java/awt/Toolkit",
+        "java/awt/image/ColorModel",
+        "java/awt/image/ImageConsumer",
+        "java/awt/image/ImageObserver",
+        "java/awt/image/ImageProducer",
+        "java/lang/Object",
+        "java/util/Hashtable"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmaakkk.class",
+      "name": "kmaakkk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1288,
+      "sha256": "f2a65a508248fa660017ff57bb68b12fc43707a789973b862b86adbd97e8e876",
+      "class_references": [
+        "java/lang/Object",
+        "maaakkk",
+        "mmajkmk"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "maaakkk",
+        "mmajkmk"
+      ],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmaakma.class",
+      "name": "kmaakma",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 3290,
+      "sha256": "d423b1b9df5f3faeb3f05baf55df38e82b55f20412c02d74411e207b9026dbab",
+      "class_references": [
+        "java/applet/Applet",
+        "java/awt/Image",
+        "java/awt/Toolkit",
+        "java/awt/image/ImageProducer",
+        "java/io/DataInputStream",
+        "java/io/FilterInputStream",
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Throwable",
+        "java/net/URL",
+        "java/net/URLConnection",
+        "kmjjkmk",
+        "maaakka",
+        "mmajkka"
+      ],
+      "descriptor_candidates": [
+        "java/awt/image/ImageConsumer",
+        "java/io/InputStream",
+        "java/lang/String",
+        "kmaakka"
+      ],
+      "application_references": [
+        "kmaakka",
+        "kmjjkmk",
+        "maaakka",
+        "mmajkka"
+      ],
+      "platform_candidates": [
+        "java/applet/Applet",
+        "java/awt/Image",
+        "java/awt/Toolkit",
+        "java/awt/image/ImageConsumer",
+        "java/awt/image/ImageProducer",
+        "java/io/DataInputStream",
+        "java/io/FilterInputStream",
+        "java/io/InputStream",
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Throwable",
+        "java/net/URL",
+        "java/net/URLConnection"
+      ],
+      "strings": [
+        " c=",
+        " h=",
+        "couldn't fetch image ",
+        "error fetching image ",
+        "w="
+      ]
+    },
+    {
+      "origin": "original/classes/kmaakmk.class",
+      "name": "kmaakmk",
+      "superclass": "kajakka",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1149,
+      "sha256": "ffc0911df93b42851f805c8bbbfaa47d3232399bf3127c91bd71853bc6db44d6",
+      "class_references": [
+        "java/applet/Applet",
+        "java/awt/Graphics",
+        "java/awt/MediaTracker",
+        "java/lang/Exception",
+        "java/lang/Throwable",
+        "kajakka",
+        "kmaamma"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Component",
+        "java/awt/Image",
+        "java/awt/image/ImageObserver",
+        "java/lang/String",
+        "java/net/URL"
+      ],
+      "application_references": [
+        "kajakka",
+        "kmaamma"
+      ],
+      "platform_candidates": [
+        "java/applet/Applet",
+        "java/awt/Component",
+        "java/awt/Graphics",
+        "java/awt/Image",
+        "java/awt/MediaTracker",
+        "java/awt/image/ImageObserver",
+        "java/lang/Exception",
+        "java/lang/String",
+        "java/lang/Throwable",
+        "java/net/URL"
+      ],
+      "strings": [
+        "endscreen",
+        "images/endscreen.gif"
+      ]
+    },
+    {
+      "origin": "original/classes/kmaamka.class",
+      "name": "kmaamka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2990,
+      "sha256": "9d79fa3725c24c5ca9123094405c7a93935b4d4f64dd0deea529a3ffc737129d",
+      "class_references": [
+        "java/lang/Object",
+        "java/lang/System",
+        "mmaakmk"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String"
+      ],
+      "application_references": [
+        "mmaakmk"
+      ],
+      "platform_candidates": [
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/System"
+      ],
+      "strings": [
+        "unnamed"
+      ]
+    },
+    {
+      "origin": "original/classes/kmaamma.class",
+      "name": "kmaamma",
+      "superclass": "java/applet/Applet",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 5116,
+      "sha256": "a1fc5065ab2be7bfc673a85e0022e33fc57081bf933fe96c9fd5cc038b2aa605",
+      "class_references": [
+        "java/applet/Applet",
+        "java/awt/Component",
+        "java/awt/Container",
+        "java/awt/Dimension",
+        "java/awt/Insets",
+        "java/awt/Toolkit",
+        "java/awt/Window",
+        "java/io/DataInputStream",
+        "java/io/PrintStream",
+        "java/lang/Class",
+        "java/lang/Double",
+        "java/lang/Exception",
+        "java/lang/Float",
+        "java/lang/Integer",
+        "java/lang/Long",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/lang/Throwable",
+        "java/net/URL",
+        "java/net/URLConnection",
+        "java/util/Vector",
+        "kaaakmk",
+        "kmaakma",
+        "kmajmmk"
+      ],
+      "descriptor_candidates": [
+        "java/applet/AppletStub",
+        "java/io/InputStream"
+      ],
+      "application_references": [
+        "kaaakmk",
+        "kmaakma",
+        "kmajmmk"
+      ],
+      "platform_candidates": [
+        "java/applet/Applet",
+        "java/applet/AppletStub",
+        "java/awt/Component",
+        "java/awt/Container",
+        "java/awt/Dimension",
+        "java/awt/Insets",
+        "java/awt/Toolkit",
+        "java/awt/Window",
+        "java/io/DataInputStream",
+        "java/io/InputStream",
+        "java/io/PrintStream",
+        "java/lang/Class",
+        "java/lang/Double",
+        "java/lang/Exception",
+        "java/lang/Float",
+        "java/lang/Integer",
+        "java/lang/Long",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/lang/Throwable",
+        "java/net/URL",
+        "java/net/URLConnection",
+        "java/util/Vector"
+      ],
+      "strings": [
+        "Center",
+        "Muhmu BaseApplet runner - ",
+        "baseapplet: runner stopped",
+        "file:///"
+      ]
+    },
+    {
+      "origin": "original/classes/kmaammk.class",
+      "name": "kmaammk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 3834,
+      "sha256": "8083363ca755d104ae316ecb69a61a67c24df21e4ef4f2c9a3041a643424f7db",
+      "class_references": [
+        "java/awt/Point",
+        "java/lang/Math",
+        "java/lang/Object",
+        "kaajmmk"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaajmmk"
+      ],
+      "platform_candidates": [
+        "java/awt/Point",
+        "java/lang/Math",
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmajkka.class",
+      "name": "kmajkka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 335,
+      "sha256": "14723ebdfb2dc2b3a51eda8bde6a130fc82d4041e7a31e01dd238429963c2c0d",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmajkkk.class",
+      "name": "kmajkkk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 963,
+      "sha256": "05ccdd5c6cb935d71a7f6cd4b419cbe1ed46870abb05f6a286d13912330d21b6",
+      "class_references": [
+        "java/lang/Object",
+        "majjkka"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "majjkka"
+      ],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmajkmk.class",
+      "name": "kmajkmk",
+      "superclass": "kmjjmma",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 3814,
+      "sha256": "5a50a3fee8f52daaccee0302a52fd34089192f53c10a026eb4922d6382ebcf08",
+      "class_references": [
+        "godog",
+        "java/lang/Math",
+        "java/lang/String",
+        "java/util/Vector",
+        "kaaakka",
+        "kaajkmk",
+        "kaajmma",
+        "kmaakka",
+        "kmaakma",
+        "kmaamma",
+        "kmajmma",
+        "kmjamka",
+        "kmjjkkk",
+        "kmjjmma",
+        "maaakka",
+        "maaakma",
+        "mmaakkk",
+        "mmaammk",
+        "mmajkka",
+        "mmjamka",
+        "mmjjmkk"
+      ],
+      "descriptor_candidates": [
+        "java/lang/Object",
+        "java/net/URL",
+        "kmjjmmk"
+      ],
+      "application_references": [
+        "godog",
+        "kaaakka",
+        "kaajkmk",
+        "kaajmma",
+        "kmaakka",
+        "kmaakma",
+        "kmaamma",
+        "kmajmma",
+        "kmjamka",
+        "kmjjkkk",
+        "kmjjmma",
+        "kmjjmmk",
+        "maaakka",
+        "maaakma",
+        "mmaakkk",
+        "mmaammk",
+        "mmajkka",
+        "mmjamka",
+        "mmjjmkk"
+      ],
+      "platform_candidates": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/net/URL",
+        "java/util/Vector"
+      ],
+      "strings": [
+        "data/sur3.asz",
+        "flash",
+        "images/flare.jpg",
+        "images/kasvu.gif",
+        "images/lc.jpg",
+        "images/surtausta.jpg",
+        "linjanen",
+        "spc0",
+        "spc1",
+        "spc2",
+        "spc3"
+      ]
+    },
+    {
+      "origin": "original/classes/kmajmka.class",
+      "name": "kmajmka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 987,
+      "sha256": "4f0f797f7d70618bc6d137c97e840dd9bc78f9cb217fc943f80e0b26f56b05ee",
+      "class_references": [
+        "java/awt/Graphics",
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Color",
+        "java/awt/Font",
+        "java/lang/String"
+      ],
+      "application_references": [],
+      "platform_candidates": [
+        "java/awt/Color",
+        "java/awt/Font",
+        "java/awt/Graphics",
+        "java/lang/Object",
+        "java/lang/String"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmajmma.class",
+      "name": "kmajmma",
+      "superclass": "mmaakkk",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2456,
+      "sha256": "450ac83307e2f1b3f01cb1e8642a12f68e043d908a2c4e5b7f971427da8706b6",
+      "class_references": [
+        "java/lang/Math",
+        "kaaamma",
+        "kajjkka",
+        "kajjmmk",
+        "kmaakka",
+        "kmajkka",
+        "maaakka",
+        "majjmka",
+        "mmaakkk"
+      ],
+      "descriptor_candidates": [
+        "mmajkka",
+        "mmjjmkk"
+      ],
+      "application_references": [
+        "kaaamma",
+        "kajjkka",
+        "kajjmmk",
+        "kmaakka",
+        "kmajkka",
+        "maaakka",
+        "majjmka",
+        "mmaakkk",
+        "mmajkka",
+        "mmjjmkk"
+      ],
+      "platform_candidates": [
+        "java/lang/Math"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmajmmk.class",
+      "name": "kmajmmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [
+        "java/applet/AppletStub"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1176,
+      "sha256": "b4bcc05d5d4265fa080f08149c3cf34a58fdc96371d517b79851465b600cab0e",
+      "class_references": [
+        "java/applet/AppletStub",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/util/Hashtable",
+        "kajjmka"
+      ],
+      "descriptor_candidates": [
+        "java/applet/AppletContext",
+        "java/net/URL"
+      ],
+      "application_references": [
+        "kajjmka"
+      ],
+      "platform_candidates": [
+        "java/applet/AppletContext",
+        "java/applet/AppletStub",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/net/URL",
+        "java/util/Hashtable"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmjakka.class",
+      "name": "kmjakka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1755,
+      "sha256": "f23569850569bb16dc1ad546989987ec19a877e1f4bf57d1f65b7f91d7db373a",
+      "class_references": [
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/util/Enumeration",
+        "java/util/Vector",
+        "majakmk"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "majakmk"
+      ],
+      "platform_candidates": [
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/util/Enumeration",
+        "java/util/Vector"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmjakkk.class",
+      "name": "kmjakkk",
+      "superclass": "java/lang/Thread",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1721,
+      "sha256": "2cabfad97ca3befb63af97f01b0c4468343a8ec0814e09b45464d489aafd1110",
+      "class_references": [
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/lang/Throwable",
+        "kmajkka",
+        "mmaakma",
+        "mmjjkkk",
+        "mmjjmma"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String"
+      ],
+      "application_references": [
+        "kmajkka",
+        "mmaakma",
+        "mmjjkkk",
+        "mmjjmma"
+      ],
+      "platform_candidates": [
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/lang/Throwable"
+      ],
+      "strings": [
+        "Muhmu Event Pipe",
+        "muhmupipe/muhmuscript finished. (c) saviour."
+      ]
+    },
+    {
+      "origin": "original/classes/kmjakmk.class",
+      "name": "kmjakmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 488,
+      "sha256": "2da7bdf69a2690e6252c299c1e33792ae11a06c4ca3b278a09927daa64b0eb45",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmjamka.class",
+      "name": "kmjamka",
+      "superclass": "kmjjmmk",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2206,
+      "sha256": "9282a4ab7d8e67ad184104edad5c5b80feae9f189709f33f7544fbbbb62100f4",
+      "class_references": [
+        "java/awt/Color",
+        "java/awt/Component",
+        "java/awt/Graphics",
+        "java/awt/Image",
+        "kaaamma",
+        "kajjkka",
+        "kmaakka",
+        "kmjjmmk",
+        "majjmka",
+        "mmaamma",
+        "mmajkka",
+        "mmjamka"
+      ],
+      "descriptor_candidates": [
+        "java/awt/image/ImageObserver",
+        "kmaamma"
+      ],
+      "application_references": [
+        "kaaamma",
+        "kajjkka",
+        "kmaakka",
+        "kmaamma",
+        "kmjjmmk",
+        "majjmka",
+        "mmaamma",
+        "mmajkka",
+        "mmjamka"
+      ],
+      "platform_candidates": [
+        "java/awt/Color",
+        "java/awt/Component",
+        "java/awt/Graphics",
+        "java/awt/Image",
+        "java/awt/image/ImageObserver"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmjamma.class",
+      "name": "kmjamma",
+      "superclass": "java/awt/Component",
+      "interfaces": [
+        "java/awt/image/ImageConsumer"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2712,
+      "sha256": "9ae7e99a417ea58993a2a05d922dbe83313f07d3ef482ca8ab980c38d7af2aae",
+      "class_references": [
+        "java/awt/Component",
+        "java/awt/Rectangle",
+        "java/awt/image/ImageConsumer",
+        "java/awt/image/ImageProducer",
+        "java/lang/Exception",
+        "java/lang/Thread",
+        "java/lang/Throwable",
+        "kmaakka",
+        "mmaakka",
+        "mmajkka",
+        "mmjakmk"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Graphics",
+        "java/awt/Image",
+        "java/awt/image/ColorModel",
+        "java/io/InputStream",
+        "java/util/Hashtable"
+      ],
+      "application_references": [
+        "kmaakka",
+        "mmaakka",
+        "mmajkka",
+        "mmjakmk"
+      ],
+      "platform_candidates": [
+        "java/awt/Component",
+        "java/awt/Graphics",
+        "java/awt/Image",
+        "java/awt/Rectangle",
+        "java/awt/image/ColorModel",
+        "java/awt/image/ImageConsumer",
+        "java/awt/image/ImageProducer",
+        "java/io/InputStream",
+        "java/lang/Exception",
+        "java/lang/Thread",
+        "java/lang/Throwable",
+        "java/util/Hashtable"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmjammk.class",
+      "name": "kmjammk",
+      "superclass": "mmaakkk",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 6585,
+      "sha256": "065f0cd985503c06d64889b6566815f397dc1f90a169f7875b02ce395be18380",
+      "class_references": [
+        "java/io/PrintStream",
+        "java/lang/Math",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "kaaakka",
+        "kaaamka",
+        "kaaamma",
+        "kaajmma",
+        "kajjkka",
+        "kajjmmk",
+        "kmajkka",
+        "majjmka",
+        "mmaakkk",
+        "mmjjmkk"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String",
+        "maaakka",
+        "mmajkka"
+      ],
+      "application_references": [
+        "kaaakka",
+        "kaaamka",
+        "kaaamma",
+        "kaajmma",
+        "kajjkka",
+        "kajjmmk",
+        "kmajkka",
+        "maaakka",
+        "majjmka",
+        "mmaakkk",
+        "mmajkka",
+        "mmjjmkk"
+      ],
+      "platform_candidates": [
+        "java/io/PrintStream",
+        "java/lang/Math",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System"
+      ],
+      "strings": [
+        "dem cull X over",
+        "dem cull Y over "
+      ]
+    },
+    {
+      "origin": "original/classes/kmjjkka.class",
+      "name": "kmjjkka",
+      "superclass": "java/lang/Object",
+      "interfaces": [
+        "java/awt/image/ImageConsumer"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 5992,
+      "sha256": "750bb36dcc62b9d78acb049442d60da0049cf09eed20575e5469e9be9a1f438d",
+      "class_references": [
+        "java/awt/Image",
+        "java/awt/Point",
+        "java/awt/image/ImageConsumer",
+        "java/awt/image/ImageProducer",
+        "java/lang/InterruptedException",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/System",
+        "kaaammk",
+        "kaajkkk",
+        "kmaammk",
+        "majjkmk"
+      ],
+      "descriptor_candidates": [
+        "java/awt/image/ColorModel",
+        "java/util/Hashtable"
+      ],
+      "application_references": [
+        "kaaammk",
+        "kaajkkk",
+        "kmaammk",
+        "majjkmk"
+      ],
+      "platform_candidates": [
+        "java/awt/Image",
+        "java/awt/Point",
+        "java/awt/image/ColorModel",
+        "java/awt/image/ImageConsumer",
+        "java/awt/image/ImageProducer",
+        "java/lang/InterruptedException",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/System",
+        "java/util/Hashtable"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmjjkkk.class",
+      "name": "kmjjkkk",
+      "superclass": "maaakma",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 9899,
+      "sha256": "960819276ec5c6489b15ecc20407a4dac7ca3e735a9bb08a20cddf4679d42b0d",
+      "class_references": [
+        "java/io/BufferedInputStream",
+        "java/io/DataInputStream",
+        "java/io/FilterInputStream",
+        "java/io/IOException",
+        "java/io/PrintStream",
+        "java/lang/Double",
+        "java/lang/Exception",
+        "java/lang/Float",
+        "java/lang/IllegalArgumentException",
+        "java/lang/Integer",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Throwable",
+        "java/net/URL",
+        "java/util/Enumeration",
+        "java/util/Hashtable",
+        "java/util/StringTokenizer",
+        "java/util/Vector",
+        "java/util/zip/GZIPInputStream",
+        "kaaakka",
+        "kaajmma",
+        "kajammk",
+        "kajjkka",
+        "kajjkkk",
+        "kajjmmk",
+        "maaakma",
+        "majjmka",
+        "majjmma",
+        "mmaakkk",
+        "mmjjmkk"
+      ],
+      "descriptor_candidates": [
+        "java/io/InputStream"
+      ],
+      "application_references": [
+        "kaaakka",
+        "kaajmma",
+        "kajammk",
+        "kajjkka",
+        "kajjkkk",
+        "kajjmmk",
+        "maaakma",
+        "majjmka",
+        "majjmma",
+        "mmaakkk",
+        "mmjjmkk"
+      ],
+      "platform_candidates": [
+        "java/io/BufferedInputStream",
+        "java/io/DataInputStream",
+        "java/io/FilterInputStream",
+        "java/io/IOException",
+        "java/io/InputStream",
+        "java/io/PrintStream",
+        "java/lang/Double",
+        "java/lang/Exception",
+        "java/lang/Float",
+        "java/lang/IllegalArgumentException",
+        "java/lang/Integer",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Throwable",
+        "java/net/URL",
+        "java/util/Enumeration",
+        "java/util/Hashtable",
+        "java/util/StringTokenizer",
+        "java/util/Vector",
+        "java/util/zip/GZIPInputStream"
+      ],
+      "strings": [
+        "",
+        " ",
+        "  faces:",
+        "  verts:",
+        "*CAMERAOBJECT",
+        "*CONTROL_POS_SAMPLE",
+        "*CONTROL_POS_TCB",
+        "*CONTROL_POS_TRACK",
+        "*CONTROL_ROT_SAMPLE",
+        "*CONTROL_ROT_TRACK",
+        "*GEOMOBJECT",
+        "*MESH",
+        "*MESH_FACE",
+        "*MESH_FACE_LIST",
+        "*MESH_NUMFACES",
+        "*MESH_NUMTVERTEX",
+        "*MESH_NUMVERTEX",
+        "*MESH_TFACE",
+        "*MESH_TFACELIST",
+        "*MESH_TVERT",
+        "*MESH_TVERTLIST",
+        "*MESH_VERTEX",
+        "*MESH_VERTEX_LIST",
+        "*NODE_NAME",
+        "*NODE_TM",
+        "*TM_ANIMATION",
+        "*TM_POS",
+        "*TM_ROW0",
+        "*TM_ROW1",
+        "*TM_ROW2",
+        "TCB data is not supported.",
+        "mesh:",
+        "z",
+        "{",
+        "}"
+      ]
+    },
+    {
+      "origin": "original/classes/kmjjkmk.class",
+      "name": "kmjjkmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [
+        "java/awt/image/ImageConsumer"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1872,
+      "sha256": "2332e442dfd0ea11ac045092a6911e9576862643b6aad469ec0bc63575bb3f29",
+      "class_references": [
+        "java/awt/image/ImageConsumer",
+        "java/awt/image/IndexColorModel",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/System",
+        "java/lang/Throwable",
+        "maaakka",
+        "mmajkka"
+      ],
+      "descriptor_candidates": [
+        "java/awt/image/ColorModel",
+        "java/util/Hashtable",
+        "kmaakka"
+      ],
+      "application_references": [
+        "kmaakka",
+        "maaakka",
+        "mmajkka"
+      ],
+      "platform_candidates": [
+        "java/awt/image/ColorModel",
+        "java/awt/image/ImageConsumer",
+        "java/awt/image/IndexColorModel",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/System",
+        "java/lang/Throwable",
+        "java/util/Hashtable"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmjjmka.class",
+      "name": "kmjjmka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2461,
+      "sha256": "467313744938eedbdba9ed8631b6912561c761a614802f06316623f002465ec0",
+      "class_references": [
+        "java/lang/Object",
+        "java/lang/String",
+        "kaajmmk",
+        "kmaammk",
+        "majjkmk"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaajmmk",
+        "kmaammk",
+        "majjkmk"
+      ],
+      "platform_candidates": [
+        "java/lang/Object",
+        "java/lang/String"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmjjmma.class",
+      "name": "kmjjmma",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 596,
+      "sha256": "60e8c3da1f25466e791c5b0b92e07c2b813d3d853f49fb571554cecc924e0a69",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String",
+        "kmaamma",
+        "mmajkka"
+      ],
+      "application_references": [
+        "kmaamma",
+        "mmajkka"
+      ],
+      "platform_candidates": [
+        "java/lang/Object",
+        "java/lang/String"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/kmjjmmk.class",
+      "name": "kmjjmmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1605,
+      "sha256": "ff9fd3251f38622cf2406f20a1513f028a0849daef7a43b232e582424f4e0d2d",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Graphics",
+        "kajjkka",
+        "kmaamma"
+      ],
+      "application_references": [
+        "kajjkka",
+        "kmaamma"
+      ],
+      "platform_candidates": [
+        "java/awt/Graphics",
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/maaakka.class",
+      "name": "maaakka",
+      "superclass": "kmaakka",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 5823,
+      "sha256": "809402ed0115fe4f42f77c540514b630ec6a7e2434b1e01b59986b4ac9a8c6ff",
+      "class_references": [
+        "java/awt/image/ImageConsumer",
+        "java/awt/image/IndexColorModel",
+        "java/lang/Math",
+        "java/lang/System",
+        "kmaakka",
+        "mmajkka"
+      ],
+      "descriptor_candidates": [
+        "java/awt/image/ColorModel",
+        "java/lang/Object"
+      ],
+      "application_references": [
+        "kmaakka",
+        "mmajkka"
+      ],
+      "platform_candidates": [
+        "java/awt/image/ColorModel",
+        "java/awt/image/ImageConsumer",
+        "java/awt/image/IndexColorModel",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/System"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/maaakkk.class",
+      "name": "maaakkk",
+      "superclass": "java/lang/Object",
+      "interfaces": [
+        "majamma"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 5236,
+      "sha256": "48dbe6c8e1cd2a6ab2a12f49aa924d4cb30baa18ca393a08ae8dff9348442c0a",
+      "class_references": [
+        "java/io/PrintStream",
+        "java/lang/Object",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "kmaakkk",
+        "kmaamka",
+        "kmjakka",
+        "kmjakkk",
+        "majakka",
+        "majamma",
+        "mmaakmk",
+        "mmajmma"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String",
+        "mmajkmk",
+        "mmjammk",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "application_references": [
+        "kmaakkk",
+        "kmaamka",
+        "kmjakka",
+        "kmjakkk",
+        "majakka",
+        "majamma",
+        "mmaakmk",
+        "mmajkmk",
+        "mmajmma",
+        "mmjammk",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "platform_candidates": [
+        "java/io/PrintStream",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System"
+      ],
+      "strings": [
+        " ",
+        "unsup cmd ",
+        "unsup cmd E",
+        "unsup cmd X",
+        "unsup volcmd "
+      ]
+    },
+    {
+      "origin": "original/classes/maaakma.class",
+      "name": "maaakma",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2444,
+      "sha256": "000fb8753c4a7af8f00a50afcc77363053b245ee05c000d15c5fb575ae4c99ec",
+      "class_references": [
+        "java/lang/Object",
+        "java/util/Enumeration",
+        "java/util/Vector",
+        "kaaakka",
+        "kaaamka",
+        "kaaamma",
+        "kaajmma",
+        "kajjkka",
+        "kmajkka",
+        "kmjjmmk",
+        "mmaakkk",
+        "mmjjmkk",
+        "mmjjmma"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaaakka",
+        "kaaamka",
+        "kaaamma",
+        "kaajmma",
+        "kajjkka",
+        "kmajkka",
+        "kmjjmmk",
+        "mmaakkk",
+        "mmjjmkk",
+        "mmjjmma"
+      ],
+      "platform_candidates": [
+        "java/lang/Object",
+        "java/util/Enumeration",
+        "java/util/Vector"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/maaakmk.class",
+      "name": "maaakmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 380,
+      "sha256": "b0076192e324d1ddf8fa164e2b48391fb6d0c0f2ce461df39d00eaabc3d3b72b",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [
+        "kajjkka",
+        "maaakka"
+      ],
+      "application_references": [
+        "kajjkka",
+        "maaakka"
+      ],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/maaamka.class",
+      "name": "maaamka",
+      "superclass": "java/io/ByteArrayInputStream",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2558,
+      "sha256": "ac42c105f328bec092fbed4ca9de9097a323699f616279b667ff9b84f26f95f9",
+      "class_references": [
+        "java/io/ByteArrayInputStream",
+        "java/lang/System",
+        "kajamma",
+        "mmaakka"
+      ],
+      "descriptor_candidates": [
+        "java/lang/Object"
+      ],
+      "application_references": [
+        "kajamma",
+        "mmaakka"
+      ],
+      "platform_candidates": [
+        "java/io/ByteArrayInputStream",
+        "java/lang/Object",
+        "java/lang/System"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/maaamma.class",
+      "name": "maaamma",
+      "superclass": "kmjjmma",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2134,
+      "sha256": "9d0086f1f83e7d28fd6b0b19c2fa179c789d64c5ff35356230057a228ae4d93f",
+      "class_references": [
+        "java/io/BufferedInputStream",
+        "java/io/IOException",
+        "java/lang/Math",
+        "java/lang/String",
+        "java/net/URL",
+        "java/util/zip/GZIPInputStream",
+        "kmaakka",
+        "kmaakma",
+        "kmaamma",
+        "kmjamma",
+        "kmjjmma",
+        "mmajkka"
+      ],
+      "descriptor_candidates": [
+        "java/io/InputStream",
+        "java/lang/Object"
+      ],
+      "application_references": [
+        "kmaakka",
+        "kmaakma",
+        "kmaamma",
+        "kmjamma",
+        "kmjjmma",
+        "mmajkka"
+      ],
+      "platform_candidates": [
+        "java/io/BufferedInputStream",
+        "java/io/IOException",
+        "java/io/InputStream",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/net/URL",
+        "java/util/zip/GZIPInputStream"
+      ],
+      "strings": [
+        "data/intro4.swz",
+        "images/introtausta3.jpg",
+        "images/myrkky.jpg",
+        "movieintro",
+        "phase",
+        "suh",
+        "suh0",
+        "suh1",
+        "suh2"
+      ]
+    },
+    {
+      "origin": "original/classes/maaammk.class",
+      "name": "maaammk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2172,
+      "sha256": "b3f767f0a78377d242d767970c70c8dabe5f5e5e13a3d1e479f4283581367fe5",
+      "class_references": [
+        "java/awt/Point",
+        "java/lang/Object",
+        "kaaammk",
+        "kaajkkk",
+        "kmaammk",
+        "kmjjkka"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaaammk",
+        "kaajkkk",
+        "kmaammk",
+        "kmjjkka"
+      ],
+      "platform_candidates": [
+        "java/awt/Point",
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/maajkka.class",
+      "name": "maajkka",
+      "superclass": "kmjjmma",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 3471,
+      "sha256": "d808a8ca52ed4c7de23a75c8b562f86080dffb737d0a1e7b5c0caa7f0834c301",
+      "class_references": [
+        "godog",
+        "java/lang/Math",
+        "java/util/Vector",
+        "kaaakka",
+        "kaaakma",
+        "kaajmma",
+        "kmaakma",
+        "kmaamma",
+        "kmjammk",
+        "kmjjkkk",
+        "kmjjmma",
+        "maaakka",
+        "maaakma",
+        "mmaakkk",
+        "mmajkka",
+        "mmjjmkk"
+      ],
+      "descriptor_candidates": [
+        "java/lang/Object",
+        "java/lang/String",
+        "java/net/URL",
+        "kmaakka",
+        "kmjamka",
+        "kmjjmmk"
+      ],
+      "application_references": [
+        "godog",
+        "kaaakka",
+        "kaaakma",
+        "kaajmma",
+        "kmaakka",
+        "kmaakma",
+        "kmaamma",
+        "kmjamka",
+        "kmjammk",
+        "kmjjkkk",
+        "kmjjmma",
+        "kmjjmmk",
+        "maaakka",
+        "maaakma",
+        "mmaakkk",
+        "mmajkka",
+        "mmjjmkk"
+      ],
+      "platform_candidates": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/net/URL",
+        "java/util/Vector"
+      ],
+      "strings": [
+        "data/meri2.asz",
+        "evil",
+        "images/envmeri.gif",
+        "images/paameri.gif",
+        "images/taivmeri.jpg",
+        "images/vesi_meri.gif"
+      ]
+    },
+    {
+      "origin": "original/classes/maajkkk.class",
+      "name": "maajkkk",
+      "superclass": "majjkkk",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1333,
+      "sha256": "f7e5bbfdd7fa76b95784c26eacd1e6f358d2d53f471dfa3dc471065c81d76fb4",
+      "class_references": [
+        "majjkkk"
+      ],
+      "descriptor_candidates": [
+        "kaaammk"
+      ],
+      "application_references": [
+        "kaaammk",
+        "majjkkk"
+      ],
+      "platform_candidates": [],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/maajkmk.class",
+      "name": "maajkmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2407,
+      "sha256": "39cd7835b5a05acbbdcee334163ba97a3c2de2371a8f518f026816d117872e3f",
+      "class_references": [
+        "java/io/BufferedInputStream",
+        "java/io/DataInputStream",
+        "java/lang/Double",
+        "java/lang/Exception",
+        "java/lang/Integer",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/Throwable",
+        "java/net/URL",
+        "java/net/URLConnection",
+        "java/util/StringTokenizer",
+        "kajjkka",
+        "kajjmmk",
+        "majjmka",
+        "mmaakkk"
+      ],
+      "descriptor_candidates": [
+        "java/io/InputStream"
+      ],
+      "application_references": [
+        "kajjkka",
+        "kajjmmk",
+        "majjmka",
+        "mmaakkk"
+      ],
+      "platform_candidates": [
+        "java/io/BufferedInputStream",
+        "java/io/DataInputStream",
+        "java/io/InputStream",
+        "java/lang/Double",
+        "java/lang/Exception",
+        "java/lang/Integer",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/Throwable",
+        "java/net/URL",
+        "java/net/URLConnection",
+        "java/util/StringTokenizer"
+      ],
+      "strings": [
+        "",
+        " ",
+        "Faces:",
+        "Vertices:"
+      ]
+    },
+    {
+      "origin": "original/classes/maajmka.class",
+      "name": "maajmka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1029,
+      "sha256": "efd9211fbcf5f37b8be75a49d8d5dd278b2cba5021bf3a9fcc6a969cd5069fac",
+      "class_references": [
+        "java/lang/Object",
+        "java/lang/System"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object",
+        "java/lang/System"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/maajmma.class",
+      "name": "maajmma",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 674,
+      "sha256": "e4990e8b07e490e080af4edf7eda18159ce95d30bab4645ba5a67298381c3422",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/maajmmk.class",
+      "name": "maajmmk",
+      "superclass": "kmjjmka",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 11155,
+      "sha256": "417948ab8fcd56bf2b502d494ed1c88c8dc05dbdb0c850dcb5fac885137c18a5",
+      "class_references": [
+        "java/awt/Point",
+        "java/lang/Math",
+        "kaaammk",
+        "kaajkkk",
+        "kajakkk",
+        "kajamma",
+        "kmaammk",
+        "kmjjkka",
+        "kmjjmka",
+        "maajkkk",
+        "majjkkk",
+        "majjkmk",
+        "mmjakka"
+      ],
+      "descriptor_candidates": [
+        "java/awt/image/ColorModel",
+        "java/lang/Object"
+      ],
+      "application_references": [
+        "kaaammk",
+        "kaajkkk",
+        "kajakkk",
+        "kajamma",
+        "kmaammk",
+        "kmjjkka",
+        "kmjjmka",
+        "maajkkk",
+        "majjkkk",
+        "majjkmk",
+        "mmjakka"
+      ],
+      "platform_candidates": [
+        "java/awt/Point",
+        "java/awt/image/ColorModel",
+        "java/lang/Math",
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/majakka.class",
+      "name": "majakka",
+      "superclass": "mmaakmk",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1863,
+      "sha256": "fcc01a7fec1a9b0a95eda4e7149d071e629529867c58bf23173bf8a02816ea4d",
+      "class_references": [
+        "kmajkkk",
+        "mmaakmk",
+        "mmjammk"
+      ],
+      "descriptor_candidates": [
+        "kmaamka",
+        "majjkka"
+      ],
+      "application_references": [
+        "kmaamka",
+        "kmajkkk",
+        "majjkka",
+        "mmaakmk",
+        "mmjammk"
+      ],
+      "platform_candidates": [],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/majakkk.class",
+      "name": "majakkk",
+      "superclass": "kmjjmma",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 3678,
+      "sha256": "d9d51e30e02b6226712e9c967eaa18cea3bd443a83f1325e656272b0924b69dd",
+      "class_references": [
+        "godog",
+        "java/io/PrintStream",
+        "java/lang/Math",
+        "java/lang/System",
+        "java/util/Vector",
+        "kaajmma",
+        "kmaakka",
+        "kmaakma",
+        "kmaamma",
+        "kmajmma",
+        "kmjjkkk",
+        "kmjjmma",
+        "maaakka",
+        "maaakma",
+        "mmaakkk",
+        "mmajkka",
+        "mmjjmkk",
+        "mmjjmmk"
+      ],
+      "descriptor_candidates": [
+        "java/lang/Object",
+        "java/lang/String",
+        "java/net/URL",
+        "kmjamka",
+        "kmjjmmk"
+      ],
+      "application_references": [
+        "godog",
+        "kaajmma",
+        "kmaakka",
+        "kmaakma",
+        "kmaamma",
+        "kmajmma",
+        "kmjamka",
+        "kmjjkkk",
+        "kmjjmma",
+        "kmjjmmk",
+        "maaakka",
+        "maaakma",
+        "mmaakkk",
+        "mmajkka",
+        "mmjjmkk",
+        "mmjjmmk"
+      ],
+      "platform_candidates": [
+        "java/io/PrintStream",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/System",
+        "java/net/URL",
+        "java/util/Vector"
+      ],
+      "strings": [
+        "data/knowledge.asz",
+        "images/headsea.jpg",
+        "images/kasvu.gif",
+        "images/koira04.jpg",
+        "images/lc.jpg",
+        "images/paa_left.jpg",
+        "images/paa_right.jpg",
+        "know start",
+        "paa"
+      ]
+    },
+    {
+      "origin": "original/classes/majakma.class",
+      "name": "majakma",
+      "superclass": "kmjjmma",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 3300,
+      "sha256": "3f0be343e9eebf0ca7bde809893aa4c77ca82982733ccd538962ebaa9b1c7893",
+      "class_references": [
+        "godog",
+        "java/lang/Math",
+        "java/util/Vector",
+        "kaajmma",
+        "kmaakka",
+        "kmaakma",
+        "kmaamma",
+        "kmajmma",
+        "kmjjkkk",
+        "kmjjmma",
+        "maaakka",
+        "maaakma",
+        "mmaakkk",
+        "mmajkka",
+        "mmjjmkk"
+      ],
+      "descriptor_candidates": [
+        "java/lang/Object",
+        "java/lang/String",
+        "java/net/URL",
+        "kmjamka",
+        "kmjjmmk"
+      ],
+      "application_references": [
+        "godog",
+        "kaajmma",
+        "kmaakka",
+        "kmaakma",
+        "kmaamma",
+        "kmajmma",
+        "kmjamka",
+        "kmjjkkk",
+        "kmjjmma",
+        "kmjjmmk",
+        "maaakka",
+        "maaakma",
+        "mmaakkk",
+        "mmajkka",
+        "mmjjmkk"
+      ],
+      "platform_candidates": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/net/URL",
+        "java/util/Vector"
+      ],
+      "strings": [
+        "data/hakkyra4.asz",
+        "images/envplane.gif",
+        "images/kasvu.gif",
+        "images/lasitausta.jpg",
+        "images/lc2.jpg",
+        "trav"
+      ]
+    },
+    {
+      "origin": "original/classes/majakmk.class",
+      "name": "majakmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 766,
+      "sha256": "19790a955cf59b3bd371cdb9d5a6058b1167856a92f0e70664b2f408a444acdb",
+      "class_references": [
+        "java/lang/Integer",
+        "java/lang/Object",
+        "java/lang/StringBuffer"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String"
+      ],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Integer",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer"
+      ],
+      "strings": [
+        " time=",
+        "pos=0x"
+      ]
+    },
+    {
+      "origin": "original/classes/majamka.class",
+      "name": "majamka",
+      "superclass": "java/awt/Window",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1800,
+      "sha256": "591acd8472549289b33f4f165d6c4e86b86247dd9c14890ddcecbd5eb51c5187",
+      "class_references": [
+        "java/awt/Color",
+        "java/awt/Component",
+        "java/awt/Container",
+        "java/awt/Dimension",
+        "java/awt/Frame",
+        "java/awt/Panel",
+        "java/awt/Rectangle",
+        "java/awt/Toolkit",
+        "java/awt/Window"
+      ],
+      "descriptor_candidates": [
+        "java/awt/LayoutManager",
+        "java/lang/String"
+      ],
+      "application_references": [],
+      "platform_candidates": [
+        "java/awt/Color",
+        "java/awt/Component",
+        "java/awt/Container",
+        "java/awt/Dimension",
+        "java/awt/Frame",
+        "java/awt/LayoutManager",
+        "java/awt/Panel",
+        "java/awt/Rectangle",
+        "java/awt/Toolkit",
+        "java/awt/Window",
+        "java/lang/String"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/majamma.class",
+      "name": "majamma",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 244,
+      "sha256": "7a600c8ad113403d28cee6bb9691d81b35989767b32bec47b27dabfd4aaea9c8",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [
+        "mmajmma"
+      ],
+      "application_references": [
+        "mmajmma"
+      ],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/majammk.class",
+      "name": "majammk",
+      "superclass": "java/awt/Canvas",
+      "interfaces": [
+        "java/lang/Runnable"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 5386,
+      "sha256": "37122ce8e26b241e34d76a6b1726ccb78fbe3c6f4e4f416e0592cfbfc99dffb0",
+      "class_references": [
+        "java/awt/Canvas",
+        "java/awt/Color",
+        "java/awt/Component",
+        "java/awt/Font",
+        "java/awt/Graphics",
+        "java/awt/Image",
+        "java/awt/Rectangle",
+        "java/awt/image/DirectColorModel",
+        "java/awt/image/MemoryImageSource",
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/lang/Throwable",
+        "java/util/Enumeration",
+        "java/util/Vector",
+        "kmajmka",
+        "kmjjmmk",
+        "muhmu/hifi/device/MAD"
+      ],
+      "descriptor_candidates": [
+        "java/awt/image/ColorModel",
+        "java/awt/image/ImageObserver",
+        "java/awt/image/ImageProducer",
+        "java/lang/String"
+      ],
+      "application_references": [
+        "kmajmka",
+        "kmjjmmk",
+        "muhmu/hifi/device/MAD"
+      ],
+      "platform_candidates": [
+        "java/awt/Canvas",
+        "java/awt/Color",
+        "java/awt/Component",
+        "java/awt/Font",
+        "java/awt/Graphics",
+        "java/awt/Image",
+        "java/awt/Rectangle",
+        "java/awt/image/ColorModel",
+        "java/awt/image/DirectColorModel",
+        "java/awt/image/ImageObserver",
+        "java/awt/image/ImageProducer",
+        "java/awt/image/MemoryImageSource",
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/lang/Throwable",
+        "java/util/Enumeration",
+        "java/util/Vector"
+      ],
+      "strings": [
+        "",
+        " mode",
+        "Courier",
+        "IE3 directsound",
+        "IE4 directsound",
+        "Muhmu Tunari",
+        "OK. ready to rab!",
+        "choosing ",
+        "found",
+        "ie3 audio ",
+        "ie4 audio ",
+        "kunigas",
+        "kunigas zoom blit ",
+        "kunigas=",
+        "measuring optimal parameters for this setup",
+        "ms",
+        "muhmu tuner (c) saviour",
+        "no audio",
+        "no sound",
+        "normal",
+        "normal zoom blit ",
+        "not ",
+        "sun 8khz crap",
+        "sun audio "
+      ]
+    },
+    {
+      "origin": "original/classes/majjkka.class",
+      "name": "majjkka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1607,
+      "sha256": "a046ccc1776b4a4abd74dc7b4f3e1853f964d96d00cc2ca3ebee559a27c7aafa",
+      "class_references": [
+        "java/awt/Point",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/awt/Point",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer"
+      ],
+      "strings": [
+        ", ",
+        "[",
+        "] {"
+      ]
+    },
+    {
+      "origin": "original/classes/majjkkk.class",
+      "name": "majjkkk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1918,
+      "sha256": "9e00528581baa81618d04a8e059eee15b4e2f72f39373592bcdf47a703b54aa4",
+      "class_references": [
+        "java/awt/Point",
+        "java/lang/Object",
+        "kaajmmk",
+        "kmaammk"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaajmmk",
+        "kmaammk"
+      ],
+      "platform_candidates": [
+        "java/awt/Point",
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/majjkmk.class",
+      "name": "majjkmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1891,
+      "sha256": "737b0beff41d2ae87c457bf2c62fa17723344164de6c34fbc95440100330b65e",
+      "class_references": [
+        "java/lang/Object",
+        "kaaammk"
+      ],
+      "descriptor_candidates": [
+        "kaajkkk"
+      ],
+      "application_references": [
+        "kaaammk",
+        "kaajkkk"
+      ],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/majjmka.class",
+      "name": "majjmka",
+      "superclass": "kaajmma",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1558,
+      "sha256": "24fa7242dd737b03c20498bf6ad9a17de5cc0c35e4b296ce57f4bba6776a787c",
+      "class_references": [
+        "kaajmma"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaajmma"
+      ],
+      "platform_candidates": [],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/majjmma.class",
+      "name": "majjmma",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1383,
+      "sha256": "ae71eaa5e1cc1a6d6ad940339b80cf7060c618f68ff654e1505c2e97f061ab7f",
+      "class_references": [
+        "java/lang/Object",
+        "kajjkkk"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kajjkkk"
+      ],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/majjmmk.class",
+      "name": "majjmmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 550,
+      "sha256": "1e44b7caadbda4bf93dfd4f33447108b81dc60b0cf40c61ce00b973640d8214c",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmaakka.class",
+      "name": "mmaakka",
+      "superclass": "java/applet/Applet",
+      "interfaces": [
+        "java/lang/Runnable"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 9655,
+      "sha256": "25dd10c0ce22e2b448355106bd7421afc17880ea2b5cecb0e3aaf711b543b8f7",
+      "class_references": [
+        "java/applet/Applet",
+        "java/applet/AppletContext",
+        "java/awt/Color",
+        "java/awt/Component",
+        "java/awt/Event",
+        "java/awt/Frame",
+        "java/awt/Graphics",
+        "java/awt/Rectangle",
+        "java/awt/image/ColorModel",
+        "java/lang/Exception",
+        "java/lang/Integer",
+        "java/lang/NumberFormatException",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/net/URL",
+        "kaajkkk",
+        "kajakkk",
+        "kajakmk",
+        "kajamma",
+        "kmjjmka",
+        "mmajmmk",
+        "mmjakka"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Container",
+        "java/awt/Image",
+        "java/awt/image/ImageObserver",
+        "java/awt/image/ImageProducer",
+        "java/io/InputStream",
+        "kaajmmk",
+        "kmaammk"
+      ],
+      "application_references": [
+        "kaajkkk",
+        "kaajmmk",
+        "kajakkk",
+        "kajakmk",
+        "kajamma",
+        "kmaammk",
+        "kmjjmka",
+        "mmajmmk",
+        "mmjakka"
+      ],
+      "platform_candidates": [
+        "java/applet/Applet",
+        "java/applet/AppletContext",
+        "java/awt/Color",
+        "java/awt/Component",
+        "java/awt/Container",
+        "java/awt/Event",
+        "java/awt/Frame",
+        "java/awt/Graphics",
+        "java/awt/Image",
+        "java/awt/Rectangle",
+        "java/awt/image/ColorModel",
+        "java/awt/image/ImageObserver",
+        "java/awt/image/ImageProducer",
+        "java/io/InputStream",
+        "java/lang/Exception",
+        "java/lang/Integer",
+        "java/lang/NumberFormatException",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/net/URL"
+      ],
+      "strings": [
+        "#0xRGB (hex RGB value",
+        "Build ",
+        "Flash Ver",
+        "allocateFullClug",
+        "autohigh",
+        "autolow",
+        "best",
+        "bgcolor",
+        "boolean",
+        "exactfit",
+        "forcergb",
+        "high",
+        "loop",
+        "low",
+        "movie",
+        "noborder",
+        "play",
+        "play in a contiuous loop",
+        "quality",
+        "salign",
+        "scale",
+        "script",
+        "showall",
+        "smoothing",
+        "start playing automatically",
+        "string",
+        "the Flash movie file",
+        "true",
+        "turn on high quality rendering",
+        "url",
+        "yes"
+      ]
+    },
+    {
+      "origin": "original/classes/mmaakkk.class",
+      "name": "mmaakkk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 11765,
+      "sha256": "9cf8784abef662089c3a2ef5efeb3127e02177fe4a707e64221236265050dd9c",
+      "class_references": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "kaaakka",
+        "kaaamma",
+        "kaajmma",
+        "kajjkka",
+        "kajjmmk",
+        "kmaakka",
+        "kmajkka",
+        "majjmka",
+        "mmjamma",
+        "mmjjmkk"
+      ],
+      "descriptor_candidates": [
+        "maaakka",
+        "mmajkka"
+      ],
+      "application_references": [
+        "kaaakka",
+        "kaaamma",
+        "kaajmma",
+        "kajjkka",
+        "kajjmmk",
+        "kmaakka",
+        "kmajkka",
+        "maaakka",
+        "majjmka",
+        "mmajkka",
+        "mmjamma",
+        "mmjjmkk"
+      ],
+      "platform_candidates": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String"
+      ],
+      "strings": [
+        ""
+      ]
+    },
+    {
+      "origin": "original/classes/mmaakma.class",
+      "name": "mmaakma",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 254,
+      "sha256": "35b735551ff847fd067f791880969c881b3c444544843756c4d23e9c7923e124",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String"
+      ],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object",
+        "java/lang/String"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmaakmk.class",
+      "name": "mmaakmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [
+        "muhmu/hifi/device/Mixable"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 4443,
+      "sha256": "00da0690abe7a9db4b11f4d011d8550bc7e399d3501640b030036336c44e6b00",
+      "class_references": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "kmaamka",
+        "muhmu/hifi/device/MAD",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kmaamka",
+        "muhmu/hifi/device/MAD",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "platform_candidates": [
+        "java/lang/Math",
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmaamka.class",
+      "name": "mmaamka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 15576,
+      "sha256": "334d00ed5fa10ffd2336b708b8f7a4b53f9f0d8cbbff99781e41091b23c07ef9",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmaamma.class",
+      "name": "mmaamma",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 8135,
+      "sha256": "50902f484c489638f4e08d5301b46a3180150e917b0c8e107e2ee4af1d21fd15",
+      "class_references": [
+        "java/lang/Object",
+        "kaaamma",
+        "kajjkka",
+        "kajjmmk",
+        "kmaakka",
+        "maaakka",
+        "majjmka",
+        "mmajkka"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaaamma",
+        "kajjkka",
+        "kajjmmk",
+        "kmaakka",
+        "maaakka",
+        "majjmka",
+        "mmajkka"
+      ],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmaammk.class",
+      "name": "mmaammk",
+      "superclass": "mmaakkk",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2381,
+      "sha256": "ce7b6c4ba601304bd9d8adc6c8b489eefacc8c6ad9192a56aac1c066754bf1ea",
+      "class_references": [
+        "kaaamma",
+        "kaajmma",
+        "kajjkka",
+        "kmajkka",
+        "majjmka",
+        "mmaakkk"
+      ],
+      "descriptor_candidates": [
+        "mmjjmkk"
+      ],
+      "application_references": [
+        "kaaamma",
+        "kaajmma",
+        "kajjkka",
+        "kmajkka",
+        "majjmka",
+        "mmaakkk",
+        "mmjjmkk"
+      ],
+      "platform_candidates": [],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmajkka.class",
+      "name": "mmajkka",
+      "superclass": "kmaakka",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 6947,
+      "sha256": "d836250caa0160acf55e26208d2ce9de436a201f96cf8e2df338232ad0eaf114",
+      "class_references": [
+        "java/awt/Rectangle",
+        "java/awt/image/DirectColorModel",
+        "java/awt/image/ImageConsumer",
+        "java/lang/Math",
+        "java/lang/System",
+        "kmaakka",
+        "maaakka"
+      ],
+      "descriptor_candidates": [
+        "java/awt/image/ColorModel",
+        "java/lang/Object"
+      ],
+      "application_references": [
+        "kmaakka",
+        "maaakka"
+      ],
+      "platform_candidates": [
+        "java/awt/Rectangle",
+        "java/awt/image/ColorModel",
+        "java/awt/image/DirectColorModel",
+        "java/awt/image/ImageConsumer",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/System"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmajkkk.class",
+      "name": "mmajkkk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2773,
+      "sha256": "e15e4287103d76ed33c26f76dfabe96e3dd81678616ec6974aab8ce12496602e",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmajkmk.class",
+      "name": "mmajkmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 775,
+      "sha256": "e93b967e53128abe13fab232fc9829948e90278d53362f56dfc4124bcaff5917",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmajmka.class",
+      "name": "mmajmka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1072,
+      "sha256": "abd248e194ab2d315ed311eb5f60188c16ae36ae25c104fae141a352f7decd92",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmajmma.class",
+      "name": "mmajmma",
+      "superclass": "java/lang/Object",
+      "interfaces": [
+        "muhmu/hifi/device/Mixable"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1930,
+      "sha256": "e43a6b88d3b76eb2c24fe577a66ad6996ba837f33be3b18e3f27a01cac811ecb",
+      "class_references": [
+        "java/lang/Integer",
+        "java/lang/Object",
+        "java/util/Enumeration",
+        "java/util/Hashtable",
+        "majamma",
+        "muhmu/hifi/device/MAD",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "majamma",
+        "muhmu/hifi/device/MAD",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "platform_candidates": [
+        "java/lang/Integer",
+        "java/lang/Object",
+        "java/util/Enumeration",
+        "java/util/Hashtable"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmajmmk.class",
+      "name": "mmajmmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 654,
+      "sha256": "e277c165d5522d5029beb414337720cdd1efe8926b26dee74f9f3660de0b6f93",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmjakka.class",
+      "name": "mmjakka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 536,
+      "sha256": "2cb80f1d4123ee378504c500c38ece6c2e1825ec327e984f3261140ac1297e45",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [
+        "kaajmmk",
+        "kajamma"
+      ],
+      "application_references": [
+        "kaajmmk",
+        "kajamma"
+      ],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmjakkk.class",
+      "name": "mmjakkk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 550,
+      "sha256": "69c801884a49f2c18e0216ddbc31dad694fe0a70202d8ff37e2068e3e001c22c",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmjakmk.class",
+      "name": "mmjakmk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 4163,
+      "sha256": "83e6c07733212aab065ca992b765d309a5fafbc0499ba9be095c553a558148bb",
+      "class_references": [
+        "java/awt/Component",
+        "java/awt/Point",
+        "java/awt/Rectangle",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/Thread",
+        "kaajkkk",
+        "kajamma",
+        "mmaakka",
+        "mmajmmk"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Event",
+        "java/awt/Graphics",
+        "java/io/InputStream",
+        "java/lang/Runnable"
+      ],
+      "application_references": [
+        "kaajkkk",
+        "kajamma",
+        "mmaakka",
+        "mmajmmk"
+      ],
+      "platform_candidates": [
+        "java/awt/Component",
+        "java/awt/Event",
+        "java/awt/Graphics",
+        "java/awt/Point",
+        "java/awt/Rectangle",
+        "java/io/InputStream",
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/Thread"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmjamka.class",
+      "name": "mmjamka",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 5489,
+      "sha256": "8ba124816f4f08112894cb6456900272171954a55a5ee1fffc98ab6d5adcb0cc",
+      "class_references": [
+        "java/lang/Exception",
+        "java/lang/Object",
+        "kajjkka",
+        "majjmka",
+        "mmajkka"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kajjkka",
+        "majjmka",
+        "mmajkka"
+      ],
+      "platform_candidates": [
+        "java/lang/Exception",
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmjamma.class",
+      "name": "mmjamma",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 3960,
+      "sha256": "479d8acf6a7e9c1bcd75fd8983af02d4a6471e33096164c7ca2f9d13a8ffb966",
+      "class_references": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/StringBuffer"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String"
+      ],
+      "application_references": [],
+      "platform_candidates": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer"
+      ],
+      "strings": [
+        "; ",
+        "{",
+        "} "
+      ]
+    },
+    {
+      "origin": "original/classes/mmjammk.class",
+      "name": "mmjammk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 636,
+      "sha256": "2149366858a669330a4b319ba2a687d8e14d54a5445426a123aded29285d509a",
+      "class_references": [
+        "java/lang/Object",
+        "kmaamka"
+      ],
+      "descriptor_candidates": [
+        "majjkka"
+      ],
+      "application_references": [
+        "kmaamka",
+        "majjkka"
+      ],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmjjkka.class",
+      "name": "mmjjkka",
+      "superclass": "kmajkka",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 715,
+      "sha256": "87933a21edf1d203af73d3073e1c42ec216afc4a880417cca4ba4402949658ad",
+      "class_references": [
+        "java/lang/StringBuffer",
+        "kmajkka"
+      ],
+      "descriptor_candidates": [
+        "java/lang/Object",
+        "java/lang/String"
+      ],
+      "application_references": [
+        "kmajkka"
+      ],
+      "platform_candidates": [
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer"
+      ],
+      "strings": [
+        " obj=",
+        "key="
+      ]
+    },
+    {
+      "origin": "original/classes/mmjjkkk.class",
+      "name": "mmjjkkk",
+      "superclass": "kmajkka",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 440,
+      "sha256": "e6831466d6e320d74846bf6f66cdf4b36fec84fe308a715c1124e12eeb045bcb",
+      "class_references": [
+        "kmajkka"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String"
+      ],
+      "application_references": [
+        "kmajkka"
+      ],
+      "platform_candidates": [
+        "java/lang/String"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmjjkmk.class",
+      "name": "mmjjkmk",
+      "superclass": "sun/awt/image/URLImageSource",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1005,
+      "sha256": "5a0fa01217e3b6e2d8f384d96da6d7752b665dcb004fc4bb4adb5808f6d64fba",
+      "class_references": [
+        "java/applet/Applet",
+        "java/io/IOException",
+        "java/io/InputStream",
+        "java/net/MalformedURLException",
+        "java/net/URL",
+        "mmaakka",
+        "sun/awt/image/JPEGImageDecoder",
+        "sun/awt/image/URLImageSource"
+      ],
+      "descriptor_candidates": [
+        "java/io/ByteArrayInputStream",
+        "java/lang/String",
+        "sun/awt/image/ImageDecoder",
+        "sun/awt/image/InputStreamImageSource"
+      ],
+      "application_references": [
+        "mmaakka"
+      ],
+      "platform_candidates": [
+        "java/applet/Applet",
+        "java/io/ByteArrayInputStream",
+        "java/io/IOException",
+        "java/io/InputStream",
+        "java/lang/String",
+        "java/net/MalformedURLException",
+        "java/net/URL",
+        "sun/awt/image/ImageDecoder",
+        "sun/awt/image/InputStreamImageSource",
+        "sun/awt/image/JPEGImageDecoder",
+        "sun/awt/image/URLImageSource"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmjjmka.class",
+      "name": "mmjjmka",
+      "superclass": "kaajmma",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 627,
+      "sha256": "8d51687acdef32ccfd4122accfbe42293150ae777d95116936ca2b76fada6d3e",
+      "class_references": [
+        "kaaakkk",
+        "kaajmma"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaaakkk",
+        "kaajmma"
+      ],
+      "platform_candidates": [],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmjjmkk.class",
+      "name": "mmjjmkk",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1326,
+      "sha256": "9754ffefbdeca3a82fec8d95fa7adf31ee9d4f96d37ab13b6e8a784584eed682",
+      "class_references": [
+        "java/lang/Math",
+        "java/lang/Object",
+        "kaaakka",
+        "kaajmma"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kaaakka",
+        "kaajmma"
+      ],
+      "platform_candidates": [
+        "java/lang/Math",
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmjjmma.class",
+      "name": "mmjjmma",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1127,
+      "sha256": "07d264fc61c62f3cdfdef5bfdef26dbea6d6a9db9ac954d14a5c8840851b88db",
+      "class_references": [
+        "java/lang/Object",
+        "kmajkka",
+        "mmjjkka"
+      ],
+      "descriptor_candidates": [],
+      "application_references": [
+        "kmajkka",
+        "mmjjkka"
+      ],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/mmjjmmk.class",
+      "name": "mmjjmmk",
+      "superclass": "mmaakkk",
+      "interfaces": [
+        "mmaamka"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 6149,
+      "sha256": "236f47e60cb755c4582362ccbaf18b70bc406c64dc1ab6c2cdc9e0ffafcd3225",
+      "class_references": [
+        "java/awt/Color",
+        "java/awt/Graphics",
+        "java/lang/ArrayIndexOutOfBoundsException",
+        "java/lang/Math",
+        "kaaakka",
+        "kaaakkk",
+        "kaaamma",
+        "kaajmma",
+        "kajjkka",
+        "kajjmmk",
+        "kmajkka",
+        "majjmka",
+        "mmaakkk",
+        "mmaamka",
+        "mmjjmka"
+      ],
+      "descriptor_candidates": [
+        "mmjjmkk"
+      ],
+      "application_references": [
+        "kaaakka",
+        "kaaakkk",
+        "kaaamma",
+        "kaajmma",
+        "kajjkka",
+        "kajjmmk",
+        "kmajkka",
+        "majjmka",
+        "mmaakkk",
+        "mmaamka",
+        "mmjjmka",
+        "mmjjmkk"
+      ],
+      "platform_candidates": [
+        "java/awt/Color",
+        "java/awt/Graphics",
+        "java/lang/ArrayIndexOutOfBoundsException",
+        "java/lang/Math"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/muhmu/hifi/device/DeviceMS_IE3.class",
+      "name": "muhmu/hifi/device/DeviceMS_IE3",
+      "superclass": "muhmu/hifi/device/DeviceMSbase",
+      "interfaces": [
+        "java/lang/Runnable",
+        "com/ms/directX/ddConstants"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2692,
+      "sha256": "77211a4a0fff5949a6c5e0cac70f2b7cca6760b9d46af8ac84d1a8bdf13682c0",
+      "class_references": [
+        "com/ms/awt/peer/ComponentPeerX",
+        "com/ms/com/ComLib",
+        "com/ms/directX/DSBufferDesc",
+        "com/ms/directX/DSCursors",
+        "com/ms/directX/WaveFormatEx",
+        "com/ms/directX/dSound",
+        "com/ms/directX/dSoundBuffer",
+        "com/ms/directX/ddConstants",
+        "java/awt/Component",
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Runnable",
+        "java/lang/System",
+        "java/lang/Throwable",
+        "muhmu/hifi/device/DeviceMSbase",
+        "muhmu/hifi/device/MAD"
+      ],
+      "descriptor_candidates": [
+        "com/ms/com/IUnknown",
+        "java/awt/peer/ComponentPeer",
+        "java/lang/Object",
+        "java/lang/String"
+      ],
+      "application_references": [
+        "com/ms/awt/peer/ComponentPeerX",
+        "com/ms/com/ComLib",
+        "com/ms/com/IUnknown",
+        "com/ms/directX/DSBufferDesc",
+        "com/ms/directX/DSCursors",
+        "com/ms/directX/WaveFormatEx",
+        "com/ms/directX/dSound",
+        "com/ms/directX/dSoundBuffer",
+        "com/ms/directX/ddConstants",
+        "muhmu/hifi/device/DeviceMSbase",
+        "muhmu/hifi/device/MAD"
+      ],
+      "platform_candidates": [
+        "java/awt/Component",
+        "java/awt/peer/ComponentPeer",
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/System",
+        "java/lang/Throwable"
+      ],
+      "strings": [
+        "finalize ie3",
+        "peer error in DeviceMS_IE3"
+      ]
+    },
+    {
+      "origin": "original/classes/muhmu/hifi/device/DeviceMS_IE4.class",
+      "name": "muhmu/hifi/device/DeviceMS_IE4",
+      "superclass": "muhmu/hifi/device/DeviceMSbase",
+      "interfaces": [
+        "java/lang/Runnable",
+        "com/ms/directX/DirectXConstants"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2700,
+      "sha256": "cd7fa9f8aa053ee64fa86b87900fc542da66a4650d9e434752092f5432b0e2f3",
+      "class_references": [
+        "com/ms/com/ComLib",
+        "com/ms/directX/DSBufferDesc",
+        "com/ms/directX/DSCaps",
+        "com/ms/directX/DSCursors",
+        "com/ms/directX/DirectSound",
+        "com/ms/directX/DirectSoundBuffer",
+        "com/ms/directX/DirectXConstants",
+        "com/ms/directX/WaveFormatEx",
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Runnable",
+        "java/lang/System",
+        "java/lang/Throwable",
+        "muhmu/hifi/device/DeviceMSbase",
+        "muhmu/hifi/device/MAD"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Component",
+        "java/lang/Object",
+        "java/lang/String"
+      ],
+      "application_references": [
+        "com/ms/com/ComLib",
+        "com/ms/directX/DSBufferDesc",
+        "com/ms/directX/DSCaps",
+        "com/ms/directX/DSCursors",
+        "com/ms/directX/DirectSound",
+        "com/ms/directX/DirectSoundBuffer",
+        "com/ms/directX/DirectXConstants",
+        "com/ms/directX/WaveFormatEx",
+        "muhmu/hifi/device/DeviceMSbase",
+        "muhmu/hifi/device/MAD"
+      ],
+      "platform_candidates": [
+        "java/awt/Component",
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/System",
+        "java/lang/Throwable"
+      ],
+      "strings": [
+        "PRIMARY SOUNDBUFFER CREATION FAILED... going on anyway... power off",
+        "finalize ie4"
+      ]
+    },
+    {
+      "origin": "original/classes/muhmu/hifi/device/DeviceMSbase.class",
+      "name": "muhmu/hifi/device/DeviceMSbase",
+      "superclass": "muhmu/hifi/device/MAD",
+      "interfaces": [
+        "java/lang/Runnable"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 3060,
+      "sha256": "8cfad959cf3b10f676609f3aec89b670e1235fc65efa58d833ddcb5c971c7dcb",
+      "class_references": [
+        "java/lang/Exception",
+        "java/lang/Runnable",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/lang/Throwable",
+        "muhmu/hifi/device/MAD",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Component",
+        "java/lang/Object",
+        "java/lang/String"
+      ],
+      "application_references": [
+        "muhmu/hifi/device/MAD",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "platform_candidates": [
+        "java/awt/Component",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/lang/Throwable"
+      ],
+      "strings": [
+        "Muhmu DirectSound device"
+      ]
+    },
+    {
+      "origin": "original/classes/muhmu/hifi/device/DeviceNoSound.class",
+      "name": "muhmu/hifi/device/DeviceNoSound",
+      "superclass": "muhmu/hifi/device/MAD",
+      "interfaces": [
+        "java/lang/Runnable"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1406,
+      "sha256": "290d588bdc45d0de23d8ddf870aa9811e4ad7c4863db9be87dcca0c1fca63dc6",
+      "class_references": [
+        "java/lang/Exception",
+        "java/lang/Runnable",
+        "java/lang/System",
+        "java/lang/Thread",
+        "muhmu/hifi/device/MAD",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Component",
+        "java/lang/String"
+      ],
+      "application_references": [
+        "muhmu/hifi/device/MAD",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "platform_candidates": [
+        "java/awt/Component",
+        "java/lang/Exception",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/System",
+        "java/lang/Thread"
+      ],
+      "strings": [
+        "Muhmu SunAudio device"
+      ]
+    },
+    {
+      "origin": "original/classes/muhmu/hifi/device/DeviceSun.class",
+      "name": "muhmu/hifi/device/DeviceSun",
+      "superclass": "muhmu/hifi/device/MAD",
+      "interfaces": [
+        "java/util/Enumeration",
+        "java/lang/Runnable"
+      ],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 3738,
+      "sha256": "a966cc68b90257b9820dea7c1f5c8389094885329a17a35cce33ec25da71bc93",
+      "class_references": [
+        "java/io/IOException",
+        "java/io/InputStream",
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/lang/Throwable",
+        "java/util/Enumeration",
+        "muhmu/hifi/device/MAD",
+        "muhmu/hifi/device/Mixable",
+        "muhmu/hifi/device/ULaw",
+        "sun/audio/AudioData",
+        "sun/audio/AudioDataStream",
+        "sun/audio/AudioPlayer",
+        "sun/audio/AudioStreamSequence"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Component",
+        "java/lang/String"
+      ],
+      "application_references": [
+        "muhmu/hifi/device/MAD",
+        "muhmu/hifi/device/Mixable",
+        "muhmu/hifi/device/ULaw"
+      ],
+      "platform_candidates": [
+        "java/awt/Component",
+        "java/io/IOException",
+        "java/io/InputStream",
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/Runnable",
+        "java/lang/String",
+        "java/lang/System",
+        "java/lang/Thread",
+        "java/lang/Throwable",
+        "java/util/Enumeration",
+        "sun/audio/AudioData",
+        "sun/audio/AudioDataStream",
+        "sun/audio/AudioPlayer",
+        "sun/audio/AudioStreamSequence"
+      ],
+      "strings": [
+        "Muhmu SunAudio device",
+        "run exit"
+      ]
+    },
+    {
+      "origin": "original/classes/muhmu/hifi/device/MAD.class",
+      "name": "muhmu/hifi/device/MAD",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 2668,
+      "sha256": "1640a325b4dfca562290cc69b5104cf7200d8867cebd0462cd6df696ecfd3380",
+      "class_references": [
+        "java/io/PrintStream",
+        "java/lang/Class",
+        "java/lang/Object",
+        "java/lang/System",
+        "java/lang/Throwable",
+        "muhmu/hifi/device/DeviceNoSound"
+      ],
+      "descriptor_candidates": [
+        "java/awt/Component",
+        "java/lang/String",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "application_references": [
+        "muhmu/hifi/device/DeviceNoSound",
+        "muhmu/hifi/device/Mixable"
+      ],
+      "platform_candidates": [
+        "java/awt/Component",
+        "java/io/PrintStream",
+        "java/lang/Class",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/System",
+        "java/lang/Throwable"
+      ],
+      "strings": [
+        "Component not set!",
+        "loading directsound IE3",
+        "loading directsound IE3 failed",
+        "loading directsound IE4",
+        "loading directsound IE4 failed",
+        "loading sun.audio",
+        "loading sun.audio failed",
+        "muhmu.hifi.device.DeviceMS_IE3",
+        "muhmu.hifi.device.DeviceMS_IE4",
+        "muhmu.hifi.device.DeviceSun"
+      ]
+    },
+    {
+      "origin": "original/classes/muhmu/hifi/device/Mixable.class",
+      "name": "muhmu/hifi/device/Mixable",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 231,
+      "sha256": "2c1008c2bd42857d91bbfcfc562dca8ff5f488eb8a525428eb7427261592798e",
+      "class_references": [
+        "java/lang/Object"
+      ],
+      "descriptor_candidates": [
+        "muhmu/hifi/device/MAD"
+      ],
+      "application_references": [
+        "muhmu/hifi/device/MAD"
+      ],
+      "platform_candidates": [
+        "java/lang/Object"
+      ],
+      "strings": []
+    },
+    {
+      "origin": "original/classes/muhmu/hifi/device/ULaw.class",
+      "name": "muhmu/hifi/device/ULaw",
+      "superclass": "java/lang/Object",
+      "interfaces": [],
+      "major_version": 45,
+      "minor_version": 3,
+      "bytes": 1958,
+      "sha256": "ead64691e53e2a36c6c0968bebaa22e8c4ba6404cdb1cfdde134d4905703bb26",
+      "class_references": [
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/StringBuffer",
+        "java/lang/System"
+      ],
+      "descriptor_candidates": [
+        "java/lang/String"
+      ],
+      "application_references": [],
+      "platform_candidates": [
+        "java/io/PrintStream",
+        "java/lang/Exception",
+        "java/lang/Object",
+        "java/lang/String",
+        "java/lang/StringBuffer",
+        "java/lang/System"
+      ],
+      "strings": [
+        "cropped ",
+        "m\u00e4ski 2",
+        "m\u00e4ski 3"
+      ]
+    }
+  ],
+  "defined_classes": [
+    "godog",
+    "kaaakka",
+    "kaaakkk",
+    "kaaakma",
+    "kaaakmk",
+    "kaaamka",
+    "kaaamma",
+    "kaaammk",
+    "kaajkka",
+    "kaajkkk",
+    "kaajkmk",
+    "kaajmka",
+    "kaajmma",
+    "kaajmmk",
+    "kajakka",
+    "kajakkk",
+    "kajakma",
+    "kajakmk",
+    "kajamka",
+    "kajamma",
+    "kajammk",
+    "kajjkka",
+    "kajjkkk",
+    "kajjkmk",
+    "kajjmka",
+    "kajjmma",
+    "kajjmmk",
+    "kmaakka",
+    "kmaakkk",
+    "kmaakma",
+    "kmaakmk",
+    "kmaamka",
+    "kmaamma",
+    "kmaammk",
+    "kmajkka",
+    "kmajkkk",
+    "kmajkmk",
+    "kmajmka",
+    "kmajmma",
+    "kmajmmk",
+    "kmjakka",
+    "kmjakkk",
+    "kmjakmk",
+    "kmjamka",
+    "kmjamma",
+    "kmjammk",
+    "kmjjkka",
+    "kmjjkkk",
+    "kmjjkmk",
+    "kmjjmka",
+    "kmjjmma",
+    "kmjjmmk",
+    "maaakka",
+    "maaakkk",
+    "maaakma",
+    "maaakmk",
+    "maaamka",
+    "maaamma",
+    "maaammk",
+    "maajkka",
+    "maajkkk",
+    "maajkmk",
+    "maajmka",
+    "maajmma",
+    "maajmmk",
+    "majakka",
+    "majakkk",
+    "majakma",
+    "majakmk",
+    "majamka",
+    "majamma",
+    "majammk",
+    "majjkka",
+    "majjkkk",
+    "majjkmk",
+    "majjmka",
+    "majjmma",
+    "majjmmk",
+    "mmaakka",
+    "mmaakkk",
+    "mmaakma",
+    "mmaakmk",
+    "mmaamka",
+    "mmaamma",
+    "mmaammk",
+    "mmajkka",
+    "mmajkkk",
+    "mmajkmk",
+    "mmajmka",
+    "mmajmma",
+    "mmajmmk",
+    "mmjakka",
+    "mmjakkk",
+    "mmjakmk",
+    "mmjamka",
+    "mmjamma",
+    "mmjammk",
+    "mmjjkka",
+    "mmjjkkk",
+    "mmjjkmk",
+    "mmjjmka",
+    "mmjjmkk",
+    "mmjjmma",
+    "mmjjmmk",
+    "muhmu/hifi/device/DeviceMS_IE3",
+    "muhmu/hifi/device/DeviceMS_IE4",
+    "muhmu/hifi/device/DeviceMSbase",
+    "muhmu/hifi/device/DeviceNoSound",
+    "muhmu/hifi/device/DeviceSun",
+    "muhmu/hifi/device/MAD",
+    "muhmu/hifi/device/Mixable",
+    "muhmu/hifi/device/ULaw"
+  ],
+  "unresolved_application_references": [
+    "com/ms/awt/peer/ComponentPeerX",
+    "com/ms/com/ComLib",
+    "com/ms/com/IUnknown",
+    "com/ms/directX/DSBufferDesc",
+    "com/ms/directX/DSCaps",
+    "com/ms/directX/DSCursors",
+    "com/ms/directX/DirectSound",
+    "com/ms/directX/DirectSoundBuffer",
+    "com/ms/directX/DirectXConstants",
+    "com/ms/directX/WaveFormatEx",
+    "com/ms/directX/dSound",
+    "com/ms/directX/dSoundBuffer",
+    "com/ms/directX/ddConstants"
+  ],
+  "duplicate_class_names": {},
+  "errors": [],
+  "limitations": [
+    "Descriptor candidates are hints, not guaranteed dependencies; inspect bytecode/source.",
+    "Platform prefixes are heuristic; verify javax and legacy extensions against the target JDK.",
+    "Computed paths and reflection may require further inspection.",
+    "Outer class structure is checked, but bytecode and nested attribute payloads are not verified.",
+    "JAR variants retain their entry origin; duplicate names need classpath/multi-release analysis."
+  ]
+}

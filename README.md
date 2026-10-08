@@ -4,9 +4,10 @@ Preservation and future Java desktop reconstruction of **Godog**, a Java demo
 by **Komplex**, listed on [Pouët](https://www.pouet.net/prod.php?which=888)
 as the winner of the Java demo competition at Assembly 1998.
 
-The first milestone is complete: the original distribution and the YouTube
-capture linked from Pouët have been recovered and checked. Decompilation and
-reconstruction are future work.
+The original distribution and the YouTube capture linked from Pouët have been
+recovered and checked. Independent CFR and Procyon references now cover all 112
+classes, with remaining decompiler limitations documented. Desktop reconstruction
+is future work.
 
 - [Distribution ZIP](original/godog_by.zip) — unchanged Scene.org download,
   including the nested `GODOG.ZIP` (112 Java classes and original assets).
@@ -15,17 +16,20 @@ reconstruction are future work.
 - [Demozoo screenshot reference](documentation/screenshot-references.md) — one
   original-size PNG recovered; the full gallery remains blocked by Cloudflare.
 - [Provenance manifest](original/manifest.json) and [SHA-256 checksums](original/SHA256SUMS).
+- [Decompilation references and reproduction commands](reverse/README.md).
+- [Separate French note on obfuscation](documentation/obfuscation-notes-fr.md).
 
 ## Repository layout
 
 | Directory | Purpose |
 | --- | --- |
-| `documentation/` | Production notes, provenance, checks and technical decisions, in English. |
+| `documentation/` | English production notes, provenance and decisions; a separate French obfuscation note requested by the user. |
 | `img/` | Images for communicating about the project. |
 | `java-desktop/` | Future Java desktop reconstruction. |
-| `original/` | Unmodified distribution ZIP, downloaded video and recovery evidence. |
-| `reverse/cfr/` | Future CFR decompilation output. |
-| `reverse/procyon/` | Future independent Procyon decompilation output. |
+| `original/` | Unmodified distribution ZIPs, extracted original classes, video and recovery evidence. |
+| `reverse/cfr/` | CFR decompilation reference. |
+| `reverse/procyon/` | Independent Procyon decompilation reference. |
+| `reverse/raw/` | Preserved first attempts before the documented debug-metadata workaround. |
 
 See the [production log](documentation/production-log.md) for the recovery scope
 and progress. Original distribution files, decompiler output and reconstructed

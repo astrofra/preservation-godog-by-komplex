@@ -1,0 +1,4143 @@
+Classfile /Users/fra/dev/preservation-godog-by-komplex/original/classes/godog.class
+  Last modified 8 Oct 2026; size 18196 bytes
+  SHA-256 checksum fddaeedd7ba0fdad3203090c52ff04d23d87bc1d8214aafdf546616c02eae2b1
+  Compiled from "WARNING: Decompiling this code may violate your licensing agreement
+  "
+public class godog extends kmaamma implements java.lang.Runnable
+  minor version: 3
+  major version: 45
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #577                        // godog
+  super_class: #681                       // kmaamma
+  interfaces: 1, fields: 68, methods: 34, attributes: 2
+Constant pool:
+     #1 = Utf8
+     #2 = Utf8               \u0007\rWARNING: Decompiling this code may violate your licensing agreement\n\u001a\f
+     #3 = Utf8               \r(C) saviour ::: komplex
+     #4 = Utf8
+     #5 = Utf8               ()D
+     #6 = Utf8               ()F
+     #7 = Utf8               ()I
+     #8 = Utf8               ()J
+     #9 = Utf8               ()Ljava/awt/Container;
+    #10 = Utf8               ()Ljava/awt/Graphics;
+    #11 = Utf8               ()Ljava/lang/String;
+    #12 = Utf8               ()Ljava/net/URL;
+    #13 = Utf8               ()V
+    #14 = Utf8               ()Z
+    #15 = Utf8               (F)V
+    #16 = Utf8               (FF)F
+    #17 = Utf8               (I)C
+    #18 = Utf8               (I)I
+    #19 = Utf8               (I)Ljava/lang/String;
+    #20 = Utf8               (I)V
+    #21 = Utf8               (II)Ljava/lang/String;
+    #22 = Utf8               (II)V
+    #23 = Utf8               (II)Z
+    #24 = Utf8               (III)I
+    #25 = Utf8               (IIII)Ljava/awt/Graphics;
+    #26 = Utf8               (IIII)V
+    #27 = Utf8               (J)Ljava/lang/StringBuffer;
+    #28 = Utf8               (J)V
+    #29 = Utf8               (Ljava/awt/Color;)V
+    #30 = Utf8               (Ljava/awt/Component;)Ljava/awt/Component;
+    #31 = Utf8               (Ljava/awt/Component;)V
+    #32 = Utf8               (Ljava/awt/Component;IIII)V
+    #33 = Utf8               (Ljava/awt/Event;I)Z
+    #34 = Utf8               (Ljava/awt/Event;II)Z
+    #35 = Utf8               (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+    #36 = Utf8               (Ljava/awt/Font;)V
+    #37 = Utf8               (Ljava/awt/Graphics;)V
+    #38 = Utf8               (Ljava/awt/Graphics;FF)V
+    #39 = Utf8               (Ljava/awt/Graphics;II)V
+    #40 = Utf8               (Ljava/awt/Image;I)V
+    #41 = Utf8               (Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z
+    #42 = Utf8               (Ljava/awt/LayoutManager;)V
+    #43 = Utf8               (Ljava/lang/Object;)Ljava/lang/Object;
+    #44 = Utf8               (Ljava/lang/Object;)Ljava/lang/String;
+    #45 = Utf8               (Ljava/lang/Object;)Z
+    #46 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    #47 = Utf8               (Ljava/lang/String;)I
+    #48 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+    #49 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuffer;
+    #50 = Utf8               (Ljava/lang/String;)Ljava/net/URL;
+    #51 = Utf8               (Ljava/lang/String;)Lmaaakkk;
+    #52 = Utf8               (Ljava/lang/String;)V
+    #53 = Utf8               (Ljava/lang/String;)Z
+    #54 = Utf8               (Ljava/lang/String;F)V
+    #55 = Utf8               (Ljava/lang/String;I)I
+    #56 = Utf8               (Ljava/lang/String;II)V
+    #57 = Utf8               (Ljava/lang/String;Ljava/awt/Component;)Ljava/awt/Component;
+    #58 = Utf8               (Ljava/lang/String;Ljava/lang/String;)V
+    #59 = Utf8               (Ljava/net/URL;)Ljava/awt/Image;
+    #60 = Utf8               (Ljava/net/URL;)Lkmaakka;
+    #61 = Utf8               (Ljava/net/URL;)[B
+    #62 = Utf8               (Ljava/net/URL;Ljava/lang/String;)Ljava/net/URL;
+    #63 = Utf8               (Lkajakka;)V
+    #64 = Utf8               (Lkmaamma;)V
+    #65 = Utf8               (Lkmaamma;IIII)V
+    #66 = Utf8               (Lkmjjmma;)V
+    #67 = Utf8               (Lmaaakkk;I)V
+    #68 = Utf8               (Lmmajkka;FF)V
+    #69 = Utf8               (Lmmajkka;II)V
+    #70 = Utf8               (Lmmajmma;)V
+    #71 = Utf8               (Lmuhmu/hifi/device/Mixable;IIILjava/awt/Component;)Z
+    #72 = Utf8               (ZZ)V
+    #73 = Utf8               ([B)Lmaaakkk;
+    #74 = Utf8               ([Ljava/lang/String;)V
+    #75 = Utf8               ([Ljava/lang/String;II)V
+    #76 = Utf8               <clinit>
+    #77 = Utf8               <init>
+    #78 = Utf8               AMAJakk
+    #79 = Utf8               AMAjaKK
+    #80 = Utf8               AMAjaKk
+    #81 = Utf8               AMaJakk
+    #82 = Utf8               AMajaKk
+    #83 = Utf8               AjAkkaM
+    #84 = Utf8               AjakkaM
+    #85 = Utf8               AkkAMAJ
+    #86 = Utf8               AmAjakk
+    #87 = Utf8               AmaJAKK
+    #88 = Utf8               AmajaKk
+    #89 = Utf8               Center
+    #90 = Utf8               Code
+    #91 = Utf8               ConstantValue
+    #92 = Utf8               Courier
+    #93 = Utf8               F
+    #94 = Utf8               I
+    #95 = Utf8               JaKKama
+    #96 = Utf8               JakkAMa
+    #97 = Utf8               KAMAJAk
+    #98 = Utf8               KAMAjAk
+    #99 = Utf8               KAMajAk
+   #100 = Utf8               KAmAJAk
+   #101 = Utf8               KAmAjAk
+   #102 = Utf8               KAmajAk
+   #103 = Utf8               KKAMAJA
+   #104 = Utf8               KKAMAjA
+   #105 = Utf8               KKAMajA
+   #106 = Utf8               KKAmAJA
+   #107 = Utf8               KKAmAjA
+   #108 = Utf8               KKAmaJA
+   #109 = Utf8               KKAmajA
+   #110 = Utf8               KKaMAJA
+   #111 = Utf8               KKaMAjA
+   #112 = Utf8               KKaMaJa
+   #113 = Utf8               KKaMajA
+   #114 = Utf8               KKamAJA
+   #115 = Utf8               KKamAjA
+   #116 = Utf8               KKamaJA
+   #117 = Utf8               KKamajA
+   #118 = Utf8               KaMAjAk
+   #119 = Utf8               KaMAjak
+   #120 = Utf8               KaMajAk
+   #121 = Utf8               KamAJAk
+   #122 = Utf8               KamAJaK
+   #123 = Utf8               KamAjAk
+   #124 = Utf8               KamajAk
+   #125 = Utf8               KkAMAJA
+   #126 = Utf8               KkAMAjA
+   #127 = Utf8               KkAMajA
+   #128 = Utf8               KkAmAJA
+   #129 = Utf8               KkAmAjA
+   #130 = Utf8               KkAmaJA
+   #131 = Utf8               KkAmajA
+   #132 = Utf8               KkaMAJA
+   #133 = Utf8               KkaMAjA
+   #134 = Utf8               KkaMaJa
+   #135 = Utf8               KkaMajA
+   #136 = Utf8               KkamAJA
+   #137 = Utf8               KkamAjA
+   #138 = Utf8               KkamaJA
+   #139 = Utf8               KkamajA
+   #140 = Utf8               Komplex\' Rocket
+   #141 = Utf8               Lgodog;
+   #142 = Utf8               Ljava/awt/Color;
+   #143 = Utf8               Ljava/awt/Component;
+   #144 = Utf8               Ljava/awt/Container;
+   #145 = Utf8               Ljava/awt/Font;
+   #146 = Utf8               Ljava/awt/Graphics;
+   #147 = Utf8               Ljava/awt/Image;
+   #148 = Utf8               Ljava/io/PrintStream;
+   #149 = Utf8               Ljava/lang/String;
+   #150 = Utf8               Ljava/lang/Thread;
+   #151 = Utf8               Ljava/util/Hashtable;
+   #152 = Utf8               Lkajakka;
+   #153 = Utf8               Lkajjkmk;
+   #154 = Utf8               Lkmaakkk;
+   #155 = Utf8               Lkmjamka;
+   #156 = Utf8               Lkmjjmma;
+   #157 = Utf8               Lmaaakka;
+   #158 = Utf8               Lmaaakkk;
+   #159 = Utf8               Lmaajmka;
+   #160 = Utf8               Lmajamka;
+   #161 = Utf8               Lmajammk;
+   #162 = Utf8               Lmmajkka;
+   #163 = Utf8               Lmmajmma;
+   #164 = Utf8               Lmuhmu/hifi/device/MAD;
+   #165 = Utf8               LocalVariableTable
+   #166 = Utf8               MAjaKkA
+   #167 = Utf8               MAjakkA
+   #168 = Utf8               MaJAkKa
+   #169 = Utf8               MaJAkkA
+   #170 = Utf8               MajakkA
+   #171 = Utf8               SourceFile
+   #172 = Utf8               Z
+   #173 = Utf8               [I
+   #174 = Utf8               [Ljava/lang/String;
+   #175 = Utf8               _000 clear24 ffffff
+   #176 = Utf8               _0b00
+   #177 = Utf8               _10 layer0 maska12 0 0 0 0
+   #178 = Utf8               _1000 layer1 maska9 32 32 0 0 1
+   #179 = Utf8               _1004 layer0 maska12 16 256 0 0 1
+   #180 = Utf8               _100c layer0 maska11 32 32 0 0 1
+   #181 = Utf8               _1014 layer0 maska8 32 32 0 0 1
+   #182 = Utf8               _1017 layer1 maska16 32 32 0 0 1
+   #183 = Utf8               _101c layer0 maska15 32 32 0 0 1
+   #184 = Utf8               _1020 layer1 maska10 22 56 0 0 1
+   #185 = Utf8               _102c layer0 maska11 32 32 0 0 1
+   #186 = Utf8               _1030 layer1 megaruno 52 56 0 0 1
+   #187 = Utf8               _1100 layer0 maska10 32 8 -0 -120 1
+   #188 = Utf8               _1120 layer0 maska13 8 8 -240 -120 1
+   #189 = Utf8               _1200 layer0 maska11 8 8 -240 -120 1
+   #190 = Utf8               _1220 layer0
+   #191 = Utf8               _1220 msg linjanen flash
+   #192 = Utf8               _1300
+   #193 = Utf8               _1300 msg linjanen flash
+   #194 = Utf8               _1320 msg linjanen flash
+   #195 = Utf8               _1400
+   #196 = Utf8               _1620 layer2
+   #197 = Utf8               _22222
+   #198 = Utf8               _300 layer0 filmdamage 264 1536 0 0 1
+   #199 = Utf8               _420 layer1 megaruno 90 20 40 -43 0
+   #200 = Utf8               _500 layer0 filmdamage 64 1536 0 0 1
+   #201 = Utf8               _700
+   #202 = Utf8               _730
+   #203 = Utf8               _800
+   #204 = Utf8               _800 layer0 megaruno 512 190 0 0 0
+   #205 = Utf8               _80d layer1 maska2 200 200 0 0 1
+   #206 = Utf8               _810 layer1 maska7 0 0 0 0 0
+   #207 = Utf8               _814 layer0 maska9 0 0 0 0 0
+   #208 = Utf8               _817 layer0 megaruno 512 190 0 0 0
+   #209 = Utf8               _81d layer1 maska8 200 200 0 0 1
+   #210 = Utf8               _820 layer0 maska16 10 10 -10 -5 0
+   #211 = Utf8               _820 layer1 maska9 0 0 0 0 0
+   #212 = Utf8               _822 layer0 maska2 10 10 -10 -5 0
+   #213 = Utf8               _824
+   #214 = Utf8               _824 layer0 maska9 10 10 -10 -5 0
+   #215 = Utf8               _828 layer0 maska12 10 10 -10 -5 0
+   #216 = Utf8               _82d layer1 maska10 200 200 0 0 1
+   #217 = Utf8               _830 layer0 maska16 10 10 -10 -5 0
+   #218 = Utf8               _830 layer1 maska11 0 0 0 0 0
+   #219 = Utf8               _83d layer1 maska13 200 200 0 0 1
+   #220 = Utf8               __02 layer0
+   #221 = Utf8               __10
+   #222 = Utf8               __2 layer0 maska7 4 0 40 0 1
+   #223 = Utf8               __2 layer1 maska10 0 0 0 0 0
+   #224 = Utf8               __2 layer1 maska7 32 0
+   #225 = Utf8               __2 layer1 maska9 16 16
+   #226 = Utf8               __4
+   #227 = Utf8               __4 layer0
+   #228 = Utf8               __4 layer0 filmdamage 0 1280 0 0 1
+   #229 = Utf8               __4 layer0 maska11 0 0 0 0
+   #230 = Utf8               __4 layer0 maska12 0 0 0 0
+   #231 = Utf8               __4 layer0 maska13 0 0 0 0
+   #232 = Utf8               __4 layer0 maska13 20 20 0 0 1
+   #233 = Utf8               __4 layer0 maska14 0 0 0 0
+   #234 = Utf8               __4 layer0 maska15 0 0 0 0
+   #235 = Utf8               __4 layer1
+   #236 = Utf8               __4 layer1 filmdamage 0 1280 0 0 1
+   #237 = Utf8               __4 layer1 maska11 512 256 -256 -128 1
+   #238 = Utf8               __4 layer1 maska12 10 70 -70 -75 0
+   #239 = Utf8               __4 layer1 maska13 80 10 -100 -15 0
+   #240 = Utf8               __4 layer1 maska15 512 256 -256 -128 1
+   #241 = Utf8               __4 layer1 maska16 512 256 -256 -128 1
+   #242 = Utf8               __4 layer1 maska7 512 256 -256 -128 1
+   #243 = Utf8               __4 layer1 maska8 512 256 -256 -128 1
+   #244 = Utf8               __4 layer1 megaruno 512 256 -256 -128 1
+   #245 = Utf8               __4 layer1 megaruno 8 8 400 200 1
+   #246 = Utf8               __4 msg linjanen flash
+   #247 = Utf8               _a00
+   #248 = Utf8               _a20 layer0 filmdamage 512 10 0 0 1
+   #249 = Utf8               _a30 layer2 megaruno 50 10 200 200
+   #250 = Utf8               _b00 layer0 maska12 32 8
+   #251 = Utf8               _c10
+   #252 = Utf8               _d30 layer0
+   #253 = Utf8               _e00 show vehje
+   #254 = Utf8               _e04 layer0 maska9 0 0 30 30
+   #255 = Utf8               _e0c layer0 maska7 4 4 30 30
+   #256 = Utf8               _e10 layer1 maska13 64 32 0 0
+   #257 = Utf8               _e14 layer0 maska8 4 4 30 30
+   #258 = Utf8               _e17 layer0 maska8 4 4 30 30
+   #259 = Utf8               _e1c layer0 maska8 4 4 30 30
+   #260 = Utf8               _e1d layer1
+   #261 = Utf8               _e20 layer1 maska13 64 32 0 0
+   #262 = Utf8               _e2d layer1
+   #263 = Utf8               _e30 layer1 maska13 64 32 0 0
+   #264 = Utf8               _e37 layer0 maska8 4 4 30 30
+   #265 = Utf8               _e3c layer0 maska2 104 104 30 30
+   #266 = Utf8               _e3d layer1
+   #267 = Utf8               _f00
+   #268 = Utf8               aKKaMaJ
+   #269 = Utf8               aKkAMAJ
+   #270 = Utf8               aMAjaKk
+   #271 = Utf8               aMaJAkk
+   #272 = Utf8               aMaJakK
+   #273 = Utf8               aMajAKK
+   #274 = Utf8               add
+   #275 = Utf8               addImage
+   #276 = Utf8               akKaMaJ
+   #277 = Utf8               amAJAkk
+   #278 = Utf8               amAJakk
+   #279 = Utf8               amAjaKk
+   #280 = Utf8               amaJAKK
+   #281 = Utf8               amajaKk
+   #282 = Utf8               append
+   #283 = Utf8               black
+   #284 = Utf8               boost
+   #285 = Utf8               charAt
+   #286 = Utf8               clear24
+   #287 = Utf8               clear24 ffffff
+   #288 = Utf8               clear8
+   #289 = Utf8               component
+   #290 = Utf8               create
+   #291 = Utf8               currentTimeMillis
+   #292 = Utf8               data/rocket.xm
+   #293 = Utf8               dispose
+   #294 = Utf8               drawImage
+   #295 = Utf8               drawString
+   #296 = Utf8               equals
+   #297 = Utf8               fillRect
+   #298 = Utf8               filmbox
+   #299 = Utf8               gc
+   #300 = Utf8               get
+   #301 = Utf8               getDocumentBase
+   #302 = Utf8               getFontMetrics
+   #303 = Utf8               getGraphics
+   #304 = Utf8               getImage
+   #305 = Utf8               getParameter
+   #306 = Utf8               getParent
+   #307 = Utf8               go
+   #308 = Utf8               godog
+   #309 = Utf8               hasMoreTokens
+   #310 = Utf8               images/filmdamage.jpg
+   #311 = Utf8               images/godog1.jpg
+   #312 = Utf8               images/godog2.jpg
+   #313 = Utf8               images/godog3.jpg
+   #314 = Utf8               images/godog4.jpg
+   #315 = Utf8               images/godog5.jpg
+   #316 = Utf8               images/godog6.jpg
+   #317 = Utf8               images/loading.gif
+   #318 = Utf8               images/maska10.jpg
+   #319 = Utf8               images/maska11.jpg
+   #320 = Utf8               images/maska12.jpg
+   #321 = Utf8               images/maska13.jpg
+   #322 = Utf8               images/maska15.jpg
+   #323 = Utf8               images/maska16.jpg
+   #324 = Utf8               images/maska2.jpg
+   #325 = Utf8               images/maska7.jpg
+   #326 = Utf8               images/maska8.jpg
+   #327 = Utf8               images/maska9.jpg
+   #328 = Utf8               images/megaruno.jpg
+   #329 = Utf8               indexOf
+   #330 = Utf8               init
+   #331 = Utf8               init endscreen
+   #332 = Utf8               init evil
+   #333 = Utf8               init linjanen
+   #334 = Utf8               init movieintro
+   #335 = Utf8               init paa
+   #336 = Utf8               init trav
+   #337 = Utf8               init vehje
+   #338 = Utf8               jaKKAMa
+   #339 = Utf8               java/applet/Applet
+   #340 = Utf8               java/awt/Color
+   #341 = Utf8               java/awt/Component
+   #342 = Utf8               java/awt/Container
+   #343 = Utf8               java/awt/Event
+   #344 = Utf8               java/awt/Font
+   #345 = Utf8               java/awt/FontMetrics
+   #346 = Utf8               java/awt/Graphics
+   #347 = Utf8               java/awt/MediaTracker
+   #348 = Utf8               java/io/PrintStream
+   #349 = Utf8               java/lang/Exception
+   #350 = Utf8               java/lang/Integer
+   #351 = Utf8               java/lang/Math
+   #352 = Utf8               java/lang/Runnable
+   #353 = Utf8               java/lang/String
+   #354 = Utf8               java/lang/StringBuffer
+   #355 = Utf8               java/lang/System
+   #356 = Utf8               java/lang/Thread
+   #357 = Utf8               java/lang/Throwable
+   #358 = Utf8               java/util/Hashtable
+   #359 = Utf8               java/util/StringTokenizer
+   #360 = Utf8               kAMAJAk
+   #361 = Utf8               kAMAJaK
+   #362 = Utf8               kAMAjAk
+   #363 = Utf8               kAMAjak
+   #364 = Utf8               kAMajAk
+   #365 = Utf8               kAmAJAk
+   #366 = Utf8               kAmAjAk
+   #367 = Utf8               kAmaJAk
+   #368 = Utf8               kAmajAk
+   #369 = Utf8               kAmajak
+   #370 = Utf8               kKAMAJA
+   #371 = Utf8               kKAMAjA
+   #372 = Utf8               kKAMajA
+   #373 = Utf8               kKAmAJA
+   #374 = Utf8               kKAmAjA
+   #375 = Utf8               kKAmaJA
+   #376 = Utf8               kKAmajA
+   #377 = Utf8               kKaMAJA
+   #378 = Utf8               kKaMAjA
+   #379 = Utf8               kKaMajA
+   #380 = Utf8               kKamAJA
+   #381 = Utf8               kKamAjA
+   #382 = Utf8               kKamajA
+   #383 = Utf8               kaMAJAk
+   #384 = Utf8               kaMAjAk
+   #385 = Utf8               kaMAjak
+   #386 = Utf8               kaMajAk
+   #387 = Utf8               kajakka
+   #388 = Utf8               kajamka
+   #389 = Utf8               kajjkmk
+   #390 = Utf8               kajjmma
+   #391 = Utf8               kamAJAk
+   #392 = Utf8               kamAjAk
+   #393 = Utf8               kamajAk
+   #394 = Utf8               key
+   #395 = Utf8               keyDown
+   #396 = Utf8               kill
+   #397 = Utf8               killmod
+   #398 = Utf8               kkAMAJA
+   #399 = Utf8               kkAMAjA
+   #400 = Utf8               kkAMajA
+   #401 = Utf8               kkAmAJA
+   #402 = Utf8               kkAmAjA
+   #403 = Utf8               kkAmaJA
+   #404 = Utf8               kkAmajA
+   #405 = Utf8               kkaMAJA
+   #406 = Utf8               kkaMAjA
+   #407 = Utf8               kkaMajA
+   #408 = Utf8               kkamAJA
+   #409 = Utf8               kkamAjA
+   #410 = Utf8               kkamaJA
+   #411 = Utf8               kkamajA
+   #412 = Utf8               kmaakka
+   #413 = Utf8               kmaakkk
+   #414 = Utf8               kmaakma
+   #415 = Utf8               kmaakmk
+   #416 = Utf8               kmaamma
+   #417 = Utf8               kmajkmk
+   #418 = Utf8               kmjamka
+   #419 = Utf8               kmjjmma
+   #420 = Utf8               kmjjmmk
+   #421 = Utf8               komplex@jyu.fi
+   #422 = Utf8               layer
+   #423 = Utf8               layer0
+   #424 = Utf8               layer0 filmdamage 0 1280 0 0 1
+   #425 = Utf8               layer0 filmdamage 0 1536 0 0 1
+   #426 = Utf8               layer0 maska12 0 0
+   #427 = Utf8               layer0 maska12 10 10 -10 -55 0
+   #428 = Utf8               layer0 maska12 10 10 40 -5 0
+   #429 = Utf8               layer0 maska15 10 10 -10 -15 0
+   #430 = Utf8               layer0 megaruno 512 190 0 0 1
+   #431 = Utf8               layer0 megaruno 8 8 400 200 1
+   #432 = Utf8               layer0 megaruno 8 8 407 200 1
+   #433 = Utf8               layer1
+   #434 = Utf8               layer1
+   #435 = Utf8               layer1 filmdamage 0 1280 0 0 1
+   #436 = Utf8               layer1 maska10 8 8 12 12
+   #437 = Utf8               layer1 maska12 10 10 -55 -105 0
+   #438 = Utf8               layer1 maska7 10 0 -10 0 0
+   #439 = Utf8               layer2
+   #440 = Utf8               layer2
+   #441 = Utf8               layer2 godog1 0 0 -213 -190
+   #442 = Utf8               layer2 godog2 0 0 -220 -188
+   #443 = Utf8               layer2 godog3 0 0 -230 -40
+   #444 = Utf8               layer2 godog4 0 0 -18 -18
+   #445 = Utf8               layer2 godog5 0 0 -20 -177
+   #446 = Utf8               layer2 godog6 0 0 -143 -140
+   #447 = Utf8               layout
+   #448 = Utf8               length
+   #449 = Utf8               loaded
+   #450 = Utf8               mAjakkA
+   #451 = Utf8               maJAkkA
+   #452 = Utf8               maaakkk
+   #453 = Utf8               maaamma
+   #454 = Utf8               maajkka
+   #455 = Utf8               maajmka
+   #456 = Utf8               main
+   #457 = Utf8               majakkA
+   #458 = Utf8               majakkk
+   #459 = Utf8               majakma
+   #460 = Utf8               majamka
+   #461 = Utf8               majammk
+   #462 = Utf8               max
+   #463 = Utf8               mmajkka
+   #464 = Utf8               mmajmma
+   #465 = Utf8               mod
+   #466 = Utf8               mod 1
+   #467 = Utf8               mouseDown
+   #468 = Utf8               mouseMove
+   #469 = Utf8               mouseUp
+   #470 = Utf8               move
+   #471 = Utf8               msg
+   #472 = Utf8               msg linjanen spc0
+   #473 = Utf8               msg linjanen spc2
+   #474 = Utf8               msg linjanen spc3
+   #475 = Utf8               muhmu/hifi/device/MAD
+   #476 = Utf8               muhmuscript error: no such routine
+   #477 = Utf8               nextToken
+   #478 = Utf8               nosound
+   #479 = Utf8               out
+   #480 = Utf8               paint
+   #481 = Utf8               parseInt
+   #482 = Utf8               post
+   #483 = Utf8               print
+   #484 = Utf8               printStackTrace
+   #485 = Utf8               println
+   #486 = Utf8               put
+   #487 = Utf8               random
+   #488 = Utf8               reality
+   #489 = Utf8               remove
+   #490 = Utf8               repaint
+   #491 = Utf8               requestFocus
+   #492 = Utf8               reshape
+   #493 = Utf8               run
+   #494 = Utf8               runFinalization
+   #495 = Utf8               setBackground
+   #496 = Utf8               setColor
+   #497 = Utf8               setFont
+   #498 = Utf8               setLayout
+   #499 = Utf8               show
+   #500 = Utf8               show endscreen
+   #501 = Utf8               show evil
+   #502 = Utf8               show linjanen
+   #503 = Utf8               show movieintro
+   #504 = Utf8               show paa
+   #505 = Utf8               show trav
+   #506 = Utf8               shutdown
+   #507 = Utf8               sleep
+   #508 = Utf8               slowness
+   #509 = Utf8               start
+   #510 = Utf8               startsWith
+   #511 = Utf8               stop
+   #512 = Utf8               stringWidth
+   #513 = Utf8               substring
+   #514 = Utf8               toString
+   #515 = Utf8               trim
+   #516 = Utf8               tuner finito.
+   #517 = Utf8               valueOf
+   #518 = Utf8               waitForAll
+   #519 = Utf8               white
+   #520 = String             #396         // kill
+   #521 = Fieldref           #755.#753    // kmjamka.kamAJAk:Lmmajkka;
+   #522 = String             #267         // _f00
+   #523 = NameAndType        #277:#69     // amAJAkk:(Lmmajkka;II)V
+   #524 = Methodref          #1079.#795   // kmaamma.start:()V
+   #525 = NameAndType        #374:#160    // kKAmAjA:Lmajamka;
+   #526 = NameAndType        #138:#93     // KkamaJA:F
+   #527 = Methodref          #706.#641    // kajakka.amajaKk:()Ljava/lang/String;
+   #528 = Methodref          #1049.#972   // java/lang/System.runFinalization:()V
+   #529 = NameAndType        #309:#14     // hasMoreTokens:()Z
+   #530 = Class              #389         // kajjkmk
+   #531 = Class              #390         // kajjmma
+   #532 = Methodref          #1135.#766   // java/lang/Integer.parseInt:(Ljava/lang/String;)I
+   #533 = String             #186         // _1030 layer1 megaruno 52 56 0 0 1
+   #534 = Methodref          #1135.#696   // java/lang/Integer.parseInt:(Ljava/lang/String;I)I
+   #535 = String             #465         // mod
+   #536 = NameAndType        #376:#151    // kKAmajA:Ljava/util/Hashtable;
+   #537 = Methodref          #1107.#653   // kmjjmma.majakkA:(Ljava/lang/String;F)V
+   #538 = Methodref          #1065.#1002  // kajjkmk."<init>":()V
+   #539 = String             #324         // images/maska2.jpg
+   #540 = NameAndType        #278:#15     // amAJakk:(F)V
+   #541 = Methodref          #729.#855    // java/lang/Thread.sleep:(J)V
+   #542 = String             #449         // loaded
+   #543 = Fieldref           #958.#619    // godog.kkAmAjA:Z
+   #544 = Fieldref           #958.#1128   // godog.KkamAJA:I
+   #545 = Methodref          #1062.#922   // java/awt/Graphics.drawImage:(Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z
+   #546 = Fieldref           #958.#526    // godog.KkamaJA:F
+   #547 = NameAndType        #115:#158    // KKamAjA:Lmaaakkk;
+   #548 = Fieldref           #958.#1123   // godog.KAmajAk:I
+   #549 = String             #207         // _814 layer0 maska9 0 0 0 0 0
+   #550 = String             #253         // _e00 show vehje
+   #551 = Fieldref           #958.#857    // godog.KKAMajA:Lmmajkka;
+   #552 = NameAndType        #373:#143    // kKAmAJA:Ljava/awt/Component;
+   #553 = String             #326         // images/maska8.jpg
+   #554 = Methodref          #958.#1085   // godog.KAmajAk:()V
+   #555 = Fieldref           #586.#608    // muhmu/hifi/device/MAD.component:Ljava/awt/Component;
+   #556 = NameAndType        #384:#66     // kaMAjAk:(Lkmjjmma;)V
+   #557 = String             #502         // show linjanen
+   #558 = NameAndType        #382:#93     // kKamajA:F
+   #559 = NameAndType        #118:#161    // KaMAjAk:Lmajammk;
+   #560 = NameAndType        #407:#173    // kkaMajA:[I
+   #561 = NameAndType        #496:#29     // setColor:(Ljava/awt/Color;)V
+   #562 = Methodref          #887.#1160   // java/util/Hashtable.remove:(Ljava/lang/Object;)Ljava/lang/Object;
+   #563 = Methodref          #1106.#983   // java/applet/Applet.getDocumentBase:()Ljava/net/URL;
+   #564 = Fieldref           #678.#621    // majammk.AjakkaM:Lmuhmu/hifi/device/MAD;
+   #565 = String             #438         // layer1 maska7 10 0 -10 0 0
+   #566 = String             #508         // slowness
+   #567 = NameAndType        #269:#13     // aKkAMAJ:()V
+   #568 = NameAndType        #82:#13      // AMajaKk:()V
+   #569 = NameAndType        #118:#13     // KaMAjAk:()V
+   #570 = String             #337         // init vehje
+   #571 = NameAndType        #99:#58      // KAMajAk:(Ljava/lang/String;Ljava/lang/String;)V
+   #572 = Methodref          #958.#1043   // godog.kaMAJAk:(Ljava/lang/String;)V
+   #573 = Methodref          #1049.#1064  // java/lang/System.gc:()V
+   #574 = String             #258         // _e17 layer0 maska8 4 4 30 30
+   #575 = String             #264         // _e37 layer0 maska8 4 4 30 30
+   #576 = NameAndType        #405:#156    // kkaMAJA:Lkmjjmma;
+   #577 = Class              #308         // godog
+   #578 = String             #428         // layer0 maska12 10 10 40 -5 0
+   #579 = Fieldref           #958.#1040   // godog.kkAmajA:Ljava/lang/String;
+   #580 = Methodref          #706.#789    // kajakka.AmajaKk:(Lkmaamma;)V
+   #581 = NameAndType        #410:#172    // kkamaJA:Z
+   #582 = NameAndType        #374:#73     // kKAmAjA:([B)Lmaaakkk;
+   #583 = Methodref          #1107.#1157  // kmjjmma.MajakkA:(Lmmajkka;FF)V
+   #584 = Methodref          #887.#1017   // java/util/Hashtable.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+   #585 = NameAndType        #131:#94     // KkAmajA:I
+   #586 = Class              #475         // muhmu/hifi/device/MAD
+   #587 = NameAndType        #366:#94     // kAmAjAk:I
+   #588 = String             #221         // __10
+   #589 = String             #187         // _1100 layer0 maska10 32 8 -0 -120 1
+   #590 = String             #328         // images/megaruno.jpg
+   #591 = Class              #345         // java/awt/FontMetrics
+   #592 = NameAndType        #96:#70      // JakkAMa:(Lmmajmma;)V
+   #593 = Class              #352         // java/lang/Runnable
+   #594 = NameAndType        #400:#151    // kkAMajA:Ljava/util/Hashtable;
+   #595 = Class              #453         // maaamma
+   #596 = NameAndType        #293:#13     // dispose:()V
+   #597 = Class              #459         // majakma
+   #598 = String             #192         // _1300
+   #599 = NameAndType        #129:#31     // KkAmAjA:(Ljava/awt/Component;)V
+   #600 = NameAndType        #300:#43     // get:(Ljava/lang/Object;)Ljava/lang/Object;
+   #601 = NameAndType        #275:#40     // addImage:(Ljava/awt/Image;I)V
+   #602 = Class              #463         // mmajkka
+   #603 = Class              #464         // mmajmma
+   #604 = Methodref          #1067.#1115  // java/awt/MediaTracker."<init>":(Ljava/awt/Component;)V
+   #605 = Fieldref           #958.#685    // godog.KkAmAjA:Z
+   #606 = NameAndType        #401:#146    // kkAmAJA:Ljava/awt/Graphics;
+   #607 = Fieldref           #958.#1166   // godog.kkaMAjA:Lmaaakka;
+   #608 = NameAndType        #289:#143    // component:Ljava/awt/Component;
+   #609 = NameAndType        #518:#13     // waitForAll:()V
+   #610 = NameAndType        #273:#50     // aMajAKK:(Ljava/lang/String;)Ljava/net/URL;
+   #611 = NameAndType        #87:#61      // AmaJAKK:(Ljava/net/URL;)[B
+   #612 = Fieldref           #958.#558    // godog.kKamajA:F
+   #613 = Methodref          #958.#1132   // godog.kAMajAk:()V
+   #614 = NameAndType        #121:#20     // KamAJAk:(I)V
+   #615 = Class              #458         // majakkk
+   #616 = Methodref          #958.#1170   // godog.kAmAJAk:()V
+   #617 = NameAndType        #297:#26     // fillRect:(IIII)V
+   #618 = Methodref          #706.#867    // kajakka.aMAjaKk:()V
+   #619 = NameAndType        #402:#172    // kkAmAjA:Z
+   #620 = String             #444         // layer2 godog4 0 0 -18 -18
+   #621 = NameAndType        #84:#164     // AjakkaM:Lmuhmu/hifi/device/MAD;
+   #622 = String             #236         // __4 layer1 filmdamage 0 1280 0 0 1
+   #623 = String             #228         // __4 layer0 filmdamage 0 1280 0 0 1
+   #624 = Fieldref           #958.#896    // godog.kAMajAk:[Ljava/lang/String;
+   #625 = NameAndType        #511:#13     // stop:()V
+   #626 = NameAndType        #306:#9      // getParent:()Ljava/awt/Container;
+   #627 = String             #266         // _e3d layer1
+   #628 = Class              #415         // kmaakmk
+   #629 = NameAndType        #134:#157    // KkaMaJa:Lmaaakka;
+   #630 = NameAndType        #112:#65     // KKaMaJa:(Lkmaamma;IIII)V
+   #631 = Class              #463         // mmajkka
+   #632 = Fieldref           #958.#805    // godog.kaMAjAk:Ljava/awt/Image;
+   #633 = Methodref          #1062.#754   // java/awt/Graphics.drawString:(Ljava/lang/String;II)V
+   #634 = NameAndType        #361:#94     // kAMAJaK:I
+   #635 = String             #244         // __4 layer1 megaruno 512 256 -256 -128 1
+   #636 = String             #243         // __4 layer1 maska8 512 256 -256 -128 1
+   #637 = NameAndType        #117:#93     // KKamajA:F
+   #638 = NameAndType        #83:#172     // AjAkkaM:Z
+   #639 = Fieldref           #1049.#664   // java/lang/System.out:Ljava/io/PrintStream;
+   #640 = NameAndType        #392:#51     // kamAjAk:(Ljava/lang/String;)Lmaaakkk;
+   #641 = NameAndType        #281:#11     // amajaKk:()Ljava/lang/String;
+   #642 = Methodref          #691.#599    // majamka.KkAmAjA:(Ljava/awt/Component;)V
+   #643 = Methodref          #958.#1142   // godog.KAmAJAk:(Ljava/lang/String;)V
+   #644 = Methodref          #975.#974    // java/awt/Component.setBackground:(Ljava/awt/Color;)V
+   #645 = Methodref          #1049.#1184  // java/lang/System.currentTimeMillis:()J
+   #646 = NameAndType        #517:#19     // valueOf:(I)Ljava/lang/String;
+   #647 = Fieldref           #958.#547    // godog.KKamAjA:Lmaaakkk;
+   #648 = NameAndType        #393:#13     // kamajAk:()V
+   #649 = NameAndType        #514:#11     // toString:()Ljava/lang/String;
+   #650 = String             #193         // _1300 msg linjanen flash
+   #651 = String             #476         // muhmuscript error: no such routine
+   #652 = Methodref          #958.#759    // godog.paint:(Ljava/awt/Graphics;)V
+   #653 = NameAndType        #457:#54     // majakkA:(Ljava/lang/String;F)V
+   #654 = Methodref          #597.#1002   // majakma."<init>":()V
+   #655 = NameAndType        #122:#94     // KamAJaK:I
+   #656 = Methodref          #739.#1138   // java/lang/Math.max:(FF)F
+   #657 = String             #262         // _e2d layer1
+   #658 = Class              #454         // maajkka
+   #659 = String             #140         // Komplex\' Rocket
+   #660 = NameAndType        #101:#94     // KAmAjAk:I
+   #661 = String             #432         // layer0 megaruno 8 8 407 200 1
+   #662 = String             #431         // layer0 megaruno 8 8 400 200 1
+   #663 = Methodref          #727.#908    // java/util/StringTokenizer."<init>":(Ljava/lang/String;)V
+   #664 = NameAndType        #479:#148    // out:Ljava/io/PrintStream;
+   #665 = NameAndType        #132:#141    // KkaMAJA:Lgodog;
+   #666 = String             #332         // init evil
+   #667 = String             #435         // layer1 filmdamage 0 1280 0 0 1
+   #668 = String             #424         // layer0 filmdamage 0 1280 0 0 1
+   #669 = Methodref          #1062.#617   // java/awt/Graphics.fillRect:(IIII)V
+   #670 = String             #232         // __4 layer0 maska13 20 20 0 0 1
+   #671 = Methodref          #958.#556    // godog.kaMAjAk:(Lkmjjmma;)V
+   #672 = Fieldref           #958.#587    // godog.kAmAjAk:I
+   #673 = Fieldref           #958.#585    // godog.KkAmajA:I
+   #674 = String             #247         // _a00
+   #675 = NameAndType        #137:#164    // KkamAjA:Lmuhmu/hifi/device/MAD;
+   #676 = Fieldref           #958.#637    // godog.KKamajA:F
+   #677 = String             #218         // _830 layer1 maska11 0 0 0 0 0
+   #678 = Class              #461         // majammk
+   #679 = String             #248         // _a20 layer0 filmdamage 512 10 0 0 1
+   #680 = Methodref          #958.#571    // godog.KAMajAk:(Ljava/lang/String;Ljava/lang/String;)V
+   #681 = Class              #416         // kmaamma
+   #682 = String             #212         // _822 layer0 maska2 10 10 -10 -5 0
+   #683 = String             #214         // _824 layer0 maska9 10 10 -10 -5 0
+   #684 = NameAndType        #490:#28     // repaint:(J)V
+   #685 = NameAndType        #129:#172    // KkAmAjA:Z
+   #686 = Class              #464         // mmajmma
+   #687 = NameAndType        #517:#44     // valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+   #688 = Fieldref           #958.#665    // godog.KkaMAJA:Lgodog;
+   #689 = Methodref          #975.#783    // java/awt/Component.getFontMetrics:(Ljava/awt/Font;)Ljava/awt/FontMetrics;
+   #690 = Fieldref           #750.#1048   // java/awt/Color.white:Ljava/awt/Color;
+   #691 = Class              #460         // majamka
+   #692 = String             #249         // _a30 layer2 megaruno 50 10 200 200
+   #693 = NameAndType        #130:#159    // KkAmaJA:Lmaajmka;
+   #694 = NameAndType        #283:#142    // black:Ljava/awt/Color;
+   #695 = Class              #417         // kmajkmk
+   #696 = NameAndType        #481:#55     // parseInt:(Ljava/lang/String;I)I
+   #697 = String             #443         // layer2 godog3 0 0 -230 -40
+   #698 = NameAndType        #274:#30     // add:(Ljava/awt/Component;)Ljava/awt/Component;
+   #699 = Methodref          #936.#920    // maaakkk.jaKKAMa:(II)Z
+   #700 = Methodref          #958.#799    // godog.KAmAjAk:(Ljava/awt/Graphics;)V
+   #701 = Fieldref           #958.#559    // godog.KaMAjAk:Lmajammk;
+   #702 = String             #446         // layer2 godog6 0 0 -143 -140
+   #703 = NameAndType        #103:#145    // KKAMAJA:Ljava/awt/Font;
+   #704 = NameAndType        #378:#94     // kKaMAjA:I
+   #705 = NameAndType        #447:#13     // layout:()V
+   #706 = Class              #387         // kajakka
+   #707 = String             #241         // __4 layer1 maska16 512 256 -256 -128 1
+   #708 = String             #240         // __4 layer1 maska15 512 256 -256 -128 1
+   #709 = String             #237         // __4 layer1 maska11 512 256 -256 -128 1
+   #710 = String             #500         // show endscreen
+   #711 = String             #323         // images/maska16.jpg
+   #712 = String             #322         // images/maska15.jpg
+   #713 = String             #321         // images/maska13.jpg
+   #714 = String             #320         // images/maska12.jpg
+   #715 = String             #319         // images/maska11.jpg
+   #716 = String             #318         // images/maska10.jpg
+   #717 = Methodref          #1062.#1151  // java/awt/Graphics.create:(IIII)Ljava/awt/Graphics;
+   #718 = Fieldref           #958.#536    // godog.kKAmajA:Ljava/util/Hashtable;
+   #719 = Fieldref           #958.#781    // godog.kKAMAJA:Z
+   #720 = NameAndType        #86:#20      // AmAjakk:(I)V
+   #721 = NameAndType        #367:#20     // kAmaJAk:(I)V
+   #722 = Class              #455         // maajmka
+   #723 = Class              #455         // maajmka
+   #724 = Fieldref           #958.#660    // godog.KAmAjAk:I
+   #725 = String             #191         // _1220 msg linjanen flash
+   #726 = String             #194         // _1320 msg linjanen flash
+   #727 = Class              #359         // java/util/StringTokenizer
+   #728 = String             #312         // images/godog2.jpg
+   #729 = Class              #356         // java/lang/Thread
+   #730 = Methodref          #958.#569    // godog.KaMAjAk:()V
+   #731 = NameAndType        #126:#158    // KkAMAjA:Lmaaakkk;
+   #732 = String             #516         // tuner finito.
+   #733 = Methodref          #586.#985    // muhmu/hifi/device/MAD.init:(Lmuhmu/hifi/device/Mixable;IIILjava/awt/Component;)Z
+   #734 = String             #474         // msg linjanen spc3
+   #735 = String             #473         // msg linjanen spc2
+   #736 = Fieldref           #958.#1041   // godog.KKamaJA:[Ljava/lang/String;
+   #737 = String             #472         // msg linjanen spc0
+   #738 = String             #251         // _c10
+   #739 = Class              #351         // java/lang/Math
+   #740 = Methodref          #975.#626    // java/awt/Component.getParent:()Ljava/awt/Container;
+   #741 = String             #314         // images/godog4.jpg
+   #742 = NameAndType        #371:#162    // kKAMAjA:Lmmajkka;
+   #743 = String             #397         // killmod
+   #744 = NameAndType        #329:#18     // indexOf:(I)I
+   #745 = Methodref          #1079.#1002  // kmaamma."<init>":()V
+   #746 = String             #316         // images/godog6.jpg
+   #747 = Methodref          #887.#600    // java/util/Hashtable.get:(Ljava/lang/Object;)Ljava/lang/Object;
+   #748 = String             #89          // Center
+   #749 = Methodref          #678.#1025   // majammk."<init>":(ZZ)V
+   #750 = Class              #340         // java/awt/Color
+   #751 = Fieldref           #958.#703    // godog.KKAMAJA:Ljava/awt/Font;
+   #752 = NameAndType        #448:#7      // length:()I
+   #753 = NameAndType        #391:#162    // kamAJAk:Lmmajkka;
+   #754 = NameAndType        #295:#56     // drawString:(Ljava/lang/String;II)V
+   #755 = Class              #418         // kmjamka
+   #756 = NameAndType        #272:#150    // aMaJakK:Ljava/lang/Thread;
+   #757 = Methodref          #1105.#630   // kmjjmmk.KKaMaJa:(Lkmaamma;IIII)V
+   #758 = NameAndType        #276:#13     // akKaMaJ:()V
+   #759 = NameAndType        #480:#37     // paint:(Ljava/awt/Graphics;)V
+   #760 = Methodref          #1039.#698   // java/awt/Container.add:(Ljava/awt/Component;)Ljava/awt/Component;
+   #761 = NameAndType        #380:#94     // kKamAJA:I
+   #762 = Methodref          #586.#625    // muhmu/hifi/device/MAD.stop:()V
+   #763 = Class              #344         // java/awt/Font
+   #764 = Methodref          #631.#771    // mmajkka.AMAJakk:(Lmmajkka;II)V
+   #765 = Methodref          #727.#909    // java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+   #766 = NameAndType        #481:#47     // parseInt:(Ljava/lang/String;)I
+   #767 = String             #288         // clear8
+   #768 = String             #197         // _22222
+   #769 = Methodref          #975.#684    // java/awt/Component.repaint:(J)V
+   #770 = Fieldref           #958.#819    // godog.kkAMAjA:Z
+   #771 = NameAndType        #78:#69      // AMAJakk:(Lmmajkka;II)V
+   #772 = Methodref          #779.#582    // kajamka.kKAmAjA:([B)Lmaaakkk;
+   #773 = Methodref          #1067.#601   // java/awt/MediaTracker.addImage:(Ljava/awt/Image;I)V
+   #774 = String             #182         // _1017 layer1 maska16 32 32 0 0 1
+   #775 = String             #196         // _1620 layer2
+   #776 = Methodref          #1063.#1183  // java/lang/String.charAt:(I)C
+   #777 = Fieldref           #958.#594    // godog.kkAMajA:Ljava/util/Hashtable;
+   #778 = Fieldref           #958.#704    // godog.kKaMAjA:I
+   #779 = Class              #388         // kajamka
+   #780 = String             #287         // clear24 ffffff
+   #781 = NameAndType        #370:#172    // kKAMAJA:Z
+   #782 = String             #286         // clear24
+   #783 = NameAndType        #302:#35     // getFontMetrics:(Ljava/awt/Font;)Ljava/awt/FontMetrics;
+   #784 = Methodref          #723.#916    // maajmka.kAMAjak:()F
+   #785 = Methodref          #1039.#1096  // java/awt/Container.add:(Ljava/lang/String;Ljava/awt/Component;)Ljava/awt/Component;
+   #786 = Methodref          #691.#596    // majamka.dispose:()V
+   #787 = Methodref          #958.#648    // godog.kamajAk:()V
+   #788 = NameAndType        #372:#162    // kKAMajA:Lmmajkka;
+   #789 = NameAndType        #88:#64      // AmajaKk:(Lkmaamma;)V
+   #790 = Methodref          #1039.#705   // java/awt/Container.layout:()V
+   #791 = Methodref          #1009.#1002  // maaamma."<init>":()V
+   #792 = NameAndType        #139:#151    // KkamajA:Ljava/util/Hashtable;
+   #793 = String             #250         // _b00 layer0 maska12 32 8
+   #794 = NameAndType        #127:#94     // KkAMajA:I
+   #795 = NameAndType        #509:#13     // start:()V
+   #796 = Methodref          #1063.#979   // java/lang/String.trim:()Ljava/lang/String;
+   #797 = NameAndType        #385:#28     // kaMAjak:(J)V
+   #798 = NameAndType        #470:#22     // move:(II)V
+   #799 = NameAndType        #101:#37     // KAmAjAk:(Ljava/awt/Graphics;)V
+   #800 = NameAndType        #362:#52     // kAMAjAk:(Ljava/lang/String;)V
+   #801 = String             #198         // _300 layer0 filmdamage 264 1536 0 0 1
+   #802 = NameAndType        #403:#93     // kkAmaJA:F
+   #803 = Methodref          #1039.#898   // java/awt/Container.remove:(Ljava/awt/Component;)V
+   #804 = NameAndType        #135:#162    // KkaMajA:Lmmajkka;
+   #805 = NameAndType        #384:#147    // kaMAjAk:Ljava/awt/Image;
+   #806 = Fieldref           #958.#731    // godog.KkAMAjA:Lmaaakkk;
+   #807 = String             #229         // __4 layer0 maska11 0 0 0 0
+   #808 = String             #230         // __4 layer0 maska12 0 0 0 0
+   #809 = String             #177         // _10 layer0 maska12 0 0 0 0
+   #810 = String             #234         // __4 layer0 maska15 0 0 0 0
+   #811 = String             #233         // __4 layer0 maska14 0 0 0 0
+   #812 = String             #231         // __4 layer0 maska13 0 0 0 0
+   #813 = NameAndType        #369:#8      // kAmajak:()J
+   #814 = NameAndType        #80:#54      // AMAjaKk:(Ljava/lang/String;F)V
+   #815 = NameAndType        #450:#64     // mAjakkA:(Lkmaamma;)V
+   #816 = String             #499         // show
+   #817 = NameAndType        #296:#45     // equals:(Ljava/lang/Object;)Z
+   #818 = Fieldref           #958.#1124   // godog.KKAmajA:Ljava/awt/Container;
+   #819 = NameAndType        #399:#172    // kkAMAjA:Z
+   #820 = Methodref          #887.#1002   // java/util/Hashtable."<init>":()V
+   #821 = String             #239         // __4 layer1 maska13 80 10 -100 -15 0
+   #822 = Fieldref           #958.#606    // godog.kkAmAJA:Ljava/awt/Graphics;
+   #823 = Fieldref           #936.#1036   // maaakkk.MaJAkKa:Lkmaakkk;
+   #824 = NameAndType        #512:#47     // stringWidth:(Ljava/lang/String;)I
+   #825 = NameAndType        #114:#94     // KKamAJA:I
+   #826 = Methodref          #1063.#817   // java/lang/String.equals:(Ljava/lang/Object;)Z
+   #827 = NameAndType        #305:#48     // getParameter:(Ljava/lang/String;)Ljava/lang/String;
+   #828 = Class              #343         // java/awt/Event
+   #829 = Fieldref           #958.#930    // godog.kKaMajA:[I
+   #830 = String             #190         // _1220 layer0
+   #831 = Methodref          #1063.#752   // java/lang/String.length:()I
+   #832 = Fieldref           #958.#906    // godog.KKaMAjA:Z
+   #833 = NameAndType        #492:#26     // reshape:(IIII)V
+   #834 = NameAndType        #360:#13     // kAMAJAk:()V
+   #835 = Fieldref           #958.#761    // godog.kKamAJA:I
+   #836 = Methodref          #591.#824    // java/awt/FontMetrics.stringWidth:(Ljava/lang/String;)I
+   #837 = Fieldref           #958.#802    // godog.kkAmaJA:F
+   #838 = String             #506         // shutdown
+   #839 = String             #226         // __4
+   #840 = String             #213         // _824
+   #841 = String             #184         // _1020 layer1 maska10 22 56 0 0 1
+   #842 = Methodref          #936.#592    // maaakkk.JakkAMa:(Lmmajmma;)V
+   #843 = String             #437         // layer1 maska12 10 10 -55 -105 0
+   #844 = Methodref          #631.#720    // mmajkka.AmAjakk:(I)V
+   #845 = Methodref          #975.#798    // java/awt/Component.move:(II)V
+   #846 = String             #246         // __4 msg linjanen flash
+   #847 = NameAndType        #124:#63     // KamajAk:(Lkajakka;)V
+   #848 = String             #92          // Courier
+   #849 = String             #439         // layer2
+   #850 = String             #433         // layer1
+   #851 = String             #423         // layer0
+   #852 = Methodref          #958.#847    // godog.KamajAk:(Lkajakka;)V
+   #853 = String             #216         // _82d layer1 maska10 200 200 0 0 1
+   #854 = String             #219         // _83d layer1 maska13 200 200 0 0 1
+   #855 = NameAndType        #507:#28     // sleep:(J)V
+   #856 = Class              #454         // maajkka
+   #857 = NameAndType        #105:#162    // KKAMajA:Lmmajkka;
+   #858 = Methodref          #1063.#875   // java/lang/String.startsWith:(Ljava/lang/String;)Z
+   #859 = Methodref          #975.#876    // java/awt/Component.requestFocus:()V
+   #860 = Methodref          #706.#934    // kajakka.amAjaKk:(Ljava/awt/Graphics;FF)V
+   #861 = NameAndType        #484:#13     // printStackTrace:()V
+   #862 = Methodref          #975.#864    // java/awt/Component.show:()V
+   #863 = NameAndType        #411:#94     // kkamajA:I
+   #864 = NameAndType        #499:#13     // show:()V
+   #865 = String             #203         // _800
+   #866 = String             #501         // show evil
+   #867 = NameAndType        #270:#13     // aMAjaKk:()V
+   #868 = String             #223         // __2 layer1 maska10 0 0 0 0 0
+   #869 = Methodref          #1062.#982   // java/awt/Graphics.setFont:(Ljava/awt/Font;)V
+   #870 = Methodref          #1062.#561   // java/awt/Graphics.setColor:(Ljava/awt/Color;)V
+   #871 = Fieldref           #1065.#629   // kajjkmk.KkaMaJa:Lmaaakka;
+   #872 = Methodref          #1105.#904   // kmjjmmk.aKKaMaJ:(Ljava/awt/Graphics;II)V
+   #873 = Fieldref           #1079.#756   // kmaamma.aMaJakK:Ljava/lang/Thread;
+   #874 = Fieldref           #958.#1024   // godog.kkamAjA:Lmmajmma;
+   #875 = NameAndType        #510:#53     // startsWith:(Ljava/lang/String;)Z
+   #876 = NameAndType        #491:#13     // requestFocus:()V
+   #877 = Methodref          #1107.#815   // kmjjmma.mAjakkA:(Lkmaamma;)V
+   #878 = Methodref          #763.#1084   // java/awt/Font."<init>":(Ljava/lang/String;II)V
+   #879 = Methodref          #941.#649    // java/lang/StringBuffer.toString:()Ljava/lang/String;
+   #880 = String             #260         // _e1d layer1
+   #881 = Methodref          #1079.#610   // kmaamma.aMajAKK:(Ljava/lang/String;)Ljava/net/URL;
+   #882 = NameAndType        #282:#49     // append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #883 = Fieldref           #958.#1000   // godog.KKaMajA:[I
+   #884 = Methodref          #973.#976    // java/io/PrintStream.println:(Ljava/lang/String;)V
+   #885 = String             #441         // layer2 godog1 0 0 -213 -190
+   #886 = Fieldref           #958.#929    // godog.KkAmAJA:Z
+   #887 = Class              #358         // java/util/Hashtable
+   #888 = Fieldref           #678.#638    // majammk.AjAkkaM:Z
+   #889 = Class              #418         // kmjamka
+   #890 = Methodref          #1039.#1006  // java/awt/Container.setLayout:(Ljava/awt/LayoutManager;)V
+   #891 = Fieldref           #958.#794    // godog.KkAMajA:I
+   #892 = NameAndType        #95:#20      // JaKKama:(I)V
+   #893 = Fieldref           #958.#825    // godog.KKamAJA:I
+   #894 = Methodref          #723.#813    // maajmka.kAmajak:()J
+   #895 = String             #325         // images/maska7.jpg
+   #896 = NameAndType        #364:#174    // kAMajAk:[Ljava/lang/String;
+   #897 = NameAndType        #79:#62      // AMAjaKK:(Ljava/net/URL;Ljava/lang/String;)Ljava/net/URL;
+   #898 = NameAndType        #489:#31     // remove:(Ljava/awt/Component;)V
+   #899 = String             #327         // images/maska9.jpg
+   #900 = NameAndType        #77:#22      // "<init>":(II)V
+   #901 = Methodref          #658.#1002   // maajkka."<init>":()V
+   #902 = String             #504         // show paa
+   #903 = Fieldref           #958.#576    // godog.kkaMAJA:Lkmjjmma;
+   #904 = NameAndType        #268:#39     // aKKaMaJ:(Ljava/awt/Graphics;II)V
+   #905 = String             #442         // layer2 godog2 0 0 -220 -188
+   #906 = NameAndType        #111:#172    // KKaMAjA:Z
+   #907 = String             #242         // __4 layer1 maska7 512 256 -256 -128 1
+   #908 = NameAndType        #77:#52      // "<init>":(Ljava/lang/String;)V
+   #909 = NameAndType        #477:#11     // nextToken:()Ljava/lang/String;
+   #910 = String             #335         // init paa
+   #911 = Methodref          #958.#640    // godog.kamAjAk:(Ljava/lang/String;)Lmaaakkk;
+   #912 = NameAndType        #123:#10     // KamAjAk:()Ljava/awt/Graphics;
+   #913 = Fieldref           #1018.#655   // kmaakka.KamAJaK:I
+   #914 = Fieldref           #1018.#634   // kmaakka.kAMAJaK:I
+   #915 = Methodref          #1067.#609   // java/awt/MediaTracker.waitForAll:()V
+   #916 = NameAndType        #363:#6      // kAMAjak:()F
+   #917 = String             #235         // __4 layer1
+   #918 = String             #227         // __4 layer0
+   #919 = Methodref          #586.#795    // muhmu/hifi/device/MAD.start:()V
+   #920 = NameAndType        #338:#23     // jaKKAMa:(II)Z
+   #921 = NameAndType        #362:#94     // kAMAjAk:I
+   #922 = NameAndType        #294:#41     // drawImage:(Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z
+   #923 = Methodref          #989.#1002   // kmaakmk."<init>":()V
+   #924 = Fieldref           #958.#525    // godog.kKAmAjA:Lmajamka;
+   #925 = NameAndType        #398:#94     // kkAMAJA:I
+   #926 = Fieldref           #958.#693    // godog.KkAmaJA:Lmaajmka;
+   #927 = Class              #349         // java/lang/Exception
+   #928 = Methodref          #975.#833    // java/awt/Component.reshape:(IIII)V
+   #929 = NameAndType        #128:#172    // KkAmAJA:Z
+   #930 = NameAndType        #379:#173    // kKaMajA:[I
+   #931 = NameAndType        #375:#93     // kKAmaJA:F
+   #932 = Fieldref           #958.#1031   // godog.kamAjAk:Z
+   #933 = String             #331         // init endscreen
+   #934 = NameAndType        #279:#38     // amAjaKk:(Ljava/awt/Graphics;FF)V
+   #935 = Fieldref           #958.#863    // godog.kkamajA:I
+   #936 = Class              #452         // maaakkk
+   #937 = NameAndType        #98:#13      // KAMAjAk:()V
+   #938 = NameAndType        #123:#94     // KamAjAk:I
+   #939 = String             #224         // __2 layer1 maska7 32 0
+   #940 = String             #220         // __02 layer0
+   #941 = Class              #354         // java/lang/StringBuffer
+   #942 = Methodref          #958.#834    // godog.kAMAJAk:()V
+   #943 = Methodref          #678.#1174   // majammk.AkkAMAJ:()V
+   #944 = NameAndType        #120:#52     // KaMajAk:(Ljava/lang/String;)V
+   #945 = Class              #460         // majamka
+   #946 = NameAndType        #169:#11     // MaJAkkA:()Ljava/lang/String;
+   #947 = Fieldref           #958.#675    // godog.KkamAjA:Lmuhmu/hifi/device/MAD;
+   #948 = String             #245         // __4 layer1 megaruno 8 8 400 200 1
+   #949 = String             #238         // __4 layer1 maska12 10 70 -70 -75 0
+   #950 = NameAndType        #280:#75     // amaJAKK:([Ljava/lang/String;II)V
+   #951 = NameAndType        #377:#94     // kKaMAJA:I
+   #952 = NameAndType        #284:#94     // boost:I
+   #953 = Methodref          #975.#987    // java/awt/Component.getGraphics:()Ljava/awt/Graphics;
+   #954 = NameAndType        #167:#13     // MAjakkA:()V
+   #955 = String             #256         // _e10 layer1 maska13 64 32 0 0
+   #956 = String             #261         // _e20 layer1 maska13 64 32 0 0
+   #957 = String             #263         // _e30 layer1 maska13 64 32 0 0
+   #958 = Class              #308         // godog
+   #959 = Methodref          #1079.#950   // kmaamma.amaJAKK:([Ljava/lang/String;II)V
+   #960 = NameAndType        #81:#24      // AMaJakk:(III)I
+   #961 = String             #440         // layer2
+   #962 = String             #430         // layer0 megaruno 512 190 0 0 1
+   #963 = String             #176         // _0b00
+   #964 = Class              #459         // majakma
+   #965 = NameAndType        #487:#5      // random:()D
+   #966 = Methodref          #1063.#646   // java/lang/String.valueOf:(I)Ljava/lang/String;
+   #967 = Methodref          #958.#800    // godog.kAMAjAk:(Ljava/lang/String;)V
+   #968 = String             #434         // layer1
+   #969 = String             #336         // init trav
+   #970 = String             #195         // _1400
+   #971 = Methodref          #1106.#1190  // java/applet/Applet.getImage:(Ljava/net/URL;)Ljava/awt/Image;
+   #972 = NameAndType        #494:#13     // runFinalization:()V
+   #973 = Class              #348         // java/io/PrintStream
+   #974 = NameAndType        #495:#29     // setBackground:(Ljava/awt/Color;)V
+   #975 = Class              #341         // java/awt/Component
+   #976 = NameAndType        #485:#52     // println:(Ljava/lang/String;)V
+   #977 = NameAndType        #386:#13     // kaMajAk:()V
+   #978 = Methodref          #686.#1002   // mmajmma."<init>":()V
+   #979 = NameAndType        #515:#11     // trim:()Ljava/lang/String;
+   #980 = Methodref          #1065.#758   // kajjkmk.akKaMaJ:()V
+   #981 = NameAndType        #119:#13     // KaMAjak:()V
+   #982 = NameAndType        #497:#36     // setFont:(Ljava/awt/Font;)V
+   #983 = NameAndType        #301:#12     // getDocumentBase:()Ljava/net/URL;
+   #984 = String             #426         // layer0 maska12 0 0
+   #985 = NameAndType        #330:#71     // init:(Lmuhmu/hifi/device/Mixable;IIILjava/awt/Component;)Z
+   #986 = Methodref          #1063.#687   // java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+   #987 = NameAndType        #303:#10     // getGraphics:()Ljava/awt/Graphics;
+   #988 = String             #307         // go
+   #989 = Class              #415         // kmaakmk
+   #990 = String             #200         // _500 layer0 filmdamage 64 1536 0 0 1
+   #991 = Class              #414         // kmaakma
+   #992 = Methodref          #941.#882    // java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #993 = NameAndType        #125:#94     // KkAMAJA:I
+   #994 = NameAndType        #391:#67     // kamAJAk:(Lmaaakkk;I)V
+   #995 = Fieldref           #958.#1052   // godog.KKAmAjA:Z
+   #996 = Fieldref           #958.#925    // godog.kkAMAJA:I
+   #997 = Fieldref           #958.#931    // godog.kKAmaJA:F
+   #998 = Fieldref           #958.#792    // godog.KkamajA:Ljava/util/Hashtable;
+   #999 = Fieldref           #958.#921    // godog.kAMAjAk:I
+  #1000 = NameAndType        #113:#173    // KKaMajA:[I
+  #1001 = NameAndType        #108:#93     // KKAmaJA:F
+  #1002 = NameAndType        #77:#13      // "<init>":()V
+  #1003 = Methodref          #941.#1189   // java/lang/StringBuffer.append:(J)Ljava/lang/StringBuffer;
+  #1004 = String             #427         // layer0 maska12 10 10 -10 -55 0
+  #1005 = String             #429         // layer0 maska15 10 10 -10 -15 0
+  #1006 = NameAndType        #498:#42     // setLayout:(Ljava/awt/LayoutManager;)V
+  #1007 = Methodref          #1079.#611   // kmaamma.AmaJAKK:(Ljava/net/URL;)[B
+  #1008 = Methodref          #631.#1087   // mmajkka.aMaJAkk:()V
+  #1009 = Class              #453         // maaamma
+  #1010 = Methodref          #958.#614    // godog.KamAJAk:(I)V
+  #1011 = String             #425         // layer0 filmdamage 0 1536 0 0 1
+  #1012 = Methodref          #631.#540    // mmajkka.amAJakk:(F)V
+  #1013 = Methodref          #706.#568    // kajakka.AMajaKk:()V
+  #1014 = Class              #413         // kmaakkk
+  #1015 = Class              #357         // java/lang/Throwable
+  #1016 = NameAndType        #368:#13     // kAmajAk:()V
+  #1017 = NameAndType        #486:#46     // put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #1018 = Class              #412         // kmaakka
+  #1019 = String             #334         // init movieintro
+  #1020 = Methodref          #1107.#954   // kmjjmma.MAjakkA:()V
+  #1021 = Methodref          #958.#1163   // godog.KAMAJAk:(Ljava/awt/Component;IIII)V
+  #1022 = Class              #458         // majakkk
+  #1023 = Methodref          #1079.#625   // kmaamma.stop:()V
+  #1024 = NameAndType        #409:#163    // kkamAjA:Lmmajmma;
+  #1025 = NameAndType        #77:#72      // "<init>":(ZZ)V
+  #1026 = Methodref          #1140.#1002  // kajjmma."<init>":()V
+  #1027 = String             #482         // post
+  #1028 = String             #298         // filmbox
+  #1029 = Fieldref           #750.#694    // java/awt/Color.black:Ljava/awt/Color;
+  #1030 = String             #199         // _420 layer1 megaruno 90 20 40 -43 0
+  #1031 = NameAndType        #392:#172    // kamAjAk:Z
+  #1032 = String             #265         // _e3c layer0 maska2 104 104 30 30
+  #1033 = Class              #417         // kmajkmk
+  #1034 = String             #205         // _80d layer1 maska2 200 200 0 0 1
+  #1035 = String             #209         // _81d layer1 maska8 200 200 0 0 1
+  #1036 = NameAndType        #168:#154    // MaJAkKa:Lkmaakkk;
+  #1037 = Methodref          #723.#797    // maajmka.kaMAjak:(J)V
+  #1038 = Methodref          #1015.#861   // java/lang/Throwable.printStackTrace:()V
+  #1039 = Class              #342         // java/awt/Container
+  #1040 = NameAndType        #404:#149    // kkAmajA:Ljava/lang/String;
+  #1041 = NameAndType        #116:#174    // KKamaJA:[Ljava/lang/String;
+  #1042 = String             #330         // init
+  #1043 = NameAndType        #383:#52     // kaMAJAk:(Ljava/lang/String;)V
+  #1044 = Float              0.08f
+  #1045 = Methodref          #941.#908    // java/lang/StringBuffer."<init>":(Ljava/lang/String;)V
+  #1046 = String             #188         // _1120 layer0 maska13 8 8 -240 -120 1
+  #1047 = String             #189         // _1200 layer0 maska11 8 8 -240 -120 1
+  #1048 = NameAndType        #519:#142    // white:Ljava/awt/Color;
+  #1049 = Class              #355         // java/lang/System
+  #1050 = Methodref          #973.#1175   // java/io/PrintStream.print:(Ljava/lang/String;)V
+  #1051 = String             #179         // _1004 layer0 maska12 16 256 0 0 1
+  #1052 = NameAndType        #107:#172    // KKAmAjA:Z
+  #1053 = String             #210         // _820 layer0 maska16 10 10 -10 -5 0
+  #1054 = String             #215         // _828 layer0 maska12 10 10 -10 -5 0
+  #1055 = String             #217         // _830 layer0 maska16 10 10 -10 -5 0
+  #1056 = Fieldref           #958.#993    // godog.KkAMAJA:I
+  #1057 = NameAndType        #368:#94     // kAmajAk:I
+  #1058 = Fieldref           #958.#1001   // godog.KKAmaJA:F
+  #1059 = Fieldref           #958.#951    // godog.kKaMAJA:I
+  #1060 = Fieldref           #958.#938    // godog.KamAjAk:I
+  #1061 = Methodref          #1063.#744   // java/lang/String.indexOf:(I)I
+  #1062 = Class              #346         // java/awt/Graphics
+  #1063 = Class              #353         // java/lang/String
+  #1064 = NameAndType        #299:#13     // gc:()V
+  #1065 = Class              #389         // kajjkmk
+  #1066 = NameAndType        #408:#94     // kkamAJA:I
+  #1067 = Class              #347         // java/awt/MediaTracker
+  #1068 = String             #311         // images/godog1.jpg
+  #1069 = Methodref          #678.#567    // majammk.aKkAMAJ:()V
+  #1070 = Float              0.93f
+  #1071 = String             #333         // init linjanen
+  #1072 = NameAndType        #104:#155    // KKAMAjA:Lkmjamka;
+  #1073 = Methodref          #958.#912    // godog.KamAjAk:()Ljava/awt/Graphics;
+  #1074 = Methodref          #958.#937    // godog.KAMAjAk:()V
+  #1075 = Methodref          #691.#864    // majamka.show:()V
+  #1076 = String             #313         // images/godog3.jpg
+  #1077 = Integer            512
+  #1078 = String             #225         // __2 layer1 maska9 16 16
+  #1079 = Class              #416         // kmaamma
+  #1080 = Methodref          #739.#965    // java/lang/Math.random:()D
+  #1081 = NameAndType        #451:#13     // maJAkkA:()V
+  #1082 = Methodref          #1063.#1139  // java/lang/String.substring:(II)Ljava/lang/String;
+  #1083 = String             #315         // images/godog5.jpg
+  #1084 = NameAndType        #77:#56      // "<init>":(Ljava/lang/String;II)V
+  #1085 = NameAndType        #102:#13     // KAmajAk:()V
+  #1086 = String             #445         // layer2 godog5 0 0 -20 -177
+  #1087 = NameAndType        #271:#13     // aMaJAkk:()V
+  #1088 = String             #317         // images/loading.gif
+  #1089 = NameAndType        #133:#153    // KkaMAjA:Lkajjkmk;
+  #1090 = Fieldref           #586.#952    // muhmu/hifi/device/MAD.boost:I
+  #1091 = Fieldref           #958.#1172   // godog.KKaMAJA:Lkajakka;
+  #1092 = Methodref          #706.#814    // kajakka.AMAjaKk:(Ljava/lang/String;F)V
+  #1093 = Methodref          #1079.#897   // kmaamma.AMAjaKK:(Ljava/net/URL;Ljava/lang/String;)Ljava/net/URL;
+  #1094 = String             #254         // _e04 layer0 maska9 0 0 30 30
+  #1095 = Methodref          #631.#960    // mmajkka.AMaJakk:(III)I
+  #1096 = NameAndType        #274:#57     // add:(Ljava/lang/String;Ljava/awt/Component;)Ljava/awt/Component;
+  #1097 = String             #310         // images/filmdamage.jpg
+  #1098 = String             #206         // _810 layer1 maska7 0 0 0 0 0
+  #1099 = String             #211         // _820 layer1 maska9 0 0 0 0 0
+  #1100 = NameAndType        #394:#94     // key:I
+  #1101 = Fieldref           #958.#560    // godog.kkaMajA:[I
+  #1102 = Methodref          #723.#900    // maajmka."<init>":(II)V
+  #1103 = String             #257         // _e14 layer0 maska8 4 4 30 30
+  #1104 = Float              1000.0f
+  #1105 = Class              #420         // kmjjmmk
+  #1106 = Class              #339         // java/applet/Applet
+  #1107 = Class              #419         // kmjjmma
+  #1108 = Methodref          #1079.#827   // kmaamma.getParameter:(Ljava/lang/String;)Ljava/lang/String;
+  #1109 = String             #204         // _800 layer0 megaruno 512 190 0 0 0
+  #1110 = String             #208         // _817 layer0 megaruno 512 190 0 0 0
+  #1111 = String             #436         // layer1 maska10 8 8 12 12
+  #1112 = Methodref          #723.#981    // maajmka.KaMAjak:()V
+  #1113 = Fieldref           #958.#1066   // godog.kkamAJA:I
+  #1114 = Fieldref           #958.#1057   // godog.kAmajAk:I
+  #1115 = NameAndType        #77:#31      // "<init>":(Ljava/awt/Component;)V
+  #1116 = Methodref          #991.#1143   // kmaakma.MAjaKkA:(Ljava/net/URL;)Lkmaakka;
+  #1117 = Fieldref           #958.#742    // godog.kKAMAjA:Lmmajkka;
+  #1118 = String             #255         // _e0c layer0 maska7 4 4 30 30
+  #1119 = String             #259         // _e1c layer0 maska8 4 4 30 30
+  #1120 = String             #180         // _100c layer0 maska11 32 32 0 0 1
+  #1121 = String             #183         // _101c layer0 maska15 32 32 0 0 1
+  #1122 = String             #185         // _102c layer0 maska11 32 32 0 0 1
+  #1123 = NameAndType        #102:#94     // KAmajAk:I
+  #1124 = NameAndType        #109:#144    // KKAmajA:Ljava/awt/Container;
+  #1125 = Methodref          #958.#977    // godog.kaMajAk:()V
+  #1126 = Methodref          #958.#1002   // godog."<init>":()V
+  #1127 = Methodref          #958.#1016   // godog.kAmajAk:()V
+  #1128 = NameAndType        #136:#94     // KkamAJA:I
+  #1129 = String             #222         // __2 layer0 maska7 4 0 40 0 1
+  #1130 = Integer            256
+  #1131 = Methodref          #1107.#1081  // kmjjmma.maJAkkA:()V
+  #1132 = NameAndType        #364:#13     // kAMajAk:()V
+  #1133 = Class              #387         // kajakka
+  #1134 = String             #202         // _730
+  #1135 = Class              #350         // java/lang/Integer
+  #1136 = Methodref          #755.#721    // kmjamka.kAmaJAk:(I)V
+  #1137 = Methodref          #755.#1002   // kmjamka."<init>":()V
+  #1138 = NameAndType        #462:#16     // max:(FF)F
+  #1139 = NameAndType        #513:#21     // substring:(II)Ljava/lang/String;
+  #1140 = Class              #390         // kajjmma
+  #1141 = Methodref          #958.#994    // godog.kamAJAk:(Lmaaakkk;I)V
+  #1142 = NameAndType        #100:#52     // KAmAJAk:(Ljava/lang/String;)V
+  #1143 = NameAndType        #166:#60     // MAjaKkA:(Ljava/net/URL;)Lkmaakka;
+  #1144 = Fieldref           #828.#1100   // java/awt/Event.key:I
+  #1145 = Methodref          #695.#1002   // kmajkmk."<init>":()V
+  #1146 = String             #175         // _000 clear24 ffffff
+  #1147 = Fieldref           #958.#1072   // godog.KKAMAjA:Lkmjamka;
+  #1148 = Methodref          #727.#529    // java/util/StringTokenizer.hasMoreTokens:()Z
+  #1149 = Methodref          #691.#908    // majamka."<init>":(Ljava/lang/String;)V
+  #1150 = String             #181         // _1014 layer0 maska8 32 32 0 0 1
+  #1151 = NameAndType        #290:#25     // create:(IIII)Ljava/awt/Graphics;
+  #1152 = Methodref          #958.#944    // godog.KaMajAk:(Ljava/lang/String;)V
+  #1153 = Methodref          #1107.#946   // kmjjmma.MaJAkkA:()Ljava/lang/String;
+  #1154 = String             #252         // _d30 layer0
+  #1155 = Class              #461         // majammk
+  #1156 = String             #478         // nosound
+  #1157 = NameAndType        #170:#68     // MajakkA:(Lmmajkka;FF)V
+  #1158 = Fieldref           #958.#552    // godog.kKAmAJA:Ljava/awt/Component;
+  #1159 = String             #421         // komplex@jyu.fi
+  #1160 = NameAndType        #489:#43     // remove:(Ljava/lang/Object;)Ljava/lang/Object;
+  #1161 = String             #488         // reality
+  #1162 = String             #292         // data/rocket.xm
+  #1163 = NameAndType        #97:#32      // KAMAJAk:(Ljava/awt/Component;IIII)V
+  #1164 = String             #201         // _700
+  #1165 = String             #422         // layer
+  #1166 = NameAndType        #406:#157    // kkaMAjA:Lmaaakka;
+  #1167 = Methodref          #631.#523    // mmajkka.amAJAkk:(Lmmajkka;II)V
+  #1168 = Long               80l
+  #1170 = NameAndType        #365:#13     // kAmAJAk:()V
+  #1171 = Fieldref           #958.#1089   // godog.KkaMAjA:Lkajjkmk;
+  #1172 = NameAndType        #110:#152    // KKaMAJA:Lkajakka;
+  #1173 = Methodref          #1014.#892   // kmaakkk.JaKKama:(I)V
+  #1174 = NameAndType        #85:#13      // AkkAMAJ:()V
+  #1175 = NameAndType        #483:#52     // print:(Ljava/lang/String;)V
+  #1176 = Fieldref           #958.#581    // godog.kkamaJA:Z
+  #1177 = String             #505         // show trav
+  #1178 = Methodref          #615.#1002   // majakkk."<init>":()V
+  #1179 = Class              #419         // kmjjmma
+  #1180 = String             #466         // mod 1
+  #1181 = String             #503         // show movieintro
+  #1182 = String             #178         // _1000 layer1 maska9 32 32 0 0 1
+  #1183 = NameAndType        #285:#17     // charAt:(I)C
+  #1184 = NameAndType        #291:#8      // currentTimeMillis:()J
+  #1185 = Fieldref           #958.#804    // godog.KkaMajA:Lmmajkka;
+  #1186 = String             #4           //
+  #1187 = String             #471         // msg
+  #1188 = Fieldref           #958.#788    // godog.kKAMajA:Lmmajkka;
+  #1189 = NameAndType        #282:#27     // append:(J)Ljava/lang/StringBuffer;
+  #1190 = NameAndType        #304:#59     // getImage:(Ljava/net/URL;)Ljava/awt/Image;
+  #1191 = Long               5l
+  #1193 = String             #1           //
+{
+  static final java.lang.String[] kAMajAk;
+    descriptor: [Ljava/lang/String;
+    flags: (0x0018) ACC_STATIC, ACC_FINAL
+
+  static final int KamajAk;
+    descriptor: I
+    flags: (0x0018) ACC_STATIC, ACC_FINAL
+    ConstantValue: int 512
+
+  static final int kamajAk;
+    descriptor: I
+    flags: (0x0018) ACC_STATIC, ACC_FINAL
+    ConstantValue: int 256
+
+  public static int KAmajAk;
+    descriptor: I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static int kAmajAk;
+    descriptor: I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  majammk KaMAjAk;
+    descriptor: Lmajammk;
+    flags: (0x0000)
+
+  java.awt.Image kaMAjAk;
+    descriptor: Ljava/awt/Image;
+    flags: (0x0000)
+
+  java.awt.Image KAMAjAk;
+    descriptor: Ljava/awt/Image;
+    flags: (0x0000)
+
+  public static int kAMAjAk;
+    descriptor: I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static int KamAjAk;
+    descriptor: I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static boolean kamAjAk;
+    descriptor: Z
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static int KAmAjAk;
+    descriptor: I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static int kAmAjAk;
+    descriptor: I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static boolean KkAmAjA;
+    descriptor: Z
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  boolean kkAmAjA;
+    descriptor: Z
+    flags: (0x0000)
+
+  boolean KKAmAjA;
+    descriptor: Z
+    flags: (0x0000)
+
+  majamka kKAmAjA;
+    descriptor: Lmajamka;
+    flags: (0x0000)
+
+  muhmu.hifi.device.MAD KkamAjA;
+    descriptor: Lmuhmu/hifi/device/MAD;
+    flags: (0x0000)
+
+  mmajmma kkamAjA;
+    descriptor: Lmmajmma;
+    flags: (0x0000)
+
+  maaakkk KKamAjA;
+    descriptor: Lmaaakkk;
+    flags: (0x0000)
+
+  maaakkk kKamAjA;
+    descriptor: Lmaaakkk;
+    flags: (0x0000)
+
+  maaakkk KkAMAjA;
+    descriptor: Lmaaakkk;
+    flags: (0x0000)
+
+  boolean kkAMAjA;
+    descriptor: Z
+    flags: (0x0000)
+
+  public static kmjamka KKAMAjA;
+    descriptor: Lkmjamka;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static mmajkka kKAMAjA;
+    descriptor: Lmmajkka;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static kajjkmk KkaMAjA;
+    descriptor: Lkajjkmk;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static maaakka kkaMAjA;
+    descriptor: Lmaaakka;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  boolean KKaMAjA;
+    descriptor: Z
+    flags: (0x0000)
+
+  int kKaMAjA;
+    descriptor: I
+    flags: (0x0000)
+
+  int KkAmajA;
+    descriptor: I
+    flags: (0x0000)
+
+  java.lang.String kkAmajA;
+    descriptor: Ljava/lang/String;
+    flags: (0x0000)
+
+  java.awt.Container KKAmajA;
+    descriptor: Ljava/awt/Container;
+    flags: (0x0000)
+
+  java.util.Hashtable kKAmajA;
+    descriptor: Ljava/util/Hashtable;
+    flags: (0x0000)
+
+  java.util.Hashtable KkamajA;
+    descriptor: Ljava/util/Hashtable;
+    flags: (0x0000)
+
+  int kkamajA;
+    descriptor: I
+    flags: (0x0000)
+
+  float KKamajA;
+    descriptor: F
+    flags: (0x0000)
+
+  float kKamajA;
+    descriptor: F
+    flags: (0x0000)
+
+  int KkAMajA;
+    descriptor: I
+    flags: (0x0000)
+
+  java.util.Hashtable kkAMajA;
+    descriptor: Ljava/util/Hashtable;
+    flags: (0x0000)
+
+  mmajkka KKAMajA;
+    descriptor: Lmmajkka;
+    flags: (0x0000)
+
+  mmajkka kKAMajA;
+    descriptor: Lmmajkka;
+    flags: (0x0000)
+
+  mmajkka KkaMajA;
+    descriptor: Lmmajkka;
+    flags: (0x0000)
+
+  int[] kkaMajA;
+    descriptor: [I
+    flags: (0x0000)
+
+  int[] KKaMajA;
+    descriptor: [I
+    flags: (0x0000)
+
+  int[] kKaMajA;
+    descriptor: [I
+    flags: (0x0000)
+
+  public static boolean KkAmAJA;
+    descriptor: Z
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  java.awt.Graphics kkAmAJA;
+    descriptor: Ljava/awt/Graphics;
+    flags: (0x0000)
+
+  java.awt.Graphics KKAmAJA;
+    descriptor: Ljava/awt/Graphics;
+    flags: (0x0000)
+
+  java.awt.Component kKAmAJA;
+    descriptor: Ljava/awt/Component;
+    flags: (0x0000)
+
+  int KkamAJA;
+    descriptor: I
+    flags: (0x0000)
+
+  int kkamAJA;
+    descriptor: I
+    flags: (0x0000)
+
+  int KKamAJA;
+    descriptor: I
+    flags: (0x0000)
+
+  int kKamAJA;
+    descriptor: I
+    flags: (0x0000)
+
+  int KkAMAJA;
+    descriptor: I
+    flags: (0x0000)
+
+  int kkAMAJA;
+    descriptor: I
+    flags: (0x0000)
+
+  java.awt.Font KKAMAJA;
+    descriptor: Ljava/awt/Font;
+    flags: (0x0000)
+
+  boolean kKAMAJA;
+    descriptor: Z
+    flags: (0x0000)
+
+  public static godog KkaMAJA;
+    descriptor: Lgodog;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  kmjjmma kkaMAJA;
+    descriptor: Lkmjjmma;
+    flags: (0x0000)
+
+  kajakka KKaMAJA;
+    descriptor: Lkajakka;
+    flags: (0x0000)
+
+  int kKaMAJA;
+    descriptor: I
+    flags: (0x0000)
+
+  maajmka KkAmaJA;
+    descriptor: Lmaajmka;
+    flags: (0x0000)
+
+  float kkAmaJA;
+    descriptor: F
+    flags: (0x0000)
+
+  float KKAmaJA;
+    descriptor: F
+    flags: (0x0000)
+
+  float kKAmaJA;
+    descriptor: F
+    flags: (0x0000)
+
+  float KkamaJA;
+    descriptor: F
+    flags: (0x0000)
+
+  boolean kkamaJA;
+    descriptor: Z
+    flags: (0x0000)
+
+  public java.lang.String[] KKamaJA;
+    descriptor: [Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=4, locals=1, args_size=1
+         0: new           #577                // class godog
+         3: dup
+         4: invokespecial #1126               // Method godog."<init>":()V
+         7: aload_0
+         8: sipush        512
+        11: sipush        256
+        14: invokevirtual #959                // Method kmaamma.amaJAKK:([Ljava/lang/String;II)V
+        17: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+Error: Bad CP index: 0
+
+    public void init();
+      descriptor: ()V
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=4, locals=3, args_size=1
+           0: aload_0
+           1: putstatic     #688                // Field godog.KkaMAJA:Lgodog;
+           4: aload_0
+           5: aload_0
+           6: aload_0
+           7: ldc_w         #1088               // String images/loading.gif
+          10: invokevirtual #881                // Method kmaamma.aMajAKK:(Ljava/lang/String;)Ljava/net/URL;
+          13: invokevirtual #971                // Method java/applet/Applet.getImage:(Ljava/net/URL;)Ljava/awt/Image;
+          16: putfield      #632                // Field godog.kaMAjAk:Ljava/awt/Image;
+          19: new           #1067               // class java/awt/MediaTracker
+          22: dup
+          23: aload_0
+          24: invokespecial #604                // Method java/awt/MediaTracker."<init>":(Ljava/awt/Component;)V
+          27: astore_1
+          28: aload_1
+          29: aload_0
+          30: getfield      #632                // Field godog.kaMAjAk:Ljava/awt/Image;
+          33: iconst_1
+          34: invokevirtual #773                // Method java/awt/MediaTracker.addImage:(Ljava/awt/Image;I)V
+          37: aload_1
+          38: invokevirtual #915                // Method java/awt/MediaTracker.waitForAll:()V
+          41: goto          49
+          44: astore_2
+          45: aload_2
+          46: invokevirtual #1038               // Method java/lang/Throwable.printStackTrace:()V
+          49: aload_0
+          50: aconst_null
+          51: invokevirtual #890                // Method java/awt/Container.setLayout:(Ljava/awt/LayoutManager;)V
+          54: aload_0
+          55: getstatic     #1029               // Field java/awt/Color.black:Ljava/awt/Color;
+          58: invokevirtual #644                // Method java/awt/Component.setBackground:(Ljava/awt/Color;)V
+          61: aload_0
+          62: iconst_0
+          63: putfield      #995                // Field godog.KKAmAjA:Z
+          66: aload_0
+          67: ldc_w         #1156               // String nosound
+          70: invokevirtual #1108               // Method kmaamma.getParameter:(Ljava/lang/String;)Ljava/lang/String;
+          73: ifnull        81
+          76: aload_0
+          77: iconst_1
+          78: putfield      #995                // Field godog.KKAmAjA:Z
+          81: aload_0
+          82: iconst_0
+          83: putfield      #543                // Field godog.kkAmAjA:Z
+          86: iconst_1
+          87: putstatic     #888                // Field majammk.AjAkkaM:Z
+          90: aload_0
+          91: invokevirtual #859                // Method java/awt/Component.requestFocus:()V
+          94: return
+        Exception table:
+           from    to  target type
+              37    41    44   Class java/lang/Exception
+
+    public void start();
+      descriptor: ()V
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=1, locals=1, args_size=1
+           0: aload_0
+           1: invokespecial #524                // Method kmaamma.start:()V
+           4: return
+
+    public void stop();
+      descriptor: ()V
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=2, locals=1, args_size=1
+           0: aload_0
+           1: invokespecial #1023               // Method kmaamma.stop:()V
+           4: aload_0
+           5: getfield      #924                // Field godog.kKAmAjA:Lmajamka;
+           8: ifnull        23
+          11: aload_0
+          12: getfield      #924                // Field godog.kKAmAjA:Lmajamka;
+          15: invokevirtual #786                // Method majamka.dispose:()V
+          18: aload_0
+          19: aconst_null
+          20: putfield      #924                // Field godog.kKAmAjA:Lmajamka;
+          23: aload_0
+          24: getfield      #947                // Field godog.KkamAjA:Lmuhmu/hifi/device/MAD;
+          27: invokevirtual #762                // Method muhmu/hifi/device/MAD.stop:()V
+          30: aload_0
+          31: aconst_null
+          32: putfield      #947                // Field godog.KkamAjA:Lmuhmu/hifi/device/MAD;
+          35: aload_0
+          36: aconst_null
+          37: putfield      #874                // Field godog.kkamAjA:Lmmajmma;
+          40: return
+
+    public boolean keyDown(java.awt.Event, int);
+      descriptor: (Ljava/awt/Event;I)Z
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=2, locals=3, args_size=3
+           0: aload_1
+           1: getfield      #1144               // Field java/awt/Event.key:I
+           4: tableswitch   { // 102 to 102
+                       102: 24
+                   default: 43
+              }
+          24: aload_0
+          25: aload_0
+          26: getfield      #1176               // Field godog.kkamaJA:Z
+          29: ifeq          36
+          32: iconst_0
+          33: goto          37
+          36: iconst_1
+          37: putfield      #1176               // Field godog.kkamaJA:Z
+          40: goto          43
+          43: iconst_1
+          44: ireturn
+
+    public boolean mouseMove(java.awt.Event, int, int);
+      descriptor: (Ljava/awt/Event;II)Z
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=1, locals=4, args_size=4
+           0: iload_2
+           1: putstatic     #999                // Field godog.kAMAjAk:I
+           4: iload_3
+           5: putstatic     #1060               // Field godog.KamAjAk:I
+           8: iconst_0
+           9: putstatic     #932                // Field godog.kamAjAk:Z
+          12: iconst_1
+          13: ireturn
+
+    public boolean mouseUp(java.awt.Event, int, int);
+      descriptor: (Ljava/awt/Event;II)Z
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=1, locals=4, args_size=4
+           0: iconst_0
+           1: putstatic     #932                // Field godog.kamAjAk:Z
+           4: iload_2
+           5: putstatic     #999                // Field godog.kAMAjAk:I
+           8: iload_3
+           9: putstatic     #1060               // Field godog.KamAjAk:I
+          12: iconst_1
+          13: putstatic     #605                // Field godog.KkAmAjA:Z
+          16: iload_2
+          17: putstatic     #724                // Field godog.KAmAjAk:I
+          20: iload_3
+          21: putstatic     #672                // Field godog.kAmAjAk:I
+          24: iconst_1
+          25: ireturn
+
+    public boolean mouseDown(java.awt.Event, int, int);
+      descriptor: (Ljava/awt/Event;II)Z
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=1, locals=4, args_size=4
+           0: iconst_1
+           1: putstatic     #932                // Field godog.kamAjAk:Z
+           4: iload_2
+           5: putstatic     #999                // Field godog.kAMAjAk:I
+           8: iload_3
+           9: putstatic     #1060               // Field godog.KamAjAk:I
+          12: iconst_1
+          13: ireturn
+
+    void KaMAjAk();
+      descriptor: ()V
+      flags: (0x0000)
+      Code:
+        stack=5, locals=1, args_size=1
+           0: aload_0
+           1: putstatic     #555                // Field muhmu/hifi/device/MAD.component:Ljava/awt/Component;
+           4: aload_0
+           5: new           #1155               // class majammk
+           8: dup
+           9: aload_0
+          10: getfield      #543                // Field godog.kkAmAjA:Z
+          13: aload_0
+          14: getfield      #995                // Field godog.KKAmAjA:Z
+          17: invokespecial #749                // Method majammk."<init>":(ZZ)V
+          20: putfield      #701                // Field godog.KaMAjAk:Lmajammk;
+          23: aload_0
+          24: getfield      #701                // Field godog.KaMAjAk:Lmajammk;
+          27: iconst_0
+          28: iconst_0
+          29: sipush        512
+          32: sipush        256
+          35: invokevirtual #928                // Method java/awt/Component.reshape:(IIII)V
+          38: aload_0
+          39: getfield      #701                // Field godog.KaMAjAk:Lmajammk;
+          42: invokevirtual #862                // Method java/awt/Component.show:()V
+          45: aload_0
+          46: aload_0
+          47: getfield      #701                // Field godog.KaMAjAk:Lmajammk;
+          50: invokevirtual #760                // Method java/awt/Container.add:(Ljava/awt/Component;)Ljava/awt/Component;
+          53: pop
+          54: aload_0
+          55: getfield      #701                // Field godog.KaMAjAk:Lmajammk;
+          58: invokevirtual #943                // Method majammk.AkkAMAJ:()V
+          61: aload_0
+          62: getfield      #701                // Field godog.KaMAjAk:Lmajammk;
+          65: invokevirtual #1069               // Method majammk.aKkAMAJ:()V
+          68: aload_0
+          69: aload_0
+          70: getfield      #701                // Field godog.KaMAjAk:Lmajammk;
+          73: invokevirtual #803                // Method java/awt/Container.remove:(Ljava/awt/Component;)V
+          76: aload_0
+          77: aload_0
+          78: getfield      #701                // Field godog.KaMAjAk:Lmajammk;
+          81: getfield      #564                // Field majammk.AjakkaM:Lmuhmu/hifi/device/MAD;
+          84: putfield      #947                // Field godog.KkamAjA:Lmuhmu/hifi/device/MAD;
+          87: aload_0
+          88: aconst_null
+          89: putfield      #701                // Field godog.KaMAjAk:Lmajammk;
+          92: invokestatic  #573                // Method java/lang/System.gc:()V
+          95: getstatic     #639                // Field java/lang/System.out:Ljava/io/PrintStream;
+          98: ldc_w         #732                // String tuner finito.
+         101: invokevirtual #884                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+         104: return
+
+    void kAMajAk();
+      descriptor: ()V
+      flags: (0x0000)
+      Code:
+        stack=4, locals=1, args_size=1
+           0: aload_0
+           1: aload_0
+           2: invokevirtual #740                // Method java/awt/Component.getParent:()Ljava/awt/Container;
+           5: putfield      #818                // Field godog.KKAmajA:Ljava/awt/Container;
+           8: aload_0
+           9: new           #945                // class majamka
+          12: dup
+          13: ldc_w         #659                // String Komplex\' Rocket
+          16: invokespecial #1149               // Method majamka."<init>":(Ljava/lang/String;)V
+          19: putfield      #924                // Field godog.kKAmAjA:Lmajamka;
+          22: aload_0
+          23: getfield      #924                // Field godog.kKAmAjA:Lmajamka;
+          26: aload_0
+          27: invokevirtual #642                // Method majamka.KkAmAjA:(Ljava/awt/Component;)V
+          30: aload_0
+          31: getfield      #924                // Field godog.kKAmAjA:Lmajamka;
+          34: invokevirtual #1075               // Method majamka.show:()V
+          37: return
+
+    void kAmAJAk();
+      descriptor: ()V
+      flags: (0x0000)
+      Code:
+        stack=0, locals=1, args_size=1
+           0: return
+
+    public void KAmajAk();
+      descriptor: ()V
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=6, locals=1, args_size=1
+           0: aload_0
+           1: new           #603                // class mmajmma
+           4: dup
+           5: invokespecial #978                // Method mmajmma."<init>":()V
+           8: putfield      #874                // Field godog.kkamAjA:Lmmajmma;
+          11: aload_0
+          12: getfield      #947                // Field godog.KkamAjA:Lmuhmu/hifi/device/MAD;
+          15: aload_0
+          16: getfield      #874                // Field godog.kkamAjA:Lmmajmma;
+          19: sipush        22050
+          22: iconst_4
+          23: sipush        22050
+          26: getstatic     #555                // Field muhmu/hifi/device/MAD.component:Ljava/awt/Component;
+          29: invokevirtual #733                // Method muhmu/hifi/device/MAD.init:(Lmuhmu/hifi/device/Mixable;IIILjava/awt/Component;)Z
+          32: pop
+          33: return
+
+    public void kamAJAk(maaakkk, int);
+      descriptor: (Lmaaakkk;I)V
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=2, locals=3, args_size=3
+           0: aload_0
+           1: getfield      #947                // Field godog.KkamAjA:Lmuhmu/hifi/device/MAD;
+           4: iload_2
+           5: putfield      #1090               // Field muhmu/hifi/device/MAD.boost:I
+           8: aload_0
+           9: aconst_null
+          10: putfield      #806                // Field godog.KkAMAjA:Lmaaakkk;
+          13: aload_0
+          14: aload_1
+          15: putfield      #806                // Field godog.KkAMAjA:Lmaaakkk;
+          18: aload_0
+          19: getfield      #806                // Field godog.KkAMAjA:Lmaaakkk;
+          22: aload_0
+          23: getfield      #874                // Field godog.kkamAjA:Lmmajmma;
+          26: invokevirtual #842                // Method maaakkk.JakkAMa:(Lmmajmma;)V
+          29: aload_0
+          30: getfield      #770                // Field godog.kkAMAjA:Z
+          33: ifne          48
+          36: aload_0
+          37: getfield      #947                // Field godog.KkamAjA:Lmuhmu/hifi/device/MAD;
+          40: invokevirtual #919                // Method muhmu/hifi/device/MAD.start:()V
+          43: aload_0
+          44: iconst_1
+          45: putfield      #770                // Field godog.kkAMAjA:Z
+          48: return
+
+    public maaakkk kamAjAk(java.lang.String);
+      descriptor: (Ljava/lang/String;)Lmaaakkk;
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=3, locals=4, args_size=2
+           0: aconst_null
+           1: astore_2
+           2: aload_0
+           3: aload_0
+           4: invokevirtual #563                // Method java/applet/Applet.getDocumentBase:()Ljava/net/URL;
+           7: aload_1
+           8: invokevirtual #1093               // Method kmaamma.AMAjaKK:(Ljava/net/URL;Ljava/lang/String;)Ljava/net/URL;
+          11: astore_3
+          12: aload_0
+          13: aload_3
+          14: invokevirtual #1007               // Method kmaamma.AmaJAKK:(Ljava/net/URL;)[B
+          17: astore_2
+          18: goto          28
+          21: astore_3
+          22: aload_3
+          23: invokevirtual #1038               // Method java/lang/Throwable.printStackTrace:()V
+          26: aconst_null
+          27: areturn
+          28: aload_2
+          29: ifnonnull     34
+          32: aconst_null
+          33: areturn
+          34: aload_2
+          35: invokestatic  #772                // Method kajamka.kKAmAjA:([B)Lmaaakkk;
+          38: astore_3
+          39: aconst_null
+          40: astore_2
+          41: invokestatic  #573                // Method java/lang/System.gc:()V
+          44: aload_3
+          45: areturn
+        Exception table:
+           from    to  target type
+               2    18    21   Class java/lang/Exception
+
+    void kAmajAk();
+      descriptor: ()V
+      flags: (0x0000)
+      Code:
+        stack=6, locals=5, args_size=1
+           0: iconst_1
+           1: istore_1
+           2: iconst_1
+           3: istore_2
+           4: aload_0
+           5: getfield      #543                // Field godog.kkAmAjA:Z
+           8: ifeq          15
+          11: iconst_2
+          12: istore_1
+          13: iconst_2
+          14: istore_2
+          15: sipush        512
+          18: istore_3
+          19: sipush        256
+          22: istore        4
+          24: new           #889                // class kmjamka
+          27: dup
+          28: invokespecial #1137               // Method kmjamka."<init>":()V
+          31: putstatic     #1147               // Field godog.KKAMAjA:Lkmjamka;
+          34: getstatic     #1147               // Field godog.KKAMAjA:Lkmjamka;
+          37: aload_0
+          38: iload_3
+          39: iload         4
+          41: iload_1
+          42: iload_2
+          43: invokevirtual #757                // Method kmjjmmk.KKaMaJa:(Lkmaamma;IIII)V
+          46: getstatic     #1147               // Field godog.KKAMAjA:Lkmjamka;
+          49: getfield      #521                // Field kmjamka.kamAJAk:Lmmajkka;
+          52: putstatic     #1117               // Field godog.kKAMAjA:Lmmajkka;
+          55: new           #530                // class kajjkmk
+          58: dup
+          59: invokespecial #538                // Method kajjkmk."<init>":()V
+          62: putstatic     #1171               // Field godog.KkaMAjA:Lkajjkmk;
+          65: getstatic     #1171               // Field godog.KkaMAjA:Lkajjkmk;
+          68: aload_0
+          69: iload_3
+          70: iload         4
+          72: iload_1
+          73: iload_2
+          74: invokevirtual #757                // Method kmjjmmk.KKaMaJa:(Lkmaamma;IIII)V
+          77: getstatic     #1171               // Field godog.KkaMAjA:Lkajjkmk;
+          80: getfield      #871                // Field kajjkmk.KkaMaJa:Lmaaakka;
+          83: putstatic     #607                // Field godog.kkaMAjA:Lmaaakka;
+          86: getstatic     #1117               // Field godog.kKAMAjA:Lmmajkka;
+          89: getfield      #914                // Field kmaakka.kAMAJaK:I
+          92: putstatic     #548                // Field godog.KAmajAk:I
+          95: getstatic     #1117               // Field godog.kKAMAjA:Lmmajkka;
+          98: getfield      #913                // Field kmaakka.KamAJaK:I
+         101: putstatic     #1114               // Field godog.kAmajAk:I
+         104: return
+
+    void kamajAk();
+      descriptor: ()V
+      flags: (0x0000)
+      Code:
+        stack=6, locals=8, args_size=1
+           0: aload_0
+           1: invokevirtual #1073               // Method godog.KamAjAk:()Ljava/awt/Graphics;
+           4: astore_1
+           5: bipush        13
+           7: istore_2
+           8: invokestatic  #645                // Method java/lang/System.currentTimeMillis:()J
+          11: lstore_3
+          12: iconst_0
+          13: istore        5
+          15: goto          30
+          18: getstatic     #1147               // Field godog.KKAMAjA:Lkmjamka;
+          21: aload_1
+          22: iconst_0
+          23: iconst_0
+          24: invokevirtual #872                // Method kmjjmmk.aKKaMaJ:(Ljava/awt/Graphics;II)V
+          27: iinc          5, 1
+          30: iload         5
+          32: iload_2
+          33: if_icmplt     18
+          36: invokestatic  #645                // Method java/lang/System.currentTimeMillis:()J
+          39: lstore        6
+          41: getstatic     #639                // Field java/lang/System.out:Ljava/io/PrintStream;
+          44: new           #941                // class java/lang/StringBuffer
+          47: dup
+          48: ldc_w         #566                // String slowness
+          51: invokespecial #1045               // Method java/lang/StringBuffer."<init>":(Ljava/lang/String;)V
+          54: lload         6
+          56: lload_3
+          57: lsub
+          58: iload_2
+          59: i2l
+          60: ldiv
+          61: invokevirtual #1003               // Method java/lang/StringBuffer.append:(J)Ljava/lang/StringBuffer;
+          64: invokevirtual #879                // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+          67: invokevirtual #884                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+          70: return
+
+    void KAMAjAk();
+      descriptor: ()V
+      flags: (0x0000)
+      Code:
+        stack=5, locals=7, args_size=1
+           0: aload_0
+           1: getfield      #832                // Field godog.KKaMAjA:Z
+           4: ifeq          16
+           7: aload_0
+           8: iconst_0
+           9: putfield      #832                // Field godog.KKaMAjA:Z
+          12: aload_0
+          13: invokevirtual #787                // Method godog.kamajAk:()V
+          16: aload_0
+          17: getfield      #778                // Field godog.kKaMAjA:I
+          20: iconst_m1
+          21: if_icmpeq     55
+          24: aload_0
+          25: getfield      #806                // Field godog.KkAMAjA:Lmaaakkk;
+          28: ifnonnull     32
+          31: return
+          32: aload_0
+          33: getfield      #806                // Field godog.KkAMAjA:Lmaaakkk;
+          36: aload_0
+          37: getfield      #778                // Field godog.kKaMAjA:I
+          40: aload_0
+          41: getfield      #926                // Field godog.KkAmaJA:Lmaajmka;
+          44: invokevirtual #784                // Method maajmka.kAMAjak:()F
+          47: f2i
+          48: invokevirtual #699                // Method maaakkk.jaKKAMa:(II)Z
+          51: ifne          55
+          54: return
+          55: aload_0
+          56: getfield      #579                // Field godog.kkAmajA:Ljava/lang/String;
+          59: ifnull        75
+          62: aload_0
+          63: aload_0
+          64: getfield      #579                // Field godog.kkAmajA:Ljava/lang/String;
+          67: invokevirtual #643                // Method godog.KAmAJAk:(Ljava/lang/String;)V
+          70: aload_0
+          71: aconst_null
+          72: putfield      #579                // Field godog.kkAmajA:Ljava/lang/String;
+          75: iconst_0
+          76: istore_1
+          77: goto          250
+          80: aload_0
+          81: getfield      #736                // Field godog.KKamaJA:[Ljava/lang/String;
+          84: aload_0
+          85: dup
+          86: getfield      #673                // Field godog.KkAmajA:I
+          89: dup_x1
+          90: iconst_1
+          91: iadd
+          92: putfield      #673                // Field godog.KkAmajA:I
+          95: aaload
+          96: astore_2
+          97: aload_2
+          98: invokevirtual #796                // Method java/lang/String.trim:()Ljava/lang/String;
+         101: invokevirtual #831                // Method java/lang/String.length:()I
+         104: ifeq          266
+         107: aload_2
+         108: iconst_0
+         109: invokevirtual #776                // Method java/lang/String.charAt:(I)C
+         112: bipush        35
+         114: if_icmpeq     266
+         117: aload_2
+         118: invokevirtual #796                // Method java/lang/String.trim:()Ljava/lang/String;
+         121: astore_2
+         122: aload_2
+         123: iconst_0
+         124: invokevirtual #776                // Method java/lang/String.charAt:(I)C
+         127: istore_3
+         128: iload_3
+         129: bipush        95
+         131: if_icmpne     245
+         134: aload_0
+         135: getfield      #778                // Field godog.kKaMAjA:I
+         138: istore        4
+         140: iconst_1
+         141: istore        5
+         143: aload_2
+         144: iconst_1
+         145: invokevirtual #776                // Method java/lang/String.charAt:(I)C
+         148: bipush        95
+         150: if_icmpne     156
+         153: iconst_2
+         154: istore        5
+         156: aload_2
+         157: bipush        32
+         159: invokevirtual #1061               // Method java/lang/String.indexOf:(I)I
+         162: istore        6
+         164: iload         6
+         166: iconst_m1
+         167: if_icmpne     192
+         170: aload_0
+         171: aload_2
+         172: iload         5
+         174: aload_2
+         175: invokevirtual #831                // Method java/lang/String.length:()I
+         178: invokevirtual #1082               // Method java/lang/String.substring:(II)Ljava/lang/String;
+         181: bipush        16
+         183: invokestatic  #534                // Method java/lang/Integer.parseInt:(Ljava/lang/String;I)I
+         186: putfield      #778                // Field godog.kKaMAjA:I
+         189: goto          225
+         192: aload_0
+         193: aload_2
+         194: iload         5
+         196: iload         6
+         198: invokevirtual #1082               // Method java/lang/String.substring:(II)Ljava/lang/String;
+         201: bipush        16
+         203: invokestatic  #534                // Method java/lang/Integer.parseInt:(Ljava/lang/String;I)I
+         206: putfield      #778                // Field godog.kKaMAjA:I
+         209: aload_0
+         210: aload_2
+         211: iload         6
+         213: iconst_1
+         214: iadd
+         215: aload_2
+         216: invokevirtual #831                // Method java/lang/String.length:()I
+         219: invokevirtual #1082               // Method java/lang/String.substring:(II)Ljava/lang/String;
+         222: putfield      #579                // Field godog.kkAmajA:Ljava/lang/String;
+         225: iload         5
+         227: iconst_2
+         228: if_icmpne     242
+         231: aload_0
+         232: iload         4
+         234: aload_0
+         235: getfield      #778                // Field godog.kKaMAjA:I
+         238: iadd
+         239: putfield      #778                // Field godog.kKaMAjA:I
+         242: iconst_1
+         243: istore_1
+         244: return
+         245: aload_0
+         246: aload_2
+         247: invokevirtual #643                // Method godog.KAmAJAk:(Ljava/lang/String;)V
+         250: iload_1
+         251: ifne          266
+         254: aload_0
+         255: getfield      #673                // Field godog.KkAmajA:I
+         258: aload_0
+         259: getfield      #736                // Field godog.KKamaJA:[Ljava/lang/String;
+         262: arraylength
+         263: if_icmplt     80
+         266: return
+
+    void KAmAJAk(java.lang.String);
+      descriptor: (Ljava/lang/String;)V
+      flags: (0x0000)
+      Code:
+        stack=3, locals=6, args_size=2
+           0: new           #727                // class java/util/StringTokenizer
+           3: dup
+           4: aload_1
+           5: invokespecial #663                // Method java/util/StringTokenizer."<init>":(Ljava/lang/String;)V
+           8: astore_2
+           9: aload_2
+          10: invokevirtual #1148               // Method java/util/StringTokenizer.hasMoreTokens:()Z
+          13: ifeq          647
+          16: aload_2
+          17: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+          20: astore_3
+          21: aload_3
+          22: ldc_w         #1042               // String init
+          25: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+          28: ifeq          40
+          31: aload_0
+          32: aload_2
+          33: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+          36: invokevirtual #967                // Method godog.kAMAjAk:(Ljava/lang/String;)V
+          39: return
+          40: aload_3
+          41: ldc_w         #816                // String show
+          44: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+          47: ifeq          59
+          50: aload_0
+          51: aload_2
+          52: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+          55: invokevirtual #572                // Method godog.kaMAJAk:(Ljava/lang/String;)V
+          58: return
+          59: aload_3
+          60: ldc_w         #1187               // String msg
+          63: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+          66: ifeq          136
+          69: aload_2
+          70: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+          73: astore        4
+          75: ldc_w         #1193               // String
+          78: astore        5
+          80: goto          113
+          83: new           #941                // class java/lang/StringBuffer
+          86: dup
+          87: aload         5
+          89: invokestatic  #986                // Method java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+          92: invokespecial #1045               // Method java/lang/StringBuffer."<init>":(Ljava/lang/String;)V
+          95: aload_2
+          96: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+          99: invokevirtual #992                // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+         102: ldc_w         #1186               // String
+         105: invokevirtual #992                // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+         108: invokevirtual #879                // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+         111: astore        5
+         113: aload_2
+         114: invokevirtual #1148               // Method java/util/StringTokenizer.hasMoreTokens:()Z
+         117: ifne          83
+         120: aload         5
+         122: invokevirtual #796                // Method java/lang/String.trim:()Ljava/lang/String;
+         125: astore        5
+         127: aload_0
+         128: aload         4
+         130: aload         5
+         132: invokevirtual #680                // Method godog.KAMajAk:(Ljava/lang/String;Ljava/lang/String;)V
+         135: return
+         136: aload_3
+         137: ldc_w         #838                // String shutdown
+         140: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         143: ifeq          151
+         146: aload_0
+         147: invokevirtual #613                // Method godog.kAMajAk:()V
+         150: return
+         151: aload_3
+         152: ldc_w         #1027               // String post
+         155: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         158: ifeq          173
+         161: aload_0
+         162: aload_2
+         163: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+         166: invokestatic  #532                // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+         169: invokevirtual #1010               // Method godog.KamAJAk:(I)V
+         172: return
+         173: aload_3
+         174: ldc_w         #1165               // String layer
+         177: invokevirtual #858                // Method java/lang/String.startsWith:(Ljava/lang/String;)Z
+         180: ifeq          374
+         183: aload_2
+         184: invokevirtual #1148               // Method java/util/StringTokenizer.hasMoreTokens:()Z
+         187: ifeq          209
+         190: aload_0
+         191: getfield      #777                // Field godog.kkAMajA:Ljava/util/Hashtable;
+         194: aload_2
+         195: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+         198: invokevirtual #747                // Method java/util/Hashtable.get:(Ljava/lang/Object;)Ljava/lang/Object;
+         201: checkcast     #602                // class mmajkka
+         204: astore        4
+         206: goto          212
+         209: aconst_null
+         210: astore        4
+         212: iconst_5
+         213: newarray       int
+         215: astore        5
+         217: aload_2
+         218: invokevirtual #1148               // Method java/util/StringTokenizer.hasMoreTokens:()Z
+         221: ifeq          235
+         224: aload         5
+         226: iconst_0
+         227: aload_2
+         228: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+         231: invokestatic  #532                // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+         234: iastore
+         235: aload_2
+         236: invokevirtual #1148               // Method java/util/StringTokenizer.hasMoreTokens:()Z
+         239: ifeq          253
+         242: aload         5
+         244: iconst_1
+         245: aload_2
+         246: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+         249: invokestatic  #532                // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+         252: iastore
+         253: aload_2
+         254: invokevirtual #1148               // Method java/util/StringTokenizer.hasMoreTokens:()Z
+         257: ifeq          271
+         260: aload         5
+         262: iconst_2
+         263: aload_2
+         264: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+         267: invokestatic  #532                // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+         270: iastore
+         271: aload_2
+         272: invokevirtual #1148               // Method java/util/StringTokenizer.hasMoreTokens:()Z
+         275: ifeq          289
+         278: aload         5
+         280: iconst_3
+         281: aload_2
+         282: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+         285: invokestatic  #532                // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+         288: iastore
+         289: aload_2
+         290: invokevirtual #1148               // Method java/util/StringTokenizer.hasMoreTokens:()Z
+         293: ifeq          307
+         296: aload         5
+         298: iconst_4
+         299: aload_2
+         300: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+         303: invokestatic  #532                // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+         306: iastore
+         307: aload_3
+         308: ldc_w         #851                // String layer0
+         311: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         314: ifeq          329
+         317: aload_0
+         318: aload         4
+         320: putfield      #551                // Field godog.KKAMajA:Lmmajkka;
+         323: aload_0
+         324: aload         5
+         326: putfield      #1101               // Field godog.kkaMajA:[I
+         329: aload_3
+         330: ldc_w         #850                // String layer1
+         333: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         336: ifeq          351
+         339: aload_0
+         340: aload         4
+         342: putfield      #1188               // Field godog.kKAMajA:Lmmajkka;
+         345: aload_0
+         346: aload         5
+         348: putfield      #883                // Field godog.KKaMajA:[I
+         351: aload_3
+         352: ldc_w         #849                // String layer2
+         355: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         358: ifeq          647
+         361: aload_0
+         362: aload         4
+         364: putfield      #1185               // Field godog.KkaMajA:Lmmajkka;
+         367: aload_0
+         368: aload         5
+         370: putfield      #829                // Field godog.kKaMajA:[I
+         373: return
+         374: aload_3
+         375: ldc_w         #535                // String mod
+         378: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         381: ifeq          395
+         384: aload_0
+         385: aload_0
+         386: getfield      #647                // Field godog.KKamAjA:Lmaaakkk;
+         389: bipush        96
+         391: invokevirtual #1141               // Method godog.kamAJAk:(Lmaaakkk;I)V
+         394: return
+         395: aload_3
+         396: ldc_w         #988                // String go
+         399: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         402: ifeq          427
+         405: aload_2
+         406: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+         409: invokestatic  #532                // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+         412: istore        4
+         414: aload_0
+         415: getfield      #806                // Field godog.KkAMAjA:Lmaaakkk;
+         418: getfield      #823                // Field maaakkk.MaJAkKa:Lkmaakkk;
+         421: iload         4
+         423: invokevirtual #1173               // Method kmaakkk.JaKKama:(I)V
+         426: return
+         427: aload_3
+         428: ldc_w         #1028               // String filmbox
+         431: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         434: ifeq          448
+         437: aload_0
+         438: aconst_null
+         439: putfield      #1091               // Field godog.KKaMAJA:Lkajakka;
+         442: aload_0
+         443: aconst_null
+         444: putfield      #903                // Field godog.kkaMAJA:Lkmjjmma;
+         447: return
+         448: aload_3
+         449: ldc_w         #782                // String clear24
+         452: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         455: ifeq          495
+         458: aload_2
+         459: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+         462: bipush        16
+         464: invokestatic  #534                // Method java/lang/Integer.parseInt:(Ljava/lang/String;I)I
+         467: istore        4
+         469: getstatic     #1147               // Field godog.KKAMAjA:Lkmjamka;
+         472: iload         4
+         474: invokevirtual #1136               // Method kmjamka.kAmaJAk:(I)V
+         477: getstatic     #1147               // Field godog.KKAMAjA:Lkmjamka;
+         480: getfield      #521                // Field kmjamka.kamAJAk:Lmmajkka;
+         483: invokevirtual #1008               // Method mmajkka.aMaJAkk:()V
+         486: getstatic     #1147               // Field godog.KKAMAjA:Lkmjamka;
+         489: iload         4
+         491: invokevirtual #1136               // Method kmjamka.kAmaJAk:(I)V
+         494: return
+         495: aload_3
+         496: ldc_w         #767                // String clear8
+         499: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         502: ifeq          522
+         505: aload_2
+         506: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+         509: bipush        16
+         511: invokestatic  #534                // Method java/lang/Integer.parseInt:(Ljava/lang/String;I)I
+         514: pop
+         515: getstatic     #1171               // Field godog.KkaMAjA:Lkajjkmk;
+         518: invokevirtual #980                // Method kajjkmk.akKaMaJ:()V
+         521: return
+         522: aload_3
+         523: ldc_w         #520                // String kill
+         526: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         529: ifeq          541
+         532: aload_0
+         533: aload_2
+         534: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+         537: invokevirtual #1152               // Method godog.KaMajAk:(Ljava/lang/String;)V
+         540: return
+         541: aload_3
+         542: ldc_w         #743                // String killmod
+         545: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         548: ifeq          572
+         551: aload_2
+         552: invokevirtual #765                // Method java/util/StringTokenizer.nextToken:()Ljava/lang/String;
+         555: invokestatic  #532                // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+         558: istore        4
+         560: iload         4
+         562: iconst_1
+         563: if_icmpne     647
+         566: aload_0
+         567: aconst_null
+         568: putfield      #647                // Field godog.KKamAjA:Lmaaakkk;
+         571: return
+         572: aload_3
+         573: ldc_w         #1161               // String reality
+         576: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         579: ifeq          627
+         582: aload_0
+         583: getfield      #924                // Field godog.kKAmAjA:Lmajamka;
+         586: aload_0
+         587: invokevirtual #803                // Method java/awt/Container.remove:(Ljava/awt/Component;)V
+         590: aload_0
+         591: iconst_0
+         592: iconst_0
+         593: invokevirtual #845                // Method java/awt/Component.move:(II)V
+         596: aload_0
+         597: getfield      #818                // Field godog.KKAmajA:Ljava/awt/Container;
+         600: ldc_w         #748                // String Center
+         603: aload_0
+         604: invokevirtual #785                // Method java/awt/Container.add:(Ljava/lang/String;Ljava/awt/Component;)Ljava/awt/Component;
+         607: pop
+         608: aload_0
+         609: getfield      #818                // Field godog.KKAmajA:Ljava/awt/Container;
+         612: invokevirtual #790                // Method java/awt/Container.layout:()V
+         615: aload_0
+         616: invokevirtual #862                // Method java/awt/Component.show:()V
+         619: aload_0
+         620: getfield      #924                // Field godog.kKAmAjA:Lmajamka;
+         623: invokevirtual #786                // Method majamka.dispose:()V
+         626: return
+         627: aload_3
+         628: ldc_w         #542                // String loaded
+         631: invokevirtual #826                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         634: ifeq          647
+         637: aload_0
+         638: iconst_0
+         639: putfield      #719                // Field godog.kKAMAJA:Z
+         642: aload_0
+         643: lconst_0
+         644: invokevirtual #769                // Method java/awt/Component.repaint:(J)V
+         647: return
+
+    void kAMAjAk(java.lang.String);
+      descriptor: (Ljava/lang/String;)V
+      flags: (0x0000)
+      Code:
+        stack=5, locals=4, args_size=2
+           0: getstatic     #639                // Field java/lang/System.out:Ljava/io/PrintStream;
+           3: aload_0
+           4: dup
+           5: getfield      #935                // Field godog.kkamajA:I
+           8: dup_x1
+           9: iconst_1
+          10: iadd
+          11: putfield      #935                // Field godog.kkamajA:I
+          14: invokestatic  #966                // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+          17: invokevirtual #1050               // Method java/io/PrintStream.print:(Ljava/lang/String;)V
+          20: aload_0
+          21: getfield      #718                // Field godog.kKAmajA:Ljava/util/Hashtable;
+          24: aload_1
+          25: invokevirtual #747                // Method java/util/Hashtable.get:(Ljava/lang/Object;)Ljava/lang/Object;
+          28: checkcast     #1179               // class kmjjmma
+          31: astore_2
+          32: aload_2
+          33: ifnull        48
+          36: aload_2
+          37: aload_0
+          38: invokevirtual #877                // Method kmjjmma.mAjakkA:(Lkmaamma;)V
+          41: invokestatic  #528                // Method java/lang/System.runFinalization:()V
+          44: invokestatic  #573                // Method java/lang/System.gc:()V
+          47: return
+          48: aload_0
+          49: getfield      #998                // Field godog.KkamajA:Ljava/util/Hashtable;
+          52: aload_1
+          53: invokevirtual #747                // Method java/util/Hashtable.get:(Ljava/lang/Object;)Ljava/lang/Object;
+          56: checkcast     #1133               // class kajakka
+          59: astore_3
+          60: aload_3
+          61: ifnull        76
+          64: aload_3
+          65: aload_0
+          66: invokevirtual #580                // Method kajakka.AmajaKk:(Lkmaamma;)V
+          69: invokestatic  #528                // Method java/lang/System.runFinalization:()V
+          72: invokestatic  #573                // Method java/lang/System.gc:()V
+          75: return
+          76: getstatic     #639                // Field java/lang/System.out:Ljava/io/PrintStream;
+          79: new           #941                // class java/lang/StringBuffer
+          82: dup
+          83: ldc_w         #651                // String muhmuscript error: no such routine
+          86: invokespecial #1045               // Method java/lang/StringBuffer."<init>":(Ljava/lang/String;)V
+          89: aload_1
+          90: invokevirtual #992                // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+          93: invokevirtual #879                // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+          96: invokevirtual #884                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+          99: return
+
+    void KAMajAk(java.lang.String, java.lang.String);
+      descriptor: (Ljava/lang/String;Ljava/lang/String;)V
+      flags: (0x0000)
+      Code:
+        stack=4, locals=5, args_size=3
+           0: aload_0
+           1: getfield      #718                // Field godog.kKAmajA:Ljava/util/Hashtable;
+           4: aload_1
+           5: invokevirtual #747                // Method java/util/Hashtable.get:(Ljava/lang/Object;)Ljava/lang/Object;
+           8: checkcast     #1179               // class kmjjmma
+          11: astore_3
+          12: aload_3
+          13: ifnull        31
+          16: aload_3
+          17: aload_2
+          18: aload_0
+          19: getfield      #1058               // Field godog.KKAmaJA:F
+          22: aload_0
+          23: getfield      #546                // Field godog.KkamaJA:F
+          26: fsub
+          27: invokevirtual #537                // Method kmjjmma.majakkA:(Ljava/lang/String;F)V
+          30: return
+          31: aload_0
+          32: getfield      #998                // Field godog.KkamajA:Ljava/util/Hashtable;
+          35: aload_1
+          36: invokevirtual #747                // Method java/util/Hashtable.get:(Ljava/lang/Object;)Ljava/lang/Object;
+          39: checkcast     #1133               // class kajakka
+          42: astore        4
+          44: aload         4
+          46: ifnull        65
+          49: aload         4
+          51: aload_2
+          52: aload_0
+          53: getfield      #1058               // Field godog.KKAmaJA:F
+          56: aload_0
+          57: getfield      #546                // Field godog.KkamaJA:F
+          60: fsub
+          61: invokevirtual #1092               // Method kajakka.AMAjaKk:(Ljava/lang/String;F)V
+          64: return
+          65: getstatic     #639                // Field java/lang/System.out:Ljava/io/PrintStream;
+          68: new           #941                // class java/lang/StringBuffer
+          71: dup
+          72: ldc_w         #651                // String muhmuscript error: no such routine
+          75: invokespecial #1045               // Method java/lang/StringBuffer."<init>":(Ljava/lang/String;)V
+          78: aload_1
+          79: invokevirtual #992                // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+          82: invokevirtual #879                // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+          85: invokevirtual #884                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+          88: return
+
+    void kaMAJAk(java.lang.String);
+      descriptor: (Ljava/lang/String;)V
+      flags: (0x0000)
+      Code:
+        stack=4, locals=4, args_size=2
+           0: aload_0
+           1: getfield      #926                // Field godog.KkAmaJA:Lmaajmka;
+           4: ldc2_w        #1168               // long 80l
+           7: invokevirtual #1037               // Method maajmka.kaMAjak:(J)V
+          10: aload_0
+          11: aload_0
+          12: getfield      #926                // Field godog.KkAmaJA:Lmaajmka;
+          15: invokevirtual #894                // Method maajmka.kAmajak:()J
+          18: l2f
+          19: ldc_w         #1104               // float 1000.0f
+          22: fdiv
+          23: putfield      #1058               // Field godog.KKAmaJA:F
+          26: aload_0
+          27: aload_0
+          28: getfield      #1058               // Field godog.KKAmaJA:F
+          31: ldc_w         #1044               // float 0.08f
+          34: fsub
+          35: putfield      #997                // Field godog.kKAmaJA:F
+          38: aload_0
+          39: aload_0
+          40: getfield      #1058               // Field godog.KKAmaJA:F
+          43: putfield      #546                // Field godog.KkamaJA:F
+          46: aload_0
+          47: getfield      #718                // Field godog.kKAmajA:Ljava/util/Hashtable;
+          50: aload_1
+          51: invokevirtual #747                // Method java/util/Hashtable.get:(Ljava/lang/Object;)Ljava/lang/Object;
+          54: checkcast     #1179               // class kmjjmma
+          57: astore_2
+          58: aload_2
+          59: ifnull        77
+          62: aload_2
+          63: invokevirtual #1131               // Method kmjjmma.maJAkkA:()V
+          66: aload_0
+          67: aload_2
+          68: putfield      #903                // Field godog.kkaMAJA:Lkmjjmma;
+          71: aload_0
+          72: aconst_null
+          73: putfield      #1091               // Field godog.KKaMAJA:Lkajakka;
+          76: return
+          77: aload_0
+          78: getfield      #998                // Field godog.KkamajA:Ljava/util/Hashtable;
+          81: aload_1
+          82: invokevirtual #747                // Method java/util/Hashtable.get:(Ljava/lang/Object;)Ljava/lang/Object;
+          85: checkcast     #1133               // class kajakka
+          88: astore_3
+          89: aload_3
+          90: ifnull        108
+          93: aload_3
+          94: invokevirtual #1013               // Method kajakka.AMajaKk:()V
+          97: aload_0
+          98: aconst_null
+          99: putfield      #903                // Field godog.kkaMAJA:Lkmjjmma;
+         102: aload_0
+         103: aload_3
+         104: putfield      #1091               // Field godog.KKaMAJA:Lkajakka;
+         107: return
+         108: getstatic     #639                // Field java/lang/System.out:Ljava/io/PrintStream;
+         111: new           #941                // class java/lang/StringBuffer
+         114: dup
+         115: ldc_w         #651                // String muhmuscript error: no such routine
+         118: invokespecial #1045               // Method java/lang/StringBuffer."<init>":(Ljava/lang/String;)V
+         121: aload_1
+         122: invokevirtual #992                // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+         125: invokevirtual #879                // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+         128: invokevirtual #884                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+         131: return
+
+    void KaMajAk(java.lang.String);
+      descriptor: (Ljava/lang/String;)V
+      flags: (0x0000)
+      Code:
+        stack=4, locals=4, args_size=2
+           0: aload_0
+           1: getfield      #718                // Field godog.kKAmajA:Ljava/util/Hashtable;
+           4: aload_1
+           5: invokevirtual #747                // Method java/util/Hashtable.get:(Ljava/lang/Object;)Ljava/lang/Object;
+           8: checkcast     #1179               // class kmjjmma
+          11: astore_2
+          12: aload_2
+          13: ifnull        36
+          16: aload_2
+          17: invokevirtual #1020               // Method kmjjmma.MAjakkA:()V
+          20: aload_0
+          21: getfield      #718                // Field godog.kKAmajA:Ljava/util/Hashtable;
+          24: aload_1
+          25: invokevirtual #562                // Method java/util/Hashtable.remove:(Ljava/lang/Object;)Ljava/lang/Object;
+          28: pop
+          29: invokestatic  #528                // Method java/lang/System.runFinalization:()V
+          32: invokestatic  #573                // Method java/lang/System.gc:()V
+          35: return
+          36: aload_0
+          37: getfield      #998                // Field godog.KkamajA:Ljava/util/Hashtable;
+          40: aload_1
+          41: invokevirtual #747                // Method java/util/Hashtable.get:(Ljava/lang/Object;)Ljava/lang/Object;
+          44: checkcast     #1133               // class kajakka
+          47: astore_3
+          48: aload_3
+          49: ifnull        72
+          52: aload_3
+          53: invokevirtual #618                // Method kajakka.aMAjaKk:()V
+          56: aload_0
+          57: getfield      #998                // Field godog.KkamajA:Ljava/util/Hashtable;
+          60: aload_1
+          61: invokevirtual #562                // Method java/util/Hashtable.remove:(Ljava/lang/Object;)Ljava/lang/Object;
+          64: pop
+          65: invokestatic  #528                // Method java/lang/System.runFinalization:()V
+          68: invokestatic  #573                // Method java/lang/System.gc:()V
+          71: return
+          72: getstatic     #639                // Field java/lang/System.out:Ljava/io/PrintStream;
+          75: new           #941                // class java/lang/StringBuffer
+          78: dup
+          79: ldc_w         #651                // String muhmuscript error: no such routine
+          82: invokespecial #1045               // Method java/lang/StringBuffer."<init>":(Ljava/lang/String;)V
+          85: aload_1
+          86: invokevirtual #992                // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+          89: invokevirtual #879                // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+          92: invokevirtual #884                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+          95: return
+
+    void KamAJAk(int);
+      descriptor: (I)V
+      flags: (0x0000)
+      Code:
+        stack=2, locals=2, args_size=2
+           0: aload_0
+           1: fconst_0
+           2: putfield      #612                // Field godog.kKamajA:F
+           5: aload_0
+           6: iload_1
+           7: putfield      #891                // Field godog.KkAMajA:I
+          10: aload_0
+          11: aload_0
+          12: getfield      #1058               // Field godog.KKAmaJA:F
+          15: putfield      #676                // Field godog.KKamajA:F
+          18: return
+
+    void kaMAjAk(kmjjmma);
+      descriptor: (Lkmjjmma;)V
+      flags: (0x0000)
+      Code:
+        stack=3, locals=2, args_size=2
+           0: aload_0
+           1: getfield      #718                // Field godog.kKAmajA:Ljava/util/Hashtable;
+           4: aload_1
+           5: invokevirtual #1153               // Method kmjjmma.MaJAkkA:()Ljava/lang/String;
+           8: aload_1
+           9: invokevirtual #584                // Method java/util/Hashtable.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+          12: pop
+          13: return
+
+    void KamajAk(kajakka);
+      descriptor: (Lkajakka;)V
+      flags: (0x0000)
+      Code:
+        stack=3, locals=2, args_size=2
+           0: aload_0
+           1: getfield      #998                // Field godog.KkamajA:Ljava/util/Hashtable;
+           4: aload_1
+           5: invokevirtual #527                // Method kajakka.amajaKk:()Ljava/lang/String;
+           8: aload_1
+           9: invokevirtual #584                // Method java/util/Hashtable.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+          12: pop
+          13: return
+
+    public void kAMAJAk();
+      descriptor: ()V
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=5, locals=3, args_size=1
+           0: aload_0
+           1: new           #628                // class kmaakmk
+           4: dup
+           5: invokespecial #923                // Method kmaakmk."<init>":()V
+           8: invokevirtual #852                // Method godog.KamajAk:(Lkajakka;)V
+          11: aload_0
+          12: new           #531                // class kajjmma
+          15: dup
+          16: invokespecial #1026               // Method kajjmma."<init>":()V
+          19: invokevirtual #671                // Method godog.kaMAjAk:(Lkmjjmma;)V
+          22: aload_0
+          23: new           #1033               // class kmajkmk
+          26: dup
+          27: invokespecial #1145               // Method kmajkmk."<init>":()V
+          30: invokevirtual #671                // Method godog.kaMAjAk:(Lkmjjmma;)V
+          33: aload_0
+          34: new           #856                // class maajkka
+          37: dup
+          38: invokespecial #901                // Method maajkka."<init>":()V
+          41: invokevirtual #671                // Method godog.kaMAjAk:(Lkmjjmma;)V
+          44: aload_0
+          45: new           #595                // class maaamma
+          48: dup
+          49: invokespecial #791                // Method maaamma."<init>":()V
+          52: invokevirtual #671                // Method godog.kaMAjAk:(Lkmjjmma;)V
+          55: aload_0
+          56: new           #964                // class majakma
+          59: dup
+          60: invokespecial #654                // Method majakma."<init>":()V
+          63: invokevirtual #671                // Method godog.kaMAjAk:(Lkmjjmma;)V
+          66: aload_0
+          67: new           #1022               // class majakkk
+          70: dup
+          71: invokespecial #1178               // Method majakkk."<init>":()V
+          74: invokevirtual #671                // Method godog.kaMAjAk:(Lkmjjmma;)V
+          77: aload_0
+          78: new           #887                // class java/util/Hashtable
+          81: dup
+          82: invokespecial #820                // Method java/util/Hashtable."<init>":()V
+          85: putfield      #777                // Field godog.kkAMajA:Ljava/util/Hashtable;
+          88: iconst_0
+          89: istore_1
+          90: goto          138
+          93: getstatic     #624                // Field godog.kAMajAk:[Ljava/lang/String;
+          96: iload_1
+          97: aaload
+          98: bipush        7
+         100: getstatic     #624                // Field godog.kAMajAk:[Ljava/lang/String;
+         103: iload_1
+         104: aaload
+         105: bipush        46
+         107: invokevirtual #1061               // Method java/lang/String.indexOf:(I)I
+         110: invokevirtual #1082               // Method java/lang/String.substring:(II)Ljava/lang/String;
+         113: astore_2
+         114: aload_0
+         115: getfield      #777                // Field godog.kkAMajA:Ljava/util/Hashtable;
+         118: aload_2
+         119: aload_0
+         120: getstatic     #624                // Field godog.kAMajAk:[Ljava/lang/String;
+         123: iload_1
+         124: aaload
+         125: invokevirtual #881                // Method kmaamma.aMajAKK:(Ljava/lang/String;)Ljava/net/URL;
+         128: invokestatic  #1116               // Method kmaakma.MAjaKkA:(Ljava/net/URL;)Lkmaakka;
+         131: invokevirtual #584                // Method java/util/Hashtable.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+         134: pop
+         135: iinc          1, 1
+         138: iload_1
+         139: getstatic     #624                // Field godog.kAMajAk:[Ljava/lang/String;
+         142: arraylength
+         143: if_icmplt     93
+         146: return
+
+    public void run();
+      descriptor: ()V
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=6, locals=4, args_size=1
+           0: aload_0
+           1: invokevirtual #730                // Method godog.KaMAjAk:()V
+           4: invokestatic  #573                // Method java/lang/System.gc:()V
+           7: invokestatic  #528                // Method java/lang/System.runFinalization:()V
+          10: aload_0
+          11: invokevirtual #1127               // Method godog.kAmajAk:()V
+          14: aload_0
+          15: invokevirtual #942                // Method godog.kAMAJAk:()V
+          18: aload_0
+          19: invokevirtual #616                // Method godog.kAmAJAk:()V
+          22: aload_0
+          23: invokevirtual #554                // Method godog.KAmajAk:()V
+          26: aload_0
+          27: aload_0
+          28: ldc_w         #1162               // String data/rocket.xm
+          31: invokevirtual #911                // Method godog.kamAjAk:(Ljava/lang/String;)Lmaaakkk;
+          34: putfield      #647                // Field godog.KKamAjA:Lmaaakkk;
+          37: aload_0
+          38: invokevirtual #1125               // Method godog.kaMajAk:()V
+          41: aload_0
+          42: invokevirtual #1125               // Method godog.kaMajAk:()V
+          45: aload_0
+          46: new           #722                // class maajmka
+          49: dup
+          50: bipush        10
+          52: bipush        60
+          54: invokespecial #1102               // Method maajmka."<init>":(II)V
+          57: putfield      #926                // Field godog.KkAmaJA:Lmaajmka;
+          60: aload_0
+          61: aload_0
+          62: iconst_0
+          63: iconst_0
+          64: sipush        512
+          67: sipush        256
+          70: invokevirtual #1021               // Method godog.KAMAJAk:(Ljava/awt/Component;IIII)V
+          73: goto          697
+          76: getstatic     #886                // Field godog.KkAmAJA:Z
+          79: ifne          94
+          82: iconst_1
+          83: putstatic     #886                // Field godog.KkAmAJA:Z
+          86: aload_0
+          87: aload_0
+          88: invokevirtual #1073               // Method godog.KamAjAk:()Ljava/awt/Graphics;
+          91: putfield      #822                // Field godog.kkAmAJA:Ljava/awt/Graphics;
+          94: aload_0
+          95: invokevirtual #1074               // Method godog.KAMAjAk:()V
+          98: aload_0
+          99: getfield      #822                // Field godog.kkAmAJA:Ljava/awt/Graphics;
+         102: astore_1
+         103: aload_0
+         104: getfield      #1176               // Field godog.kkamaJA:Z
+         107: ifeq          115
+         110: aload_0
+         111: aload_1
+         112: invokevirtual #700                // Method godog.KAmAjAk:(Ljava/awt/Graphics;)V
+         115: aload_0
+         116: aload_0
+         117: getfield      #926                // Field godog.KkAmaJA:Lmaajmka;
+         120: invokevirtual #894                // Method maajmka.kAmajak:()J
+         123: l2f
+         124: ldc_w         #1104               // float 1000.0f
+         127: fdiv
+         128: putfield      #1058               // Field godog.KKAmaJA:F
+         131: aload_0
+         132: aload_0
+         133: getfield      #1058               // Field godog.KKAmaJA:F
+         136: aload_0
+         137: getfield      #997                // Field godog.kKAmaJA:F
+         140: fsub
+         141: putfield      #837                // Field godog.kkAmaJA:F
+         144: aload_0
+         145: getfield      #903                // Field godog.kkaMAJA:Lkmjjmma;
+         148: ifnull        634
+         151: aload_0
+         152: getfield      #903                // Field godog.kkaMAJA:Lkmjjmma;
+         155: getstatic     #1117               // Field godog.kKAMAjA:Lmmajkka;
+         158: aload_0
+         159: getfield      #1058               // Field godog.KKAmaJA:F
+         162: aload_0
+         163: getfield      #546                // Field godog.KkamaJA:F
+         166: fsub
+         167: aload_0
+         168: getfield      #837                // Field godog.kkAmaJA:F
+         171: invokevirtual #583                // Method kmjjmma.MajakkA:(Lmmajkka;FF)V
+         174: aload_0
+         175: getfield      #551                // Field godog.KKAMajA:Lmmajkka;
+         178: ifnull        298
+         181: aload_0
+         182: getfield      #1101               // Field godog.kkaMajA:[I
+         185: iconst_0
+         186: iaload
+         187: i2d
+         188: invokestatic  #1080               // Method java/lang/Math.random:()D
+         191: dmul
+         192: aload_0
+         193: getfield      #1101               // Field godog.kkaMajA:[I
+         196: iconst_2
+         197: iaload
+         198: i2d
+         199: dadd
+         200: d2i
+         201: ineg
+         202: istore_2
+         203: aload_0
+         204: getfield      #1101               // Field godog.kkaMajA:[I
+         207: iconst_1
+         208: iaload
+         209: i2d
+         210: invokestatic  #1080               // Method java/lang/Math.random:()D
+         213: dmul
+         214: aload_0
+         215: getfield      #1101               // Field godog.kkaMajA:[I
+         218: iconst_3
+         219: iaload
+         220: i2d
+         221: dadd
+         222: d2i
+         223: ineg
+         224: istore_3
+         225: aload_0
+         226: getfield      #1101               // Field godog.kkaMajA:[I
+         229: iconst_4
+         230: iaload
+         231: ifle          286
+         234: goto          276
+         237: getstatic     #1117               // Field godog.kKAMAjA:Lmmajkka;
+         240: aload_0
+         241: getfield      #551                // Field godog.KKAMajA:Lmmajkka;
+         244: iload_2
+         245: iload_3
+         246: invokevirtual #764                // Method mmajkka.AMAJakk:(Lmmajkka;II)V
+         249: iload_2
+         250: aload_0
+         251: getfield      #551                // Field godog.KKAMajA:Lmmajkka;
+         254: getfield      #914                // Field kmaakka.kAMAJaK:I
+         257: iadd
+         258: istore_2
+         259: iload_2
+         260: sipush        512
+         263: if_icmplt     237
+         266: iload_3
+         267: aload_0
+         268: getfield      #551                // Field godog.KKAMajA:Lmmajkka;
+         271: getfield      #913                // Field kmaakka.KamAJaK:I
+         274: iadd
+         275: istore_3
+         276: iload_3
+         277: sipush        256
+         280: if_icmplt     259
+         283: goto          298
+         286: getstatic     #1117               // Field godog.kKAMAjA:Lmmajkka;
+         289: aload_0
+         290: getfield      #551                // Field godog.KKAMajA:Lmmajkka;
+         293: iload_2
+         294: iload_3
+         295: invokevirtual #764                // Method mmajkka.AMAJakk:(Lmmajkka;II)V
+         298: aload_0
+         299: getfield      #1188               // Field godog.kKAMajA:Lmmajkka;
+         302: ifnull        422
+         305: aload_0
+         306: getfield      #883                // Field godog.KKaMajA:[I
+         309: iconst_0
+         310: iaload
+         311: i2d
+         312: invokestatic  #1080               // Method java/lang/Math.random:()D
+         315: dmul
+         316: aload_0
+         317: getfield      #883                // Field godog.KKaMajA:[I
+         320: iconst_2
+         321: iaload
+         322: i2d
+         323: dadd
+         324: d2i
+         325: ineg
+         326: istore_2
+         327: aload_0
+         328: getfield      #883                // Field godog.KKaMajA:[I
+         331: iconst_1
+         332: iaload
+         333: i2d
+         334: invokestatic  #1080               // Method java/lang/Math.random:()D
+         337: dmul
+         338: aload_0
+         339: getfield      #883                // Field godog.KKaMajA:[I
+         342: iconst_3
+         343: iaload
+         344: i2d
+         345: dadd
+         346: d2i
+         347: ineg
+         348: istore_3
+         349: aload_0
+         350: getfield      #883                // Field godog.KKaMajA:[I
+         353: iconst_4
+         354: iaload
+         355: ifle          410
+         358: goto          400
+         361: getstatic     #1117               // Field godog.kKAMAjA:Lmmajkka;
+         364: aload_0
+         365: getfield      #1188               // Field godog.kKAMajA:Lmmajkka;
+         368: iload_2
+         369: iload_3
+         370: invokevirtual #1167               // Method mmajkka.amAJAkk:(Lmmajkka;II)V
+         373: iload_2
+         374: aload_0
+         375: getfield      #1188               // Field godog.kKAMajA:Lmmajkka;
+         378: getfield      #914                // Field kmaakka.kAMAJaK:I
+         381: iadd
+         382: istore_2
+         383: iload_2
+         384: sipush        512
+         387: if_icmplt     361
+         390: iload_3
+         391: aload_0
+         392: getfield      #1188               // Field godog.kKAMajA:Lmmajkka;
+         395: getfield      #913                // Field kmaakka.KamAJaK:I
+         398: iadd
+         399: istore_3
+         400: iload_3
+         401: sipush        256
+         404: if_icmplt     383
+         407: goto          422
+         410: getstatic     #1117               // Field godog.kKAMAjA:Lmmajkka;
+         413: aload_0
+         414: getfield      #1188               // Field godog.kKAMajA:Lmmajkka;
+         417: iload_2
+         418: iload_3
+         419: invokevirtual #1167               // Method mmajkka.amAJAkk:(Lmmajkka;II)V
+         422: aload_0
+         423: getfield      #1185               // Field godog.KkaMajA:Lmmajkka;
+         426: ifnull        546
+         429: aload_0
+         430: getfield      #829                // Field godog.kKaMajA:[I
+         433: iconst_0
+         434: iaload
+         435: i2d
+         436: invokestatic  #1080               // Method java/lang/Math.random:()D
+         439: dmul
+         440: aload_0
+         441: getfield      #829                // Field godog.kKaMajA:[I
+         444: iconst_2
+         445: iaload
+         446: i2d
+         447: dadd
+         448: d2i
+         449: ineg
+         450: istore_2
+         451: aload_0
+         452: getfield      #829                // Field godog.kKaMajA:[I
+         455: iconst_1
+         456: iaload
+         457: i2d
+         458: invokestatic  #1080               // Method java/lang/Math.random:()D
+         461: dmul
+         462: aload_0
+         463: getfield      #829                // Field godog.kKaMajA:[I
+         466: iconst_3
+         467: iaload
+         468: i2d
+         469: dadd
+         470: d2i
+         471: ineg
+         472: istore_3
+         473: aload_0
+         474: getfield      #829                // Field godog.kKaMajA:[I
+         477: iconst_4
+         478: iaload
+         479: ifle          534
+         482: goto          524
+         485: getstatic     #1117               // Field godog.kKAMAjA:Lmmajkka;
+         488: aload_0
+         489: getfield      #1185               // Field godog.KkaMajA:Lmmajkka;
+         492: iload_2
+         493: iload_3
+         494: invokevirtual #764                // Method mmajkka.AMAJakk:(Lmmajkka;II)V
+         497: iload_2
+         498: aload_0
+         499: getfield      #1185               // Field godog.KkaMajA:Lmmajkka;
+         502: getfield      #914                // Field kmaakka.kAMAJaK:I
+         505: iadd
+         506: istore_2
+         507: iload_2
+         508: sipush        512
+         511: if_icmplt     485
+         514: iload_3
+         515: aload_0
+         516: getfield      #1185               // Field godog.KkaMajA:Lmmajkka;
+         519: getfield      #913                // Field kmaakka.KamAJaK:I
+         522: iadd
+         523: istore_3
+         524: iload_3
+         525: sipush        256
+         528: if_icmplt     507
+         531: goto          546
+         534: getstatic     #1117               // Field godog.kKAMAjA:Lmmajkka;
+         537: aload_0
+         538: getfield      #1185               // Field godog.KkaMajA:Lmmajkka;
+         541: iload_2
+         542: iload_3
+         543: invokevirtual #764                // Method mmajkka.AMAJakk:(Lmmajkka;II)V
+         546: aload_0
+         547: getfield      #891                // Field godog.KkAMajA:I
+         550: tableswitch   { // 1 to 3
+                         1: 576
+                         2: 597
+                         3: 625
+                   default: 625
+              }
+         576: getstatic     #1117               // Field godog.kKAMAjA:Lmmajkka;
+         579: sipush        255
+         582: sipush        255
+         585: sipush        255
+         588: invokestatic  #1095               // Method mmajkka.AMaJakk:(III)I
+         591: invokevirtual #844                // Method mmajkka.AmAjakk:(I)V
+         594: goto          625
+         597: getstatic     #1117               // Field godog.kKAMAjA:Lmmajkka;
+         600: fconst_0
+         601: ldc_w         #1070               // float 0.93f
+         604: aload_0
+         605: getfield      #1058               // Field godog.KKAmaJA:F
+         608: aload_0
+         609: getfield      #676                // Field godog.KKamajA:F
+         612: fsub
+         613: fconst_2
+         614: fmul
+         615: fsub
+         616: invokestatic  #656                // Method java/lang/Math.max:(FF)F
+         619: invokevirtual #1012               // Method mmajkka.amAJakk:(F)V
+         622: goto          625
+         625: getstatic     #1147               // Field godog.KKAMAjA:Lkmjamka;
+         628: aload_1
+         629: iconst_0
+         630: iconst_0
+         631: invokevirtual #872                // Method kmjjmmk.aKKaMaJ:(Ljava/awt/Graphics;II)V
+         634: aload_0
+         635: getfield      #1091               // Field godog.KKaMAJA:Lkajakka;
+         638: ifnull        666
+         641: aload_1
+         642: ifnull        666
+         645: aload_0
+         646: getfield      #1091               // Field godog.KKaMAJA:Lkajakka;
+         649: aload_1
+         650: aload_0
+         651: getfield      #1058               // Field godog.KKAmaJA:F
+         654: aload_0
+         655: getfield      #546                // Field godog.KkamaJA:F
+         658: fsub
+         659: aload_0
+         660: getfield      #837                // Field godog.kkAmaJA:F
+         663: invokevirtual #860                // Method kajakka.amAjaKk:(Ljava/awt/Graphics;FF)V
+         666: aload_0
+         667: aload_0
+         668: getfield      #1058               // Field godog.KKAmaJA:F
+         671: putfield      #997                // Field godog.kKAmaJA:F
+         674: aload_0
+         675: getfield      #926                // Field godog.KkAmaJA:Lmaajmka;
+         678: invokevirtual #1112               // Method maajmka.KaMAjak:()V
+         681: aload_0
+         682: dup
+         683: getfield      #1059               // Field godog.kKaMAJA:I
+         686: iconst_1
+         687: iadd
+         688: putfield      #1059               // Field godog.kKaMAJA:I
+         691: ldc2_w        #1191               // long 5l
+         694: invokestatic  #541                // Method java/lang/Thread.sleep:(J)V
+         697: aload_0
+         698: getfield      #873                // Field kmaamma.aMaJakK:Ljava/lang/Thread;
+         701: ifnonnull     76
+         704: return
+         705: astore_1
+         706: aload_1
+         707: invokevirtual #1038               // Method java/lang/Throwable.printStackTrace:()V
+         710: return
+        Exception table:
+           from    to  target type
+              73   704   705   Class java/lang/Exception
+
+    void KAmAjAk(java.awt.Graphics);
+      descriptor: (Ljava/awt/Graphics;)V
+      flags: (0x0000)
+      Code:
+        stack=5, locals=5, args_size=2
+           0: iconst_2
+           1: istore_2
+           2: bipush        12
+           4: istore_3
+           5: aload_0
+           6: getfield      #926                // Field godog.KkAmaJA:Lmaajmka;
+           9: invokevirtual #784                // Method maajmka.kAMAjak:()F
+          12: f2i
+          13: invokestatic  #966                // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+          16: astore        4
+          18: aload_1
+          19: getstatic     #1029               // Field java/awt/Color.black:Ljava/awt/Color;
+          22: invokevirtual #870                // Method java/awt/Graphics.setColor:(Ljava/awt/Color;)V
+          25: aload_1
+          26: aload         4
+          28: iload_2
+          29: iconst_1
+          30: iadd
+          31: iload_3
+          32: invokevirtual #633                // Method java/awt/Graphics.drawString:(Ljava/lang/String;II)V
+          35: aload_1
+          36: aload         4
+          38: iload_2
+          39: iconst_1
+          40: isub
+          41: iload_3
+          42: invokevirtual #633                // Method java/awt/Graphics.drawString:(Ljava/lang/String;II)V
+          45: aload_1
+          46: aload         4
+          48: iload_2
+          49: iload_3
+          50: iconst_1
+          51: iadd
+          52: invokevirtual #633                // Method java/awt/Graphics.drawString:(Ljava/lang/String;II)V
+          55: aload_1
+          56: aload         4
+          58: iload_2
+          59: iload_3
+          60: iconst_1
+          61: isub
+          62: invokevirtual #633                // Method java/awt/Graphics.drawString:(Ljava/lang/String;II)V
+          65: aload_1
+          66: getstatic     #690                // Field java/awt/Color.white:Ljava/awt/Color;
+          69: invokevirtual #870                // Method java/awt/Graphics.setColor:(Ljava/awt/Color;)V
+          72: aload_1
+          73: aload         4
+          75: iload_2
+          76: iload_3
+          77: invokevirtual #633                // Method java/awt/Graphics.drawString:(Ljava/lang/String;II)V
+          80: return
+
+    void KAMAJAk(java.awt.Component, int, int, int, int);
+      descriptor: (Ljava/awt/Component;IIII)V
+      flags: (0x0000)
+      Code:
+        stack=2, locals=6, args_size=6
+           0: aload_0
+           1: aload_1
+           2: putfield      #1158               // Field godog.kKAmAJA:Ljava/awt/Component;
+           5: aload_0
+           6: iload_2
+           7: putfield      #544                // Field godog.KkamAJA:I
+          10: aload_0
+          11: iload_3
+          12: putfield      #1113               // Field godog.kkamAJA:I
+          15: aload_0
+          16: iload         4
+          18: putfield      #893                // Field godog.KKamAJA:I
+          21: aload_0
+          22: iload         5
+          24: putfield      #835                // Field godog.kKamAJA:I
+          27: iconst_0
+          28: putstatic     #886                // Field godog.KkAmAJA:Z
+          31: return
+
+    java.awt.Graphics KamAjAk();
+      descriptor: ()Ljava/awt/Graphics;
+      flags: (0x0000)
+      Code:
+        stack=5, locals=2, args_size=1
+           0: aload_0
+           1: getfield      #1158               // Field godog.kKAmAJA:Ljava/awt/Component;
+           4: invokevirtual #953                // Method java/awt/Component.getGraphics:()Ljava/awt/Graphics;
+           7: astore_1
+           8: aload_1
+           9: aload_0
+          10: getfield      #544                // Field godog.KkamAJA:I
+          13: aload_0
+          14: getfield      #1113               // Field godog.kkamAJA:I
+          17: aload_0
+          18: getfield      #893                // Field godog.KKamAJA:I
+          21: aload_0
+          22: getfield      #835                // Field godog.kKamAJA:I
+          25: invokevirtual #717                // Method java/awt/Graphics.create:(IIII)Ljava/awt/Graphics;
+          28: areturn
+
+    public void paint(java.awt.Graphics);
+      descriptor: (Ljava/awt/Graphics;)V
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=5, locals=8, args_size=2
+           0: iconst_0
+           1: putstatic     #886                // Field godog.KkAmAJA:Z
+           4: aload_0
+           5: getfield      #719                // Field godog.kKAMAJA:Z
+           8: ifeq          107
+          11: ldc_w         #1159               // String komplex@jyu.fi
+          14: astore_2
+          15: aload_0
+          16: aload_0
+          17: getfield      #751                // Field godog.KKAMAJA:Ljava/awt/Font;
+          20: invokevirtual #689                // Method java/awt/Component.getFontMetrics:(Ljava/awt/Font;)Ljava/awt/FontMetrics;
+          23: astore_3
+          24: aload_3
+          25: aload_2
+          26: invokevirtual #836                // Method java/awt/FontMetrics.stringWidth:(Ljava/lang/String;)I
+          29: bipush        14
+          31: iadd
+          32: istore        4
+          34: bipush        20
+          36: istore        5
+          38: sipush        512
+          41: iload         4
+          43: isub
+          44: iconst_2
+          45: idiv
+          46: istore        6
+          48: sipush        256
+          51: iload         5
+          53: isub
+          54: iconst_2
+          55: idiv
+          56: istore        7
+          58: aload_1
+          59: aload_0
+          60: getfield      #751                // Field godog.KKAMAJA:Ljava/awt/Font;
+          63: invokevirtual #869                // Method java/awt/Graphics.setFont:(Ljava/awt/Font;)V
+          66: aload_1
+          67: getstatic     #1029               // Field java/awt/Color.black:Ljava/awt/Color;
+          70: invokevirtual #870                // Method java/awt/Graphics.setColor:(Ljava/awt/Color;)V
+          73: aload_1
+          74: iload         6
+          76: iload         7
+          78: iload         4
+          80: iload         5
+          82: invokevirtual #669                // Method java/awt/Graphics.fillRect:(IIII)V
+          85: aload_1
+          86: getstatic     #690                // Field java/awt/Color.white:Ljava/awt/Color;
+          89: invokevirtual #870                // Method java/awt/Graphics.setColor:(Ljava/awt/Color;)V
+          92: aload_1
+          93: aload_0
+          94: getfield      #632                // Field godog.kaMAjAk:Ljava/awt/Image;
+          97: sipush        226
+         100: bipush        118
+         102: aconst_null
+         103: invokevirtual #545                // Method java/awt/Graphics.drawImage:(Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z
+         106: pop
+         107: return
+
+    public void kaMajAk();
+      descriptor: ()V
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=3, locals=1, args_size=1
+           0: aload_0
+           1: dup
+           2: getfield      #1056               // Field godog.KkAMAJA:I
+           5: iconst_1
+           6: iadd
+           7: putfield      #1056               // Field godog.KkAMAJA:I
+          10: aload_0
+          11: aload_0
+          12: invokevirtual #953                // Method java/awt/Component.getGraphics:()Ljava/awt/Graphics;
+          15: invokevirtual #652                // Method godog.paint:(Ljava/awt/Graphics;)V
+          18: return
+
+    public godog();
+      descriptor: ()V
+      flags: (0x0001) ACC_PUBLIC
+      Code:
+        stack=6, locals=1, args_size=1
+           0: aload_0
+           1: invokespecial #745                // Method kmaamma."<init>":()V
+           4: aload_0
+           5: iconst_0
+           6: putfield      #770                // Field godog.kkAMAjA:Z
+           9: aload_0
+          10: iconst_m1
+          11: putfield      #778                // Field godog.kKaMAjA:I
+          14: aload_0
+          15: new           #887                // class java/util/Hashtable
+          18: dup
+          19: invokespecial #820                // Method java/util/Hashtable."<init>":()V
+          22: putfield      #718                // Field godog.kKAmajA:Ljava/util/Hashtable;
+          25: aload_0
+          26: new           #887                // class java/util/Hashtable
+          29: dup
+          30: invokespecial #820                // Method java/util/Hashtable."<init>":()V
+          33: putfield      #998                // Field godog.KkamajA:Ljava/util/Hashtable;
+          36: aload_0
+          37: iconst_5
+          38: newarray       int
+          40: putfield      #1101               // Field godog.kkaMajA:[I
+          43: aload_0
+          44: iconst_5
+          45: newarray       int
+          47: putfield      #883                // Field godog.KKaMajA:[I
+          50: aload_0
+          51: iconst_5
+          52: newarray       int
+          54: putfield      #829                // Field godog.kKaMajA:[I
+          57: aload_0
+          58: bipush        31
+          60: putfield      #996                // Field godog.kkAMAJA:I
+          63: aload_0
+          64: new           #763                // class java/awt/Font
+          67: dup
+          68: ldc_w         #848                // String Courier
+          71: iconst_1
+          72: bipush        15
+          74: invokespecial #878                // Method java/awt/Font."<init>":(Ljava/lang/String;II)V
+          77: putfield      #751                // Field godog.KKAMAJA:Ljava/awt/Font;
+          80: aload_0
+          81: iconst_1
+          82: putfield      #719                // Field godog.kKAMAJA:Z
+          85: aload_0
+          86: sipush        174
+          89: anewarray     #1063               // class java/lang/String
+          92: dup
+          93: iconst_0
+          94: ldc_w         #1019               // String init movieintro
+          97: aastore
+          98: dup
+          99: iconst_1
+         100: ldc_w         #910                // String init paa
+         103: aastore
+         104: dup
+         105: iconst_2
+         106: ldc_w         #969                // String init trav
+         109: aastore
+         110: dup
+         111: iconst_3
+         112: ldc_w         #1071               // String init linjanen
+         115: aastore
+         116: dup
+         117: iconst_4
+         118: ldc_w         #666                // String init evil
+         121: aastore
+         122: dup
+         123: iconst_5
+         124: ldc_w         #570                // String init vehje
+         127: aastore
+         128: dup
+         129: bipush        6
+         131: ldc_w         #933                // String init endscreen
+         134: aastore
+         135: dup
+         136: bipush        7
+         138: ldc_w         #542                // String loaded
+         141: aastore
+         142: dup
+         143: bipush        8
+         145: ldc_w         #838                // String shutdown
+         148: aastore
+         149: dup
+         150: bipush        9
+         152: ldc_w         #1180               // String mod 1
+         155: aastore
+         156: dup
+         157: bipush        10
+         159: ldc_w         #1146               // String _000 clear24 ffffff
+         162: aastore
+         163: dup
+         164: bipush        11
+         166: ldc_w         #1011               // String layer0 filmdamage 0 1536 0 0 1
+         169: aastore
+         170: dup
+         171: bipush        12
+         173: ldc_w         #1181               // String show movieintro
+         176: aastore
+         177: dup
+         178: bipush        13
+         180: ldc_w         #801                // String _300 layer0 filmdamage 264 1536 0 0 1
+         183: aastore
+         184: dup
+         185: bipush        14
+         187: ldc_w         #990                // String _500 layer0 filmdamage 64 1536 0 0 1
+         190: aastore
+         191: dup
+         192: bipush        15
+         194: ldc_w         #1164               // String _700
+         197: aastore
+         198: dup
+         199: bipush        16
+         201: ldc_w         #902                // String show paa
+         204: aastore
+         205: dup
+         206: bipush        17
+         208: ldc_w         #962                // String layer0 megaruno 512 190 0 0 1
+         211: aastore
+         212: dup
+         213: bipush        18
+         215: ldc_w         #667                // String layer1 filmdamage 0 1280 0 0 1
+         218: aastore
+         219: dup
+         220: bipush        19
+         222: ldc_w         #1109               // String _800 layer0 megaruno 512 190 0 0 0
+         225: aastore
+         226: dup
+         227: bipush        20
+         229: ldc_w         #885                // String layer2 godog1 0 0 -213 -190
+         232: aastore
+         233: dup
+         234: bipush        21
+         236: ldc_w         #1034               // String _80d layer1 maska2 200 200 0 0 1
+         239: aastore
+         240: dup
+         241: bipush        22
+         243: ldc_w         #1098               // String _810 layer1 maska7 0 0 0 0 0
+         246: aastore
+         247: dup
+         248: bipush        23
+         250: ldc_w         #549                // String _814 layer0 maska9 0 0 0 0 0
+         253: aastore
+         254: dup
+         255: bipush        24
+         257: ldc_w         #1110               // String _817 layer0 megaruno 512 190 0 0 0
+         260: aastore
+         261: dup
+         262: bipush        25
+         264: ldc_w         #1035               // String _81d layer1 maska8 200 200 0 0 1
+         267: aastore
+         268: dup
+         269: bipush        26
+         271: ldc_w         #1099               // String _820 layer1 maska9 0 0 0 0 0
+         274: aastore
+         275: dup
+         276: bipush        27
+         278: ldc_w         #853                // String _82d layer1 maska10 200 200 0 0 1
+         281: aastore
+         282: dup
+         283: bipush        28
+         285: ldc_w         #677                // String _830 layer1 maska11 0 0 0 0 0
+         288: aastore
+         289: dup
+         290: bipush        29
+         292: ldc_w         #854                // String _83d layer1 maska13 200 200 0 0 1
+         295: aastore
+         296: dup
+         297: bipush        30
+         299: ldc_w         #1030               // String _420 layer1 megaruno 90 20 40 -43 0
+         302: aastore
+         303: dup
+         304: bipush        31
+         306: ldc_w         #949                // String __4 layer1 maska12 10 70 -70 -75 0
+         309: aastore
+         310: dup
+         311: bipush        32
+         313: ldc_w         #821                // String __4 layer1 maska13 80 10 -100 -15 0
+         316: aastore
+         317: dup
+         318: bipush        33
+         320: ldc_w         #622                // String __4 layer1 filmdamage 0 1280 0 0 1
+         323: aastore
+         324: dup
+         325: bipush        34
+         327: ldc_w         #1134               // String _730
+         330: aastore
+         331: dup
+         332: bipush        35
+         334: ldc_w         #661                // String layer0 megaruno 8 8 407 200 1
+         337: aastore
+         338: dup
+         339: bipush        36
+         341: ldc_w         #623                // String __4 layer0 filmdamage 0 1280 0 0 1
+         344: aastore
+         345: dup
+         346: bipush        37
+         348: ldc_w         #948                // String __4 layer1 megaruno 8 8 400 200 1
+         351: aastore
+         352: dup
+         353: bipush        38
+         355: ldc_w         #918                // String __4 layer0
+         358: aastore
+         359: dup
+         360: bipush        39
+         362: ldc_w         #865                // String _800
+         365: aastore
+         366: dup
+         367: bipush        40
+         369: ldc_w         #851                // String layer0
+         372: aastore
+         373: dup
+         374: bipush        41
+         376: ldc_w         #850                // String layer1
+         379: aastore
+         380: dup
+         381: bipush        42
+         383: ldc_w         #578                // String layer0 maska12 10 10 40 -5 0
+         386: aastore
+         387: dup
+         388: bipush        43
+         390: ldc_w         #588                // String __10
+         393: aastore
+         394: dup
+         395: bipush        44
+         397: ldc_w         #1004               // String layer0 maska12 10 10 -10 -55 0
+         400: aastore
+         401: dup
+         402: bipush        45
+         404: ldc_w         #839                // String __4
+         407: aastore
+         408: dup
+         409: bipush        46
+         411: ldc_w         #1005               // String layer0 maska15 10 10 -10 -15 0
+         414: aastore
+         415: dup
+         416: bipush        47
+         418: ldc_w         #839                // String __4
+         421: aastore
+         422: dup
+         423: bipush        48
+         425: ldc_w         #843                // String layer1 maska12 10 10 -55 -105 0
+         428: aastore
+         429: dup
+         430: bipush        49
+         432: ldc_w         #917                // String __4 layer1
+         435: aastore
+         436: dup
+         437: bipush        50
+         439: ldc_w         #662                // String layer0 megaruno 8 8 400 200 1
+         442: aastore
+         443: dup
+         444: bipush        51
+         446: ldc_w         #1053               // String _820 layer0 maska16 10 10 -10 -5 0
+         449: aastore
+         450: dup
+         451: bipush        52
+         453: ldc_w         #682                // String _822 layer0 maska2 10 10 -10 -5 0
+         456: aastore
+         457: dup
+         458: bipush        53
+         460: ldc_w         #683                // String _824 layer0 maska9 10 10 -10 -5 0
+         463: aastore
+         464: dup
+         465: bipush        54
+         467: ldc_w         #1054               // String _828 layer0 maska12 10 10 -10 -5 0
+         470: aastore
+         471: dup
+         472: bipush        55
+         474: ldc_w         #1055               // String _830 layer0 maska16 10 10 -10 -5 0
+         477: aastore
+         478: dup
+         479: bipush        56
+         481: ldc_w         #851                // String layer0
+         484: aastore
+         485: dup
+         486: bipush        57
+         488: ldc_w         #840                // String _824
+         491: aastore
+         492: dup
+         493: bipush        58
+         495: ldc_w         #565                // String layer1 maska7 10 0 -10 0 0
+         498: aastore
+         499: dup
+         500: bipush        59
+         502: ldc_w         #851                // String layer0
+         505: aastore
+         506: dup
+         507: bipush        60
+         509: ldc_w         #868                // String __2 layer1 maska10 0 0 0 0 0
+         512: aastore
+         513: dup
+         514: bipush        61
+         516: ldc_w         #807                // String __4 layer0 maska11 0 0 0 0
+         519: aastore
+         520: dup
+         521: bipush        62
+         523: ldc_w         #808                // String __4 layer0 maska12 0 0 0 0
+         526: aastore
+         527: dup
+         528: bipush        63
+         530: ldc_w         #670                // String __4 layer0 maska13 20 20 0 0 1
+         533: aastore
+         534: dup
+         535: bipush        64
+         537: ldc_w         #808                // String __4 layer0 maska12 0 0 0 0
+         540: aastore
+         541: dup
+         542: bipush        65
+         544: ldc_w         #809                // String _10 layer0 maska12 0 0 0 0
+         547: aastore
+         548: dup
+         549: bipush        66
+         551: ldc_w         #808                // String __4 layer0 maska12 0 0 0 0
+         554: aastore
+         555: dup
+         556: bipush        67
+         558: ldc_w         #1129               // String __2 layer0 maska7 4 0 40 0 1
+         561: aastore
+         562: dup
+         563: bipush        68
+         565: ldc_w         #810                // String __4 layer0 maska15 0 0 0 0
+         568: aastore
+         569: dup
+         570: bipush        69
+         572: ldc_w         #811                // String __4 layer0 maska14 0 0 0 0
+         575: aastore
+         576: dup
+         577: bipush        70
+         579: ldc_w         #812                // String __4 layer0 maska13 0 0 0 0
+         582: aastore
+         583: dup
+         584: bipush        71
+         586: ldc_w         #674                // String _a00
+         589: aastore
+         590: dup
+         591: bipush        72
+         593: ldc_w         #668                // String layer0 filmdamage 0 1280 0 0 1
+         596: aastore
+         597: dup
+         598: bipush        73
+         600: ldc_w         #968                // String layer1
+         603: aastore
+         604: dup
+         605: bipush        74
+         607: ldc_w         #961                // String layer2
+         610: aastore
+         611: dup
+         612: bipush        75
+         614: ldc_w         #679                // String _a20 layer0 filmdamage 512 10 0 0 1
+         617: aastore
+         618: dup
+         619: bipush        76
+         621: ldc_w         #692                // String _a30 layer2 megaruno 50 10 200 200
+         624: aastore
+         625: dup
+         626: bipush        77
+         628: ldc_w         #963                // String _0b00
+         631: aastore
+         632: dup
+         633: bipush        78
+         635: ldc_w         #851                // String layer0
+         638: aastore
+         639: dup
+         640: bipush        79
+         642: ldc_w         #849                // String layer2
+         645: aastore
+         646: dup
+         647: bipush        80
+         649: ldc_w         #780                // String clear24 ffffff
+         652: aastore
+         653: dup
+         654: bipush        81
+         656: ldc_w         #1177               // String show trav
+         659: aastore
+         660: dup
+         661: bipush        82
+         663: ldc_w         #588                // String __10
+         666: aastore
+         667: dup
+         668: bipush        83
+         670: ldc_w         #905                // String layer2 godog2 0 0 -220 -188
+         673: aastore
+         674: dup
+         675: bipush        84
+         677: ldc_w         #738                // String _c10
+         680: aastore
+         681: dup
+         682: bipush        85
+         684: ldc_w         #984                // String layer0 maska12 0 0
+         687: aastore
+         688: dup
+         689: bipush        86
+         691: ldc_w         #939                // String __2 layer1 maska7 32 0
+         694: aastore
+         695: dup
+         696: bipush        87
+         698: ldc_w         #1078               // String __2 layer1 maska9 16 16
+         701: aastore
+         702: dup
+         703: bipush        88
+         705: ldc_w         #851                // String layer0
+         708: aastore
+         709: dup
+         710: bipush        89
+         712: ldc_w         #707                // String __4 layer1 maska16 512 256 -256 -128 1
+         715: aastore
+         716: dup
+         717: bipush        90
+         719: ldc_w         #917                // String __4 layer1
+         722: aastore
+         723: dup
+         724: bipush        91
+         726: ldc_w         #793                // String _b00 layer0 maska12 32 8
+         729: aastore
+         730: dup
+         731: bipush        92
+         733: ldc_w         #849                // String layer2
+         736: aastore
+         737: dup
+         738: bipush        93
+         740: ldc_w         #588                // String __10
+         743: aastore
+         744: dup
+         745: bipush        94
+         747: ldc_w         #697                // String layer2 godog3 0 0 -230 -40
+         750: aastore
+         751: dup
+         752: bipush        95
+         754: ldc_w         #708                // String __4 layer1 maska15 512 256 -256 -128 1
+         757: aastore
+         758: dup
+         759: bipush        96
+         761: ldc_w         #635                // String __4 layer1 megaruno 512 256 -256 -128 1
+         764: aastore
+         765: dup
+         766: bipush        97
+         768: ldc_w         #709                // String __4 layer1 maska11 512 256 -256 -128 1
+         771: aastore
+         772: dup
+         773: bipush        98
+         775: ldc_w         #917                // String __4 layer1
+         778: aastore
+         779: dup
+         780: bipush        99
+         782: ldc_w         #1154               // String _d30 layer0
+         785: aastore
+         786: dup
+         787: bipush        100
+         789: ldc_w         #636                // String __4 layer1 maska8 512 256 -256 -128 1
+         792: aastore
+         793: dup
+         794: bipush        101
+         796: ldc_w         #635                // String __4 layer1 megaruno 512 256 -256 -128 1
+         799: aastore
+         800: dup
+         801: bipush        102
+         803: ldc_w         #907                // String __4 layer1 maska7 512 256 -256 -128 1
+         806: aastore
+         807: dup
+         808: bipush        103
+         810: ldc_w         #917                // String __4 layer1
+         813: aastore
+         814: dup
+         815: bipush        104
+         817: ldc_w         #851                // String layer0
+         820: aastore
+         821: dup
+         822: bipush        105
+         824: ldc_w         #550                // String _e00 show vehje
+         827: aastore
+         828: dup
+         829: bipush        106
+         831: ldc_w         #620                // String layer2 godog4 0 0 -18 -18
+         834: aastore
+         835: dup
+         836: bipush        107
+         838: ldc_w         #1111               // String layer1 maska10 8 8 12 12
+         841: aastore
+         842: dup
+         843: bipush        108
+         845: ldc_w         #1094               // String _e04 layer0 maska9 0 0 30 30
+         848: aastore
+         849: dup
+         850: bipush        109
+         852: ldc_w         #940                // String __02 layer0
+         855: aastore
+         856: dup
+         857: bipush        110
+         859: ldc_w         #1118               // String _e0c layer0 maska7 4 4 30 30
+         862: aastore
+         863: dup
+         864: bipush        111
+         866: ldc_w         #940                // String __02 layer0
+         869: aastore
+         870: dup
+         871: bipush        112
+         873: ldc_w         #955                // String _e10 layer1 maska13 64 32 0 0
+         876: aastore
+         877: dup
+         878: bipush        113
+         880: ldc_w         #1103               // String _e14 layer0 maska8 4 4 30 30
+         883: aastore
+         884: dup
+         885: bipush        114
+         887: ldc_w         #940                // String __02 layer0
+         890: aastore
+         891: dup
+         892: bipush        115
+         894: ldc_w         #574                // String _e17 layer0 maska8 4 4 30 30
+         897: aastore
+         898: dup
+         899: bipush        116
+         901: ldc_w         #940                // String __02 layer0
+         904: aastore
+         905: dup
+         906: bipush        117
+         908: ldc_w         #1119               // String _e1c layer0 maska8 4 4 30 30
+         911: aastore
+         912: dup
+         913: bipush        118
+         915: ldc_w         #880                // String _e1d layer1
+         918: aastore
+         919: dup
+         920: bipush        119
+         922: ldc_w         #940                // String __02 layer0
+         925: aastore
+         926: dup
+         927: bipush        120
+         929: ldc_w         #956                // String _e20 layer1 maska13 64 32 0 0
+         932: aastore
+         933: dup
+         934: bipush        121
+         936: ldc_w         #657                // String _e2d layer1
+         939: aastore
+         940: dup
+         941: bipush        122
+         943: ldc_w         #957                // String _e30 layer1 maska13 64 32 0 0
+         946: aastore
+         947: dup
+         948: bipush        123
+         950: ldc_w         #575                // String _e37 layer0 maska8 4 4 30 30
+         953: aastore
+         954: dup
+         955: bipush        124
+         957: ldc_w         #940                // String __02 layer0
+         960: aastore
+         961: dup
+         962: bipush        125
+         964: ldc_w         #1032               // String _e3c layer0 maska2 104 104 30 30
+         967: aastore
+         968: dup
+         969: bipush        126
+         971: ldc_w         #940                // String __02 layer0
+         974: aastore
+         975: dup
+         976: bipush        127
+         978: ldc_w         #627                // String _e3d layer1
+         981: aastore
+         982: dup
+         983: sipush        128
+         986: ldc_w         #522                // String _f00
+         989: aastore
+         990: dup
+         991: sipush        129
+         994: ldc_w         #851                // String layer0
+         997: aastore
+         998: dup
+         999: sipush        130
+        1002: ldc_w         #866                // String show evil
+        1005: aastore
+        1006: dup
+        1007: sipush        131
+        1010: ldc_w         #849                // String layer2
+        1013: aastore
+        1014: dup
+        1015: sipush        132
+        1018: ldc_w         #588                // String __10
+        1021: aastore
+        1022: dup
+        1023: sipush        133
+        1026: ldc_w         #1086               // String layer2 godog5 0 0 -20 -177
+        1029: aastore
+        1030: dup
+        1031: sipush        134
+        1034: ldc_w         #1182               // String _1000 layer1 maska9 32 32 0 0 1
+        1037: aastore
+        1038: dup
+        1039: sipush        135
+        1042: ldc_w         #1051               // String _1004 layer0 maska12 16 256 0 0 1
+        1045: aastore
+        1046: dup
+        1047: sipush        136
+        1050: ldc_w         #918                // String __4 layer0
+        1053: aastore
+        1054: dup
+        1055: sipush        137
+        1058: ldc_w         #850                // String layer1
+        1061: aastore
+        1062: dup
+        1063: sipush        138
+        1066: ldc_w         #1120               // String _100c layer0 maska11 32 32 0 0 1
+        1069: aastore
+        1070: dup
+        1071: sipush        139
+        1074: ldc_w         #918                // String __4 layer0
+        1077: aastore
+        1078: dup
+        1079: sipush        140
+        1082: ldc_w         #1150               // String _1014 layer0 maska8 32 32 0 0 1
+        1085: aastore
+        1086: dup
+        1087: sipush        141
+        1090: ldc_w         #774                // String _1017 layer1 maska16 32 32 0 0 1
+        1093: aastore
+        1094: dup
+        1095: sipush        142
+        1098: ldc_w         #918                // String __4 layer0
+        1101: aastore
+        1102: dup
+        1103: sipush        143
+        1106: ldc_w         #1121               // String _101c layer0 maska15 32 32 0 0 1
+        1109: aastore
+        1110: dup
+        1111: sipush        144
+        1114: ldc_w         #841                // String _1020 layer1 maska10 22 56 0 0 1
+        1117: aastore
+        1118: dup
+        1119: sipush        145
+        1122: ldc_w         #917                // String __4 layer1
+        1125: aastore
+        1126: dup
+        1127: sipush        146
+        1130: ldc_w         #1122               // String _102c layer0 maska11 32 32 0 0 1
+        1133: aastore
+        1134: dup
+        1135: sipush        147
+        1138: ldc_w         #533                // String _1030 layer1 megaruno 52 56 0 0 1
+        1141: aastore
+        1142: dup
+        1143: sipush        148
+        1146: ldc_w         #917                // String __4 layer1
+        1149: aastore
+        1150: dup
+        1151: sipush        149
+        1154: ldc_w         #589                // String _1100 layer0 maska10 32 8 -0 -120 1
+        1157: aastore
+        1158: dup
+        1159: sipush        150
+        1162: ldc_w         #1046               // String _1120 layer0 maska13 8 8 -240 -120 1
+        1165: aastore
+        1166: dup
+        1167: sipush        151
+        1170: ldc_w         #918                // String __4 layer0
+        1173: aastore
+        1174: dup
+        1175: sipush        152
+        1178: ldc_w         #1047               // String _1200 layer0 maska11 8 8 -240 -120 1
+        1181: aastore
+        1182: dup
+        1183: sipush        153
+        1186: ldc_w         #830                // String _1220 layer0
+        1189: aastore
+        1190: dup
+        1191: sipush        154
+        1194: ldc_w         #598                // String _1300
+        1197: aastore
+        1198: dup
+        1199: sipush        155
+        1202: ldc_w         #557                // String show linjanen
+        1205: aastore
+        1206: dup
+        1207: sipush        156
+        1210: ldc_w         #850                // String layer1
+        1213: aastore
+        1214: dup
+        1215: sipush        157
+        1218: ldc_w         #849                // String layer2
+        1221: aastore
+        1222: dup
+        1223: sipush        158
+        1226: ldc_w         #588                // String __10
+        1229: aastore
+        1230: dup
+        1231: sipush        159
+        1234: ldc_w         #702                // String layer2 godog6 0 0 -143 -140
+        1237: aastore
+        1238: dup
+        1239: sipush        160
+        1242: ldc_w         #734                // String msg linjanen spc3
+        1245: aastore
+        1246: dup
+        1247: sipush        161
+        1250: ldc_w         #846                // String __4 msg linjanen flash
+        1253: aastore
+        1254: dup
+        1255: sipush        162
+        1258: ldc_w         #737                // String msg linjanen spc0
+        1261: aastore
+        1262: dup
+        1263: sipush        163
+        1266: ldc_w         #725                // String _1220 msg linjanen flash
+        1269: aastore
+        1270: dup
+        1271: sipush        164
+        1274: ldc_w         #735                // String msg linjanen spc2
+        1277: aastore
+        1278: dup
+        1279: sipush        165
+        1282: ldc_w         #846                // String __4 msg linjanen flash
+        1285: aastore
+        1286: dup
+        1287: sipush        166
+        1290: ldc_w         #737                // String msg linjanen spc0
+        1293: aastore
+        1294: dup
+        1295: sipush        167
+        1298: ldc_w         #650                // String _1300 msg linjanen flash
+        1301: aastore
+        1302: dup
+        1303: sipush        168
+        1306: ldc_w         #726                // String _1320 msg linjanen flash
+        1309: aastore
+        1310: dup
+        1311: sipush        169
+        1314: ldc_w         #970                // String _1400
+        1317: aastore
+        1318: dup
+        1319: sipush        170
+        1322: ldc_w         #775                // String _1620 layer2
+        1325: aastore
+        1326: dup
+        1327: sipush        171
+        1330: ldc_w         #1161               // String reality
+        1333: aastore
+        1334: dup
+        1335: sipush        172
+        1338: ldc_w         #710                // String show endscreen
+        1341: aastore
+        1342: dup
+        1343: sipush        173
+        1346: ldc_w         #768                // String _22222
+        1349: aastore
+        1350: putfield      #736                // Field godog.KKamaJA:[Ljava/lang/String;
+        1353: return
+
+    static {};
+      descriptor: ()V
+      flags: (0x0008) ACC_STATIC
+      Code:
+        stack=4, locals=0, args_size=0
+           0: bipush        18
+           2: anewarray     #1063               // class java/lang/String
+           5: dup
+           6: iconst_0
+           7: ldc_w         #1097               // String images/filmdamage.jpg
+          10: aastore
+          11: dup
+          12: iconst_1
+          13: ldc_w         #539                // String images/maska2.jpg
+          16: aastore
+          17: dup
+          18: iconst_2
+          19: ldc_w         #895                // String images/maska7.jpg
+          22: aastore
+          23: dup
+          24: iconst_3
+          25: ldc_w         #553                // String images/maska8.jpg
+          28: aastore
+          29: dup
+          30: iconst_4
+          31: ldc_w         #899                // String images/maska9.jpg
+          34: aastore
+          35: dup
+          36: iconst_5
+          37: ldc_w         #716                // String images/maska10.jpg
+          40: aastore
+          41: dup
+          42: bipush        6
+          44: ldc_w         #715                // String images/maska11.jpg
+          47: aastore
+          48: dup
+          49: bipush        7
+          51: ldc_w         #714                // String images/maska12.jpg
+          54: aastore
+          55: dup
+          56: bipush        8
+          58: ldc_w         #713                // String images/maska13.jpg
+          61: aastore
+          62: dup
+          63: bipush        9
+          65: ldc_w         #712                // String images/maska15.jpg
+          68: aastore
+          69: dup
+          70: bipush        10
+          72: ldc_w         #711                // String images/maska16.jpg
+          75: aastore
+          76: dup
+          77: bipush        11
+          79: ldc_w         #590                // String images/megaruno.jpg
+          82: aastore
+          83: dup
+          84: bipush        12
+          86: ldc_w         #1068               // String images/godog1.jpg
+          89: aastore
+          90: dup
+          91: bipush        13
+          93: ldc_w         #728                // String images/godog2.jpg
+          96: aastore
+          97: dup
+          98: bipush        14
+         100: ldc_w         #1076               // String images/godog3.jpg
+         103: aastore
+         104: dup
+         105: bipush        15
+         107: ldc_w         #741                // String images/godog4.jpg
+         110: aastore
+         111: dup
+         112: bipush        16
+         114: ldc_w         #1083               // String images/godog5.jpg
+         117: aastore
+         118: dup
+         119: bipush        17
+         121: ldc_w         #746                // String images/godog6.jpg
+         124: aastore
+         125: putstatic     #624                // Field godog.kAMajAk:[Ljava/lang/String;
+         128: return
+  }
+  SourceFile: "WARNING: Decompiling this code may violate your licensing agreement
+  "
+    (C) saviour ::: komplex: length = 0x17 (unknown attribute)
+     28 43 29 20 73 61 76 69 6F 75 72 20 3A 3A 3A 20
+     6B 6F 6D 70 6C 65 78

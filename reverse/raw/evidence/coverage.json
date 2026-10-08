@@ -1,0 +1,1699 @@
+{
+  "input": "original/GODOG.ZIP",
+  "expected_class_count": 112,
+  "limitation": "Class-file coverage and explicit diagnostic scan only; no compilation or behavioral equivalence claim.",
+  "tools": {
+    "cfr": {
+      "java_file_count": 112,
+      "missing": [],
+      "unexpected": [],
+      "diagnostic_counts": {
+        "failed_method": 78,
+        "unstructured_code": 18,
+        "missing_dependency": 4
+      },
+      "files": [
+        {
+          "path": "reverse/raw/cfr/godog.java",
+          "class_entry": "godog.class",
+          "bytes": 29000,
+          "lines": 709,
+          "sha256": "b66189a13a9e95fcc7df3a5e0e9ef117658ae7e47519730277d27a59d85904c9",
+          "diagnostics": [
+            {
+              "kind": "unstructured_code",
+              "line": 528,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kaaakka.java",
+          "class_entry": "kaaakka.class",
+          "bytes": 15229,
+          "lines": 394,
+          "sha256": "b299c7e5bb7dd78f6b5e93535c90dd0033e586ea5c707ae73aa2adbdb3667a63",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 47,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kaaakkk.java",
+          "class_entry": "kaaakkk.class",
+          "bytes": 3420,
+          "lines": 58,
+          "sha256": "8884ebfea77accc859de2e880955e57236bfa0a6570b940b6e062654a3e2c3fd",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 40,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kaaakma.java",
+          "class_entry": "kaaakma.class",
+          "bytes": 3606,
+          "lines": 59,
+          "sha256": "eacfcecb7b9d4bbd6d4813702062333e0256b002a8c33c0c3dc87751546338a9",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 42,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kaaakmk.java",
+          "class_entry": "kaaakmk.class",
+          "bytes": 3351,
+          "lines": 55,
+          "sha256": "cd49f8c9aaf2c6019db57d609736ba77596f8599e78358b246e6d9ec624a4a04",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 41,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kaaamka.java",
+          "class_entry": "kaaamka.class",
+          "bytes": 4105,
+          "lines": 132,
+          "sha256": "27f6b60b8a406dc354245fcffb1d5dea2d06ebe1a4b335b0d8789252a0a56032",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/kaaamma.java",
+          "class_entry": "kaaamma.class",
+          "bytes": 3363,
+          "lines": 56,
+          "sha256": "5109965b899ddcaf47d6986ac7389af246932e18c4d536cc626c8ff69871b4ee",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 53,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kaaammk.java",
+          "class_entry": "kaaammk.class",
+          "bytes": 5524,
+          "lines": 121,
+          "sha256": "f9463daadb61e13387c46b706e76ddb9b1a0ac93f1dc936b9ed84de7fa0db0ec",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 56,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kaajkka.java",
+          "class_entry": "kaajkka.class",
+          "bytes": 350,
+          "lines": 21,
+          "sha256": "aa4db376126382bfb64f6652ef91b26f3d6bd0c722dc57c17f84c378f4014d67",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/kaajkkk.java",
+          "class_entry": "kaajkkk.class",
+          "bytes": 43967,
+          "lines": 1176,
+          "sha256": "6bfce67868a729a01978985b5634911c356b0cc7179dd4d45090363011fec7f2",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 93,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 408,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 567,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kaajkmk.java",
+          "class_entry": "kaajkmk.class",
+          "bytes": 8004,
+          "lines": 188,
+          "sha256": "f4288c2f205858b685454456e041c050fa98c96c1c3216b528fea4838b223045",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 48,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kaajmka.java",
+          "class_entry": "kaajmka.class",
+          "bytes": 3230,
+          "lines": 51,
+          "sha256": "bfa1a28436d0852b794921576ea06634fbb54372b908ce6b498ae490bd4839ee",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 40,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kaajmma.java",
+          "class_entry": "kaajmma.class",
+          "bytes": 11306,
+          "lines": 319,
+          "sha256": "986180b76b8767f61a7bea58390e1770d18880b71007c4c46cc1a3f79ff1759d",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 45,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kaajmmk.java",
+          "class_entry": "kaajmmk.class",
+          "bytes": 5369,
+          "lines": 117,
+          "sha256": "c5e18b244f0eb3f9341908c65b56d1aa178e40c9b20ec066fce67ad1ca267642",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 44,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kajakka.java",
+          "class_entry": "kajakka.class",
+          "bytes": 433,
+          "lines": 28,
+          "sha256": "f38032f87462d7782af9e7044998f6e45d831516e0c230fd2b390d59adf985ec",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/kajakkk.java",
+          "class_entry": "kajakkk.class",
+          "bytes": 5180,
+          "lines": 108,
+          "sha256": "373379418c6102a0554cbc42ad8570184f70728670aca821eae73a38fb492cb4",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 51,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kajakma.java",
+          "class_entry": "kajakma.class",
+          "bytes": 3187,
+          "lines": 46,
+          "sha256": "b773e8a318df48e2837263a941fac0cf7f56f9b45291aa1c9338528347f56d00",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 43,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kajakmk.java",
+          "class_entry": "kajakmk.class",
+          "bytes": 19238,
+          "lines": 554,
+          "sha256": "a9865cae6d9e7601273c0f16203bea52a18c68f99191ce47e6862ec25e45e8d8",
+          "diagnostics": [
+            {
+              "kind": "missing_dependency",
+              "line": 4,
+              "text": "* Could not load the following classes:"
+            },
+            {
+              "kind": "failed_method",
+              "line": 85,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 205,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kajamka.java",
+          "class_entry": "kajamka.class",
+          "bytes": 21995,
+          "lines": 598,
+          "sha256": "389a4de14f0e54f044c5ba81947ae25fb806c72e9c1990351fbd8389dce91a66",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 36,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kajamma.java",
+          "class_entry": "kajamma.class",
+          "bytes": 23642,
+          "lines": 751,
+          "sha256": "219e76d6c7dd58d703dd3bf198b922717e2452a5317cdf0d8a02aa3476fa16e3",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 83,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kajammk.java",
+          "class_entry": "kajammk.class",
+          "bytes": 14112,
+          "lines": 322,
+          "sha256": "98c6729f441aa1474d9cc4670c41861c2d0dede8578c01d2f0d054fd0a55283f",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 63,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kajjkka.java",
+          "class_entry": "kajjkka.class",
+          "bytes": 6420,
+          "lines": 141,
+          "sha256": "9270b1ca569c60b7d24f0887247092d638d4ca6b922ed9833db5443b13ec607d",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 46,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kajjkkk.java",
+          "class_entry": "kajjkkk.class",
+          "bytes": 16345,
+          "lines": 388,
+          "sha256": "1e7010f6cb6b85239a3e835c0ed435071d900394d7b13c2decde95694c4e09f0",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 43,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kajjkmk.java",
+          "class_entry": "kajjkmk.class",
+          "bytes": 1539,
+          "lines": 58,
+          "sha256": "4047d86aaf906c534e9bc7e7e54aa11470f794f7a0ffa04c8ad0c7a8f26fdc90",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/kajjmka.java",
+          "class_entry": "kajjmka.class",
+          "bytes": 1339,
+          "lines": 63,
+          "sha256": "a0fac3d4fd0ce44c33b9e1da11be18fa82dc65d9dd11e23db653c26368c3c431",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/kajjmma.java",
+          "class_entry": "kajjmma.class",
+          "bytes": 1862,
+          "lines": 60,
+          "sha256": "7dfe0e091ed6e8dd9accfb7e5bfcfccfda79434eb739f7f1596d0716afeae454",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/kajjmmk.java",
+          "class_entry": "kajjmmk.class",
+          "bytes": 3828,
+          "lines": 76,
+          "sha256": "0a2c5ee444020ec6f963db150b8592b2bf5446db51f301314e3d2b48bd571b06",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 40,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmaakka.java",
+          "class_entry": "kmaakka.class",
+          "bytes": 4955,
+          "lines": 103,
+          "sha256": "d406d610007153f4eb6682703140d7adc82df05c0e70607564a25334c6e7edb6",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 52,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmaakkk.java",
+          "class_entry": "kmaakkk.class",
+          "bytes": 4703,
+          "lines": 107,
+          "sha256": "d22e22f54e351bafc7e9f802553016e9ece6e4f083145639f37bcbac1a96b729",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 44,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmaakma.java",
+          "class_entry": "kmaakma.class",
+          "bytes": 7209,
+          "lines": 179,
+          "sha256": "334eba54494f04b4330ff5f90cb07315f471ccaca491de817cc65337caaa3fbd",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 43,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmaakmk.java",
+          "class_entry": "kmaakmk.class",
+          "bytes": 920,
+          "lines": 40,
+          "sha256": "d3bfc1a07f3d6c9f6e1b0da94451b9eb65cfe3a4c854f8075c1041e557474405",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/kmaamka.java",
+          "class_entry": "kmaamka.class",
+          "bytes": 10017,
+          "lines": 264,
+          "sha256": "b3cd00167dd19beadcfe9a054e03e9bf7bf239241b2f69ea85adf80512a1bc08",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/kmaamma.java",
+          "class_entry": "kmaamma.class",
+          "bytes": 9706,
+          "lines": 271,
+          "sha256": "ad671fc41b68a2a9c483aa39a3b8f86b52ff32d91fd465d35e17a64541e0abd5",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 51,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmaammk.java",
+          "class_entry": "kmaammk.class",
+          "bytes": 12113,
+          "lines": 284,
+          "sha256": "19c01c399a40f974f558c96300dc393f56c41f936bf04a701caf9671a60e8bfa",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 47,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmajkka.java",
+          "class_entry": "kmajkka.class",
+          "bytes": 3048,
+          "lines": 42,
+          "sha256": "6ff2a3da39962bae29b6e8c5f5457e1cba3b1b4c87dead1ce56d74022e13b217",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 39,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmajkkk.java",
+          "class_entry": "kmajkkk.class",
+          "bytes": 4132,
+          "lines": 88,
+          "sha256": "72753a924f075ef9e7030e0d60c3e84f5f9549dd0244d6bc1d3fc4aca92e2386",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 43,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmajkmk.java",
+          "class_entry": "kmajkmk.class",
+          "bytes": 4261,
+          "lines": 122,
+          "sha256": "3a64c6204b43b81d0af1438aae51128893539fbf1445981447f355457f53e3e3",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/kmajmka.java",
+          "class_entry": "kmajmka.class",
+          "bytes": 3862,
+          "lines": 75,
+          "sha256": "600d17c5cf9615970cc0268cd56b8d4bfe6f0355d4d991f7e5cd30c850a2d14b",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 47,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmajmma.java",
+          "class_entry": "kmajmma.class",
+          "bytes": 5844,
+          "lines": 124,
+          "sha256": "9d31c113a9ec8d7f1820cda9e89379f4523cb852ab13ca39e29d57e363f75526",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 46,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmajmmk.java",
+          "class_entry": "kmajmmk.class",
+          "bytes": 3743,
+          "lines": 76,
+          "sha256": "6d807d596da32b836ca9763cb559cabf8a03b840cb189e0903d4190b231afde9",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 46,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmjakka.java",
+          "class_entry": "kmjakka.class",
+          "bytes": 5924,
+          "lines": 139,
+          "sha256": "ac81d74169b984f03ce521d31fc0f6c13703f054947808268906162c6d7d3e88",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 42,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 86,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmjakkk.java",
+          "class_entry": "kmjakkk.class",
+          "bytes": 4951,
+          "lines": 109,
+          "sha256": "bdbb482e0e376ad53cca3be2a4c5b3347ea4792e7faed1c3d21ab6ac6bbb5cd7",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 45,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmjakmk.java",
+          "class_entry": "kmjakmk.class",
+          "bytes": 3184,
+          "lines": 46,
+          "sha256": "2d25392323eee39abae043c0deabb5b0145cbc2d64ba675ddb8decfac948d551",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 43,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmjamka.java",
+          "class_entry": "kmjamka.class",
+          "bytes": 4807,
+          "lines": 105,
+          "sha256": "7f2f7388f7b60e1d66fdf97f7b44360dfd3145027812dfc8544d9356d3e719da",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 49,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmjamma.java",
+          "class_entry": "kmjamma.class",
+          "bytes": 6573,
+          "lines": 172,
+          "sha256": "05845d7a085456a7aa0b64fb21534f3236a98d40e84a0a178d3343fa4f30df6f",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 56,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmjammk.java",
+          "class_entry": "kmjammk.class",
+          "bytes": 15974,
+          "lines": 347,
+          "sha256": "d7142c8cd246f820e28e607fb20148475d3ec5e1a289913657bde7834215dbdb",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 68,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmjjkka.java",
+          "class_entry": "kmjjkka.class",
+          "bytes": 20271,
+          "lines": 586,
+          "sha256": "1fd94e0d90ea1e011837d29761748c13a32bd55e3c6bd057f93bc2c98e41eaa3",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 61,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 90,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 345,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 390,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 458,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmjjkkk.java",
+          "class_entry": "kmjjkkk.class",
+          "bytes": 21122,
+          "lines": 533,
+          "sha256": "2965ffd96d95519916cbf7cb941beac1850af34d8a9e5184d395055cd946b008",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/kmjjkmk.java",
+          "class_entry": "kmjjkmk.class",
+          "bytes": 5514,
+          "lines": 131,
+          "sha256": "fe95bfc9ca13e5a23b0609bf82c823f8f94d6444cbbcec059bb124ac36ce78e5",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 51,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmjjmka.java",
+          "class_entry": "kmjjmka.class",
+          "bytes": 8179,
+          "lines": 220,
+          "sha256": "a73425dcc1436176134eb6c4c1cedc9c14649a9d58c53e04b79b2ed563bb38d9",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 43,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/kmjjmma.java",
+          "class_entry": "kmjjmma.class",
+          "bytes": 405,
+          "lines": 26,
+          "sha256": "da33cbfdcf52aaa00a8fccabfebd5de3fcb7bf82f18d60ecfc440a6a42cac232",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/kmjjmmk.java",
+          "class_entry": "kmjjmmk.class",
+          "bytes": 5100,
+          "lines": 111,
+          "sha256": "980ee7bcc4162a4a8587a8e37ddd40466c3b1f0677629705fe382ce4b8b28bf0",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 61,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/maaakka.java",
+          "class_entry": "maaakka.class",
+          "bytes": 20371,
+          "lines": 559,
+          "sha256": "596257ecd969f6eb3029f8e354032f4c2cd7a4ecd0b1ef7a04f97d0241c82190",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 52,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 359,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 421,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/maaakkk.java",
+          "class_entry": "maaakkk.class",
+          "bytes": 15790,
+          "lines": 410,
+          "sha256": "bcac700b4a353ff46d4de8cf7e7f044d93fc9a9eb2e5064b783eb01f6acdd68c",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 56,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/maaakma.java",
+          "class_entry": "maaakma.class",
+          "bytes": 3048,
+          "lines": 100,
+          "sha256": "039339316817d853f1eff64d599fd7bf26d4aec0c5d1d043a5c1b8cb180768ae",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/maaakmk.java",
+          "class_entry": "maaakmk.class",
+          "bytes": 3086,
+          "lines": 43,
+          "sha256": "baccfa72aa4176aec614d0be9d827c389e7b3c703758039d39afabae6412d39c",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 37,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/maaamka.java",
+          "class_entry": "maaamka.class",
+          "bytes": 8813,
+          "lines": 253,
+          "sha256": "f7d5d8be4f8c199b73280366b560217d975d295f94741cb2734f9942bb582f94",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 50,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/maaamma.java",
+          "class_entry": "maaamma.class",
+          "bytes": 2511,
+          "lines": 86,
+          "sha256": "a7eb4593b3c6d8806aa2d41a628c97473d5ac995917ef64e565ab0792c2859c1",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/maaammk.java",
+          "class_entry": "maaammk.class",
+          "bytes": 8209,
+          "lines": 159,
+          "sha256": "94d7e88cd832752a3792f64b110660a3e54cbc70bcdd964ac9e131b2a87b0a8f",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 47,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/maajkka.java",
+          "class_entry": "maajkka.class",
+          "bytes": 4250,
+          "lines": 113,
+          "sha256": "f071b4ddc374e02d1caa6be8fff4bc0789fe38c0780cc7f5138f96079609990f",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/maajkkk.java",
+          "class_entry": "maajkkk.class",
+          "bytes": 3893,
+          "lines": 77,
+          "sha256": "a67069f179c4745be3dc997e93435a974aa128825819ebb7550122f85364755f",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 53,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/maajkmk.java",
+          "class_entry": "maajkmk.class",
+          "bytes": 4990,
+          "lines": 112,
+          "sha256": "e9936a0f7037a0f50bed24b96234249352939497394dc53cde09cbfa77219440",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/maajmka.java",
+          "class_entry": "maajmka.class",
+          "bytes": 4497,
+          "lines": 98,
+          "sha256": "af54e7c1e7e81ea01df6ff15e5aeeffa2a6805ea5673b8c61ef47ceda92a3ecd",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 43,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/maajmma.java",
+          "class_entry": "maajmma.class",
+          "bytes": 3396,
+          "lines": 52,
+          "sha256": "ef2ea5c33e90b554b2c6631d626078dafef7bbc3ab2d3588fd8f6568004c6fc6",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 49,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/maajmmk.java",
+          "class_entry": "maajmmk.class",
+          "bytes": 36543,
+          "lines": 911,
+          "sha256": "b3c598f2bf4d5c4dbca3be3d1a66d0b6c10938a413ddfaab8fcbd70f187507c4",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 84,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 411,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/majakka.java",
+          "class_entry": "majakka.class",
+          "bytes": 5766,
+          "lines": 139,
+          "sha256": "3e2794f60037045bc45eea7f4299a6499fffd852721377108c523da57f2a1b72",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 46,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/majakkk.java",
+          "class_entry": "majakkk.class",
+          "bytes": 4363,
+          "lines": 119,
+          "sha256": "3e12a8660c75651c0335d6b7d3cf9b7773aca79dde346f9907ec4f44dd1424ed",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/majakma.java",
+          "class_entry": "majakma.class",
+          "bytes": 3936,
+          "lines": 107,
+          "sha256": "c20c05301629c2ee951ecc182131117ba26202b67e8816a6735e7adffac769a7",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/majakmk.java",
+          "class_entry": "majakmk.class",
+          "bytes": 3205,
+          "lines": 47,
+          "sha256": "e9c02b9cd8e9442b526dfba7c94dba7d85281eb690f5cd15a10c5b055b88f5b3",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 40,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/majamka.java",
+          "class_entry": "majamka.class",
+          "bytes": 4074,
+          "lines": 78,
+          "sha256": "ece5cb5179bcf0a5c8f0b9125370abe04447485c3446269e660489714dfe3458",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 52,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/majamma.java",
+          "class_entry": "majamma.class",
+          "bytes": 99,
+          "lines": 7,
+          "sha256": "545a091fb03fd5effc1ee4833c51934591e1c5883c54301e82ff4ed921e546ca",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/majammk.java",
+          "class_entry": "majammk.class",
+          "bytes": 10874,
+          "lines": 245,
+          "sha256": "eb49ac66c5a884d6e62d0a1b184f3d5ea805c48cb7d45a3dc77dd6271115d1e1",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 68,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/majjkka.java",
+          "class_entry": "majjkka.class",
+          "bytes": 5634,
+          "lines": 134,
+          "sha256": "efc47f75bf93932db299d18a966e11edd3f790d2c896be922e5da65eb5f347af",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 48,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/majjkkk.java",
+          "class_entry": "majjkkk.class",
+          "bytes": 6685,
+          "lines": 142,
+          "sha256": "91b88b523cf7cd7630d88fba1467db1cb42561d18830c5ddc2fb392f1be246b0",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 47,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/majjkmk.java",
+          "class_entry": "majjkmk.class",
+          "bytes": 6615,
+          "lines": 151,
+          "sha256": "2378d06943b2cf25c073e2a7910ced137d1409304fefd83f05369bfb34d1a4e9",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 49,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/majjmka.java",
+          "class_entry": "majjmka.class",
+          "bytes": 5586,
+          "lines": 122,
+          "sha256": "4616d83318d5a7aa680ef137b4bd59ae508a457bf4d5bda3d4477e81bcb1408d",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 61,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/majjmma.java",
+          "class_entry": "majjmma.class",
+          "bytes": 5822,
+          "lines": 133,
+          "sha256": "aadd83f2fd18635903be5120fd03c59aba028e28fd9b64d083a8c84a2745926b",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 49,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/majjmmk.java",
+          "class_entry": "majjmmk.class",
+          "bytes": 3265,
+          "lines": 48,
+          "sha256": "bf13830da48308a17e47c610d41cb41accdbe85032dc068dd43f1700ff2708da",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 45,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmaakka.java",
+          "class_entry": "mmaakka.class",
+          "bytes": 23073,
+          "lines": 631,
+          "sha256": "79932730b7551011f61b8902b04185319f949afa6ca69ef54169c1d906491590",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/mmaakkk.java",
+          "class_entry": "mmaakkk.class",
+          "bytes": 34458,
+          "lines": 882,
+          "sha256": "96be931a5f01bc9d97b2c75381cefddca3abee7a94812ef04787bc7d4f8e08b0",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 73,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmaakma.java",
+          "class_entry": "mmaakma.class",
+          "bytes": 115,
+          "lines": 7,
+          "sha256": "e75dab95e20bd1e365d52fbed8190c9c2c1d5aa95e3ab43388d721be01591067",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/mmaakmk.java",
+          "class_entry": "mmaakmk.class",
+          "bytes": 11508,
+          "lines": 346,
+          "sha256": "f773c3032018da00268d630b68fca6989c9b1c69b90d9834b7bf972b9cacd8c1",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 89,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmaamka.java",
+          "class_entry": "mmaamka.class",
+          "bytes": 53669,
+          "lines": 1768,
+          "sha256": "083752889545b0fa9b6c5c63f14cc581d4b92a95fff42a44113c055bd8e89cf8",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/mmaamma.java",
+          "class_entry": "mmaamma.class",
+          "bytes": 28997,
+          "lines": 831,
+          "sha256": "703162b4c78cc37337708241806146ca7bd3e1952819fd3e0a2ad3035e1e2ba2",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 66,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 307,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmaammk.java",
+          "class_entry": "mmaammk.class",
+          "bytes": 7301,
+          "lines": 138,
+          "sha256": "aa911dab727fa1f6d6f872a809cf15c0d9b66275d64add7fdd9f3e0ff2aeec01",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 41,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmajkka.java",
+          "class_entry": "mmajkka.class",
+          "bytes": 24964,
+          "lines": 729,
+          "sha256": "d742e0dde782ccf869af7a9372b37cec9cf5b540d2317264b6a62ce0d8a3c327",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 49,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 109,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmajkkk.java",
+          "class_entry": "mmajkkk.class",
+          "bytes": 8112,
+          "lines": 313,
+          "sha256": "9205d9b3cf20f892e30307d53783c3daaac12b5ebfc822f65c5ea22a570379af",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/mmajkmk.java",
+          "class_entry": "mmajkmk.class",
+          "bytes": 3661,
+          "lines": 63,
+          "sha256": "6871be196efb360ed4a22e9eb856808e0ebf0ad7140b7829c5956ed7dc78f515",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 46,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmajmka.java",
+          "class_entry": "mmajmka.class",
+          "bytes": 3868,
+          "lines": 65,
+          "sha256": "1350137ee71554a86ed94b0bdf797fe6919936ff4bf02f4aad155c5c8ed95ff2",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 62,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmajmma.java",
+          "class_entry": "mmajmma.class",
+          "bytes": 5451,
+          "lines": 122,
+          "sha256": "0162afc213234f8cab9e5ca37ba6058478fc6eb70b3fd6e7d8b7c2ac3794aceb",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 50,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmajmmk.java",
+          "class_entry": "mmajmmk.class",
+          "bytes": 3643,
+          "lines": 72,
+          "sha256": "daa3f00b3105ecc52b3ca7e9aa31e38fb9fab7b373f63f4996b1046ab41ba182",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 39,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmjakka.java",
+          "class_entry": "mmjakka.class",
+          "bytes": 3182,
+          "lines": 50,
+          "sha256": "a906cd5707a491209d49ae6e4f4c1a3d699b4786932d9e94fd10c20d409f5543",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 47,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmjakkk.java",
+          "class_entry": "mmjakkk.class",
+          "bytes": 3258,
+          "lines": 48,
+          "sha256": "f16686201e17f9048014e6f6c043a840116f701e51d9f37e57f429b17cf8ffa1",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 45,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmjakmk.java",
+          "class_entry": "mmjakmk.class",
+          "bytes": 8938,
+          "lines": 254,
+          "sha256": "67024c01b3b65f7f7f356111735bd88012451e7023885535adb5f4e66b9d1641",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 53,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmjamka.java",
+          "class_entry": "mmjamka.class",
+          "bytes": 25519,
+          "lines": 622,
+          "sha256": "e025a1ce743821178fd4c407d141ceb6c1d06e6012662680cdf02c52c206527d",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 51,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 226,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 343,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 464,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmjamma.java",
+          "class_entry": "mmjamma.class",
+          "bytes": 10725,
+          "lines": 300,
+          "sha256": "f8935037401d42617a5456faf01cdac45717c276bca05f91adea94beb03da066",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 45,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmjammk.java",
+          "class_entry": "mmjammk.class",
+          "bytes": 517,
+          "lines": 29,
+          "sha256": "cf717b042f4450995e817150a60cef421a65175fdd86760964c6413cc5f615bb",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/mmjjkka.java",
+          "class_entry": "mmjjkka.class",
+          "bytes": 252,
+          "lines": 16,
+          "sha256": "1c04ad454221f36c90f858ecfc1783df32bca627bc5a64e4331d3e32fecad3c3",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/mmjjkkk.java",
+          "class_entry": "mmjjkkk.class",
+          "bytes": 3089,
+          "lines": 44,
+          "sha256": "a22e808ba87ca29cdc416ce56d183fa5e54f4367e335dd24de98c56b43836b09",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 41,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmjjkmk.java",
+          "class_entry": "mmjjkmk.class",
+          "bytes": 3737,
+          "lines": 67,
+          "sha256": "3be0f1e9683789d0da14790528e77e0b652b1793c857f015fd1de8e4fcb58cd7",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 49,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmjjmka.java",
+          "class_entry": "mmjjmka.class",
+          "bytes": 772,
+          "lines": 26,
+          "sha256": "648a088431ea520590a5772eae70d6868a41231c3d1a7344987f8fc9953785b7",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/mmjjmkk.java",
+          "class_entry": "mmjjmkk.class",
+          "bytes": 1433,
+          "lines": 43,
+          "sha256": "6ecf1a373875225fcaeceec4394f42d3806d6c0ba277cb2cf33b25763415ba3a",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/mmjjmma.java",
+          "class_entry": "mmjjmma.class",
+          "bytes": 5730,
+          "lines": 140,
+          "sha256": "35e19531db592ff3072bd4e867459005ed4a8990d6dd7fcaa295670eaf7959fd",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 39,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/mmjjmmk.java",
+          "class_entry": "mmjjmmk.class",
+          "bytes": 16749,
+          "lines": 387,
+          "sha256": "5d38e66c6e836d26195f355271997169b91312816843b5bac91b14d8fa97625d",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 68,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/muhmu/hifi/device/DeviceMS_IE3.java",
+          "class_entry": "muhmu/hifi/device/DeviceMS_IE3.class",
+          "bytes": 3658,
+          "lines": 109,
+          "sha256": "46e3be867c59013d9b65bd107c60ff9fba7d114bf9880e09ee69f732de9fb181",
+          "diagnostics": [
+            {
+              "kind": "missing_dependency",
+              "line": 4,
+              "text": "* Could not load the following classes:"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/muhmu/hifi/device/DeviceMS_IE4.java",
+          "class_entry": "muhmu/hifi/device/DeviceMS_IE4.class",
+          "bytes": 3733,
+          "lines": 115,
+          "sha256": "8573456e30733827a801504331dcf4eb7ba5de58a92181e901693d665945f64e",
+          "diagnostics": [
+            {
+              "kind": "missing_dependency",
+              "line": 4,
+              "text": "* Could not load the following classes:"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/muhmu/hifi/device/DeviceMSbase.java",
+          "class_entry": "muhmu/hifi/device/DeviceMSbase.class",
+          "bytes": 5804,
+          "lines": 171,
+          "sha256": "6166d211bc5d14c41dbf977df1f727e7aec9a22cbb2dc0d118f59cdff83fd125",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 124,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/muhmu/hifi/device/DeviceNoSound.java",
+          "class_entry": "muhmu/hifi/device/DeviceNoSound.class",
+          "bytes": 1403,
+          "lines": 58,
+          "sha256": "d02ad7a688c23ff43c980c5a5e07166fa14c986c2a358f757c726e4b4cf46558",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/muhmu/hifi/device/DeviceSun.java",
+          "class_entry": "muhmu/hifi/device/DeviceSun.class",
+          "bytes": 5116,
+          "lines": 180,
+          "sha256": "cbebf71d59d2475ae714fe82cf78370a4bcfd53ad2a11d331d8e03511dd42b06",
+          "diagnostics": [
+            {
+              "kind": "missing_dependency",
+              "line": 4,
+              "text": "* Could not load the following classes:"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 135,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/raw/cfr/muhmu/hifi/device/MAD.java",
+          "class_entry": "muhmu/hifi/device/MAD.class",
+          "bytes": 3729,
+          "lines": 126,
+          "sha256": "c7916e687344d84eb5eec29c39c29c06166e888aedee1009152006bd9a6a4f7d",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/muhmu/hifi/device/Mixable.java",
+          "class_entry": "muhmu/hifi/device/Mixable.class",
+          "bytes": 192,
+          "lines": 11,
+          "sha256": "3313f5327285b332e688ac781c9c7af0dd529071387c5a381f859d22dfe1d16e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/cfr/muhmu/hifi/device/ULaw.java",
+          "class_entry": "muhmu/hifi/device/ULaw.class",
+          "bytes": 3575,
+          "lines": 129,
+          "sha256": "1225e9f87a92242be2f22ea7dc5e4a42dd6f6ab2b46d41e823a3cf3ce7080647",
+          "diagnostics": []
+        }
+      ]
+    },
+    "procyon": {
+      "java_file_count": 11,
+      "missing": [
+        "godog.java",
+        "kaaakka.java",
+        "kaaakkk.java",
+        "kaaakma.java",
+        "kaaakmk.java",
+        "kaaamka.java",
+        "kaaamma.java",
+        "kaaammk.java",
+        "kaajkkk.java",
+        "kaajkmk.java",
+        "kaajmka.java",
+        "kaajmma.java",
+        "kaajmmk.java",
+        "kajakka.java",
+        "kajakkk.java",
+        "kajakma.java",
+        "kajakmk.java",
+        "kajamka.java",
+        "kajamma.java",
+        "kajammk.java",
+        "kajjkka.java",
+        "kajjkkk.java",
+        "kajjkmk.java",
+        "kajjmka.java",
+        "kajjmma.java",
+        "kajjmmk.java",
+        "kmaakka.java",
+        "kmaakkk.java",
+        "kmaakma.java",
+        "kmaakmk.java",
+        "kmaamka.java",
+        "kmaamma.java",
+        "kmaammk.java",
+        "kmajkka.java",
+        "kmajkkk.java",
+        "kmajkmk.java",
+        "kmajmka.java",
+        "kmajmma.java",
+        "kmajmmk.java",
+        "kmjakka.java",
+        "kmjakkk.java",
+        "kmjakmk.java",
+        "kmjamka.java",
+        "kmjamma.java",
+        "kmjammk.java",
+        "kmjjkka.java",
+        "kmjjkkk.java",
+        "kmjjkmk.java",
+        "kmjjmka.java",
+        "kmjjmma.java",
+        "kmjjmmk.java",
+        "maaakka.java",
+        "maaakkk.java",
+        "maaakma.java",
+        "maaakmk.java",
+        "maaamka.java",
+        "maaamma.java",
+        "maaammk.java",
+        "maajkka.java",
+        "maajkkk.java",
+        "maajkmk.java",
+        "maajmka.java",
+        "maajmma.java",
+        "maajmmk.java",
+        "majakka.java",
+        "majakkk.java",
+        "majakma.java",
+        "majakmk.java",
+        "majamka.java",
+        "majammk.java",
+        "majjkka.java",
+        "majjkkk.java",
+        "majjkmk.java",
+        "majjmka.java",
+        "majjmma.java",
+        "majjmmk.java",
+        "mmaakka.java",
+        "mmaakkk.java",
+        "mmaakmk.java",
+        "mmaamka.java",
+        "mmaamma.java",
+        "mmaammk.java",
+        "mmajkka.java",
+        "mmajkkk.java",
+        "mmajkmk.java",
+        "mmajmka.java",
+        "mmajmma.java",
+        "mmajmmk.java",
+        "mmjakka.java",
+        "mmjakkk.java",
+        "mmjakmk.java",
+        "mmjamka.java",
+        "mmjamma.java",
+        "mmjammk.java",
+        "mmjjkka.java",
+        "mmjjkkk.java",
+        "mmjjkmk.java",
+        "mmjjmka.java",
+        "mmjjmkk.java",
+        "mmjjmma.java",
+        "mmjjmmk.java"
+      ],
+      "unexpected": [],
+      "diagnostic_counts": {
+        "failed_method": 0,
+        "unstructured_code": 0,
+        "missing_dependency": 0
+      },
+      "files": [
+        {
+          "path": "reverse/raw/procyon/kaajkka.java",
+          "class_entry": "kaajkka.class",
+          "bytes": 332,
+          "lines": 22,
+          "sha256": "6bb66bde670ffa0ae9a369d71a0fd7cab12f68552defd00eb1711a0533e27e73",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/procyon/majamma.java",
+          "class_entry": "majamma.class",
+          "bytes": 0,
+          "lines": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/procyon/mmaakma.java",
+          "class_entry": "mmaakma.class",
+          "bytes": 119,
+          "lines": 8,
+          "sha256": "e1d5f7618f3c3af4d6fcb73e4441ab626d377edb5b5ed56202336607e566c483",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/procyon/muhmu/hifi/device/DeviceMS_IE3.java",
+          "class_entry": "muhmu/hifi/device/DeviceMS_IE3.class",
+          "bytes": 3472,
+          "lines": 100,
+          "sha256": "f750c3481373c6bd623f7e306e360a76e6cea0232388f24df6027e2ca82a1e52",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/procyon/muhmu/hifi/device/DeviceMS_IE4.java",
+          "class_entry": "muhmu/hifi/device/DeviceMS_IE4.class",
+          "bytes": 3521,
+          "lines": 108,
+          "sha256": "ad4a8c3117fe93b1e1d9bd8c1ac730c03bf661e6c63d581bb0a5086072ae0f44",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/procyon/muhmu/hifi/device/DeviceMSbase.java",
+          "class_entry": "muhmu/hifi/device/DeviceMSbase.class",
+          "bytes": 5501,
+          "lines": 183,
+          "sha256": "fd512d75daf3159aaab9784dd35529fe91ce2f855921d2fd25ab2d1c2cd78dba",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/procyon/muhmu/hifi/device/DeviceNoSound.java",
+          "class_entry": "muhmu/hifi/device/DeviceNoSound.class",
+          "bytes": 1355,
+          "lines": 53,
+          "sha256": "8a72124f9aa2145e1faededbeadcafc28bd64552def9af264027f9f5895d7556",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/procyon/muhmu/hifi/device/DeviceSun.java",
+          "class_entry": "muhmu/hifi/device/DeviceSun.class",
+          "bytes": 5229,
+          "lines": 171,
+          "sha256": "84d5951285920e4e7e15675ea13ee3cdd4596a57d65f6abb31306fd0caa94475",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/procyon/muhmu/hifi/device/MAD.java",
+          "class_entry": "muhmu/hifi/device/MAD.class",
+          "bytes": 3819,
+          "lines": 127,
+          "sha256": "aa3ea619b95d6f8e4af66443ef85d839b2642372e502a011d40db1256121c490",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/procyon/muhmu/hifi/device/Mixable.java",
+          "class_entry": "muhmu/hifi/device/Mixable.class",
+          "bytes": 173,
+          "lines": 10,
+          "sha256": "34c5ed4942d7b973da83a19a11ef96656176bc43cab8a01cf0e1623a764adec9",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/raw/procyon/muhmu/hifi/device/ULaw.java",
+          "class_entry": "muhmu/hifi/device/ULaw.class",
+          "bytes": 3606,
+          "lines": 125,
+          "sha256": "7fc855d07e75c26d6f8abf15b93087355d36ff8edf9a5a82a0f62625649d8b2a",
+          "diagnostics": []
+        }
+      ]
+    }
+  }
+}

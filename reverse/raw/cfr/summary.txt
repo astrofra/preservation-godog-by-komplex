@@ -1,0 +1,594 @@
+Summary for original/GODOG.ZIP
+Decompiled with CFR 0.152
+
+
+godog
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+kaaakka
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kaaakkk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kaaakma
+----------------------------
+
+<init>(kmaamma java.net.URL boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kaaakmk
+----------------------------
+
+<init>(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kaaamma
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kaaammk
+----------------------------
+
+<init>(kaajkkk int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kaajkkk
+----------------------------
+
+<init>(mmaakka )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+jAKKAmA(int int kaaammk )
+  Unable to fully structure code
+jAkKAmA(int int )
+  Unable to fully structure code
+
+
+kaajkmk
+----------------------------
+
+<init>(int float )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kaajmka
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kaajmma
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kaajmmk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kajakkk
+----------------------------
+
+jaKkaMA()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kajakma
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kajakmk
+----------------------------
+
+Kkamaja()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+run()
+  Unable to fully structure code
+
+
+kajamka
+----------------------------
+
+kKAmAjA(byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kajamma
+----------------------------
+
+<init>(mmaakka kaajkkk )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kajammk
+----------------------------
+
+<init>(majjmma[] int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kajjkka
+----------------------------
+
+<init>(mmaakkk int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kajjkkk
+----------------------------
+
+<init>(float float float float )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kajjmmk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmaakka
+----------------------------
+
+<init>(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmaakkk
+----------------------------
+
+jAKKama(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmaakma
+----------------------------
+
+majaKkA(double double double double[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmaamma
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmaammk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmajkka
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmajkkk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmajmka
+----------------------------
+
+<init>(java.lang.String int int java.awt.Color java.awt.Font )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmajmma
+----------------------------
+
+<init>(mmajkka maaakka )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmajmmk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmjakka
+----------------------------
+
+AmAJAKk(int long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+AMAJAKk(int )
+  Unable to fully structure code
+
+
+kmjakkk
+----------------------------
+
+<init>(int mmaakma )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmjakmk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmjamka
+----------------------------
+
+AkKaMaJ(kmaamma )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmjamma
+----------------------------
+
+majakKa(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmjammk
+----------------------------
+
+<init>(short[][] float float mmjjmkk boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmjjkka
+----------------------------
+
+<init>(java.awt.image.ImageProducer kaajkkk )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+AMaJaKK()
+  Unable to fully structure code
+aMajaKK(kaaammk java.awt.Point int byte[] int )
+  Unable to fully structure code
+amAJaKK(kaaammk java.awt.Point int int[] int )
+  Unable to fully structure code
+AMajaKK(int int int kaaammk )
+  Unable to fully structure code
+
+
+kmjjkmk
+----------------------------
+
+kKaMajA()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmjjmka
+----------------------------
+
+KAmAJak()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+kmjjmmk
+----------------------------
+
+akkaMaJ(kmaamma int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+maaakka
+----------------------------
+
+<init>(int int byte[] byte[] byte[] byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+kAmajaK(int )
+  Unable to fully structure code
+KaMAjaK(int )
+  Unable to fully structure code
+
+
+maaakkk
+----------------------------
+
+JakkAMa(mmajmma )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+maaakmk
+----------------------------
+
+<init>(maaakka )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+maaamka
+----------------------------
+
+<init>(byte[] int int mmaakka )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+maaammk
+----------------------------
+
+aKkaMaj(kaaammk )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+maajkkk
+----------------------------
+
+jaKKAmA(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+maajmka
+----------------------------
+
+<init>(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+maajmma
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+maajmmk
+----------------------------
+
+<init>(kajamma int kmaammk majjkmk )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+AkkamaJ(java.awt.Point java.awt.Point java.awt.Point )
+  Unable to fully structure code
+
+
+majakka
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+majakmk
+----------------------------
+
+<init>(int long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+majamka
+----------------------------
+
+<init>(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+majammk
+----------------------------
+
+<init>(boolean boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+majjkka
+----------------------------
+
+<init>(byte[] int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+majjkkk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+majjkmk
+----------------------------
+
+<init>(kaajkkk )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+majjmka
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+majjmma
+----------------------------
+
+<init>(float float float float float[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+majjmmk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmaakkk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmaakmk
+----------------------------
+
+kKaMAJa(boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmaamma
+----------------------------
+
+AmAJakK(float )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+amAJakK(int int )
+  Unable to fully structure code
+
+
+mmaammk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmajkka
+----------------------------
+
+<init>(int int int[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+aMAjakk(int )
+  Unable to fully structure code
+
+
+mmajkmk
+----------------------------
+
+<init>(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmajmka
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmajmma
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmajmmk
+----------------------------
+
+<init>(boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmjakka
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmjakkk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmjakmk
+----------------------------
+
+<init>(mmaakka )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmjamka
+----------------------------
+
+<init>(mmajkka int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+KamAjak(float float float float int int int )
+  Unable to fully structure code
+kamAjak(float float float float int int int )
+  Unable to fully structure code
+KamaJAk(float float float float int int int )
+  Unable to fully structure code
+
+
+mmjamma
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmjjkkk
+----------------------------
+
+<init>(float java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmjjkmk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmjjmma
+----------------------------
+
+<init>(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+mmjjmmk
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Attempt to fetch element 0 from constant pool
+
+
+muhmu.hifi.device.DeviceMSbase
+----------------------------
+
+hoxBuff(int[] int byte[] int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+muhmu.hifi.device.DeviceSun
+----------------------------
+
+run()
+  Unable to fully structure code

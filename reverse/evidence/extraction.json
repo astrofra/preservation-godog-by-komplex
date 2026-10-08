@@ -1,0 +1,683 @@
+{
+  "outer_archive": "original/godog_by.zip",
+  "outer_archive_sha256": "4c6af571d5d9aeed5eefb9423c7f4eb3d15691ab130225eddbbb6cc0a1eab82e",
+  "nested_entry": "GODOG.ZIP",
+  "extracted_archive": "original/GODOG.ZIP",
+  "extracted_archive_sha256": "637761c27a6a7419206f90e04904f34d7bcef6a5230e0e009de8e32ac66dcf48",
+  "class_count": 112,
+  "classes": [
+    {
+      "archive_entry": "godog.class",
+      "local_path": "original/classes/godog.class",
+      "bytes": 18196,
+      "sha256": "fddaeedd7ba0fdad3203090c52ff04d23d87bc1d8214aafdf546616c02eae2b1"
+    },
+    {
+      "archive_entry": "kaaakka.class",
+      "local_path": "original/classes/kaaakka.class",
+      "bytes": 5425,
+      "sha256": "d3bd72aff23650ab5afe66e11ce0211a8a4cc657f171aae427300ca1903bd9d6"
+    },
+    {
+      "archive_entry": "kaaakkk.class",
+      "local_path": "original/classes/kaaakkk.class",
+      "bytes": 522,
+      "sha256": "eb7874fc067bd706e22ddb0c90958fb4d749f879c094160efa4798faf113e465"
+    },
+    {
+      "archive_entry": "kaaakma.class",
+      "local_path": "original/classes/kaaakma.class",
+      "bytes": 1725,
+      "sha256": "f3626745f8ec2be236c42b6adad5af90f0ad19186206c055ad3979a563b68c9f"
+    },
+    {
+      "archive_entry": "kaaakmk.class",
+      "local_path": "original/classes/kaaakmk.class",
+      "bytes": 577,
+      "sha256": "d90fe0d34d366549faf225562e54a831e1895e063787f3bf33e297bfc9735072"
+    },
+    {
+      "archive_entry": "kaaamka.class",
+      "local_path": "original/classes/kaaamka.class",
+      "bytes": 2319,
+      "sha256": "e513b4863851eb4b07cb6152edd862b33e5f5403aac026b213b723e58ccc3b35"
+    },
+    {
+      "archive_entry": "kaaamma.class",
+      "local_path": "original/classes/kaaamma.class",
+      "bytes": 568,
+      "sha256": "bec5daaddfa54f5cd46786d0991dda2ee3c52825ad0587eb8003619cb9a6ea3a"
+    },
+    {
+      "archive_entry": "kaaammk.class",
+      "local_path": "original/classes/kaaammk.class",
+      "bytes": 1826,
+      "sha256": "b608a5f76fc3cfbbe69c5df173bc76a225da78d9e1d7cfebc440f7797f975cf9"
+    },
+    {
+      "archive_entry": "kaajkka.class",
+      "local_path": "original/classes/kaajkka.class",
+      "bytes": 451,
+      "sha256": "53de67f531d9aa891bc69064a239a6264c5f44aabe742ad597e3a7c685257e41"
+    },
+    {
+      "archive_entry": "kaajkkk.class",
+      "local_path": "original/classes/kaajkkk.class",
+      "bytes": 14029,
+      "sha256": "ca55e2c3edc458ff73412a155993c7c1171ccb97b495cdb5c5af838198f7a8b2"
+    },
+    {
+      "archive_entry": "kaajkmk.class",
+      "local_path": "original/classes/kaajkmk.class",
+      "bytes": 2909,
+      "sha256": "340c30083841a6a298b613337dbb0c02a869b70d98b5c4bdef3f0150414ce135"
+    },
+    {
+      "archive_entry": "kaajmka.class",
+      "local_path": "original/classes/kaajmka.class",
+      "bytes": 512,
+      "sha256": "59461f8dae589d78472b3c1ef0fe40f61ad07676854e3131b5abfb9dedf14fa9"
+    },
+    {
+      "archive_entry": "kaajmma.class",
+      "local_path": "original/classes/kaajmma.class",
+      "bytes": 4126,
+      "sha256": "4b05922de146af67e335e4ce1e7b48b154ddbdd5c564c009e599c426f1b4e34f"
+    },
+    {
+      "archive_entry": "kaajmmk.class",
+      "local_path": "original/classes/kaajmmk.class",
+      "bytes": 1270,
+      "sha256": "b35c8e120cc94cb92595355ce8bf1691451cfc41163c88c05935f1c6f2a4804d"
+    },
+    {
+      "archive_entry": "kajakka.class",
+      "local_path": "original/classes/kajakka.class",
+      "bytes": 606,
+      "sha256": "5edfcc8da70b724ed7fdecf283d154f0bd3e3197842b8dfff9c5cb8565b0a3f6"
+    },
+    {
+      "archive_entry": "kajakkk.class",
+      "local_path": "original/classes/kajakkk.class",
+      "bytes": 2760,
+      "sha256": "e5e0665fbadcb5769fde8ae936ec3b9119853226cd11cd5573b6ad684520388f"
+    },
+    {
+      "archive_entry": "kajakma.class",
+      "local_path": "original/classes/kajakma.class",
+      "bytes": 488,
+      "sha256": "a533d2166a6c6d14677f6a157cd333d40ebcd41189786119823f0d9728a94d84"
+    },
+    {
+      "archive_entry": "kajakmk.class",
+      "local_path": "original/classes/kajakmk.class",
+      "bytes": 6595,
+      "sha256": "734d5382d57edc157b1630df63bbb4de0f7af3873e390a5b4f6a6106af6d9946"
+    },
+    {
+      "archive_entry": "kajamka.class",
+      "local_path": "original/classes/kajamka.class",
+      "bytes": 7328,
+      "sha256": "602be0fcf7bf65d9ccddf806a5be3723c385d0170db742201ffaa5db2be057c7"
+    },
+    {
+      "archive_entry": "kajamma.class",
+      "local_path": "original/classes/kajamma.class",
+      "bytes": 8800,
+      "sha256": "95c237b359ea704911d928da3c005dc10eea8ec66f4b949cb83ef6521f5d78dc"
+    },
+    {
+      "archive_entry": "kajammk.class",
+      "local_path": "original/classes/kajammk.class",
+      "bytes": 4716,
+      "sha256": "ee839fb032c8a48bf1cd3ec6d98fd90b99c66b674f0f317c06da1546dc36d794"
+    },
+    {
+      "archive_entry": "kajjkka.class",
+      "local_path": "original/classes/kajjkka.class",
+      "bytes": 2198,
+      "sha256": "dd2d753f3f449d6bab851ed79b23d0908fd59cd2ca134201c40fdc0762d4c248"
+    },
+    {
+      "archive_entry": "kajjkkk.class",
+      "local_path": "original/classes/kajjkkk.class",
+      "bytes": 5143,
+      "sha256": "5557726451911c70eaa2be91af2f517263138e2be660e5a5060fc8e9dda4870d"
+    },
+    {
+      "archive_entry": "kajjkmk.class",
+      "local_path": "original/classes/kajjkmk.class",
+      "bytes": 1634,
+      "sha256": "2c3bf347211323d00908392d908fa463103d107849ccadd19d4830d0b466dc7d"
+    },
+    {
+      "archive_entry": "kajjmka.class",
+      "local_path": "original/classes/kajjmka.class",
+      "bytes": 1690,
+      "sha256": "a8a31d97d346ca42370c0d5e02fd765f7873d3e5fd7142f267be4df48246285b"
+    },
+    {
+      "archive_entry": "kajjmma.class",
+      "local_path": "original/classes/kajjmma.class",
+      "bytes": 2184,
+      "sha256": "a90f1c864bcdc7b11e210538ee1da6cc9964d1ae6e9af4634d502969847a06bd"
+    },
+    {
+      "archive_entry": "kajjmmk.class",
+      "local_path": "original/classes/kajjmmk.class",
+      "bytes": 687,
+      "sha256": "6cfd8da4d35b93eb8897127a5086f32e070f9c014ace24f3d9eb23fd188ae19b"
+    },
+    {
+      "archive_entry": "kmaakka.class",
+      "local_path": "original/classes/kmaakka.class",
+      "bytes": 1903,
+      "sha256": "864bcda814c31726f0930a78adfa9b9e891e573877f4bb8e9053790c7e01fafb"
+    },
+    {
+      "archive_entry": "kmaakkk.class",
+      "local_path": "original/classes/kmaakkk.class",
+      "bytes": 1288,
+      "sha256": "f2a65a508248fa660017ff57bb68b12fc43707a789973b862b86adbd97e8e876"
+    },
+    {
+      "archive_entry": "kmaakma.class",
+      "local_path": "original/classes/kmaakma.class",
+      "bytes": 3290,
+      "sha256": "d423b1b9df5f3faeb3f05baf55df38e82b55f20412c02d74411e207b9026dbab"
+    },
+    {
+      "archive_entry": "kmaakmk.class",
+      "local_path": "original/classes/kmaakmk.class",
+      "bytes": 1149,
+      "sha256": "ffc0911df93b42851f805c8bbbfaa47d3232399bf3127c91bd71853bc6db44d6"
+    },
+    {
+      "archive_entry": "kmaamka.class",
+      "local_path": "original/classes/kmaamka.class",
+      "bytes": 2990,
+      "sha256": "9d79fa3725c24c5ca9123094405c7a93935b4d4f64dd0deea529a3ffc737129d"
+    },
+    {
+      "archive_entry": "kmaamma.class",
+      "local_path": "original/classes/kmaamma.class",
+      "bytes": 5116,
+      "sha256": "a1fc5065ab2be7bfc673a85e0022e33fc57081bf933fe96c9fd5cc038b2aa605"
+    },
+    {
+      "archive_entry": "kmaammk.class",
+      "local_path": "original/classes/kmaammk.class",
+      "bytes": 3834,
+      "sha256": "8083363ca755d104ae316ecb69a61a67c24df21e4ef4f2c9a3041a643424f7db"
+    },
+    {
+      "archive_entry": "kmajkka.class",
+      "local_path": "original/classes/kmajkka.class",
+      "bytes": 335,
+      "sha256": "14723ebdfb2dc2b3a51eda8bde6a130fc82d4041e7a31e01dd238429963c2c0d"
+    },
+    {
+      "archive_entry": "kmajkkk.class",
+      "local_path": "original/classes/kmajkkk.class",
+      "bytes": 963,
+      "sha256": "05ccdd5c6cb935d71a7f6cd4b419cbe1ed46870abb05f6a286d13912330d21b6"
+    },
+    {
+      "archive_entry": "kmajkmk.class",
+      "local_path": "original/classes/kmajkmk.class",
+      "bytes": 3814,
+      "sha256": "5a50a3fee8f52daaccee0302a52fd34089192f53c10a026eb4922d6382ebcf08"
+    },
+    {
+      "archive_entry": "kmajmka.class",
+      "local_path": "original/classes/kmajmka.class",
+      "bytes": 987,
+      "sha256": "4f0f797f7d70618bc6d137c97e840dd9bc78f9cb217fc943f80e0b26f56b05ee"
+    },
+    {
+      "archive_entry": "kmajmma.class",
+      "local_path": "original/classes/kmajmma.class",
+      "bytes": 2456,
+      "sha256": "450ac83307e2f1b3f01cb1e8642a12f68e043d908a2c4e5b7f971427da8706b6"
+    },
+    {
+      "archive_entry": "kmajmmk.class",
+      "local_path": "original/classes/kmajmmk.class",
+      "bytes": 1176,
+      "sha256": "b4bcc05d5d4265fa080f08149c3cf34a58fdc96371d517b79851465b600cab0e"
+    },
+    {
+      "archive_entry": "kmjakka.class",
+      "local_path": "original/classes/kmjakka.class",
+      "bytes": 1755,
+      "sha256": "f23569850569bb16dc1ad546989987ec19a877e1f4bf57d1f65b7f91d7db373a"
+    },
+    {
+      "archive_entry": "kmjakkk.class",
+      "local_path": "original/classes/kmjakkk.class",
+      "bytes": 1721,
+      "sha256": "2cabfad97ca3befb63af97f01b0c4468343a8ec0814e09b45464d489aafd1110"
+    },
+    {
+      "archive_entry": "kmjakmk.class",
+      "local_path": "original/classes/kmjakmk.class",
+      "bytes": 488,
+      "sha256": "2da7bdf69a2690e6252c299c1e33792ae11a06c4ca3b278a09927daa64b0eb45"
+    },
+    {
+      "archive_entry": "kmjamka.class",
+      "local_path": "original/classes/kmjamka.class",
+      "bytes": 2206,
+      "sha256": "9282a4ab7d8e67ad184104edad5c5b80feae9f189709f33f7544fbbbb62100f4"
+    },
+    {
+      "archive_entry": "kmjamma.class",
+      "local_path": "original/classes/kmjamma.class",
+      "bytes": 2712,
+      "sha256": "9ae7e99a417ea58993a2a05d922dbe83313f07d3ef482ca8ab980c38d7af2aae"
+    },
+    {
+      "archive_entry": "kmjammk.class",
+      "local_path": "original/classes/kmjammk.class",
+      "bytes": 6585,
+      "sha256": "065f0cd985503c06d64889b6566815f397dc1f90a169f7875b02ce395be18380"
+    },
+    {
+      "archive_entry": "kmjjkka.class",
+      "local_path": "original/classes/kmjjkka.class",
+      "bytes": 5992,
+      "sha256": "750bb36dcc62b9d78acb049442d60da0049cf09eed20575e5469e9be9a1f438d"
+    },
+    {
+      "archive_entry": "kmjjkkk.class",
+      "local_path": "original/classes/kmjjkkk.class",
+      "bytes": 9899,
+      "sha256": "960819276ec5c6489b15ecc20407a4dac7ca3e735a9bb08a20cddf4679d42b0d"
+    },
+    {
+      "archive_entry": "kmjjkmk.class",
+      "local_path": "original/classes/kmjjkmk.class",
+      "bytes": 1872,
+      "sha256": "2332e442dfd0ea11ac045092a6911e9576862643b6aad469ec0bc63575bb3f29"
+    },
+    {
+      "archive_entry": "kmjjmka.class",
+      "local_path": "original/classes/kmjjmka.class",
+      "bytes": 2461,
+      "sha256": "467313744938eedbdba9ed8631b6912561c761a614802f06316623f002465ec0"
+    },
+    {
+      "archive_entry": "kmjjmma.class",
+      "local_path": "original/classes/kmjjmma.class",
+      "bytes": 596,
+      "sha256": "60e8c3da1f25466e791c5b0b92e07c2b813d3d853f49fb571554cecc924e0a69"
+    },
+    {
+      "archive_entry": "kmjjmmk.class",
+      "local_path": "original/classes/kmjjmmk.class",
+      "bytes": 1605,
+      "sha256": "ff9fd3251f38622cf2406f20a1513f028a0849daef7a43b232e582424f4e0d2d"
+    },
+    {
+      "archive_entry": "maaakka.class",
+      "local_path": "original/classes/maaakka.class",
+      "bytes": 5823,
+      "sha256": "809402ed0115fe4f42f77c540514b630ec6a7e2434b1e01b59986b4ac9a8c6ff"
+    },
+    {
+      "archive_entry": "maaakkk.class",
+      "local_path": "original/classes/maaakkk.class",
+      "bytes": 5236,
+      "sha256": "48dbe6c8e1cd2a6ab2a12f49aa924d4cb30baa18ca393a08ae8dff9348442c0a"
+    },
+    {
+      "archive_entry": "maaakma.class",
+      "local_path": "original/classes/maaakma.class",
+      "bytes": 2444,
+      "sha256": "000fb8753c4a7af8f00a50afcc77363053b245ee05c000d15c5fb575ae4c99ec"
+    },
+    {
+      "archive_entry": "maaakmk.class",
+      "local_path": "original/classes/maaakmk.class",
+      "bytes": 380,
+      "sha256": "b0076192e324d1ddf8fa164e2b48391fb6d0c0f2ce461df39d00eaabc3d3b72b"
+    },
+    {
+      "archive_entry": "maaamka.class",
+      "local_path": "original/classes/maaamka.class",
+      "bytes": 2558,
+      "sha256": "ac42c105f328bec092fbed4ca9de9097a323699f616279b667ff9b84f26f95f9"
+    },
+    {
+      "archive_entry": "maaamma.class",
+      "local_path": "original/classes/maaamma.class",
+      "bytes": 2134,
+      "sha256": "9d0086f1f83e7d28fd6b0b19c2fa179c789d64c5ff35356230057a228ae4d93f"
+    },
+    {
+      "archive_entry": "maaammk.class",
+      "local_path": "original/classes/maaammk.class",
+      "bytes": 2172,
+      "sha256": "b3f767f0a78377d242d767970c70c8dabe5f5e5e13a3d1e479f4283581367fe5"
+    },
+    {
+      "archive_entry": "maajkka.class",
+      "local_path": "original/classes/maajkka.class",
+      "bytes": 3471,
+      "sha256": "d808a8ca52ed4c7de23a75c8b562f86080dffb737d0a1e7b5c0caa7f0834c301"
+    },
+    {
+      "archive_entry": "maajkkk.class",
+      "local_path": "original/classes/maajkkk.class",
+      "bytes": 1333,
+      "sha256": "f7e5bbfdd7fa76b95784c26eacd1e6f358d2d53f471dfa3dc471065c81d76fb4"
+    },
+    {
+      "archive_entry": "maajkmk.class",
+      "local_path": "original/classes/maajkmk.class",
+      "bytes": 2407,
+      "sha256": "39cd7835b5a05acbbdcee334163ba97a3c2de2371a8f518f026816d117872e3f"
+    },
+    {
+      "archive_entry": "maajmka.class",
+      "local_path": "original/classes/maajmka.class",
+      "bytes": 1029,
+      "sha256": "efd9211fbcf5f37b8be75a49d8d5dd278b2cba5021bf3a9fcc6a969cd5069fac"
+    },
+    {
+      "archive_entry": "maajmma.class",
+      "local_path": "original/classes/maajmma.class",
+      "bytes": 674,
+      "sha256": "e4990e8b07e490e080af4edf7eda18159ce95d30bab4645ba5a67298381c3422"
+    },
+    {
+      "archive_entry": "maajmmk.class",
+      "local_path": "original/classes/maajmmk.class",
+      "bytes": 11155,
+      "sha256": "417948ab8fcd56bf2b502d494ed1c88c8dc05dbdb0c850dcb5fac885137c18a5"
+    },
+    {
+      "archive_entry": "majakka.class",
+      "local_path": "original/classes/majakka.class",
+      "bytes": 1863,
+      "sha256": "fcc01a7fec1a9b0a95eda4e7149d071e629529867c58bf23173bf8a02816ea4d"
+    },
+    {
+      "archive_entry": "majakkk.class",
+      "local_path": "original/classes/majakkk.class",
+      "bytes": 3678,
+      "sha256": "d9d51e30e02b6226712e9c967eaa18cea3bd443a83f1325e656272b0924b69dd"
+    },
+    {
+      "archive_entry": "majakma.class",
+      "local_path": "original/classes/majakma.class",
+      "bytes": 3300,
+      "sha256": "3f0be343e9eebf0ca7bde809893aa4c77ca82982733ccd538962ebaa9b1c7893"
+    },
+    {
+      "archive_entry": "majakmk.class",
+      "local_path": "original/classes/majakmk.class",
+      "bytes": 766,
+      "sha256": "19790a955cf59b3bd371cdb9d5a6058b1167856a92f0e70664b2f408a444acdb"
+    },
+    {
+      "archive_entry": "majamka.class",
+      "local_path": "original/classes/majamka.class",
+      "bytes": 1800,
+      "sha256": "591acd8472549289b33f4f165d6c4e86b86247dd9c14890ddcecbd5eb51c5187"
+    },
+    {
+      "archive_entry": "majamma.class",
+      "local_path": "original/classes/majamma.class",
+      "bytes": 244,
+      "sha256": "7a600c8ad113403d28cee6bb9691d81b35989767b32bec47b27dabfd4aaea9c8"
+    },
+    {
+      "archive_entry": "majammk.class",
+      "local_path": "original/classes/majammk.class",
+      "bytes": 5386,
+      "sha256": "37122ce8e26b241e34d76a6b1726ccb78fbe3c6f4e4f416e0592cfbfc99dffb0"
+    },
+    {
+      "archive_entry": "majjkka.class",
+      "local_path": "original/classes/majjkka.class",
+      "bytes": 1607,
+      "sha256": "a046ccc1776b4a4abd74dc7b4f3e1853f964d96d00cc2ca3ebee559a27c7aafa"
+    },
+    {
+      "archive_entry": "majjkkk.class",
+      "local_path": "original/classes/majjkkk.class",
+      "bytes": 1918,
+      "sha256": "9e00528581baa81618d04a8e059eee15b4e2f72f39373592bcdf47a703b54aa4"
+    },
+    {
+      "archive_entry": "majjkmk.class",
+      "local_path": "original/classes/majjkmk.class",
+      "bytes": 1891,
+      "sha256": "737b0beff41d2ae87c457bf2c62fa17723344164de6c34fbc95440100330b65e"
+    },
+    {
+      "archive_entry": "majjmka.class",
+      "local_path": "original/classes/majjmka.class",
+      "bytes": 1558,
+      "sha256": "24fa7242dd737b03c20498bf6ad9a17de5cc0c35e4b296ce57f4bba6776a787c"
+    },
+    {
+      "archive_entry": "majjmma.class",
+      "local_path": "original/classes/majjmma.class",
+      "bytes": 1383,
+      "sha256": "ae71eaa5e1cc1a6d6ad940339b80cf7060c618f68ff654e1505c2e97f061ab7f"
+    },
+    {
+      "archive_entry": "majjmmk.class",
+      "local_path": "original/classes/majjmmk.class",
+      "bytes": 550,
+      "sha256": "1e44b7caadbda4bf93dfd4f33447108b81dc60b0cf40c61ce00b973640d8214c"
+    },
+    {
+      "archive_entry": "mmaakka.class",
+      "local_path": "original/classes/mmaakka.class",
+      "bytes": 9655,
+      "sha256": "25dd10c0ce22e2b448355106bd7421afc17880ea2b5cecb0e3aaf711b543b8f7"
+    },
+    {
+      "archive_entry": "mmaakkk.class",
+      "local_path": "original/classes/mmaakkk.class",
+      "bytes": 11765,
+      "sha256": "9cf8784abef662089c3a2ef5efeb3127e02177fe4a707e64221236265050dd9c"
+    },
+    {
+      "archive_entry": "mmaakma.class",
+      "local_path": "original/classes/mmaakma.class",
+      "bytes": 254,
+      "sha256": "35b735551ff847fd067f791880969c881b3c444544843756c4d23e9c7923e124"
+    },
+    {
+      "archive_entry": "mmaakmk.class",
+      "local_path": "original/classes/mmaakmk.class",
+      "bytes": 4443,
+      "sha256": "00da0690abe7a9db4b11f4d011d8550bc7e399d3501640b030036336c44e6b00"
+    },
+    {
+      "archive_entry": "mmaamka.class",
+      "local_path": "original/classes/mmaamka.class",
+      "bytes": 15576,
+      "sha256": "334d00ed5fa10ffd2336b708b8f7a4b53f9f0d8cbbff99781e41091b23c07ef9"
+    },
+    {
+      "archive_entry": "mmaamma.class",
+      "local_path": "original/classes/mmaamma.class",
+      "bytes": 8135,
+      "sha256": "50902f484c489638f4e08d5301b46a3180150e917b0c8e107e2ee4af1d21fd15"
+    },
+    {
+      "archive_entry": "mmaammk.class",
+      "local_path": "original/classes/mmaammk.class",
+      "bytes": 2381,
+      "sha256": "ce7b6c4ba601304bd9d8adc6c8b489eefacc8c6ad9192a56aac1c066754bf1ea"
+    },
+    {
+      "archive_entry": "mmajkka.class",
+      "local_path": "original/classes/mmajkka.class",
+      "bytes": 6947,
+      "sha256": "d836250caa0160acf55e26208d2ce9de436a201f96cf8e2df338232ad0eaf114"
+    },
+    {
+      "archive_entry": "mmajkkk.class",
+      "local_path": "original/classes/mmajkkk.class",
+      "bytes": 2773,
+      "sha256": "e15e4287103d76ed33c26f76dfabe96e3dd81678616ec6974aab8ce12496602e"
+    },
+    {
+      "archive_entry": "mmajkmk.class",
+      "local_path": "original/classes/mmajkmk.class",
+      "bytes": 775,
+      "sha256": "e93b967e53128abe13fab232fc9829948e90278d53362f56dfc4124bcaff5917"
+    },
+    {
+      "archive_entry": "mmajmka.class",
+      "local_path": "original/classes/mmajmka.class",
+      "bytes": 1072,
+      "sha256": "abd248e194ab2d315ed311eb5f60188c16ae36ae25c104fae141a352f7decd92"
+    },
+    {
+      "archive_entry": "mmajmma.class",
+      "local_path": "original/classes/mmajmma.class",
+      "bytes": 1930,
+      "sha256": "e43a6b88d3b76eb2c24fe577a66ad6996ba837f33be3b18e3f27a01cac811ecb"
+    },
+    {
+      "archive_entry": "mmajmmk.class",
+      "local_path": "original/classes/mmajmmk.class",
+      "bytes": 654,
+      "sha256": "e277c165d5522d5029beb414337720cdd1efe8926b26dee74f9f3660de0b6f93"
+    },
+    {
+      "archive_entry": "mmjakka.class",
+      "local_path": "original/classes/mmjakka.class",
+      "bytes": 536,
+      "sha256": "2cb80f1d4123ee378504c500c38ece6c2e1825ec327e984f3261140ac1297e45"
+    },
+    {
+      "archive_entry": "mmjakkk.class",
+      "local_path": "original/classes/mmjakkk.class",
+      "bytes": 550,
+      "sha256": "69c801884a49f2c18e0216ddbc31dad694fe0a70202d8ff37e2068e3e001c22c"
+    },
+    {
+      "archive_entry": "mmjakmk.class",
+      "local_path": "original/classes/mmjakmk.class",
+      "bytes": 4163,
+      "sha256": "83e6c07733212aab065ca992b765d309a5fafbc0499ba9be095c553a558148bb"
+    },
+    {
+      "archive_entry": "mmjamka.class",
+      "local_path": "original/classes/mmjamka.class",
+      "bytes": 5489,
+      "sha256": "8ba124816f4f08112894cb6456900272171954a55a5ee1fffc98ab6d5adcb0cc"
+    },
+    {
+      "archive_entry": "mmjamma.class",
+      "local_path": "original/classes/mmjamma.class",
+      "bytes": 3960,
+      "sha256": "479d8acf6a7e9c1bcd75fd8983af02d4a6471e33096164c7ca2f9d13a8ffb966"
+    },
+    {
+      "archive_entry": "mmjammk.class",
+      "local_path": "original/classes/mmjammk.class",
+      "bytes": 636,
+      "sha256": "2149366858a669330a4b319ba2a687d8e14d54a5445426a123aded29285d509a"
+    },
+    {
+      "archive_entry": "mmjjkka.class",
+      "local_path": "original/classes/mmjjkka.class",
+      "bytes": 715,
+      "sha256": "87933a21edf1d203af73d3073e1c42ec216afc4a880417cca4ba4402949658ad"
+    },
+    {
+      "archive_entry": "mmjjkkk.class",
+      "local_path": "original/classes/mmjjkkk.class",
+      "bytes": 440,
+      "sha256": "e6831466d6e320d74846bf6f66cdf4b36fec84fe308a715c1124e12eeb045bcb"
+    },
+    {
+      "archive_entry": "mmjjkmk.class",
+      "local_path": "original/classes/mmjjkmk.class",
+      "bytes": 1005,
+      "sha256": "5a0fa01217e3b6e2d8f384d96da6d7752b665dcb004fc4bb4adb5808f6d64fba"
+    },
+    {
+      "archive_entry": "mmjjmka.class",
+      "local_path": "original/classes/mmjjmka.class",
+      "bytes": 627,
+      "sha256": "8d51687acdef32ccfd4122accfbe42293150ae777d95116936ca2b76fada6d3e"
+    },
+    {
+      "archive_entry": "mmjjmkk.class",
+      "local_path": "original/classes/mmjjmkk.class",
+      "bytes": 1326,
+      "sha256": "9754ffefbdeca3a82fec8d95fa7adf31ee9d4f96d37ab13b6e8a784584eed682"
+    },
+    {
+      "archive_entry": "mmjjmma.class",
+      "local_path": "original/classes/mmjjmma.class",
+      "bytes": 1127,
+      "sha256": "07d264fc61c62f3cdfdef5bfdef26dbea6d6a9db9ac954d14a5c8840851b88db"
+    },
+    {
+      "archive_entry": "mmjjmmk.class",
+      "local_path": "original/classes/mmjjmmk.class",
+      "bytes": 6149,
+      "sha256": "236f47e60cb755c4582362ccbaf18b70bc406c64dc1ab6c2cdc9e0ffafcd3225"
+    },
+    {
+      "archive_entry": "muhmu/hifi/device/DeviceMSbase.class",
+      "local_path": "original/classes/muhmu/hifi/device/DeviceMSbase.class",
+      "bytes": 3060,
+      "sha256": "8cfad959cf3b10f676609f3aec89b670e1235fc65efa58d833ddcb5c971c7dcb"
+    },
+    {
+      "archive_entry": "muhmu/hifi/device/DeviceMS_IE3.class",
+      "local_path": "original/classes/muhmu/hifi/device/DeviceMS_IE3.class",
+      "bytes": 2692,
+      "sha256": "77211a4a0fff5949a6c5e0cac70f2b7cca6760b9d46af8ac84d1a8bdf13682c0"
+    },
+    {
+      "archive_entry": "muhmu/hifi/device/DeviceMS_IE4.class",
+      "local_path": "original/classes/muhmu/hifi/device/DeviceMS_IE4.class",
+      "bytes": 2700,
+      "sha256": "cd7fa9f8aa053ee64fa86b87900fc542da66a4650d9e434752092f5432b0e2f3"
+    },
+    {
+      "archive_entry": "muhmu/hifi/device/DeviceNoSound.class",
+      "local_path": "original/classes/muhmu/hifi/device/DeviceNoSound.class",
+      "bytes": 1406,
+      "sha256": "290d588bdc45d0de23d8ddf870aa9811e4ad7c4863db9be87dcca0c1fca63dc6"
+    },
+    {
+      "archive_entry": "muhmu/hifi/device/DeviceSun.class",
+      "local_path": "original/classes/muhmu/hifi/device/DeviceSun.class",
+      "bytes": 3738,
+      "sha256": "a966cc68b90257b9820dea7c1f5c8389094885329a17a35cce33ec25da71bc93"
+    },
+    {
+      "archive_entry": "muhmu/hifi/device/MAD.class",
+      "local_path": "original/classes/muhmu/hifi/device/MAD.class",
+      "bytes": 2668,
+      "sha256": "1640a325b4dfca562290cc69b5104cf7200d8867cebd0462cd6df696ecfd3380"
+    },
+    {
+      "archive_entry": "muhmu/hifi/device/Mixable.class",
+      "local_path": "original/classes/muhmu/hifi/device/Mixable.class",
+      "bytes": 231,
+      "sha256": "2c1008c2bd42857d91bbfcfc562dca8ff5f488eb8a525428eb7427261592798e"
+    },
+    {
+      "archive_entry": "muhmu/hifi/device/ULaw.class",
+      "local_path": "original/classes/muhmu/hifi/device/ULaw.class",
+      "bytes": 1958,
+      "sha256": "ead64691e53e2a36c6c0968bebaa22e8c4ba6404cdb1cfdde134d4905703bb26"
+    }
+  ],
+  "validation": "Both ZIP CRC checks passed; extracted bytes are unchanged archive entries; original package paths retained."
+}

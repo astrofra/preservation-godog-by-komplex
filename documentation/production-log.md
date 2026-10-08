@@ -109,3 +109,58 @@ that this discovery path be added to the preservation skill.
   Demozoo ID, check the full gallery, recover original-size images, verify them,
   and preserve provenance while reporting incomplete recovery. The update is in
   `SKILL.md` and `references/recovery.md`, outside this repository.
+
+## 2026-10-08 — Independent decompilation references
+
+The user requested CFR and Procyon decompilation as two independent references.
+The working tree and index were clean when this stage began.
+
+- Installed tools are CFR 0.152 and Procyon 0.6.0. The available `java` executable
+  is Homebrew OpenJDK 25.0.2; macOS's `/usr/libexec/java_home` does not discover
+  this installation, so the actual executable on PATH is used.
+- Preserve `godog_by.zip`, extract the nested `GODOG.ZIP` and its 112 class files
+  byte-for-byte, and keep package paths. Record the extraction relationship and
+  input hashes. Only recovered classes will be used as decompiler input.
+- Keep each tool's output under `reverse/cfr/` or `reverse/procyon/`, with tool
+  versions, commands, logs and coverage evidence. Retain obfuscated names and
+  tool-generated warnings. Decompiled Java is reconstructed source, not the
+  original author's source and not yet a buildable desktop adaptation.
+
+### Findings, correction and validation
+
+- All 112 recovered classes have version 45.3 and pass outer-structure parsing.
+  The static inventory finds 13 unresolved Microsoft extension types; this does
+  not explain the first decompilation failure.
+- Direct decompilation exposed invalid nested debug metadata. CFR produced 112
+  files with 78 explicit method failures; Procyon produced only 11 files with
+  repeated constant-pool exceptions. Both exited with status zero, demonstrating
+  why output coverage and diagnostics must be checked separately.
+- Inspection confirmed one `LocalVariableTable` entry with zero name and
+  descriptor indices in each of 101 classes. The original `godog.main` descriptor
+  is `([Ljava/lang/String;)V`, but the first CFR output incorrectly dropped its
+  parameter. The original verbose `javap` evidence records `Bad CP index: 0`.
+- Implementation decision: retain the direct attempts in `reverse/raw/` and
+  create a derived class-only JAR removing only those 101 invalid entries. The
+  script records every removed entry and leaves the originals intact. This is
+  an input-metadata workaround, not a code repair or a desktop reconstruction.
+- All 1,115 code regions retained identical stack/local limits, instructions and
+  exception tables. Independent `javap -p -c -s` output for all 112 classes was
+  byte-identical before/after preparation, including field and method descriptors.
+- Both second-pass decompilers produced all 112 expected Java files. Procyon's
+  output contains no detected failure markers. CFR retains 18 unstructured-code
+  diagnostics and one failed method, `DeviceMSbase.hoxBuff`; Procyon supplies a
+  reconstruction of that method. No claim of compilability or behavioral
+  equivalence is made. The source trees retain the tools' original output.
+- [Reverse-engineering notes](../reverse/README.md) document exact commands,
+  preservation settings, input/output locations and limitations. Coverage and
+  bytecode evidence are under `reverse/evidence/`. Original and derived artifacts
+  have separate checksum inventories.
+- The user noted a resemblance to Komplex's Forward and requested a separate
+  French Markdown note about obfuscation. That language exception is limited to
+  [`obfuscation-notes-fr.md`](obfuscation-notes-fr.md). The proposed shared-tool
+  attribution is explicitly unverified; Forward was not examined in this stage.
+- The local preservation skill's recovery guide was supplemented with the
+  demonstrated malformed-debug-metadata workflow and verification requirements.
+
+This stage stops at two documented decompilation references. No demo execution,
+symbol renaming, Java desktop reconstruction or remote publication was performed.

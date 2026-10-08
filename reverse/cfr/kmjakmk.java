@@ -1,0 +1,15 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+final class kmjakmk {
+    static final int aKKaMAJ = 0;
+    static final int AkkaMAJ = 4;
+    static final int akkaMAJ = 5;
+    static final int AKkaMAJ = 7;
+    static final int aKkaMAJ = 9;
+
+    kmjakmk() {
+        super();
+    }
+}
+

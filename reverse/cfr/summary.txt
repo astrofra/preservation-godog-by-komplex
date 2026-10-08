@@ -1,0 +1,100 @@
+Summary for reverse/inputs/godog-decompiler-input.jar
+Decompiled with CFR 0.152
+
+
+godog
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+kaajkkk
+----------------------------
+
+jAKKAmA(int int kaaammk )
+  Unable to fully structure code
+jAkKAmA(int int )
+  Unable to fully structure code
+
+
+kajakmk
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+kmjakka
+----------------------------
+
+AMAJAKk(int )
+  Unable to fully structure code
+
+
+kmjjkka
+----------------------------
+
+AMaJaKK()
+  Unable to fully structure code
+aMajaKK(kaaammk java.awt.Point int byte[] int )
+  Unable to fully structure code
+amAJaKK(kaaammk java.awt.Point int int[] int )
+  Unable to fully structure code
+AMajaKK(int int int kaaammk )
+  Unable to fully structure code
+
+
+maaakka
+----------------------------
+
+kAmajaK(int )
+  Unable to fully structure code
+KaMAjaK(int )
+  Unable to fully structure code
+
+
+maajmmk
+----------------------------
+
+AkkamaJ(java.awt.Point java.awt.Point java.awt.Point )
+  Unable to fully structure code
+
+
+mmaamma
+----------------------------
+
+amAJakK(int int )
+  Unable to fully structure code
+
+
+mmajkka
+----------------------------
+
+aMAjakk(int )
+  Unable to fully structure code
+
+
+mmjamka
+----------------------------
+
+KamAjak(float float float float int int int )
+  Unable to fully structure code
+kamAjak(float float float float int int int )
+  Unable to fully structure code
+KamaJAk(float float float float int int int )
+  Unable to fully structure code
+
+
+muhmu.hifi.device.DeviceMSbase
+----------------------------
+
+hoxBuff(int[] int byte[] int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+muhmu.hifi.device.DeviceSun
+----------------------------
+
+run()
+  Unable to fully structure code

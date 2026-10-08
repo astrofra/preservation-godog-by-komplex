@@ -1,0 +1,29 @@
+{
+  "tool": "procyon",
+  "version": "0.6.0",
+  "jar_path": "/opt/homebrew/Cellar/procyon-decompiler/0.6.0/libexec/procyon-decompiler-0.6.0.jar",
+  "jar_sha256": "821da96012fc69244fa1ea298c90455ee4e021434bc796d3b9546ab24601b779",
+  "java_version": "openjdk version \"25.0.2\" 2026-01-20\nOpenJDK Runtime Environment Homebrew (build 25.0.2)\nOpenJDK 64-Bit Server VM Homebrew (build 25.0.2, mixed mode, sharing)",
+  "input": "original/GODOG.ZIP",
+  "input_sha256": "637761c27a6a7419206f90e04904f34d7bcef6a5230e0e009de8e32ac66dcf48",
+  "command": [
+    "/opt/homebrew/opt/openjdk/bin/java",
+    "-Xmx2g",
+    "-Dfile.encoding=UTF-8",
+    "-jar",
+    "/opt/homebrew/Cellar/procyon-decompiler/0.6.0/libexec/procyon-decompiler-0.6.0.jar",
+    "-jar",
+    "original/GODOG.ZIP",
+    "-o",
+    "reverse/procyon",
+    "-ec",
+    "-ps",
+    "-ss"
+  ],
+  "working_directory": "/Users/fra/dev/preservation-godog-by-komplex",
+  "started_at_utc": "2026-10-08T13:54:27+00:00",
+  "log": "reverse/evidence/procyon.log",
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-08T13:54:28+00:00",
+  "java_file_count": 11
+}

@@ -1,0 +1,1952 @@
+{
+  "input": "original/GODOG.ZIP",
+  "expected_class_count": 112,
+  "limitation": "Class-file coverage and explicit diagnostic scan only; no compilation or behavioral equivalence claim.",
+  "tools": {
+    "cfr": {
+      "java_file_count": 112,
+      "missing": [],
+      "unexpected": [],
+      "diagnostic_counts": {
+        "failed_method": 1,
+        "unstructured_code": 18,
+        "missing_dependency": 4
+      },
+      "files": [
+        {
+          "path": "reverse/cfr/godog.java",
+          "class_entry": "godog.class",
+          "bytes": 28990,
+          "lines": 708,
+          "sha256": "b60ff7730ae2729e771e56a49d1ee800892292dac7407a1bf9a9e70a09546fdd",
+          "diagnostics": [
+            {
+              "kind": "unstructured_code",
+              "line": 527,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/kaaakka.java",
+          "class_entry": "kaaakka.class",
+          "bytes": 12341,
+          "lines": 364,
+          "sha256": "ad26c2729aabd927fbbf8e88c19b8a994641872be7188538309f17cda5cf4c34",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kaaakkk.java",
+          "class_entry": "kaaakkk.class",
+          "bytes": 508,
+          "lines": 27,
+          "sha256": "87491b33b2d4d3d6c12557f9a8e4736b76caf7becd262632452faaef210136c4",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kaaakma.java",
+          "class_entry": "kaaakma.class",
+          "bytes": 2227,
+          "lines": 63,
+          "sha256": "e4fb3274fc6ae4fc351de92a7f499f6fdeaab441e1dd236880787410e722b399",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kaaakmk.java",
+          "class_entry": "kaaakmk.class",
+          "bytes": 445,
+          "lines": 24,
+          "sha256": "3eb94c2c18bebad67765d11f3a207bb9be1cf4d1347ff32af5ddaec0a7a4e22e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kaaamka.java",
+          "class_entry": "kaaamka.class",
+          "bytes": 4105,
+          "lines": 132,
+          "sha256": "27f6b60b8a406dc354245fcffb1d5dea2d06ebe1a4b335b0d8789252a0a56032",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kaaamma.java",
+          "class_entry": "kaaamma.class",
+          "bytes": 455,
+          "lines": 25,
+          "sha256": "c9ce9ddcf2e16930546f0eae4e85d7de2e562f62068ebe254e923936fc7bdda6",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kaaammk.java",
+          "class_entry": "kaaammk.class",
+          "bytes": 2932,
+          "lines": 97,
+          "sha256": "55f7599394f3b7a69de18003b81e1a5d3858e9c8eb133c25a8bc5e5def3baa65",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kaajkka.java",
+          "class_entry": "kaajkka.class",
+          "bytes": 350,
+          "lines": 21,
+          "sha256": "aa4db376126382bfb64f6652ef91b26f3d6bd0c722dc57c17f84c378f4014d67",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kaajkkk.java",
+          "class_entry": "kaajkkk.class",
+          "bytes": 41143,
+          "lines": 1146,
+          "sha256": "f7542f40cb93c8c328285fda9507dda453cf61fac06dfa1191f1b476f1f9b2d1",
+          "diagnostics": [
+            {
+              "kind": "unstructured_code",
+              "line": 378,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 537,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/kaajkmk.java",
+          "class_entry": "kaajkmk.class",
+          "bytes": 5238,
+          "lines": 162,
+          "sha256": "3877e96341ba3e59541f41befac0e64082ac3861329e901049511c643cf2d873",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kaajmka.java",
+          "class_entry": "kaajmka.class",
+          "bytes": 296,
+          "lines": 19,
+          "sha256": "e7bc8705d6035ec4bbdbb1b15688d7bb33d1ba516276d283ca11cfc8a16e69dc",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kaajmma.java",
+          "class_entry": "kaajmma.class",
+          "bytes": 8394,
+          "lines": 288,
+          "sha256": "24cb0d58d7f64b602278832d97ec66de545e717361e9509d8d843046ddf133d3",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kaajmmk.java",
+          "class_entry": "kaajmmk.class",
+          "bytes": 2625,
+          "lines": 90,
+          "sha256": "07b99fe80bef09979a16f3ad027aa0f30bd999d8a911f76894893ee32f5f6f31",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kajakka.java",
+          "class_entry": "kajakka.class",
+          "bytes": 433,
+          "lines": 28,
+          "sha256": "f38032f87462d7782af9e7044998f6e45d831516e0c230fd2b390d59adf985ec",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kajakkk.java",
+          "class_entry": "kajakkk.class",
+          "bytes": 5582,
+          "lines": 147,
+          "sha256": "9c8c98343dd79989c5b3f8c0851b7eb342a2f4c20b96f81d7a8e31133e2ab29a",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kajakma.java",
+          "class_entry": "kajakma.class",
+          "bytes": 275,
+          "lines": 15,
+          "sha256": "fe1dcc19ada4eeceef60244377db7edc5d326aad5d343fbe52857c25e66b7fe9",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kajakmk.java",
+          "class_entry": "kajakmk.class",
+          "bytes": 16345,
+          "lines": 523,
+          "sha256": "4caf480a3d5c9e3f4b0e0b144a47ed57eb8ebd888f08d8cb4cd862ba69b04c28",
+          "diagnostics": [
+            {
+              "kind": "missing_dependency",
+              "line": 4,
+              "text": "* Could not load the following classes:"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 174,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/kajamka.java",
+          "class_entry": "kajamka.class",
+          "bytes": 20925,
+          "lines": 602,
+          "sha256": "3207fcaafb1cdae54013d12ad2ec9179434537b0a77b9cd9c9ffb433b247216c",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kajamma.java",
+          "class_entry": "kajamma.class",
+          "bytes": 21049,
+          "lines": 726,
+          "sha256": "308d1388b1482b46475d6471992521becbe9dcd7d756a5f8090637fa31366b11",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kajammk.java",
+          "class_entry": "kajammk.class",
+          "bytes": 12886,
+          "lines": 335,
+          "sha256": "73ac5727ca394f2ea7213c4e80b525c1572d61fbbf6640089af2a8e8930508cf",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kajjkka.java",
+          "class_entry": "kajjkka.class",
+          "bytes": 3631,
+          "lines": 113,
+          "sha256": "177234b3986a02b12e047a5568380280e2e3de0405659eb0cb16c2a40b54fb06",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kajjkkk.java",
+          "class_entry": "kajjkkk.class",
+          "bytes": 13523,
+          "lines": 361,
+          "sha256": "d2bcd519dc9b387d01b4231eb9d7242ad68b3c874f87c9e1ce994a0c6c54cba8",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kajjkmk.java",
+          "class_entry": "kajjkmk.class",
+          "bytes": 1539,
+          "lines": 58,
+          "sha256": "4047d86aaf906c534e9bc7e7e54aa11470f794f7a0ffa04c8ad0c7a8f26fdc90",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kajjmka.java",
+          "class_entry": "kajjmka.class",
+          "bytes": 1339,
+          "lines": 63,
+          "sha256": "a0fac3d4fd0ce44c33b9e1da11be18fa82dc65d9dd11e23db653c26368c3c431",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kajjmma.java",
+          "class_entry": "kajjmma.class",
+          "bytes": 1862,
+          "lines": 60,
+          "sha256": "7dfe0e091ed6e8dd9accfb7e5bfcfccfda79434eb739f7f1596d0716afeae454",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kajjmmk.java",
+          "class_entry": "kajjmmk.class",
+          "bytes": 916,
+          "lines": 45,
+          "sha256": "507212e5c1e86c582921a54d733919b3bdc1a90a5e405111850a3dedba55c3a1",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmaakka.java",
+          "class_entry": "kmaakka.class",
+          "bytes": 2087,
+          "lines": 74,
+          "sha256": "d4008193cf0e6306c93ba9843be3c4e871885504aee8df35360da7659e5e760c",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmaakkk.java",
+          "class_entry": "kmaakkk.class",
+          "bytes": 1795,
+          "lines": 76,
+          "sha256": "aaddf199a38b122c0d624616fce623a5a312369851e7fa71c2bd1db7536cd702",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmaakma.java",
+          "class_entry": "kmaakma.class",
+          "bytes": 5720,
+          "lines": 175,
+          "sha256": "408c3de0604d5009057b92d7a31cfdb3013081270d5ac113ba61697abedad09b",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmaakmk.java",
+          "class_entry": "kmaakmk.class",
+          "bytes": 920,
+          "lines": 40,
+          "sha256": "d3bfc1a07f3d6c9f6e1b0da94451b9eb65cfe3a4c854f8075c1041e557474405",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmaamka.java",
+          "class_entry": "kmaamka.class",
+          "bytes": 10017,
+          "lines": 264,
+          "sha256": "b3cd00167dd19beadcfe9a054e03e9bf7bf239241b2f69ea85adf80512a1bc08",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmaamma.java",
+          "class_entry": "kmaamma.class",
+          "bytes": 6834,
+          "lines": 241,
+          "sha256": "c20c6b6842178160cf2fd0baf13226eab7e37bb5b11d66fb4b6cff37c452eb28",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmaammk.java",
+          "class_entry": "kmaammk.class",
+          "bytes": 9157,
+          "lines": 251,
+          "sha256": "2d5e8c86b4cb6523f5f09c71797cb6cbddb68308aa2f34a777d3ddabeae964af",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmajkka.java",
+          "class_entry": "kmajkka.class",
+          "bytes": 136,
+          "lines": 11,
+          "sha256": "2258b2a6e98db92e7e8372d791d0e843261e3406ed0157659d2112799aca1ac2",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmajkkk.java",
+          "class_entry": "kmajkkk.class",
+          "bytes": 1248,
+          "lines": 58,
+          "sha256": "f4fd9e28f9bf876a4f414256ed5e774689b29f12bebaaedc54a54773317eb3ed",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmajkmk.java",
+          "class_entry": "kmajkmk.class",
+          "bytes": 4261,
+          "lines": 122,
+          "sha256": "3a64c6204b43b81d0af1438aae51128893539fbf1445981447f355457f53e3e3",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmajmka.java",
+          "class_entry": "kmajmka.class",
+          "bytes": 1081,
+          "lines": 49,
+          "sha256": "5a9a99f8be2984267f0133a8d00efc03c177a3a8570148677ba42554209d362a",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmajmma.java",
+          "class_entry": "kmajmma.class",
+          "bytes": 3934,
+          "lines": 121,
+          "sha256": "1e640ad9ebfca9677b2ebb03237627a6e8336d21d90273b5d3957a451f0ead8b",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmajmmk.java",
+          "class_entry": "kmajmmk.class",
+          "bytes": 887,
+          "lines": 46,
+          "sha256": "a2271dc7fb4f28314140aacab490a7dbb7aecab9f045550f975c5bfc889eb4df",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmjakka.java",
+          "class_entry": "kmjakka.class",
+          "bytes": 3615,
+          "lines": 122,
+          "sha256": "239d104f759b8a5b274b5c6cc196cf87ec32a230dedfee6ee4805006d0a4ca13",
+          "diagnostics": [
+            {
+              "kind": "unstructured_code",
+              "line": 69,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/kmjakkk.java",
+          "class_entry": "kmjakkk.class",
+          "bytes": 2132,
+          "lines": 80,
+          "sha256": "60a40faca95942b7bd91c4f7fcddf26d8c5426c90332187566fb39ecc5d1a70a",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmjakmk.java",
+          "class_entry": "kmjakmk.class",
+          "bytes": 272,
+          "lines": 15,
+          "sha256": "da946839824f37a6b945e2c8d834ecea66047f0c2cba8512a98e6d7a03b3bee3",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmjamka.java",
+          "class_entry": "kmjamka.class",
+          "bytes": 2270,
+          "lines": 80,
+          "sha256": "adb4b707d7330789d6857f34d08ab45ec27165b29bdb3dfaa938895731f95e71",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmjamma.java",
+          "class_entry": "kmjamma.class",
+          "bytes": 3672,
+          "lines": 141,
+          "sha256": "9847058d067ff2423d002f6d57ecc846874418161f45384de1da7441bab749cd",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmjammk.java",
+          "class_entry": "kmjammk.class",
+          "bytes": 14310,
+          "lines": 345,
+          "sha256": "69fd63efde62fa4a474e601c3a61edd276743b33589a45ea56a275df12f7dbbb",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmjjkka.java",
+          "class_entry": "kmjjkka.class",
+          "bytes": 17451,
+          "lines": 557,
+          "sha256": "8e1917319dddc0ba488671945f0882ee8255295864e727b3c13ca98322589ef1",
+          "diagnostics": [
+            {
+              "kind": "unstructured_code",
+              "line": 61,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 316,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 361,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 429,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/kmjjkkk.java",
+          "class_entry": "kmjjkkk.class",
+          "bytes": 21072,
+          "lines": 528,
+          "sha256": "bc916cf146cda705c9872d61b13795245d5b94547e34481b5b9b1b92b7e7be4e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmjjkmk.java",
+          "class_entry": "kmjjkmk.class",
+          "bytes": 2615,
+          "lines": 100,
+          "sha256": "89e871f9657b56d631f2a308f57130ba970c5a7bd12ab4a9d94579f26b929441",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmjjmka.java",
+          "class_entry": "kmjjmka.class",
+          "bytes": 5393,
+          "lines": 191,
+          "sha256": "efe912b55b59d0d624534a638c1d6c5966eda577c54851457079b4555d37ada5",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmjjmma.java",
+          "class_entry": "kmjjmma.class",
+          "bytes": 405,
+          "lines": 26,
+          "sha256": "da33cbfdcf52aaa00a8fccabfebd5de3fcb7bf82f18d60ecfc440a6a42cac232",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/kmjjmmk.java",
+          "class_entry": "kmjjmmk.class",
+          "bytes": 2206,
+          "lines": 80,
+          "sha256": "b052d2ae8e1c8440cc02e5743708ca9974cf0b3c97d68892d040ceca1874d623",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/maaakka.java",
+          "class_entry": "maaakka.class",
+          "bytes": 17422,
+          "lines": 524,
+          "sha256": "1420f238d4ff874ff33d816e0907f04771db5218abd41bcf85afcf11fc0bfd42",
+          "diagnostics": [
+            {
+              "kind": "unstructured_code",
+              "line": 324,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 386,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/maaakkk.java",
+          "class_entry": "maaakkk.class",
+          "bytes": 13421,
+          "lines": 394,
+          "sha256": "fb00f5923cebe9d4b9a5461768cde18b3000e639b4f48a9eb69138ea7405acf5",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/maaakma.java",
+          "class_entry": "maaakma.class",
+          "bytes": 3048,
+          "lines": 100,
+          "sha256": "039339316817d853f1eff64d599fd7bf26d4aec0c5d1d043a5c1b8cb180768ae",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/maaakmk.java",
+          "class_entry": "maaakmk.class",
+          "bytes": 176,
+          "lines": 12,
+          "sha256": "35f8de64487bfbd44217c91a6496f3caaf0fa2ba329182cf894f1fdee4451aae",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/maaamka.java",
+          "class_entry": "maaamka.class",
+          "bytes": 6085,
+          "lines": 227,
+          "sha256": "f919f31ebf64e0ab0a821a50cdbfbef99fbd1367bc6062fda4bc036cfb173002",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/maaamma.java",
+          "class_entry": "maaamma.class",
+          "bytes": 2511,
+          "lines": 86,
+          "sha256": "a7eb4593b3c6d8806aa2d41a628c97473d5ac995917ef64e565ab0792c2859c1",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/maaammk.java",
+          "class_entry": "maaammk.class",
+          "bytes": 5520,
+          "lines": 135,
+          "sha256": "363b4ed7d769ee8e7e8d284f23734645641e32a78efe8db9081ff4bf4cd59e8a",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/maajkka.java",
+          "class_entry": "maajkka.class",
+          "bytes": 4250,
+          "lines": 113,
+          "sha256": "f071b4ddc374e02d1caa6be8fff4bc0789fe38c0780cc7f5138f96079609990f",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/maajkkk.java",
+          "class_entry": "maajkkk.class",
+          "bytes": 2062,
+          "lines": 72,
+          "sha256": "6956696d0eef00a777e39dccf9bb05aaafe101f8db4cb3763a74b42eb19f622a",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/maajkmk.java",
+          "class_entry": "maajkmk.class",
+          "bytes": 4976,
+          "lines": 111,
+          "sha256": "4629a00d8351382c16ad22f15344ce97c9d96c70851e319bc9c0e65b5970fdff",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/maajmka.java",
+          "class_entry": "maajmka.class",
+          "bytes": 1584,
+          "lines": 67,
+          "sha256": "6241c93152c333de13d2bcbe0e2a8f7c5805f98fdc473b36ec6bed1b5c43c7c3",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/maajmma.java",
+          "class_entry": "maajmma.class",
+          "bytes": 484,
+          "lines": 21,
+          "sha256": "c5565b0979a88e1e15e325879f0fbe1d59e7f52334e426bf9d2476e6f0a5fc4d",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/maajmmk.java",
+          "class_entry": "maajmmk.class",
+          "bytes": 34353,
+          "lines": 896,
+          "sha256": "740f97c4dadb1f54f6293deb6ba76fc5ece1d8ca09f0923ad6480214215080d7",
+          "diagnostics": [
+            {
+              "kind": "unstructured_code",
+              "line": 396,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/majakka.java",
+          "class_entry": "majakka.class",
+          "bytes": 2894,
+          "lines": 108,
+          "sha256": "a0915efee6a8a1a12cde7031822f730d383c18f8d2885d233b8e0ccdc2bfb08c",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/majakkk.java",
+          "class_entry": "majakkk.class",
+          "bytes": 4363,
+          "lines": 119,
+          "sha256": "3e12a8660c75651c0335d6b7d3cf9b7773aca79dde346f9907ec4f44dd1424ed",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/majakma.java",
+          "class_entry": "majakma.class",
+          "bytes": 3936,
+          "lines": 107,
+          "sha256": "c20c05301629c2ee951ecc182131117ba26202b67e8816a6735e7adffac769a7",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/majakmk.java",
+          "class_entry": "majakmk.class",
+          "bytes": 335,
+          "lines": 18,
+          "sha256": "fe642cd5dcaa5609cc3f42da1e5c70e7f20e0c841d4b442d746b318e9d803e0e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/majamka.java",
+          "class_entry": "majamka.class",
+          "bytes": 1778,
+          "lines": 57,
+          "sha256": "9191a4214cd6afd8630e15e253d44004e92486aea56ddc42451cb8568f0ed9d0",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/majamma.java",
+          "class_entry": "majamma.class",
+          "bytes": 99,
+          "lines": 7,
+          "sha256": "545a091fb03fd5effc1ee4833c51934591e1c5883c54301e82ff4ed921e546ca",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/majammk.java",
+          "class_entry": "majammk.class",
+          "bytes": 8149,
+          "lines": 217,
+          "sha256": "fea57aa61cf88cc4d186443ca88729da5b86388151c3f24665fedd50cbc3a0af",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/majjkka.java",
+          "class_entry": "majjkka.class",
+          "bytes": 2756,
+          "lines": 104,
+          "sha256": "4813e0c5787b99a5c546602b895299f3673455debe6801b41268f707ee5c1d69",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/majjkkk.java",
+          "class_entry": "majjkkk.class",
+          "bytes": 3751,
+          "lines": 110,
+          "sha256": "d3b02d0999e822a645af9d1b744f3a0d14190cee9f68411b1c2c6cc1fc0bfc9d",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/majjkmk.java",
+          "class_entry": "majjkmk.class",
+          "bytes": 3738,
+          "lines": 121,
+          "sha256": "b30c5029c4b68a0915a716ed2abc85c8b6c5650ae0dca717744292ea552bb6e7",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/majjmka.java",
+          "class_entry": "majjmka.class",
+          "bytes": 2674,
+          "lines": 91,
+          "sha256": "c18150b8333f159b06f69eae9b071b7223ce6aaadc43dca907b1e6513710f818",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/majjmma.java",
+          "class_entry": "majjmma.class",
+          "bytes": 3031,
+          "lines": 107,
+          "sha256": "2e3075960edc10dcaf6dac382098f6081db6805e3e84e42ff7f9ca6dacf306c9",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/majjmmk.java",
+          "class_entry": "majjmmk.class",
+          "bytes": 353,
+          "lines": 17,
+          "sha256": "b7a93a612e5e8c3577824d4612509bf4e00fbdf0b6df2465699374a6f0706bcd",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmaakka.java",
+          "class_entry": "mmaakka.class",
+          "bytes": 23073,
+          "lines": 631,
+          "sha256": "79932730b7551011f61b8902b04185319f949afa6ca69ef54169c1d906491590",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmaakkk.java",
+          "class_entry": "mmaakkk.class",
+          "bytes": 31414,
+          "lines": 845,
+          "sha256": "f41d63ea2e732350f9cb03bdeb50397c5abf6ce3dd207f66f44160c2e22cb7e4",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmaakma.java",
+          "class_entry": "mmaakma.class",
+          "bytes": 115,
+          "lines": 7,
+          "sha256": "e75dab95e20bd1e365d52fbed8190c9c2c1d5aa95e3ab43388d721be01591067",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmaakmk.java",
+          "class_entry": "mmaakmk.class",
+          "bytes": 8602,
+          "lines": 315,
+          "sha256": "4a8a93b5a595aa5c8b3cc09dc5d59aeaa4de4f91077b740e8dc1ae0ca5be6f3b",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmaamka.java",
+          "class_entry": "mmaamka.class",
+          "bytes": 53669,
+          "lines": 1768,
+          "sha256": "083752889545b0fa9b6c5c63f14cc581d4b92a95fff42a44113c055bd8e89cf8",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmaamma.java",
+          "class_entry": "mmaamma.class",
+          "bytes": 26935,
+          "lines": 806,
+          "sha256": "1e354c754c86ad75cc9158c28e32c1d5a625f1d2062d7a86415cca9aa930ee2b",
+          "diagnostics": [
+            {
+              "kind": "unstructured_code",
+              "line": 282,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/mmaammk.java",
+          "class_entry": "mmaammk.class",
+          "bytes": 4367,
+          "lines": 106,
+          "sha256": "074cf4274a0e37f20d92965f1277a8a1361feda2ef4943d1955071d18ff56223",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmajkka.java",
+          "class_entry": "mmajkka.class",
+          "bytes": 22087,
+          "lines": 699,
+          "sha256": "44449e3c414da75977b07b5d65e64c0f0bc599a87716e7044e708bc7bc0643e7",
+          "diagnostics": [
+            {
+              "kind": "unstructured_code",
+              "line": 79,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/mmajkkk.java",
+          "class_entry": "mmajkkk.class",
+          "bytes": 8034,
+          "lines": 308,
+          "sha256": "a44f3b042726f11c080cafabddaf4b4d49708e9158e38680b57901fad3d5a0a2",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmajkmk.java",
+          "class_entry": "mmajkmk.class",
+          "bytes": 837,
+          "lines": 35,
+          "sha256": "014fd4a96f9de856caf571e405198fcd6cef59ae42e3cb2270c51be647af19e8",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmajmka.java",
+          "class_entry": "mmajmka.class",
+          "bytes": 956,
+          "lines": 34,
+          "sha256": "2206bde4546fa190dc290bb26946dd90d46a225493b43f1eb47ced7db3386e3e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmajmma.java",
+          "class_entry": "mmajmma.class",
+          "bytes": 2599,
+          "lines": 92,
+          "sha256": "5ff2826767c59263901fcc4b562d48110af8fac45b2a4aac19992a0630273735",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmajmmk.java",
+          "class_entry": "mmajmmk.class",
+          "bytes": 754,
+          "lines": 42,
+          "sha256": "1ea10551de6276dc861914855fb73721702f593a00765ee6ce4d6af3f2b8bcca",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmjakka.java",
+          "class_entry": "mmjakka.class",
+          "bytes": 270,
+          "lines": 19,
+          "sha256": "4be07fe7af1c049b80e127d2263e895354767b411eba544bb822fe6f5d9f2ee7",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmjakkk.java",
+          "class_entry": "mmjakkk.class",
+          "bytes": 346,
+          "lines": 17,
+          "sha256": "2dd4fde998e4e76cdf9eb3798134b43b4ae7bc28080e3be4274804ae2a402a21",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmjakmk.java",
+          "class_entry": "mmjakmk.class",
+          "bytes": 6061,
+          "lines": 224,
+          "sha256": "d50d6ddebc191fe974a1cc8d0ad674ab1089ca5164ab2a91a97108669686f4f1",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmjamka.java",
+          "class_entry": "mmjamka.class",
+          "bytes": 22733,
+          "lines": 594,
+          "sha256": "8ac4931d1bf2387de8a33881c31975d7d91b6ad900dea5197c26b6a46cba3103",
+          "diagnostics": [
+            {
+              "kind": "unstructured_code",
+              "line": 198,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 315,
+              "text": "* Unable to fully structure code"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 436,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/mmjamma.java",
+          "class_entry": "mmjamma.class",
+          "bytes": 7813,
+          "lines": 269,
+          "sha256": "a81481412560182f18a9aab534645ec046dc361aa4eff3309b33bbf1eef3a100",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmjammk.java",
+          "class_entry": "mmjammk.class",
+          "bytes": 517,
+          "lines": 29,
+          "sha256": "cf717b042f4450995e817150a60cef421a65175fdd86760964c6413cc5f615bb",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmjjkka.java",
+          "class_entry": "mmjjkka.class",
+          "bytes": 252,
+          "lines": 16,
+          "sha256": "1c04ad454221f36c90f858ecfc1783df32bca627bc5a64e4331d3e32fecad3c3",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmjjkkk.java",
+          "class_entry": "mmjjkkk.class",
+          "bytes": 229,
+          "lines": 15,
+          "sha256": "52123e97b773e06a9ddd3d6ace6083260459d2908217acf478773b80230a130e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmjjkmk.java",
+          "class_entry": "mmjjkmk.class",
+          "bytes": 865,
+          "lines": 36,
+          "sha256": "ab64fe673e86b96d6d90856b0c28549b91593e5cee1da44a5726a4de4624b61e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmjjmka.java",
+          "class_entry": "mmjjmka.class",
+          "bytes": 772,
+          "lines": 26,
+          "sha256": "648a088431ea520590a5772eae70d6868a41231c3d1a7344987f8fc9953785b7",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmjjmkk.java",
+          "class_entry": "mmjjmkk.class",
+          "bytes": 1433,
+          "lines": 43,
+          "sha256": "6ecf1a373875225fcaeceec4394f42d3806d6c0ba277cb2cf33b25763415ba3a",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmjjmma.java",
+          "class_entry": "mmjjmma.class",
+          "bytes": 2820,
+          "lines": 109,
+          "sha256": "cc2ba486cd048cc71d806e2925a9247f1f9c855e1079f5871b6f597ae70b85fb",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/mmjjmmk.java",
+          "class_entry": "mmjjmmk.class",
+          "bytes": 15116,
+          "lines": 392,
+          "sha256": "068a4d5272ce6fd511f7a13035e326ca6676a0f48302d10c0480229f7ced927b",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/muhmu/hifi/device/DeviceMS_IE3.java",
+          "class_entry": "muhmu/hifi/device/DeviceMS_IE3.class",
+          "bytes": 3658,
+          "lines": 109,
+          "sha256": "46e3be867c59013d9b65bd107c60ff9fba7d114bf9880e09ee69f732de9fb181",
+          "diagnostics": [
+            {
+              "kind": "missing_dependency",
+              "line": 4,
+              "text": "* Could not load the following classes:"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/muhmu/hifi/device/DeviceMS_IE4.java",
+          "class_entry": "muhmu/hifi/device/DeviceMS_IE4.class",
+          "bytes": 3733,
+          "lines": 115,
+          "sha256": "8573456e30733827a801504331dcf4eb7ba5de58a92181e901693d665945f64e",
+          "diagnostics": [
+            {
+              "kind": "missing_dependency",
+              "line": 4,
+              "text": "* Could not load the following classes:"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/muhmu/hifi/device/DeviceMSbase.java",
+          "class_entry": "muhmu/hifi/device/DeviceMSbase.class",
+          "bytes": 5804,
+          "lines": 171,
+          "sha256": "6166d211bc5d14c41dbf977df1f727e7aec9a22cbb2dc0d118f59cdff83fd125",
+          "diagnostics": [
+            {
+              "kind": "failed_method",
+              "line": 124,
+              "text": "throw new IllegalStateException(\"Decompilation failed\");"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/muhmu/hifi/device/DeviceNoSound.java",
+          "class_entry": "muhmu/hifi/device/DeviceNoSound.class",
+          "bytes": 1403,
+          "lines": 58,
+          "sha256": "d02ad7a688c23ff43c980c5a5e07166fa14c986c2a358f757c726e4b4cf46558",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/muhmu/hifi/device/DeviceSun.java",
+          "class_entry": "muhmu/hifi/device/DeviceSun.class",
+          "bytes": 5116,
+          "lines": 180,
+          "sha256": "cbebf71d59d2475ae714fe82cf78370a4bcfd53ad2a11d331d8e03511dd42b06",
+          "diagnostics": [
+            {
+              "kind": "missing_dependency",
+              "line": 4,
+              "text": "* Could not load the following classes:"
+            },
+            {
+              "kind": "unstructured_code",
+              "line": 135,
+              "text": "* Unable to fully structure code"
+            }
+          ]
+        },
+        {
+          "path": "reverse/cfr/muhmu/hifi/device/MAD.java",
+          "class_entry": "muhmu/hifi/device/MAD.class",
+          "bytes": 3729,
+          "lines": 126,
+          "sha256": "c7916e687344d84eb5eec29c39c29c06166e888aedee1009152006bd9a6a4f7d",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/muhmu/hifi/device/Mixable.java",
+          "class_entry": "muhmu/hifi/device/Mixable.class",
+          "bytes": 192,
+          "lines": 11,
+          "sha256": "3313f5327285b332e688ac781c9c7af0dd529071387c5a381f859d22dfe1d16e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/cfr/muhmu/hifi/device/ULaw.java",
+          "class_entry": "muhmu/hifi/device/ULaw.class",
+          "bytes": 3575,
+          "lines": 129,
+          "sha256": "1225e9f87a92242be2f22ea7dc5e4a42dd6f6ab2b46d41e823a3cf3ce7080647",
+          "diagnostics": []
+        }
+      ]
+    },
+    "procyon": {
+      "java_file_count": 112,
+      "missing": [],
+      "unexpected": [],
+      "diagnostic_counts": {
+        "failed_method": 0,
+        "unstructured_code": 0,
+        "missing_dependency": 0
+      },
+      "files": [
+        {
+          "path": "reverse/procyon/godog.java",
+          "class_entry": "godog.class",
+          "bytes": 27633,
+          "lines": 682,
+          "sha256": "33ce5c883245cd419f33f7c40d11808037db4602939354282b0cc6e8180fbf4e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kaaakka.java",
+          "class_entry": "kaaakka.class",
+          "bytes": 13330,
+          "lines": 353,
+          "sha256": "71abb20ee7424bca4b70d9f65fdf81ae96e754e144d05b6e1cfe404ebe6ed6dd",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kaaakkk.java",
+          "class_entry": "kaaakkk.class",
+          "bytes": 631,
+          "lines": 25,
+          "sha256": "6847457047559b5725a9e401634683c3a867033bb4d94943e7a04e8af9d999d3",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kaaakma.java",
+          "class_entry": "kaaakma.class",
+          "bytes": 2380,
+          "lines": 66,
+          "sha256": "1c5d64bb1319c1e17690f82234fece57ea58878329544d7bda49d7fa9f98261d",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kaaakmk.java",
+          "class_entry": "kaaakmk.class",
+          "bytes": 501,
+          "lines": 26,
+          "sha256": "5a19de8fd70311883de469b74494bb0e4ee89b926b398fa8cdd860e0366a56e1",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kaaamka.java",
+          "class_entry": "kaaamka.class",
+          "bytes": 4426,
+          "lines": 137,
+          "sha256": "d588d3a94206c60dd9a9202178456d8c11197c39f3bb28c6d8cf874878c0ec99",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kaaamma.java",
+          "class_entry": "kaaamma.class",
+          "bytes": 479,
+          "lines": 25,
+          "sha256": "c2180e1325b7620be2b55322be966994e377c08d8cf66321d981696d8607204e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kaaammk.java",
+          "class_entry": "kaaammk.class",
+          "bytes": 3464,
+          "lines": 103,
+          "sha256": "d4ade1616cbad3864ca3e687a79f169c1fe88c145ebc12efba3ce1aded72ba94",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kaajkka.java",
+          "class_entry": "kaajkka.class",
+          "bytes": 332,
+          "lines": 22,
+          "sha256": "6bb66bde670ffa0ae9a369d71a0fd7cab12f68552defd00eb1711a0533e27e73",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kaajkkk.java",
+          "class_entry": "kaajkkk.class",
+          "bytes": 44397,
+          "lines": 1181,
+          "sha256": "2fcd0b9ad0eb6c6933aa4b41a346101161ce31de53aae26298d3fa7e1286678a",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kaajkmk.java",
+          "class_entry": "kaajkmk.class",
+          "bytes": 4818,
+          "lines": 133,
+          "sha256": "2330f98b7f696078af17a4b068f937b2ce136d08392cd296012cd719616cd17d",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kaajmka.java",
+          "class_entry": "kaajmka.class",
+          "bytes": 388,
+          "lines": 19,
+          "sha256": "95ccba70ecde67aa6fea27df9043814114aedcf867f0de3f8d8af5df86cb35d2",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kaajmma.java",
+          "class_entry": "kaajmma.class",
+          "bytes": 9187,
+          "lines": 289,
+          "sha256": "f7e818147d73860a9544ba8a5a74a1c3caebc43c0d77e214de39d127a8464dac",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kaajmmk.java",
+          "class_entry": "kaajmmk.class",
+          "bytes": 2720,
+          "lines": 95,
+          "sha256": "241930bd2c3f7133cd7a4549ef606fed36ee74a238dda9af08c61beeaf54d493",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kajakka.java",
+          "class_entry": "kajakka.class",
+          "bytes": 439,
+          "lines": 25,
+          "sha256": "56497efbaeda3c5169f026c5cfbe9fa6aab7934cb52b2a581d15d8977239a61a",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kajakkk.java",
+          "class_entry": "kajakkk.class",
+          "bytes": 6156,
+          "lines": 151,
+          "sha256": "8298fde0e80f44d21e4d4c3a5a4d396eb30dafc844fff5ec1220a74ed63c7f9d",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kajakma.java",
+          "class_entry": "kajakma.class",
+          "bytes": 238,
+          "lines": 12,
+          "sha256": "7548d30bd70349b457e6f913a73962ea9f0ddb66aa72cadf781c0f30d22e2498",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kajakmk.java",
+          "class_entry": "kajakmk.class",
+          "bytes": 16905,
+          "lines": 517,
+          "sha256": "80bd908d462534e61efc2cd6a90f57eb582c5ba7c4dcefc983b7afc21ecfd7a1",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kajamka.java",
+          "class_entry": "kajamka.class",
+          "bytes": 20552,
+          "lines": 530,
+          "sha256": "8b58afea6da3ebb456f2d9e1a0dbcfd446d999293ac0d4fbbc6dfee34d5ce4b6",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kajamma.java",
+          "class_entry": "kajamma.class",
+          "bytes": 21739,
+          "lines": 717,
+          "sha256": "2e3f280d19b09bb3783d8ad8ddb1f0b47dbf7c172fea801dbf9e38a9a9cfbc8c",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kajammk.java",
+          "class_entry": "kajammk.class",
+          "bytes": 13310,
+          "lines": 325,
+          "sha256": "cf8025acb543f79ec0cc965555ae7736ba5d27fe9d10d2a0c3505a04cb4ffc44",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kajjkka.java",
+          "class_entry": "kajjkka.class",
+          "bytes": 4085,
+          "lines": 114,
+          "sha256": "4aa78c56b1f498df1297e9e096adb23086f8d4c79b6290b937458760f4038728",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kajjkkk.java",
+          "class_entry": "kajjkkk.class",
+          "bytes": 14770,
+          "lines": 394,
+          "sha256": "e64896998dc84d18f5ba9b91b81a8953813b5651734f676c149d24f084b93217",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kajjkmk.java",
+          "class_entry": "kajjkmk.class",
+          "bytes": 1639,
+          "lines": 57,
+          "sha256": "a7df7410e7792d7c93b75594752e83481c6a1d75eb14370fb8eb0fc9f1723a7c",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kajjmka.java",
+          "class_entry": "kajjmka.class",
+          "bytes": 1257,
+          "lines": 57,
+          "sha256": "2563893c4844a7c291654439401f171326263879458f5ccb88adcf2f98b4036d",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kajjmma.java",
+          "class_entry": "kajjmma.class",
+          "bytes": 1852,
+          "lines": 56,
+          "sha256": "1c5eb81115a87a5133ef0a2aea95037d4006799a64f97e538ffa630d0190c278",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kajjmmk.java",
+          "class_entry": "kajjmmk.class",
+          "bytes": 977,
+          "lines": 42,
+          "sha256": "e82c733c562cec43a31bdef5c9d8d922257db7fa1b295bede8e12bd153f4fdf6",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmaakka.java",
+          "class_entry": "kmaakka.class",
+          "bytes": 2266,
+          "lines": 74,
+          "sha256": "05ebf9bc79dcfecef255ca3a84481367b20552c90fedf7db3a67a36a7f3e4a31",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmaakkk.java",
+          "class_entry": "kmaakkk.class",
+          "bytes": 1910,
+          "lines": 75,
+          "sha256": "e1ac6ecb1ab306a7cba43167264e9e823d0a2f8efd22cae564044255d39b7a88",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmaakma.java",
+          "class_entry": "kmaakma.class",
+          "bytes": 5239,
+          "lines": 145,
+          "sha256": "f46830c276d3a79fe248bbf03010f4beae0a4f7cce4492ce906ee00129e31cea",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmaakmk.java",
+          "class_entry": "kmaakmk.class",
+          "bytes": 932,
+          "lines": 36,
+          "sha256": "16d348b27393f3a2483fa9ad7bc0c1831f9d7419525153abb3888c4b542ff1b7",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmaamka.java",
+          "class_entry": "kmaamka.class",
+          "bytes": 10767,
+          "lines": 288,
+          "sha256": "bd384ed4e05f3ae06511bf1814842303cc3f84f9b4e717878ad842760d5e6e39",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmaamma.java",
+          "class_entry": "kmaamma.class",
+          "bytes": 6777,
+          "lines": 236,
+          "sha256": "daee250cfb71a21a58acef243b8c0a3c04fe26063a172e1fc53ff6d3914550c3",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmaammk.java",
+          "class_entry": "kmaammk.class",
+          "bytes": 8552,
+          "lines": 202,
+          "sha256": "d83d3583312be00ed8be5668d59a9a4dd1cdbdb30aa06bc212f03bf0f395afa6",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmajkka.java",
+          "class_entry": "kmajkka.class",
+          "bytes": 92,
+          "lines": 8,
+          "sha256": "2a003bb26b2c90452d726473d2695d89be60683be35f8381797164aa7fb823ea",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmajkkk.java",
+          "class_entry": "kmajkkk.class",
+          "bytes": 1221,
+          "lines": 56,
+          "sha256": "94466721d7f161edd320cb6fc76f8b06a13fbc47ceacce9ddad132e2180c4445",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmajkmk.java",
+          "class_entry": "kmajkmk.class",
+          "bytes": 4327,
+          "lines": 120,
+          "sha256": "eaa92db8f5fd24131fb2f2f8d14c69858d251a37b2e700e8bb535ba462e9af19",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmajmka.java",
+          "class_entry": "kmajmka.class",
+          "bytes": 1191,
+          "lines": 47,
+          "sha256": "d425da8820b8e5dfbe35df3130f00203b6e0b86456cd4f5180943bbe675d42db",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmajmma.java",
+          "class_entry": "kmajmma.class",
+          "bytes": 4007,
+          "lines": 107,
+          "sha256": "f2ec35798c39041e6b4495fd51d7d4fc39992605894add33e1607d3e24d424ce",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmajmmk.java",
+          "class_entry": "kmajmmk.class",
+          "bytes": 933,
+          "lines": 46,
+          "sha256": "adcc2eaba6d925f33fe48ee901c7bdeaf12de7af4ede6d0c4469544a092a65f6",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmjakka.java",
+          "class_entry": "kmjakka.class",
+          "bytes": 3969,
+          "lines": 125,
+          "sha256": "8845b502848f3637ff8b481b90225755bae3f5cd0e8a8bfd4cdc375a7560e6be",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmjakkk.java",
+          "class_entry": "kmjakkk.class",
+          "bytes": 2223,
+          "lines": 78,
+          "sha256": "003f629426d066af3ee04e7eb22b44677463f0ede4d209172dd428b67316491e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmjakmk.java",
+          "class_entry": "kmjakmk.class",
+          "bytes": 235,
+          "lines": 12,
+          "sha256": "2df04e2511dadc12cb0f9a865f35c3e3b287108bc260fc643f982e9b2e8c2f4a",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmjamka.java",
+          "class_entry": "kmjamka.class",
+          "bytes": 2354,
+          "lines": 71,
+          "sha256": "0e5f481d6e71877338e83eee3b768412e7776585a8501d54e24e611007700587",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmjamma.java",
+          "class_entry": "kmjamma.class",
+          "bytes": 3758,
+          "lines": 131,
+          "sha256": "40ee960187cd02ae7c226b3b7bcbeafc748598c2e44280340ccc0badaface902",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmjammk.java",
+          "class_entry": "kmjammk.class",
+          "bytes": 16338,
+          "lines": 366,
+          "sha256": "13144e4a9a5eaae954742bcf64f34434d730578431cee7efd1a9650fb2b4ceee",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmjjkka.java",
+          "class_entry": "kmjjkka.class",
+          "bytes": 16922,
+          "lines": 498,
+          "sha256": "a68ad60b6b7e1d3e8680f8f1db68cdfbc673c6aa1975f7ebc345627d6023e4c6",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmjjkkk.java",
+          "class_entry": "kmjjkkk.class",
+          "bytes": 19641,
+          "lines": 472,
+          "sha256": "0ff3caf3f3491ee39d7717e8a321d7c5b2a27ac5ac397d4106fe38e653bfa090",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmjjkmk.java",
+          "class_entry": "kmjjkmk.class",
+          "bytes": 2617,
+          "lines": 90,
+          "sha256": "6a294c5fc3fbf39f6329bedbe8c50255f80e6693c06284ed61771ad8f5e1b27b",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmjjmka.java",
+          "class_entry": "kmjjmka.class",
+          "bytes": 6090,
+          "lines": 200,
+          "sha256": "1d71d8a3c5b051bf8c1a68cb3947366bc3c4c3d0ba73e45d37f54ba1a0b771f9",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmjjmma.java",
+          "class_entry": "kmjjmma.class",
+          "bytes": 410,
+          "lines": 23,
+          "sha256": "7e555025270f23bd6db0191cef71f7088a0ca816c8ef483e21f8ffa7d9a528d7",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/kmjjmmk.java",
+          "class_entry": "kmjjmmk.class",
+          "bytes": 2401,
+          "lines": 78,
+          "sha256": "36ba68b13647428c2d5f65540b36a2f9658736df81f89098caba4bf502706021",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/maaakka.java",
+          "class_entry": "maaakka.class",
+          "bytes": 16569,
+          "lines": 457,
+          "sha256": "015e365baba469e68d59b3cf6f7f968adaf9f58450e9d640fe3bbc3e42d03c5e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/maaakkk.java",
+          "class_entry": "maaakkk.class",
+          "bytes": 15621,
+          "lines": 427,
+          "sha256": "54bcecb8d84091507a1c8dcc37371747618b7a392ea38f0326a58dae82ae8d30",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/maaakma.java",
+          "class_entry": "maaakma.class",
+          "bytes": 3497,
+          "lines": 105,
+          "sha256": "a135a09864377f41986e57f4728a34a75b2835916939262697726caae71ed023",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/maaakmk.java",
+          "class_entry": "maaakmk.class",
+          "bytes": 176,
+          "lines": 12,
+          "sha256": "277d3fb947d3a85d88507ebd3272881f51ad91fbb2190ef592bc2ab945929c9b",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/maaamka.java",
+          "class_entry": "maaamka.class",
+          "bytes": 6362,
+          "lines": 235,
+          "sha256": "af4f8123a61b279ccb555da38bd0951dd44164321f17742623483cdf8404bdf0",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/maaamma.java",
+          "class_entry": "maaamma.class",
+          "bytes": 2339,
+          "lines": 80,
+          "sha256": "5d081575efa0d582e9233f6ac47ed3bc9a64ba8002745c92a67362fbe1bc39bf",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/maaammk.java",
+          "class_entry": "maaammk.class",
+          "bytes": 5721,
+          "lines": 138,
+          "sha256": "684fd3a561e8fd9d30a031494790f85a73ee285f1eff5fe728bff6350358106b",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/maajkka.java",
+          "class_entry": "maajkka.class",
+          "bytes": 3960,
+          "lines": 98,
+          "sha256": "59393f8256356a69bbaa4f99ab8eb8c5b57d53dc0075e45ae4d0616670cbe287",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/maajkkk.java",
+          "class_entry": "maajkkk.class",
+          "bytes": 2132,
+          "lines": 71,
+          "sha256": "fd9b90285b3e5aaa1713fe0a094952ed65be7e277b06349d5be75d0e90fd511a",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/maajkmk.java",
+          "class_entry": "maajkmk.class",
+          "bytes": 4665,
+          "lines": 96,
+          "sha256": "53bd77a61b4b9ddc76202c7fdc224aa44af1fa1e80297407954e47fc478b3833",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/maajmka.java",
+          "class_entry": "maajmka.class",
+          "bytes": 1595,
+          "lines": 61,
+          "sha256": "187fc702dcb0989c36bb583097bca27ac3a765db0865c21b0e2ac2a1b601f8e0",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/maajmma.java",
+          "class_entry": "maajmma.class",
+          "bytes": 447,
+          "lines": 18,
+          "sha256": "ed4dfe35a0f6decebdcd0a82a2f943930fa016f68e3e74d16f49dc02ff0e5950",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/maajmmk.java",
+          "class_entry": "maajmmk.class",
+          "bytes": 40864,
+          "lines": 1037,
+          "sha256": "51dcb963b0e85ee7761f5b175897b0c9bd949df5ba8a89e73bbacdd3e9977c51",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/majakka.java",
+          "class_entry": "majakka.class",
+          "bytes": 2826,
+          "lines": 102,
+          "sha256": "e0d160d3098194104565c9fc059fdb1e63d4ece428dd7c4dc890ae516ce2af1d",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/majakkk.java",
+          "class_entry": "majakkk.class",
+          "bytes": 4042,
+          "lines": 102,
+          "sha256": "c6697cee8a1a79f2eaa3852de8bfa830e58349499748e48902e00f6e1cd9f891",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/majakma.java",
+          "class_entry": "majakma.class",
+          "bytes": 3664,
+          "lines": 91,
+          "sha256": "a7b4845ba2c59a718e619e900cb72184d109bc3e2a59e20ba1ba5473269e9011",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/majakmk.java",
+          "class_entry": "majakmk.class",
+          "bytes": 367,
+          "lines": 18,
+          "sha256": "2a7bc444a917bfe52407cf560136e7e7ce89c6ab75611d7e3025ffb5bf8f0bfa",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/majamka.java",
+          "class_entry": "majamka.class",
+          "bytes": 1723,
+          "lines": 56,
+          "sha256": "48c6d9c2c530918f74473e1b37f0220db39931b7cc83d626bdb8e7dcfcfd1ceb",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/majamma.java",
+          "class_entry": "majamma.class",
+          "bytes": 99,
+          "lines": 8,
+          "sha256": "a27af09e213b928623d07d7573e16fbc9f4d0aa6aea3b26350775d789bb98151",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/majammk.java",
+          "class_entry": "majammk.class",
+          "bytes": 10174,
+          "lines": 254,
+          "sha256": "0a9c4fa572d8853e50bcc485351923ef8190e391369902ec206abed90fe93f45",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/majjkka.java",
+          "class_entry": "majjkka.class",
+          "bytes": 2917,
+          "lines": 106,
+          "sha256": "7a83e5140402c02001c234220f04729aa025f28f88803517216334cc6d763b2c",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/majjkkk.java",
+          "class_entry": "majjkkk.class",
+          "bytes": 3962,
+          "lines": 114,
+          "sha256": "e61857d47c19a3dd1df9fb1b3f8632cf4f38ddc896cf48824ce3ab70e011b37b",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/majjkmk.java",
+          "class_entry": "majjkmk.class",
+          "bytes": 3582,
+          "lines": 101,
+          "sha256": "eb8c5c5bc75b6a567cb324ccc30fbf170db42abbffdeae4bda8248a71592d70c",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/majjmka.java",
+          "class_entry": "majjmka.class",
+          "bytes": 2789,
+          "lines": 87,
+          "sha256": "18c0185b56b658813b0cd9102fa443a7f3c0cf54559e00cecf65f2ce6b7d30e7",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/majjmma.java",
+          "class_entry": "majjmma.class",
+          "bytes": 3318,
+          "lines": 94,
+          "sha256": "d75134ff7a091bd2b180b3ee37257e2ce652313f7db21da11350007de6b83f6a",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/majjmmk.java",
+          "class_entry": "majjmmk.class",
+          "bytes": 316,
+          "lines": 14,
+          "sha256": "973b8360d8ee15a2ec23d0217aefffeed81698ee763e5dfdbefd9c759651297f",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmaakka.java",
+          "class_entry": "mmaakka.class",
+          "bytes": 24506,
+          "lines": 655,
+          "sha256": "7c7cd00eb24310e640d915be72912c233410ad5280fafe54e6f498602ae920ab",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmaakkk.java",
+          "class_entry": "mmaakkk.class",
+          "bytes": 33119,
+          "lines": 799,
+          "sha256": "818d5ea3567e0c3c135a83f2491f0226c609b18f3fe530d64069ef9d1834e0ce",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmaakma.java",
+          "class_entry": "mmaakma.class",
+          "bytes": 119,
+          "lines": 8,
+          "sha256": "e1d5f7618f3c3af4d6fcb73e4441ab626d377edb5b5ed56202336607e566c483",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmaakmk.java",
+          "class_entry": "mmaakmk.class",
+          "bytes": 9643,
+          "lines": 346,
+          "sha256": "237450193e98290d6e14e067e36a74ef782dac9c9e4615466e5bfc4f731406ff",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmaamka.java",
+          "class_entry": "mmaamka.class",
+          "bytes": 10432,
+          "lines": 9,
+          "sha256": "ad34d42e78652d8a8432fa38b44d86fe24cfa4d093c5dd21bc5cfc67cbd6d873",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmaamma.java",
+          "class_entry": "mmaamma.class",
+          "bytes": 29582,
+          "lines": 798,
+          "sha256": "7586306f9abb32e84563eeda9860aa638e158945764bccdd545697e97e84e94a",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmaammk.java",
+          "class_entry": "mmaammk.class",
+          "bytes": 4741,
+          "lines": 110,
+          "sha256": "d102eb516f6d4336158c691fd37d73770b67a181417ab009c6c9e6f30f027941",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmajkka.java",
+          "class_entry": "mmajkka.class",
+          "bytes": 22765,
+          "lines": 649,
+          "sha256": "740643cb29a1e033a64be4469ba60517458e921b475ee03d300e82042823d3af",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmajkkk.java",
+          "class_entry": "mmajkkk.class",
+          "bytes": 2624,
+          "lines": 49,
+          "sha256": "222d198a1878433a1e1d23eec304ac67cf8cabe493041a1fc41209d51f41554c",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmajkmk.java",
+          "class_entry": "mmajkmk.class",
+          "bytes": 931,
+          "lines": 35,
+          "sha256": "ebdedd0a0c8bf9547a5c7bc79a485455e609a6c6f5bd5023ab9d43adf69fb107",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmajmka.java",
+          "class_entry": "mmajmka.class",
+          "bytes": 919,
+          "lines": 31,
+          "sha256": "227d045ffe08a2b8a8e71081f0d623827e939e6a6e039602e664ca6f104e069f",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmajmma.java",
+          "class_entry": "mmajmma.class",
+          "bytes": 2797,
+          "lines": 96,
+          "sha256": "162025d43825e9d95ff533908f878f6aefa98300f8fb03322dfb84c621c20279",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmajmmk.java",
+          "class_entry": "mmajmmk.class",
+          "bytes": 796,
+          "lines": 42,
+          "sha256": "976596ce0405c5d1b479f4ea83296b827599494640614a22829a088068a9b761",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmjakka.java",
+          "class_entry": "mmjakka.class",
+          "bytes": 233,
+          "lines": 16,
+          "sha256": "0c86873d134edaa44b1b4ba6ee1c278211412475eb3f6a4991b5ec6f152a20bb",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmjakkk.java",
+          "class_entry": "mmjakkk.class",
+          "bytes": 309,
+          "lines": 14,
+          "sha256": "a144124534f1893522df5f3ebc6ac0e4aba319d55eeec59cd2b3be8d3b20b2d1",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmjakmk.java",
+          "class_entry": "mmjakmk.class",
+          "bytes": 6759,
+          "lines": 238,
+          "sha256": "1872ae74ad8d361520017cfa9d229855fb0853c6be0fa2d9b03954db5aad233e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmjamka.java",
+          "class_entry": "mmjamka.class",
+          "bytes": 20528,
+          "lines": 572,
+          "sha256": "a3629fde9994717b5da21349f8346b7847c098e9f391219c900ed5ce7c593211",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmjamma.java",
+          "class_entry": "mmjamma.class",
+          "bytes": 8581,
+          "lines": 271,
+          "sha256": "fc61425b58b4a709f12a2ff1a8a11f9d874bfcd30951c137af2aa8baf53a7ba6",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmjammk.java",
+          "class_entry": "mmjammk.class",
+          "bytes": 529,
+          "lines": 28,
+          "sha256": "caaf2f52aa45d62b091c7b1f3863bad42a862d8a901a3ed99b9d5cbbe8d1067b",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmjjkka.java",
+          "class_entry": "mmjjkka.class",
+          "bytes": 213,
+          "lines": 12,
+          "sha256": "287da8a70402091c003109dce3eddedfc7bfc6a65cd0ff1a935cc90ef1c2626b",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmjjkkk.java",
+          "class_entry": "mmjjkkk.class",
+          "bytes": 246,
+          "lines": 14,
+          "sha256": "67dc0c58cc5f52066a264eabb62af1726b8958c166c28846a50845157e80e532",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmjjkmk.java",
+          "class_entry": "mmjjkmk.class",
+          "bytes": 883,
+          "lines": 36,
+          "sha256": "bb2d38dd6389b4013b5117277522a5be48b96cae689e71ac7c0e887e27df271e",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmjjmka.java",
+          "class_entry": "mmjjmka.class",
+          "bytes": 757,
+          "lines": 22,
+          "sha256": "7a5fba576432d504818ff1f801b32d465d21deae45452eb3dd7cb4e959814109",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmjjmkk.java",
+          "class_entry": "mmjjmkk.class",
+          "bytes": 1623,
+          "lines": 51,
+          "sha256": "ae51c3150a080aebd6f6aa20266f0f967728c7d40d7502dc65186e1c58327e84",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmjjmma.java",
+          "class_entry": "mmjjmma.class",
+          "bytes": 2997,
+          "lines": 108,
+          "sha256": "1eef64cbb5455846df30707aeb608fb521b1da3b3f42805344eb7897b99e5e31",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/mmjjmmk.java",
+          "class_entry": "mmjjmmk.class",
+          "bytes": 14821,
+          "lines": 355,
+          "sha256": "6be069b6c95ed0c261f9615583bea7dc85a6d79557ccf66a789f2967ea77fad1",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/muhmu/hifi/device/DeviceMS_IE3.java",
+          "class_entry": "muhmu/hifi/device/DeviceMS_IE3.class",
+          "bytes": 3472,
+          "lines": 100,
+          "sha256": "f750c3481373c6bd623f7e306e360a76e6cea0232388f24df6027e2ca82a1e52",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/muhmu/hifi/device/DeviceMS_IE4.java",
+          "class_entry": "muhmu/hifi/device/DeviceMS_IE4.class",
+          "bytes": 3521,
+          "lines": 108,
+          "sha256": "ad4a8c3117fe93b1e1d9bd8c1ac730c03bf661e6c63d581bb0a5086072ae0f44",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/muhmu/hifi/device/DeviceMSbase.java",
+          "class_entry": "muhmu/hifi/device/DeviceMSbase.class",
+          "bytes": 5501,
+          "lines": 183,
+          "sha256": "fd512d75daf3159aaab9784dd35529fe91ce2f855921d2fd25ab2d1c2cd78dba",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/muhmu/hifi/device/DeviceNoSound.java",
+          "class_entry": "muhmu/hifi/device/DeviceNoSound.class",
+          "bytes": 1355,
+          "lines": 53,
+          "sha256": "8a72124f9aa2145e1faededbeadcafc28bd64552def9af264027f9f5895d7556",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/muhmu/hifi/device/DeviceSun.java",
+          "class_entry": "muhmu/hifi/device/DeviceSun.class",
+          "bytes": 5229,
+          "lines": 171,
+          "sha256": "84d5951285920e4e7e15675ea13ee3cdd4596a57d65f6abb31306fd0caa94475",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/muhmu/hifi/device/MAD.java",
+          "class_entry": "muhmu/hifi/device/MAD.class",
+          "bytes": 3819,
+          "lines": 127,
+          "sha256": "aa3ea619b95d6f8e4af66443ef85d839b2642372e502a011d40db1256121c490",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/muhmu/hifi/device/Mixable.java",
+          "class_entry": "muhmu/hifi/device/Mixable.class",
+          "bytes": 173,
+          "lines": 10,
+          "sha256": "34c5ed4942d7b973da83a19a11ef96656176bc43cab8a01cf0e1623a764adec9",
+          "diagnostics": []
+        },
+        {
+          "path": "reverse/procyon/muhmu/hifi/device/ULaw.java",
+          "class_entry": "muhmu/hifi/device/ULaw.class",
+          "bytes": 3606,
+          "lines": 125,
+          "sha256": "7fc855d07e75c26d6f8abf15b93087355d36ff8edf9a5a82a0f62625649d8b2a",
+          "diagnostics": []
+        }
+      ]
+    }
+  }
+}
