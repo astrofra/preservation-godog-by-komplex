@@ -164,3 +164,47 @@ The working tree and index were clean when this stage began.
 
 This stage stops at two documented decompilation references. No demo execution,
 symbol renaming, Java desktop reconstruction or remote publication was performed.
+
+## 2026-10-08 — Java desktop adaptation
+
+The user requested a runnable desktop adaptation on the installed JDK, removal
+of the Applet API, maximum retention of the decompiled structure, and comparisons
+against the recovered video's timing and broad visual composition. New written
+documentation returns to English; the earlier French note remains a separate
+historical document.
+
+The initial compilation uses Procyon as the baseline. CFR is selected for
+`maaakkk` (XM pattern processing), `kmjjkkk` (mesh parsing) and `mmaakka` (movie
+player), where Procyon emitted invalid Java. Platform work will replace the
+Applet container, internal image/audio APIs and Microsoft DirectSound backends.
+The recovered rasterizers, scene classes, sequence tables and XM mixer are retained.
+The desktop application now runs on Homebrew OpenJDK 25.0.2 using AWT and Java
+Sound. All 112 class counterparts and 1,143 original methods are accounted for;
+90 source files remain byte-identical to the selected decompiler baseline.
+The 47 external assets match the original ZIP byte for byte.
+
+The first native test exposed a blank-window issue despite correct internal
+captures. The user's screenshot helped identify the collision between the
+recovered `getGraphics()` contract and AWT painting. A separate Canvas now paints
+published frames; the user confirmed the visible result and correct sound.
+
+Full-sequence and bytecode comparisons exposed additional decompiler errors:
+a moving loop endpoint in the terrain renderer, active-count loops incorrectly
+expanded to array capacity, and six missing intermediate `long` conversions.
+The user pointed to Forward's history; commit
+`adc4c36c6d3d294974807498bb5eb88addabc6c3` records the same fixed-point UV conversion
+pitfall. Corrections follow Godog's own bytecode rather than changing the design.
+
+Validation covers asset equality/decoding, numeric edge cases, 480 exact line
+raster comparisons, more than 190 seconds of sample-identical XM mixing, and
+18 exact scene-frame comparisons against archived classes with controlled random
+state. AWT input/lifecycle checks pass; native playback reaches the final screen
+around 188.6 seconds. Installation-relative loading was tested from `/tmp`.
+The optional original-class comparison harness is separate from the desktop JAR
+and uses the legacy API only in its reference test process.
+
+Build/run instructions, platform changes and limits are recorded in
+[Java desktop restoration](java-desktop-restoration.md). The local preservation
+skill was updated at the user's request with a dedicated Komplex reference for
+the UV and loop-bound failures. Original artifacts and decompiler trees remain
+unchanged. No remote publication or native/browser port was performed.

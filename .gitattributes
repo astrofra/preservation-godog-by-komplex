@@ -1,0 +1,2 @@
+# Preserve original asset bytes, including the CRLF-encoded IGU dump.
+java-desktop/assets/** -text

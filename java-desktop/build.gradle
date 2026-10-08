@@ -1,0 +1,41 @@
+plugins { id 'application' }
+
+version = '0.1.0'
+java { toolchain { languageVersion = JavaLanguageVersion.of(25) } }
+tasks.withType(JavaCompile).configureEach {
+    options.release = 25
+    options.encoding = 'UTF-8'
+}
+application { mainClass = 'GodogDesktop' }
+distributions { main { contents { from('assets') { into 'assets' } } } }
+jar { manifest { attributes 'Main-Class': application.mainClass.get() } }
+
+tasks.register('verifyPreservation', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'PreservationChecks'
+    args projectDir.absolutePath
+    systemProperty 'java.awt.headless', 'true'
+}
+tasks.named('check') { dependsOn 'verifyPreservation' }
+tasks.named('test') { enabled = false } // Checks use a dependency-free Java main above.
+
+sourceSets {
+    reference {
+        java.srcDir 'tools'
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+tasks.register('compareOriginal', JavaExec) {
+    dependsOn referenceClasses
+    classpath = sourceSets.reference.runtimeClasspath
+    mainClass = 'CompareOriginal'
+    args projectDir.parentFile.absolutePath
+    jvmArgs '--add-opens=java.base/java.lang=ALL-UNNAMED'
+}
+tasks.register('verifyWindow', JavaExec) {
+    dependsOn referenceClasses
+    classpath = sourceSets.reference.runtimeClasspath
+    mainClass = 'DesktopWindowChecks'
+}

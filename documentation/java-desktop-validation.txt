@@ -1,0 +1,48 @@
+Godog Java desktop validation — 2026-10-08
+
+openjdk version "25.0.2" 2026-01-20
+OpenJDK Runtime Environment Homebrew (build 25.0.2)
+OpenJDK 64-Bit Server VM Homebrew (build 25.0.2, mixed mode, sharing)
+
+Command: cd java-desktop && ./gradlew check compareOriginal verifyWindow installDist distZip
+
+PASS: 47 assets match the archive; every external image decodes.
+PASS: narrowing conversions retain original overflow, NaN and infinity semantics.
+PASS: 480 rasterizer cases match original bytecode pixel for pixel.
+PASS: 190 seconds of XM output match original bytecode sample for sample (4092 blocks).
+PASS: maaamma at 0, 10 and 20 seconds matches original bytecode pixel for pixel.
+PASS: majakkk at 0, 10 and 20 seconds matches original bytecode pixel for pixel.
+PASS: majakma at 0, 10 and 20 seconds matches original bytecode pixel for pixel.
+PASS: kajjmma at 0, 10 and 20 seconds matches original bytecode pixel for pixel.
+PASS: maajkka at 0, 10 and 20 seconds matches original bytecode pixel for pixel.
+PASS: kmajkmk at 0, 10 and 20 seconds matches original bytecode pixel for pixel.
+PASS: native window, scaled mouse, release, focus loss, F key, minimize/restore; closing via WINDOW_CLOSING.
+BUILD SUCCESSFUL in 8s
+
+Final full sequence: installed launcher from /tmp, --headless --mute --duration 191 --capture-dir <build/captures-verified>
+SCENE 0.146 movieintro
+SCENE 59.992 paa
+SCENE 94.284 trav
+SCENE 119.992 vehje
+SCENE 128.569 evil
+SCENE 162.851 linjanen
+SCENE 188.563 endscreen
+Godog desktop stopped.
+
+Native Java Sound full sequence (before the final active-count correction):
+SCENE 0.090 movieintro
+SCENE 60.026 paa
+SCENE 94.301 trav
+SCENE 120.039 vehje
+SCENE 128.586 evil
+SCENE 162.864 linjanen
+SCENE 188.584 endscreen
+Godog desktop stopped.
+
+Final code native window/input/close test: PASS (verifyWindow above).
+Original checksum inventory: 130 files verified, none missing.
+Reverse checksum inventory: 371 files verified, none missing.
+jdeps --jdk-internals: no internal JDK dependencies.
+jdeps -verbose:class: no java.applet, sun.audio or sun.awt dependencies in the application JAR.
+Source correspondence: 112 classes, 1143 original methods, 90 unchanged selected-baseline files.
+Skill quick_validate.py: Skill is valid!

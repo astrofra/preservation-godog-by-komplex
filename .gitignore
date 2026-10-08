@@ -1,3 +1,5 @@
 .DS_Store
 *.part
 *.ytdl
+java-desktop/build/
+java-desktop/.gradle/
